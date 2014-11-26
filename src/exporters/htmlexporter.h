@@ -40,11 +40,11 @@ protected:
 	virtual int progressInterval() const { return 1; }
 
 	static QString escape( const QString & );
+	QString storePhoto( const Recipe &recipe );
 
 	QString m_templateContent;
 
 private:
-	void storePhoto( const Recipe &recipe );
 	void populateTemplate( const Recipe &recipe, QString &content );
 
 	bool m_error;

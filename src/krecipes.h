@@ -43,7 +43,7 @@ public:
 	 */
 	~Krecipes();
 
-
+        
 protected:
 	/**
 	 * Overridden virtuals for Qt drag 'n drop (XDND)

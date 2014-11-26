@@ -335,6 +335,7 @@ set(krecipes_SRCS
    kstartuplogo.cpp 
    recipefilter.cpp 
    convert_sqlite3.cpp 
+   export_epub.cpp
    #klomanager.cpp
 )
 

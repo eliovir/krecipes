@@ -120,10 +120,7 @@ QString HTMLExporter::createHeader( const RecipeList & )
 	QFileInfo fi(fileName());
 	dir.mkdir( fi.absolutePath() + '/' + fi.baseName() + "_photos" );
 
-	RecipeList::const_iterator recipe_it;
-
 	KLocale*loc = KGlobal::locale();
-	QString encoding = loc->encoding();
 
 	QString output = "<html>";
 	output += "<head>";
@@ -163,7 +160,7 @@ QString HTMLExporter::createFooter()
 	return "</body></html>";
 }
 
-void HTMLExporter::storePhoto( const Recipe &recipe )
+QString HTMLExporter::storePhoto( const Recipe &recipe )
 {
 	QImage image;
 	QString photo_name;
@@ -180,9 +177,18 @@ void HTMLExporter::storePhoto( const Recipe &recipe )
 
 	QFileInfo fi(fileName());
 	QString photo_path = fi.absolutePath() + '/' + fi.baseName() + "_photos/" + photo_name + ".png";
+    
+	QDir dir;
+    QFileInfo photo(photo_path);
+    QString dir_path = photo.dir().filePath("");
+    if (!QFile::exists(photo.absoluteDir().canonicalPath() )) {
+        dir.mkdir(dir_path);
+    }
+    
 	if ( !QFile::exists( photo_path ) ) {
 		pm.save( photo_path, "PNG" );
 	}
+    return photo_path;
 }
 
 void HTMLExporter::populateTemplate( const Recipe &recipe, QString &content )
@@ -269,23 +275,21 @@ void HTMLExporter::populateTemplate( const Recipe &recipe, QString &content )
 		if ( count != 0 && count % per_col == 0 ) {
 			loneHeader = true;
 			if ( !group.isEmpty() )
-				ingredients_html += "</ul>";
-			ingredients_html.append("</ul></td><td valign=\"top\"><ul>");
+				ingredients_html += "</ul>\n";
+			ingredients_html.append("</ul></td>\n<td valign=\"top\"><ul>\n");
 			if ( !group.isEmpty() )
-				ingredients_html += "<li class=\"ingredient-group\" style=\"page-break-after: avoid\">" + group + ":</li><ul>";
+				ingredients_html += "<li class=\"ingredient-group\" style=\"page-break-after: avoid\">" + group + ":<ul>\n";
 		}
 		else {
 			if ( !group.isEmpty() )
-				ingredients_html += "<li class=\"ingredient-group\" style=\"page-break-after: avoid\">" + group + ":</li><ul>";
+				ingredients_html += "<li class=\"ingredient-group\" style=\"page-break-after: avoid\">" + group + ":<ul>\n";
 		}
 
 		for ( IngredientList::const_iterator ing_it = group_list.begin(); ing_it != group_list.end(); ++ing_it, ++count ) {
 			if ( count != 0 && count % per_col == 0 && !loneHeader ) {
 				if ( !group.isEmpty() )
-					ingredients_html += "</ul>";
-				ingredients_html.append("</ul></td><td valign=\"top\"><ul>");
-				if ( !group.isEmpty() )
-					ingredients_html += "<ul>";
+					ingredients_html += "</ul></li>\n";
+				ingredients_html.append("</ul></td>\n<td valign=\"top\"><ul>\n");
 			}
 
 			QString amount_str = MixedNumber( ( *ing_it ).amount ).toString( number_format );
@@ -307,7 +311,7 @@ void HTMLExporter::populateTemplate( const Recipe &recipe, QString &content )
 			if ( (*ing_it).substitutes.count() > 0 )
 				tmp_format += ", "+i18n("OR");
 
-			ingredients_html += QString( "<li>%1</li>" ).arg( tmp_format );
+			ingredients_html += QString( "<li>%1</li>\n" ).arg( tmp_format );
 
 			for ( Ingredient::SubstitutesList::const_iterator sub_it = (*ing_it).substitutes.begin(); sub_it != (*ing_it).substitutes.end(); ) {
 				QString amount_str = MixedNumber( ( *sub_it ).amount ).toString( number_format );
@@ -329,17 +333,14 @@ void HTMLExporter::populateTemplate( const Recipe &recipe, QString &content )
 				++sub_it;
 				if ( sub_it != (*ing_it).substitutes.end() )
 					tmp_format += ", "+i18n("OR");
-				ingredients_html += QString( "<li>%1</li>" ).arg( tmp_format );
+				ingredients_html += QString( "<li>%1</li>\n" ).arg( tmp_format );
 			}
 		}
-
-		if ( !group.isEmpty() )
-			ingredients_html += "</ul>";
 	}
 	if ( !ingredients_html.isEmpty() ) {
 		ingredients_html.prepend( "<table><tr><td valign=\"top\"><ul>" );
-		ingredients_html.append( "</ul></td></tr></table>" );
-		ingredients_html.prepend("<h1 class=\"ingredients-header\">"+i18n("Ingredients")+"</h1>");
+		ingredients_html.append( "</ul></td></tr></table>\n" );
+		ingredients_html.prepend("<h1 class=\"ingredients-header\">"+i18n("Ingredients")+"</h1>\n");
 	}
 	content = content.replace( "**INGREDIENTS**", ingredients_html );
 
@@ -375,7 +376,7 @@ void HTMLExporter::populateTemplate( const Recipe &recipe, QString &content )
 		else
 			amount_str = '0';
 
-		properties_html += QString( "<li>%1: <nobr>%2 %3</nobr></li>" )
+		properties_html += QString( "<li>%1: <span class=\"nobr\">%2 %3</span></li>" )
 		                   .arg( Qt::escape( (*prop_it).name ) )
 		                   .arg( amount_str )
 		                   .arg( Qt::escape( (*prop_it).units ) );

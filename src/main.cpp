@@ -18,6 +18,7 @@
 #include <klocale.h>
 
 #include "convert_sqlite3.h"
+#include "export_epub.h"
 #include "datablocks/elementlist.h"
 
 static const char *version = "2.0-beta2";
@@ -30,6 +31,7 @@ int main( int argc, char **argv )
 	qRegisterMetaType<ElementList>();
 
 	options.add("convert-sqlite3", ki18n("Convert the current SQLite 2.x database to SQLite 3 and exit") , 0 );
+	options.add("export-epub <file>", ki18n("Export the recipes into an Epub file and exit"));
 	options.add( 0, KLocalizedString(), 0 );    
 
 
@@ -83,6 +85,10 @@ int main( int argc, char **argv )
 			ConvertSQLite3 sqliteConverter;
 			sqliteConverter.convert();
 			return 0;
+		}
+		if ( args->isSet("export-epub") ) {
+			ExportEpub epubExporter;
+			return epubExporter.save(args->getOption("export-epub"));
 		}
 
 		Krecipes * widget = new Krecipes;
