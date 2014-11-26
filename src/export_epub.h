@@ -47,7 +47,8 @@ private:
     /**
      * title => file
      */
-    std::map<QString, QString> recipes;
+    std::multimap<QString, QString> recipes;
+    std::multimap<Element, Element> recipesByCategory;
     // Internal methods
     QString checkCorrectDBType(KConfigGroup &config);
     QString createContentOpf();

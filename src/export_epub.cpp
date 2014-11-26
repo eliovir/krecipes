@@ -46,7 +46,7 @@ ExportEpub::ExportEpub() : HTMLExporter("index", ".html") {
   <body>\n\
 <h1>**TITLE**</h1>\n\
 \n\
-<div><img src=\"**PHOTO**\" alt=\"photo\"/></div>\n\
+<div><img src=\"**PHOTO**\" alt=\"photo\" class=\"photo\"/></div>\n\
 \n\
 <div class=\"overall_rating\">**OVERALL_RATING**</div>\n\
 <div class=\"categories\">**CATEGORIES**</div>\n\
@@ -95,10 +95,10 @@ QString ExportEpub::createContentOpf() {
         content += "    <item href=\"" + image_it->first + "\" id=\"image" + QString::number(++order) + "\" media-type=\"" + image_it->second + "\"/>\n";
     }
     // recipes
-    for (RecipeList::iterator recipe_it = recipe_list.begin(); recipe_it != recipe_list.end(); ++recipe_it) {
-        char buff[20];
-        sprintf(buff, "recipe%04d", (*recipe_it).recipeID);
-        content += "    <item href=\"" + QString(buff) + ".html\" id=\"" + QString(buff) + "\" media-type=\"application/xhtml+xml\"/>\n";
+    for (std::map<QString,QString>::iterator recipe_it = recipes.begin(); recipe_it != recipes.end(); ++recipe_it) {
+        QString id = recipe_it->second;
+        id.replace(".html", "");
+        content += "    <item href=\"" + recipe_it->second + "\" id=\"" + id + "\" media-type=\"application/xhtml+xml\"/>\n";
     }
     
     content += "    <item href=\"stylesheet.css\" id=\"css\" media-type=\"text/css\"/>\n";
@@ -109,10 +109,8 @@ QString ExportEpub::createContentOpf() {
     content += "  <spine toc=\"ncx\">\n";
     content += "    <itemref idref=\"titlepage\"/>\n";
     // recipes
-    for (RecipeList::iterator recipe_it = recipe_list.begin(); recipe_it != recipe_list.end(); ++recipe_it) {
-        char buff[20];
-        sprintf(buff, "recipe%04d", (*recipe_it).recipeID);
-        content += "    <itemref idref=\"" +QString(buff) + "\"/>\n";
+    for (std::map<QString,QString>::iterator recipe_it = recipes.begin(); recipe_it != recipes.end(); ++recipe_it) {
+        content += "    <itemref idref=\"" + recipe_it->second.replace(".html", "") + "\"/>\n";
     }
     content += "  </spine>\n";
     content += "  <guide>\n";
@@ -132,6 +130,7 @@ QString ExportEpub::createTitlepage() {
     content += "    <title>" + title + "</title>\n";
     content += "  </head>\n";
     content += "  <body>\n";
+    content += "    <h1>" + title + "</h1>\n";
     content += "    <div></div>\n";
     content += "  </body>\n";
     content += "</html>";
@@ -171,7 +170,7 @@ QString ExportEpub::createTocNcx() {
 int ExportEpub::save(QString filepath) {
     std::cout << "Exporting to EPub " << filepath.toUtf8().constData() << std::endl;
     if (QFile::exists(filepath)) {
-        std::cout << "Overwritting " << filepath.toUtf8().constData() << std::endl;
+        std::cout << "Overwriting " << filepath.toUtf8().constData() << std::endl;
     }
     KZip *zip = new KZip(filepath);
     bool result = zip->open(QIODevice::WriteOnly);
@@ -200,26 +199,30 @@ int ExportEpub::save(QString filepath) {
 
     // stylesheet.css
     content = "/* stylesheet.css */\n\
+.ingredients {\n\
+    clear: both;\n\
+}\n\
 .nobr {\n\
     white-space: nowrap;\n\
+}\
+.photo {\n\
+    float: left;\n\
 }\
 ";
     if (!zipAddString(zip, content, "stylesheet.css")) {
         return 1;
     }
     
-    //const bool dirAdded = zip->addLocalDirectory(url.path(), QString());
-    
+    // recipes
     for (RecipeList::iterator recipe_it = recipe_list.begin(); recipe_it != recipe_list.end(); ++recipe_it) {
         // One .html file per recipe
         content = HTMLExporter::createContent(*recipe_it);
         char buff[20];
-        sprintf(buff, "recipe%04d.html", (*recipe_it).recipeID);
+        sprintf(buff, "recipe%04d.html", recipe_it->recipeID);
         std::string recipeFileName = buff;
         if (!zipAddString(zip, content, recipeFileName)) {
             return 1;
         }
-        recipes[(*recipe_it).title] = QString(recipeFileName.c_str());
         // photo
         QString image_url = storePhoto(*recipe_it);
         QFileInfo image_path(image_url);
@@ -227,6 +230,13 @@ int ExportEpub::save(QString filepath) {
         if (images.count(image_relativepath) == 0) {
             zip->addLocalFile(image_url, image_relativepath);
             images[image_relativepath] = "image/png";
+        }
+        // TOC
+        recipes.insert(std::pair<QString, QString>(recipe_it->title, QString(recipeFileName.c_str())));
+        // TOC: recipes by category
+        Element recipe(recipe_it->title, recipe_it->recipeID);
+        for ( ElementList::const_iterator cat_it = recipe_it->categoryList.begin(); cat_it != recipe_it->categoryList.end(); ++cat_it ) {
+            recipesByCategory.insert(std::pair<Element, Element>(*cat_it, recipe));
         }
     }
 
