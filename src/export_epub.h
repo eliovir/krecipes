@@ -45,7 +45,7 @@ private:
     QString title;
     QString uuid;
     /**
-     * file => title
+     * title => file
      */
     std::map<QString, QString> recipes;
     // Internal methods

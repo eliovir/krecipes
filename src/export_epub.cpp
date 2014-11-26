@@ -89,10 +89,12 @@ QString ExportEpub::createContentOpf() {
     content += "  </metadata>\n";
     content += "  <manifest>\n";
     //content += "    <item href=\"cover.jpeg\" id=\"cover\" media-type=\"image/jpeg\"/>\n";
+    // images
     int order = 0;
     for (std::map<QString,QString>::iterator image_it = images.begin(); image_it != images.end(); ++image_it) {
         content += "    <item href=\"" + image_it->first + "\" id=\"image" + QString::number(++order) + "\" media-type=\"" + image_it->second + "\"/>\n";
     }
+    // recipes
     for (RecipeList::iterator recipe_it = recipe_list.begin(); recipe_it != recipe_list.end(); ++recipe_it) {
         char buff[20];
         sprintf(buff, "recipe%04d", (*recipe_it).recipeID);
@@ -106,6 +108,7 @@ QString ExportEpub::createContentOpf() {
     
     content += "  <spine toc=\"ncx\">\n";
     content += "    <itemref idref=\"titlepage\"/>\n";
+    // recipes
     for (RecipeList::iterator recipe_it = recipe_list.begin(); recipe_it != recipe_list.end(); ++recipe_it) {
         char buff[20];
         sprintf(buff, "recipe%04d", (*recipe_it).recipeID);
@@ -155,9 +158,9 @@ QString ExportEpub::createTocNcx() {
         QString recipe_uuid = QUuid::createUuid();
         content += "    <navPoint id=\"" + recipe_uuid + "\" playOrder=\"" + QString::number(++order) + "\">\n";
         content += "      <navLabel>\n";
-        content += "        <text>" + recipe_it->second + "</text>\n";
+        content += "        <text>" + recipe_it->first + "</text>\n";
         content += "      </navLabel>\n";
-        content += "      <content src=\"" + recipe_it->first + "\"/>\n";
+        content += "      <content src=\"" + recipe_it->second + "\"/>\n";
         content += "    </navPoint>\n";
     }
     content += "  </navMap>\n";
@@ -216,7 +219,7 @@ int ExportEpub::save(QString filepath) {
         if (!zipAddString(zip, content, recipeFileName)) {
             return 1;
         }
-        recipes[QString(recipeFileName.c_str())] = (*recipe_it).title;
+        recipes[(*recipe_it).title] = QString(recipeFileName.c_str());
         // photo
         QString image_url = storePhoto(*recipe_it);
         QFileInfo image_path(image_url);
