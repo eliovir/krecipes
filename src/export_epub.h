@@ -47,15 +47,20 @@ private:
     /**
      * title => file
      */
-    std::multimap<QString, QString> recipes;
-    std::multimap<Element, Element> recipesByCategory;
+    std::multimap<QString, QString> files;
+    /**
+     * Category => (title => file)
+     */
+    std::map<Element, std::multimap<QString, QString > > recipesByCategory;
     // Internal methods
+    QString categoryFileName(int id);
     QString checkCorrectDBType(KConfigGroup &config);
+    void createCategoryPages(KZip *zip);
     QString createContentOpf();
     QString createTitlepage();
     QString createTocNcx();
     void initDatabase();
-    bool zipAddString(KZip *zip, QString content, std::string filename);
+    bool zipAddString(KZip *zip, QString content, QString filename);
 };
 
 #endif //EXPORT_EPUB_H
