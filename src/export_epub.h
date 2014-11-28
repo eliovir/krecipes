@@ -42,24 +42,59 @@ private:
     std::map<QString,QString> images;
     QString language;
     RecipeList recipe_list;
+    
+    /**
+     * Title of the EPub book.
+     */
     QString title;
+    
+    /**
+     * UUID of the EPub book.
+     */
     QString uuid;
+    
     /**
      * title => file
      */
     std::multimap<QString, QString> files;
+    
+    /**
+     * Author => (title => file)
+     */
+    std::map<Element, std::multimap<QString, QString > > recipesByAuthor;
+    
     /**
      * Category => (title => file)
      */
     std::map<Element, std::multimap<QString, QString > > recipesByCategory;
+    
     // Internal methods
-    QString categoryFileName(int id);
+    
     QString checkCorrectDBType(KConfigGroup &config);
-    void createCategoryPages(KZip *zip);
     QString createContentOpf();
     QString createTitlepage();
     QString createTocNcx();
+    
+    /**
+     * All all pages to the ZIP for the type ("aut", "cat").
+     * 
+     * @param zip Archive
+     * @param type "aut" or "cat"
+     * @param recipesByType list of recipes for this type
+     */
+    void createTypePages(KZip *zip, std::string type, std::map<Element, std::multimap<QString, QString > > recipesByType);
+    
     void initDatabase();
+    
+    /**
+     * Create filename for the Element according to its type and id.
+     * 
+     * @param type "aut", "cat" or "recipe"
+     * @param id ID of the element
+     * @return file name with extension (".html")
+     */
+    QString typeFileName(std::string type, int id);
+    
     bool zipAddString(KZip *zip, QString content, QString filename);
 };
 

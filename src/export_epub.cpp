@@ -22,6 +22,7 @@
 #include <kglobal.h>
 #include <KLocale> // i18n
 #include <ktemporaryfile.h> // http://api.kde.org/4.0-api/kdelibs-apidocs/kdecore/html/classKTemporaryFile.html
+#include <KDateTime>
 
 using std::cerr;
 using std::cout;
@@ -65,8 +66,8 @@ ExportEpub::ExportEpub() : HTMLExporter("index", ".html") {
 </body></html>";
 }
 
-void ExportEpub::createCategoryPages(KZip *zip) {
-    for (std::map<Element, std::multimap<QString, QString > >::iterator cat_it = recipesByCategory.begin(); cat_it != recipesByCategory.end(); ++cat_it) {
+void ExportEpub::createTypePages(KZip *zip, std::string type, std::map<Element, std::multimap<QString, QString > > recipesByType) {
+    for (std::map<Element, std::multimap<QString, QString > >::iterator cat_it = recipesByType.begin(); cat_it != recipesByType.end(); ++cat_it) {
         QString content;
         content = "<?xml version='1.0' encoding='UTF-8'?>\n";
         content += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"" + language + "\">\n";
@@ -85,7 +86,7 @@ void ExportEpub::createCategoryPages(KZip *zip) {
         content += "    </ul>\n";
         content += "  </body>\n";
         content += "</html>";
-        QString filename = categoryFileName(cat_it->first.id);
+        QString filename = typeFileName(type, cat_it->first.id);
         zipAddString(zip, content, filename);
         files.insert(std::pair<QString, QString>(cat_it->first.name, filename));
     }
@@ -148,6 +149,7 @@ QString ExportEpub::createContentOpf() {
 }
 
 QString ExportEpub::createTitlepage() {
+    KDateTime date = KDateTime::currentDateTime(KDateTime::LocalZone);
     QString content;
     content = "<?xml version='1.0' encoding='UTF-8'?>\n";
     content += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"" + language + "\">\n";
@@ -158,13 +160,21 @@ QString ExportEpub::createTitlepage() {
     content += "  </head>\n";
     content += "  <body>\n";
     content += "    <h1>" + title + "</h1>\n";
-    content += "    <div></div>\n";
     content += "    <h2>" + i18n("Categories") + "</h2>\n";
     content += "    <ul>\n";
     for (std::map<Element, std::multimap<QString, QString > >::iterator cat_it = recipesByCategory.begin(); cat_it != recipesByCategory.end(); ++cat_it) {
-        content += "      <li><a href=\"" + categoryFileName(cat_it->first.id) + "\">" + cat_it->first.name + " (" + QString::number(cat_it->second.size()) + ")</a></li>\n";
+        content += "      <li><a href=\"" + typeFileName("cat", cat_it->first.id) + "\">" + cat_it->first.name + " (" + QString::number(cat_it->second.size()) + ")</a></li>\n";
     }
     content += "    </ul>\n";
+    content += "    <h2>" + i18n("Authors") + "</h2>\n";
+    content += "    <ul>\n";
+    for (std::map<Element, std::multimap<QString, QString > >::iterator aut_it = recipesByAuthor.begin(); aut_it != recipesByAuthor.end(); ++aut_it) {
+        content += "      <li><a href=\"" + typeFileName("aut", aut_it->first.id) + "\">" + aut_it->first.name + " (" + QString::number(aut_it->second.size()) + ")</a></li>\n";
+    }
+    content += "    </ul>\n";
+    content += QString("    <p>%1 %2</p>\n")
+            .arg(i18nc("EBook created", "Created:"))
+            .arg(KGlobal::locale()->formatDateTime(date));
     content += "  </body>\n";
     content += "</html>";
     return content;
@@ -193,7 +203,7 @@ QString ExportEpub::createTocNcx() {
         content += "      <navLabel>\n";
         content += "        <text>" + cat_it->first.name + "</text>\n";
         content += "      </navLabel>\n";
-        content += "      <content src=\"" + categoryFileName(cat_it->first.id) + "\"/>\n";
+        content += "      <content src=\"" + typeFileName("cat", cat_it->first.id) + "\"/>\n";
         for (std::map<QString, QString>::iterator recipe_it = cat_it->second.begin(); recipe_it != cat_it->second.end(); ++recipe_it) {
             QString recipe_uuid = QUuid::createUuid();
             if (recipeOrder.count(recipe_it->second) == 0) {
@@ -278,6 +288,10 @@ int ExportEpub::save(QString filepath) {
         QFile::remove(image_url);
         // OPF : List files
         files.insert(std::pair<QString, QString>(recipe_it->title, recipeFileName));
+        // TOC: recipes ordered by author
+        for (ElementList::const_iterator cat_it = recipe_it->authorList.begin(); cat_it != recipe_it->authorList.end(); ++cat_it) {
+            recipesByAuthor[*cat_it].insert(std::pair<QString, QString>(recipe_it->title, recipeFileName));
+        }
         // TOC: recipes ordered by category
         for (ElementList::const_iterator cat_it = recipe_it->categoryList.begin(); cat_it != recipe_it->categoryList.end(); ++cat_it) {
             recipesByCategory[*cat_it].insert(std::pair<QString, QString>(recipe_it->title, recipeFileName));
@@ -288,7 +302,8 @@ int ExportEpub::save(QString filepath) {
     QDir dir(".");
     dir.rmdir(fi.absolutePath() + '/' + fi.baseName() + "_photos/");
 
-    createCategoryPages(zip);
+    createTypePages(zip, "cat", recipesByCategory);
+    createTypePages(zip, "aut", recipesByAuthor);
 
     // toc.ncx
     if (!zipAddString(zip, createTocNcx(), "toc.ncx")) {
@@ -314,8 +329,8 @@ int ExportEpub::save(QString filepath) {
 ExportEpub::~ExportEpub() {
 }
 
-QString ExportEpub::categoryFileName(int id) {
-    return QString("cat%1.html").arg(id, 4, 10, QChar('0'));
+QString ExportEpub::typeFileName(std::string type, int id) {
+    return QString("%1%2.html").arg(type.c_str()).arg(id, 4, 10, QChar('0'));
 }
 
 // Copied from KRecipesView
