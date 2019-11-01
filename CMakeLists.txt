@@ -22,3 +22,9 @@ add_subdirectory( data )
 add_subdirectory( layouts )
 add_subdirectory( mimetypes )
 add_subdirectory( doc )
+
+include(MacroOptionalAddSubdirectory)
+macro_optional_add_subdirectory( po )
+
+include(MacroOptionalAddSubdirectory)
+macro_optional_add_subdirectory( doc )

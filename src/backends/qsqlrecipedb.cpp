@@ -1913,24 +1913,31 @@ QString QSqlRecipeDB::unescapeAndDecode( const QByteArray &s ) const
 	return QString::fromUtf8( s ).replace( "\";@", ";" ); // Use unicode encoding
 }
 
+static bool query_has_result( const QString & q, QSqlDatabase &db )
+{
+	QSqlQuery command( q, db );
+	if ( command.isActive() ) {
+		// Not all backends support size()
+		if ( command.size() > 0 ) {
+			return true;
+		}
+		while (command.next()) {
+			return true; // If there are any results, it's OK
+		}
+	}
+	return false;
+}
+
 bool QSqlRecipeDB::ingredientContainsUnit( int ingredientID, int unitID )
 {
 	QString command = QString( "SELECT *  FROM unit_list WHERE ingredient_id= %1 AND unit_id=%2;" ).arg( ingredientID ).arg( unitID );
-	QSqlQuery recipeToLoad( command, *database);
-	if ( recipeToLoad.isActive() ) {
-		return ( recipeToLoad.size() > 0 );
-	}
-	return false;
+	return query_has_result( command, *database );
 }
 
 bool QSqlRecipeDB::ingredientContainsProperty( int ingredientID, int propertyID, int perUnitsID )
 {
 	QString command = QString( "SELECT *  FROM ingredient_info WHERE ingredient_id=%1 AND property_id=%2 AND per_units=%3;" ).arg( ingredientID ).arg( propertyID ).arg( perUnitsID );
-	QSqlQuery recipeToLoad( command, *database);
-	if ( recipeToLoad.isActive() ) {
-		return ( recipeToLoad.size() > 0 );
-	}
-	return false;
+	return query_has_result( command, *database );
 }
 
 QString QSqlRecipeDB::categoryName( int ID )
@@ -2036,7 +2043,7 @@ bool QSqlRecipeDB::checkIntegrity( void )
 		}
 
 		if ( !found ) {
-			kDebug() << "Recreating missing table: " << *it << "\n";
+			kDebug() << "Recreating missing table: " << *it;
 			createTable( *it );
 		}
 	}
@@ -2048,9 +2055,9 @@ bool QSqlRecipeDB::checkIntegrity( void )
 
 	// Check for older versions, and port
 
-	kDebug() << "Checking database version...\n";
+	kDebug() << "Checking database version...";
 	float version = databaseVersion();
-	kDebug() << "version found... " << version << " \n";
+	kDebug() << "version found... " << version;
 	kDebug() << "latest version... " << latestDBVersion() ;
 	if ( int( qRound( databaseVersion() * 1e5 ) ) < int( qRound( latestDBVersion() * 1e5 ) ) ) { //correct for float's imprecision
 		switch ( KMessageBox::questionYesNo( 0,

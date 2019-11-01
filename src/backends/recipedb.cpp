@@ -27,6 +27,7 @@
 #include <kmessagebox.h>
 
 #include <QFile>
+#include <QList>
 #include <QStringList>
 #include <KStandardDirs>
 //Added by qt3to4:
@@ -197,7 +198,6 @@ RecipeDB::ConversionStatus RecipeDB::convertIngredientUnits( const Ingredient &f
 
 		double fromToWeightRatio, weightToToRatio;
 		int unitID = -1;
-		int prepID = -2;
 
 		WeightList idList = ingredientWeightUnits( from.ingredientID );
 
@@ -215,7 +215,6 @@ RecipeDB::ConversionStatus RecipeDB::convertIngredientUnits( const Ingredient &f
 				unitID = first;
 
 				if ( from.prepMethodList.containsId( (*it).prepMethodId() ) ) {
-					prepID = (*it).prepMethodId();
 					break;
 				}
 			}
@@ -819,10 +818,10 @@ QString RecipeDB::buildSearchQuery( const RecipeSearchParameters &p ) const
 }
 
 //These are helper functions solely for use by the USDA data importer
-void getIngredientNameAndID( std::multimap<int, QString> * );
-int createUnit( const QString &name, Unit::Type, RecipeDB* );
-int createIngredient( const QString &name, RecipeDB*, bool do_checks );
-void create_properties( RecipeDB*, Q3ValueList<USDA::PropertyData> & );
+static void getIngredientNameAndID( std::multimap<int, QString> * );
+static int createUnit( const QString &name, Unit::Type, RecipeDB* );
+static int createIngredient( const QString &name, RecipeDB*, bool do_checks );
+static void create_properties( RecipeDB*, QList<USDA::PropertyData> & );
 
 void RecipeDB::importUSDADatabase()
 {
@@ -840,7 +839,7 @@ void RecipeDB::importUSDADatabase()
 		return ;
 	}
 
-	Q3ValueList<USDA::PropertyData> property_data_list = USDA::loadProperties();
+	QList<USDA::PropertyData> property_data_list = USDA::loadProperties();
 	USDA::PrepDataList prep_data_list =  USDA::loadPrepMethods();
 	USDA::UnitDataList unit_data_list =  USDA::loadUnits();
 
@@ -998,7 +997,7 @@ void RecipeDB::importUSDADatabase()
 	emit progressDone();
 }
 
-void getIngredientNameAndID( std::multimap<int, QString> *data )
+static void getIngredientNameAndID( std::multimap<int, QString> *data )
 {
 	Q3ValueList<USDA::IngredientData> ingredient_data_list = USDA::loadIngredients();
 
@@ -1006,22 +1005,20 @@ void getIngredientNameAndID( std::multimap<int, QString> *data )
 		data->insert( std::make_pair( (*it).usda_id, (*it).name ) );
 }
 
-int createIngredient( const QString &name, RecipeDB *database, bool do_checks )
+static int createIngredient( const QString &name, RecipeDB *database, bool do_checks )
 {
-	bool ingredientExisted = true;
 	int assigned_id = -1;
 	if ( do_checks )
 		assigned_id = database->findExistingIngredientByName( name );
 
 	if ( assigned_id == -1 ) {
-		ingredientExisted = false;
 		assigned_id = database->createNewIngredient( name );
 	}
 
 	return assigned_id;
 }
 
-int createUnit( const QString &name, Unit::Type type, RecipeDB *database )
+static int createUnit( const QString &name, Unit::Type type, RecipeDB *database )
 {
 	int assigned_id = database->findExistingUnitByName( name );
 
@@ -1043,12 +1040,12 @@ int createUnit( const QString &name, Unit::Type type, RecipeDB *database )
 	return assigned_id;
 }
 
-void create_properties( RecipeDB *database, Q3ValueList<USDA::PropertyData> &property_data_list )
+static void create_properties( RecipeDB *database, QList<USDA::PropertyData> &property_data_list )
 {
 	IngredientPropertyList property_list;
 	database->loadProperties( &property_list );
 
-	for ( Q3ValueList<USDA::PropertyData>::iterator it = property_data_list.begin(); it != property_data_list.end(); ++it ) {
+	for ( QList<USDA::PropertyData>::iterator it = property_data_list.begin(); it != property_data_list.end(); ++it ) {
 		(*it).id = property_list.findByName( (*it).name );
 		if ( (*it).id == -1 ) //doesn't exist, so insert it and set property_data_list[i].id
 		{
@@ -1064,9 +1061,9 @@ void RecipeDB::fixUSDAPropertyUnits()
 	IngredientPropertyList property_list;
 	loadProperties( &property_list );
 
-	Q3ValueList<USDA::PropertyData> property_data_list = USDA::loadProperties();
+	QList<USDA::PropertyData> property_data_list = USDA::loadProperties();
 
-	for ( Q3ValueList<USDA::PropertyData>::const_iterator it = property_data_list.begin(); it != property_data_list.end(); ++it ) {
+	for ( QList<USDA::PropertyData>::const_iterator it = property_data_list.begin(); it != property_data_list.end(); ++it ) {
 		int id = property_list.findByName( (*it).name );
 		if ( id != -1 )
 		{

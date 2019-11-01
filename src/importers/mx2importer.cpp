@@ -124,13 +124,11 @@ void MX2Importer::readRecipe( const QDomNodeList& l, Recipe *recipe )
 					quantity1 = 0;
 				else
 					quantity1 = number.toDouble();
-				if ( qtyStrList.constBegin() != qtyStrList.constEnd() ) {
-					state = MixedNumber::fromString( qtyStrList.last(), number, false );
-					if ( state != QValidator::Acceptable )
-						quantity2 = 0;
-					else
-						quantity2 = number.toDouble();
-				}
+				state = MixedNumber::fromString( qtyStrList.last(), number, false );
+				if ( state != QValidator::Acceptable )
+					quantity2 = 0;
+				else
+					quantity2 = number.toDouble();
 			}
 			offset = quantity2 - quantity1;
 			Ingredient new_ing( el.attribute( "name" ),
@@ -146,8 +144,9 @@ void MX2Importer::readRecipe( const QDomNodeList& l, Recipe *recipe )
 						if ( !prepMethodStr.isEmpty() )
 							new_ing.prepMethodList.append( Element( prepMethodStr ) );
 					}
-					else if ( iChild.tagName() == "INtI" )
+					else if ( iChild.tagName() == "INtI" ) {
 						; // TODO: What does it mean?... ingredient nutrient info?
+					}
 				}
 			}
 			recipe->ingList.append( new_ing );
