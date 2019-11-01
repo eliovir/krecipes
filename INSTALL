@@ -1,4 +1,11 @@
 Build instructions can be found at 
 http://techbase.kde.org/Getting_Started/Build/KDE4
 
-apt install git cmake
+Build on Ubuntu 18.10:
+- apt install git cmake g++ kdelibs5-dev libxml2-dev libxslt1-dev libqtwebkit-dev
+- cmake .
+- make
+
+Clean with
+ git clean -d -f -x
+
