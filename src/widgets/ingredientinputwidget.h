@@ -23,9 +23,8 @@
 class KVBox;
 class KHBox;
 class QLabel;
-class Q3ButtonGroup;
+class QButtonGroup;
 class QStackedWidget;
-class Q3GroupBox;
 class QCheckBox;
 
 class KComboBox;
@@ -117,7 +116,6 @@ private:
 	UnitList *unitComboList;
 
 	QCheckBox *orButton;
-	Q3GroupBox *ingredientGBox;
 	QLabel *amountLabel;
 	FractionInput* amountEdit;
 	QLabel *unitLabel;
@@ -128,7 +126,7 @@ private:
 	IngredientComboBox* ingredientBox;
 	HeaderComboBox* headerBox;
 	QStackedWidget *header_ing_stack;
-	Q3ButtonGroup *typeButtonGrp;
+	QButtonGroup *typeButtonGrp;
 };
 
 #endif //INGREDIENTINPUTWIDGET_H

@@ -165,7 +165,7 @@ void IngredientList::removeSubstitute( const Ingredient &i )
 		for ( IngredientList::iterator it = begin(); it != end(); ++it ) {
 			Ingredient::SubstitutesList::iterator result = (*it).substitutes.find(i);
 			if ( result != (*it).substitutes.end() ) {
-				(*it).substitutes.remove(result);
+				(*it).substitutes.erase(result);
 				return;
 			}
 		}
@@ -178,11 +178,14 @@ void IngredientList::move( int index1, int index2 )  //moves element in pos inde
 	IngredientList::iterator tmp_it = at( index1 );
 	Ingredient tmp_ing( *tmp_it );
 
-	remove
-		( tmp_it );
+	remove( tmp_it );
 
-	tmp_it = at( index2 );
-	insert( tmp_it, tmp_ing );
+	if (index2 < size()) {
+		tmp_it = at( index2 );
+		insert( tmp_it, tmp_ing );
+	} else {
+		append( tmp_ing );
+	}
 }
 
 void IngredientList::move( int index1, int count1, int index2 )  //moves element in pos index1 and the following count1 items, to pos after index2

@@ -1,0 +1,4453 @@
+# translation of krecipes.po to Greek
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Spiros Georgaras <sng@hellug.gr>, 2008.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011, 2012.
+# Stelios <sstavra@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: krecipes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-03-10 08:33+0000\n"
+"PO-Revision-Date: 2012-12-30 01:04+0300\n"
+"Last-Translator: Stelios <sstavra@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Τούσης Μανώλης, Stelios"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "manolis@koppermind.homelinux.org, sstavra@gmail.com"
+
+#: actionshandlers/categoryactionshandler.cpp:148
+#: actionshandlers/krecategoryactionshandler.cpp:152
+msgid ""
+"Are you sure you want to delete this category and all its subcategories?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε αυτή την κατηγορία και όλες τις "
+"υποκατηγορίες της;"
+
+#: actionshandlers/categoryactionshandler.cpp:158
+#: actionshandlers/headeractionshandler.cpp:66
+#: actionshandlers/ingredientactionshandler.cpp:65
+#: actionshandlers/kreauthoractionshandler.cpp:70
+#: actionshandlers/krecategoryactionshandler.cpp:161
+#: actionshandlers/prepmethodactionshandler.cpp:65
+#: actionshandlers/recipeactionshandler.cpp:250
+#: actionshandlers/recipeactionshandler.cpp:261
+#: actionshandlers/unitactionshandler.cpp:133 krecipesview.cpp:696
+msgid "Recipes"
+msgstr "Συνταγές"
+
+#: actionshandlers/categoryactionshandler.cpp:173
+#: actionshandlers/krecategoryactionshandler.cpp:175
+#, kde-format
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα της κατηγορίας δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα της κατηγορίας δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: actionshandlers/categoryactionshandler.cpp:203
+#: actionshandlers/krecategoryactionshandler.cpp:207
+msgid ""
+"This category already exists. Continuing will merge these two categories "
+"into one. Are you sure?"
+msgstr ""
+"Αυτή η κατηγορία υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο "
+"κατηγοριών σε μία. Είστε σίγουροι;"
+
+#: actionshandlers/headeractionshandler.cpp:39
+msgid "New Header"
+msgstr "Νέα επικεφαλίδα"
+
+#: actionshandlers/headeractionshandler.cpp:80
+#, kde-format
+msgid "Header cannot be longer than 1 character."
+msgid_plural "Header cannot be longer than %1 characters."
+msgstr[0] "Η επικεφαλίδα δεν μπορεί να είναι μεγαλύτερη από 1 χαρακτήρα."
+msgstr[1] "Η επικεφαλίδα δεν μπορεί να είναι μεγαλύτερη από %1 χαρακτήρες."
+
+#: actionshandlers/headeractionshandler.cpp:103
+#: actionshandlers/prepmethodactionshandler.cpp:101
+msgid ""
+"This header already exists.  Continuing will merge these two headers into "
+"one.  Are you sure?"
+msgstr ""
+"Αυτή η επικεφαλίδα υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο "
+"επικεφαλίδων σε μία. Είστε σίγουροι;"
+
+#: actionshandlers/ingredientactionshandler.cpp:38
+msgid "New Ingredient"
+msgstr "Νέο συστατικό"
+
+#: actionshandlers/ingredientactionshandler.cpp:68
+#: actionshandlers/prepmethodactionshandler.cpp:67
+#: actionshandlers/unitactionshandler.cpp:154
+msgid "You are about to permanently delete recipes from your database."
+msgstr "Πρόκειται να διαγράψετε οριστικά συνταγές από τη βάση δεδομένων σας."
+
+#: actionshandlers/ingredientactionshandler.cpp:80
+#: widgets/ingredientinputwidget.cpp:248
+#, kde-format
+msgid "Ingredient name cannot be longer than 1 character."
+msgid_plural "Ingredient name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα του συστατικού δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα του συστατικού δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: actionshandlers/ingredientactionshandler.cpp:102
+msgid ""
+"This ingredient already exists. Continuing will merge these two ingredients "
+"into one. Are you sure?"
+msgstr ""
+"Αυτό το συστατικό υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο "
+"συστατικών σε ένα. Είστε σίγουροι;"
+
+#: actionshandlers/kreauthoractionshandler.cpp:32
+msgid "New Author"
+msgstr "Νέος συγγραφέας"
+
+#: actionshandlers/kreauthoractionshandler.cpp:61
+msgid "Are you sure you want to delete this author?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε αυτόν τον συγγραφέα;"
+
+#: actionshandlers/kreauthoractionshandler.cpp:85
+#, kde-format
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα του συγγραφέα δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα του συγγραφέα δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: actionshandlers/kreauthoractionshandler.cpp:115
+msgid ""
+"This author already exists. Continuing will merge these two authors into "
+"one. Are you sure?"
+msgstr ""
+"Αυτός ο συγγραφέας υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο "
+"συγγραφέων σε έναν. Είστε σίγουροι;"
+
+#: actionshandlers/prepmethodactionshandler.cpp:38
+msgid "New Preparation Method"
+msgstr "Νέα μέθοδος προετοιμασίας"
+
+#: actionshandlers/prepmethodactionshandler.cpp:79
+#: widgets/ingredientinputwidget.cpp:270
+#, kde-format
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] ""
+"Η μέθοδος προετοιμασίας δεν μπορεί να είναι μεγαλύτερη από 1 χαρακτήρα."
+msgstr[1] ""
+"Η μέθοδος προετοιμασίας δεν μπορεί να είναι μεγαλύτερη από %1 χαρακτήρες."
+
+#: actionshandlers/propertyactionshandler.cpp:60
+msgid "Are you sure you want to delete this property?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε αυτή την ιδιότητα;"
+
+#: actionshandlers/propertyactionshandler.cpp:74
+#, kde-format
+msgid "Property name cannot be longer than 1 character."
+msgid_plural "Property name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα της ιδιότητας δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα της ιδιότητας δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: actionshandlers/propertyactionshandler.cpp:93
+msgid ""
+"This property already exists.  Continuing will merge these two properties "
+"into one.  Are you sure?"
+msgstr ""
+"Αυτή η ιδιότητα υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο "
+"ιδιοτήτων σε μία. Είστε σίγουροι;"
+
+#: actionshandlers/recipeactionshandler.cpp:229
+msgid "Please select only one recipe."
+msgstr "Παρακαλώ επιλέξτε μόνο μια συνταγή."
+
+#: actionshandlers/recipeactionshandler.cpp:229
+#: actionshandlers/recipeactionshandler.cpp:235 krecipesview.cpp:517
+msgid "Edit Recipe"
+msgstr "Επεξεργασία συνταγής"
+
+#: actionshandlers/recipeactionshandler.cpp:235
+#: actionshandlers/recipeactionshandler.cpp:267
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "No recipes selected."
+msgstr "Δεν επιλέχθηκαν συνταγές."
+
+#: actionshandlers/recipeactionshandler.cpp:252 krecipesview.cpp:694
+#: krecipesview.cpp:696
+msgid "Export Recipe"
+msgstr "Εξαγωγή συνταγής"
+
+#: actionshandlers/recipeactionshandler.cpp:258
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to export all recipes in the current view?"
+msgstr ""
+"Δεν υπάρχουν επιλεγμένες συνταγές αυτή τη στιγμή.\n"
+"Επιθυμείτε την εξαγωγή όλων των συνταγών της τρέχουσας προβολής;"
+
+#: actionshandlers/recipeactionshandler.cpp:261
+msgid "Export Recipes"
+msgstr "Εξαγωγή συνταγών"
+
+#: actionshandlers/recipeactionshandler.cpp:267 pref.cpp:487
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: actionshandlers/recipeactionshandler.cpp:283
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to print all recipes in the current view?"
+msgstr ""
+"Δεν υπάρχουν επιλεγμένες συνταγές αυτή τη στιγμή.\n"
+"Επιθυμείτε την εκτύπωση όλων των συνταγών της τρέχουσας προβολής;"
+
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: actionshandlers/recipeactionshandler.cpp:391
+msgid "Compressed Krecipes format"
+msgstr "Συμπιεσμένη μορφή Krecipes"
+
+#: actionshandlers/recipeactionshandler.cpp:392
+msgid "Web page"
+msgstr "Ιστοσελίδα"
+
+#: actionshandlers/recipeactionshandler.cpp:393 pref.cpp:492
+msgid "Plain Text"
+msgstr "Απλό κείμενο"
+
+#: actionshandlers/recipeactionshandler.cpp:394
+msgid "Web Book"
+msgstr "Βιβλίο στον ιστό"
+
+#: actionshandlers/recipeactionshandler.cpp:435 krecipes.cpp:693
+#, kde-format
+msgid "File \"%1\" exists.  Are you sure you want to overwrite it?"
+msgstr ""
+"Το αρχείο \"%1\" υπάρχει. Είστε σίγουροι ότι επιθυμείτε την αντικατάστασή "
+"του;"
+
+#: actionshandlers/recipeactionshandler.cpp:435
+msgctxt "@title:window"
+msgid "Saving recipe"
+msgstr "Αποθήκευση συνταγής"
+
+#: actionshandlers/recipeactionshandler.cpp:439
+msgctxt "@info:progress"
+msgid "Saving recipes..."
+msgstr "Αποθήκευση συνταγών..."
+
+#: actionshandlers/unitactionshandler.cpp:69
+msgid "Rename Unit"
+msgstr "Μετονομασία μονάδας"
+
+#: actionshandlers/unitactionshandler.cpp:139 dialogs/setupdisplay.cpp:126
+#: exporters/htmlexporter.cpp:389 exporters/xsltexporter.cpp:54
+#: krecipesview.cpp:376 krecipesview.cpp:479
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: actionshandlers/unitactionshandler.cpp:145
+msgid "Ingredient Weights"
+msgstr "Βάρη συστατικών"
+
+#: actionshandlers/unitactionshandler.cpp:167
+#: widgets/ingredientinputwidget.cpp:255
+#, kde-format
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα της μονάδας δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα της μονάδας δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: actionshandlers/unitactionshandler.cpp:205
+msgid ""
+"This unit already exists.  Continuing will merge these two units into one.  "
+"Are you sure?"
+msgstr ""
+"Αυτή η μονάδα υπάρχει ήδη. Αν συνεχίσετε θα γίνει συγχώνευση των δύο μονάδων "
+"σε μία. Είστε σίγουροι;"
+
+#: backends/MySQL/mysqlrecipedb.cpp:526 backends/SQLite/literecipedb.cpp:767
+msgctxt "Overall rating"
+msgid "Overall"
+msgstr "Γενική"
+
+#: backends/MySQL/mysqlrecipedb.cpp:527
+#: backends/PostgreSQL/psqlrecipedb.cpp:436
+#: backends/SQLite/literecipedb.cpp:768
+msgid "Taste"
+msgstr "Γεύση"
+
+#: backends/MySQL/mysqlrecipedb.cpp:528
+#: backends/PostgreSQL/psqlrecipedb.cpp:437
+#: backends/SQLite/literecipedb.cpp:769
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: backends/MySQL/mysqlrecipedb.cpp:529
+#: backends/PostgreSQL/psqlrecipedb.cpp:438
+#: backends/SQLite/literecipedb.cpp:770
+msgid "Originality"
+msgstr "Πρωτοτυπία"
+
+#: backends/MySQL/mysqlrecipedb.cpp:530
+#: backends/PostgreSQL/psqlrecipedb.cpp:439
+#: backends/SQLite/literecipedb.cpp:771
+msgid "Ease of Preparation"
+msgstr "Ευκολία προετοιμασίας"
+
+#: backends/PostgreSQL/psqlrecipedb.cpp:435
+msgctxt "Overall Rating"
+msgid "Overall"
+msgstr "Γενική"
+
+#: backends/qsqlrecipedb.cpp:88
+#, kde-format
+msgid ""
+"The Qt database plugin (%1) is not installed.  This plugin is required for "
+"using this database backend."
+msgstr ""
+"Το πρόσθετο βάσης δεδομένων Qt (%1) δεν είναι εγκατεστημένο. Αυτό το "
+"πρόσθετο είναι απαραίτητο για τη χρήση αυτού του συστήματος υποστήριξης "
+"βάσης δεδομένων."
+
+#: backends/qsqlrecipedb.cpp:130 backends/qsqlrecipedb.cpp:145
+#, kde-format
+msgid "Krecipes could not open the \"%1\" database."
+msgstr "Το Krecipes δεν κατάφερε να ανοίξει τη βάση δεδομένων «%1»."
+
+#: backends/qsqlrecipedb.cpp:133 backends/qsqlrecipedb.cpp:148
+#, kde-format
+msgid ""
+"Krecipes could not open the database using the driver '%2' (with username: "
+"\"%1\"). You may not have the necessary permissions, or the server may be "
+"down."
+msgstr ""
+"Το Krecipes δεν μπόρεσε να ανοίξει τη βάση δεδομένων χρησιμοποιώντας τον "
+"οδηγό '%2' (με όνομα χρήστη: \"%1\"). Πιθανότατα δεν έχετε τα απαραίτητα "
+"δικαιώματα, ή ο εξυπηρετητής είναι ανενεργός."
+
+#: backends/qsqlrecipedb.cpp:141
+#, kde-format
+msgid "Database message: %1"
+msgstr "Μήνυμα βάσης δεδομένων: %1"
+
+#: backends/qsqlrecipedb.cpp:157
+msgid ""
+"This database was created with a newer version of Krecipes and cannot be "
+"opened."
+msgstr ""
+"Αυτή η βάση δεδομένων δημιουργήθηκε με μια καινούργια έκδοση του Krecipes "
+"και δεν μπορεί να ανοιχτεί."
+
+#: backends/qsqlrecipedb.cpp:166
+msgid "Failed to fix database structure."
+msgstr "Αποτυχία διόρθωσης της δομής της βάσης δεδομένων."
+
+#: backends/qsqlrecipedb.cpp:1841
+#, kde-format
+msgid "In ingredient '%1': weight [%2/%3%4]"
+msgstr "Στο συστατικό '%1': βάρος [%2/%3%4]"
+
+#: backends/qsqlrecipedb.cpp:1891
+#, kde-format
+msgid "In ingredient '%1': property \"%2\" [%3/%4]"
+msgstr "Στο συστατικό '%1': ιδιότητα \"%2\" [%3/%4]"
+
+#: backends/qsqlrecipedb.cpp:2064
+msgctxt "@info"
+msgid ""
+"<p>The database was created with a previous version of Krecipes. Would you "
+"like Krecipes to update this database to work with this version of "
+"Krecipes?  Depending on the number of recipes and amount of data, this could "
+"take some time.</p><warning><p>After updating, this database will no longer "
+"be compatible with previous versions of Krecipes.</p><p>Cancelling this "
+"operation may result in corrupting the database.</p></warning>"
+msgstr ""
+"<p>Η βάση δεδομένων δημιουργήθηκε με μια προηγούμενη έκδοση του Krecipes. "
+"Επιθυμείτε την ενημέρωση της βάσης δεδομένων από το Krecipes έτσι ώστε αυτή "
+"να λειτουργεί με αυτή την έκδοση του Krecipes; Ανάλογα με τον αριθμό των "
+"συνταγών και της ποσότητας των δεδομένων, αυτό μπορεί να διαρκέσει κάποιο "
+"χρόνο.</p><warning><p>Μετά την ενημέρωση, αυτή η βάση δεδομένων δεν θα είναι "
+"πλέον συμβατή με παλαιότερες εκδόσεις του Krecipes.</p><p>Η ακύρωση αυτής "
+"της λειτουργίας μπορεί να έχει αποτέλεσμα μια κατεστραμμένη βάση δεδομένων.</"
+"p></warning>"
+
+#: backends/qsqlrecipedb.cpp:2074
+msgid "Porting database structure..."
+msgstr "Μεταφορά δομής της βάσης δεδομένων..."
+
+#: backends/qsqlrecipedb.cpp:2161
+msgctxt "@info:progress"
+msgid "Loading category list"
+msgstr "Φόρτωση λίστας κατηγοριών"
+
+#: backends/recipedb.cpp:308
+msgctxt "@info:progress"
+msgid "Creating complete backup"
+msgstr "Δημιουργία πλήρους εφεδρικού αντιγράφου"
+
+#: backends/recipedb.cpp:309 backends/recipedb.cpp:481
+msgid ""
+"Depending on the number of recipes and amount of data, this could take some "
+"time."
+msgstr ""
+"Ανάλογα με τον αριθμό των συνταγών και της ποσότητας των δεδομένων, αυτό "
+"μπορεί να διαρκέσει κάποιο χρόνο."
+
+#: backends/recipedb.cpp:330 backends/recipedb.cpp:488
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH."
+msgstr ""
+"Αδυναμία εύρεσης ή εκτέλεσης του προγράμματος '%1'. Είτε δεν είναι "
+"εγκαταστημένο ή δε βρίσκεται μέσα στο $PATH του συστήματός σας."
+
+#: backends/recipedb.cpp:355
+#, kde-format
+msgid ""
+"Backup failed.\n"
+"%1"
+msgstr ""
+"Αποτυχία εφεδρικού αντιγράφου.\n"
+"%1"
+
+#: backends/recipedb.cpp:444
+msgid ""
+"This backup was created with a newer version of Krecipes and cannot be "
+"restored."
+msgstr ""
+"Αυτό το εφεδρικό αντίγραφο δημιουργήθηκε με μια νεότερη έκδοση του Krecipes "
+"και δεν μπορεί να γίνει επαναφορά."
+
+#: backends/recipedb.cpp:453
+msgid "This file is not a Krecipes backup file or has become corrupt."
+msgstr ""
+"Αυτό το αρχείο δεν είναι ένα εφεδρικό αντίγραφο του Krecipes ή έχει "
+"καταστραφεί."
+
+#: backends/recipedb.cpp:458
+#, kde-format
+msgid ""
+"This backup was created using the \"%1\" backend.  It can only be restored "
+"into a database using this backend."
+msgstr ""
+"Αυτό το εφεδρικό αντίγραφο δημιουργήθηκε με το σύστημα υποστήριξης \"%1\". "
+"Μπορεί να επανέλθει στη βάση δεδομένων μόνο με τη χρήση αυτού του συστήματος "
+"ασφαλείας."
+
+#: backends/recipedb.cpp:480
+msgctxt "@info:progress"
+msgid "Restoring backup"
+msgstr "Γίνεται επαναφορά εφεδρικού αντιγράφου"
+
+#: backends/recipedb.cpp:535 krecipes.cpp:722
+msgid "Restore Failed"
+msgstr "Αποτυχία επαναφοράς"
+
+#: backends/recipedb.cpp:918
+msgid "Nutrient Import"
+msgstr "Εισαγωγή θρεπτικής αξίας"
+
+#: backends/recipedb.cpp:918
+msgid "Importing USDA nutrient data"
+msgstr "Εισαγωγή θρεπτικής αξίας USDA"
+
+#: convert_sqlite3.cpp:83 convert_sqlite3.cpp:91
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH. Do you want to configure other path for this "
+"command?"
+msgstr ""
+"Αδυναμία εύρεσης ή εκτέλεσης του προγράμματος '%1'. Είτε δεν είναι "
+"εγκαταστημένο ή δε βρίσκεται στο $PATH του συστήματός σας. Θέλετε να "
+"διαμορφώσετε μια άλλη διαδρομή για την εντολή αυτή;"
+
+#: convert_sqlite3.cpp:100
+#, kde-format
+msgid ""
+"Conversion process failed. Probably the file %1 is not an SQLite 2 database."
+msgstr ""
+"Η διαδικασία μετατροπής απέτυχε. Πιθανόν το αρχείο %1 δεν είναι μια βάση "
+"δεδομένων SQLite."
+
+#: convert_sqlite3.cpp:131
+#, c-format, kde-format
+msgid ""
+"Unable to backup SQLite 2 database, aborting. A successfully converted "
+"SQLite 3 file is available at %1.new."
+msgstr ""
+"Αδυναμία λήψης εφεδρικού αντιγράφου της βάσης δεδομένων SQLite, εγκατάλειψη. "
+"Ένα αρχείο που μετατράπηκε με επιτυχία σε SQLite 3 είναι διαθέσιμο στο "
+"%1.new."
+
+#: convert_sqlite3.cpp:137
+#, kde-format
+msgid ""
+"Unable to copy the new SQLite 3 database to %1.You may manually move %1.new "
+"to %1"
+msgstr ""
+"Αδυναμία αντιγραφής της νέας βάσης δεδομένων SQLite 3 στο  %1. Μπορείτε να "
+"μετακινήσετε χειροκίνητα το %1.new στο %1"
+
+#: convert_sqlite3.cpp:141
+#, kde-format
+msgid "Conversion successful! SQLite 2 database backed up to %1"
+msgstr ""
+"Μετατροπή επιτυχής! Ελήφθη εφεδρικό αντίγραφο της βάσης δεδομένων SQLite 2 "
+"στο %1"
+
+#: dialogs/advancedsearchdialog.cpp:71
+msgctxt "@label"
+msgid "Search using the following criteria:"
+msgstr "Αναζήτηση με χρήση των παρακάτω κριτηρίων:"
+
+#: dialogs/advancedsearchdialog.cpp:98 dialogs/advancedsearchdialog.cpp:705
+msgctxt "@action:button Recipe title"
+msgid "Title >>"
+msgstr "Τίτλος >>"
+
+#: dialogs/advancedsearchdialog.cpp:110 dialogs/advancedsearchdialog.cpp:343
+msgctxt "@option:check"
+msgid "Require All Words"
+msgstr "Απαιτούνται όλες οι λέξεις"
+
+#: dialogs/advancedsearchdialog.cpp:114 dialogs/advancedsearchdialog.cpp:347
+msgctxt "@label:textbox"
+msgid "Keywords:"
+msgstr "Λέξεις κλειδιά:"
+
+#: dialogs/advancedsearchdialog.cpp:127 dialogs/advancedsearchdialog.cpp:713
+msgctxt "@action:button"
+msgid "Ingredients >>"
+msgstr "Συστατικά >>"
+
+#: dialogs/advancedsearchdialog.cpp:138
+msgctxt "@info"
+msgid "Enter ingredients: (e.g. chicken pasta \"white wine\")"
+msgstr "Εισαγωγή συστατικών: (π.χ. κοτόπουλο ζυμαρικά \"λευκό κρασί\")"
+
+#: dialogs/advancedsearchdialog.cpp:145
+msgctxt "@label:textbox"
+msgid "Uses all:"
+msgstr "Χρησιμοποιεί όλα τα:"
+
+#: dialogs/advancedsearchdialog.cpp:149
+msgctxt "@label:textbox"
+msgid "Uses any of:"
+msgstr "Χρησιμοποιεί οτιδήποτε από:"
+
+#: dialogs/advancedsearchdialog.cpp:153
+msgctxt "@label:textbox"
+msgid "Without:"
+msgstr "Χωρίς:"
+
+#: dialogs/advancedsearchdialog.cpp:164 dialogs/advancedsearchdialog.cpp:729
+msgctxt "@action:button"
+msgid "Categories >>"
+msgstr "Κατηγορίες >>"
+
+#: dialogs/advancedsearchdialog.cpp:175
+msgctxt "@info"
+msgid "Enter categories: (e.g. Desserts Pastas \"Main Dishes\")"
+msgstr "Εισαγωγή κατηγοριών: (π.χ. επιδόρπια ζυμαρικά \"κύρια πιάτα\")"
+
+#: dialogs/advancedsearchdialog.cpp:182
+msgctxt "@label:textbox"
+msgid "In all:"
+msgstr "Σε όλα:"
+
+#: dialogs/advancedsearchdialog.cpp:186
+msgctxt "@label:textbox"
+msgid "In any of:"
+msgstr "Σε οποιοδήποτε από:"
+
+#: dialogs/advancedsearchdialog.cpp:190
+msgctxt "@label:textbox"
+msgid "Not in:"
+msgstr "Όχι στο:"
+
+#: dialogs/advancedsearchdialog.cpp:201 dialogs/advancedsearchdialog.cpp:721
+msgctxt "@action:button"
+msgid "Authors >>"
+msgstr "Συγγραφείς >>"
+
+#: dialogs/advancedsearchdialog.cpp:212
+msgctxt "@info"
+msgid "Enter author name (e.g. Smith or \"Jane Doe\")"
+msgstr "Εισαγωγή του συγγραφέα (π.χ. Smith ή \"Jane Doe\")"
+
+#: dialogs/advancedsearchdialog.cpp:219
+msgctxt "@label:textbox"
+msgid "By any of:"
+msgstr "Με οποιοδήποτε από:"
+
+#: dialogs/advancedsearchdialog.cpp:223
+msgctxt "@label:textbox"
+msgid "By all:"
+msgstr "Με όλα:"
+
+#: dialogs/advancedsearchdialog.cpp:227
+msgctxt "@label:textbox"
+msgid "Not by:"
+msgstr "Όχι με:"
+
+#: dialogs/advancedsearchdialog.cpp:238 dialogs/advancedsearchdialog.cpp:737
+msgctxt "@action:button"
+msgid "Yield >>"
+msgstr "Απόδοση >>"
+
+#: dialogs/advancedsearchdialog.cpp:252 dialogs/advancedsearchdialog.cpp:300
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: dialogs/advancedsearchdialog.cpp:265
+msgctxt "@item:inlistbox"
+msgid "Yields at least:"
+msgstr "Αποδίδει τουλάχιστον:"
+
+#: dialogs/advancedsearchdialog.cpp:266
+msgctxt "@item:inlistbox"
+msgid "Yields at most:"
+msgstr "Αποδίδει το πολύ:"
+
+#: dialogs/advancedsearchdialog.cpp:267
+msgctxt "@item:inlistbox"
+msgid "Yields about:"
+msgstr "Αποδίδει περίπου:"
+
+#: dialogs/advancedsearchdialog.cpp:286 dialogs/advancedsearchdialog.cpp:745
+msgctxt "@action:button"
+msgid "Preparation Time >>"
+msgstr "Χρόνος προετοιμασίας >>"
+
+#: dialogs/advancedsearchdialog.cpp:312
+msgctxt "@item:inlistbox"
+msgid "Ready in at most:"
+msgstr "Έτοιμο το πολύ μέσα σε:"
+
+#: dialogs/advancedsearchdialog.cpp:313
+msgctxt "@item:inlistbox"
+msgid "Ready in about:"
+msgstr "Έτοιμο περίπου σε:"
+
+#: dialogs/advancedsearchdialog.cpp:331 dialogs/advancedsearchdialog.cpp:753
+msgctxt "@action:button"
+msgid "Instructions >>"
+msgstr "Οδηγίες >>"
+
+#: dialogs/advancedsearchdialog.cpp:361 dialogs/advancedsearchdialog.cpp:761
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Meta Data >>"
+msgctxt "@action:button"
+msgid "Meta Data >>"
+msgstr "Μεταδεδομένα >>"
+
+#: dialogs/advancedsearchdialog.cpp:373
+msgctxt "@label Recipe created date"
+msgid "Created:"
+msgstr "Δημιουργήθηκε:"
+
+#: dialogs/advancedsearchdialog.cpp:384
+msgctxt "@label Recipe modified date"
+msgid "Modified:"
+msgstr "Τροποποιήθηκε:"
+
+#: dialogs/advancedsearchdialog.cpp:395
+msgctxt "@label Recipe last accessed date"
+msgid "Last Accessed:"
+msgstr "Τελευταία πρόσβαση:"
+
+#: dialogs/advancedsearchdialog.cpp:414 dialogs/advancedsearchdialog.cpp:769
+msgctxt "@action:button"
+msgid "Ratings >>"
+msgstr "Βαθμολογίες >>"
+
+#: dialogs/advancedsearchdialog.cpp:425
+msgctxt "@option:radio"
+msgid "By average:"
+msgstr "Με μέσο όρο:"
+
+#: dialogs/advancedsearchdialog.cpp:442
+msgctxt "@label"
+msgid "stars"
+msgstr "αστέρια"
+
+#: dialogs/advancedsearchdialog.cpp:448
+msgctxt "@option:radio"
+msgid "By criteria:"
+msgstr "Με κριτήρια:"
+
+#: dialogs/advancedsearchdialog.cpp:494
+msgctxt "@title:column"
+msgid "Criterion"
+msgstr "Κριτήριο"
+
+#: dialogs/advancedsearchdialog.cpp:495 dialogs/advancedsearchdialog.cpp:497
+#: dialogs/editratingdialog.cpp:117 dialogs/editratingdialog.cpp:168
+msgctxt "@title:column"
+msgid "Stars"
+msgstr "Αστέρια"
+
+#: dialogs/advancedsearchdialog.cpp:496 dialogs/editratingdialog.cpp:116
+#: dialogs/editratingdialog.cpp:167
+msgctxt "@title:column"
+msgid "Criteria"
+msgstr "Κριτήρια"
+
+#: dialogs/advancedsearchdialog.cpp:518
+msgctxt "@action:button Clear search criteria"
+msgid "C&lear"
+msgstr "&Καθαρισμός"
+
+#: dialogs/advancedsearchdialog.cpp:526
+msgctxt "@action:button Search recipes"
+msgid "&Search"
+msgstr "&Αναζήτηση"
+
+#: dialogs/advancedsearchdialog.cpp:549
+msgctxt "@title:column Recipe title"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: dialogs/advancedsearchdialog.cpp:703
+#, fuzzy
+#| msgctxt "@title:column Recipe title"
+#| msgid "Title"
+msgctxt "@action:button Recipe title"
+msgid "Title <<"
+msgstr "Τίτλος"
+
+#: dialogs/advancedsearchdialog.cpp:711
+#, fuzzy
+#| msgid "Ingredients"
+msgctxt "@action:button"
+msgid "Ingredients <<"
+msgstr "Συστατικά"
+
+#: dialogs/advancedsearchdialog.cpp:719
+#, fuzzy
+#| msgid "Authors"
+msgctxt "@action:button"
+msgid "Authors <<"
+msgstr "Συγγραφείς"
+
+#: dialogs/advancedsearchdialog.cpp:727
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@action:button"
+msgid "Categories <<"
+msgstr "Κατηγορίες"
+
+#: dialogs/advancedsearchdialog.cpp:735
+#, fuzzy
+#| msgid "Yield"
+msgctxt "@action:button"
+msgid "Yield <<"
+msgstr "Απόδοση"
+
+#: dialogs/advancedsearchdialog.cpp:743
+#, fuzzy
+#| msgid "Preparation Time"
+msgctxt "@action:button"
+msgid "Preparation Time <<"
+msgstr "Χρόνος προετοιμασίας"
+
+#: dialogs/advancedsearchdialog.cpp:751
+#, fuzzy
+#| msgid "Instructions"
+msgctxt "@action:button"
+msgid "Instructions <<"
+msgstr "Οδηγίες"
+
+#: dialogs/advancedsearchdialog.cpp:759
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Meta Data >>"
+msgctxt "@action:button"
+msgid "Meta Data <<"
+msgstr "Μεταδεδομένα >>"
+
+#: dialogs/advancedsearchdialog.cpp:767
+#, fuzzy
+#| msgid "Ratings"
+msgctxt "@action:button"
+msgid "Ratings <<"
+msgstr "Βαθμολογίες"
+
+#: dialogs/advancedsearchdialog.cpp:990
+msgctxt "@item:inlistbox"
+msgid "No matching recipes found"
+msgstr "Δε βρέθηκαν συνταγές να ταιριάζουν"
+
+#: dialogs/authorsdialog.cpp:45 dialogs/categorieseditordialog.cpp:45
+#: dialogs/ingredientgroupsdialog.cpp:40 dialogs/ingredientsdialog.cpp:63
+#: dialogs/prepmethodsdialog.cpp:44 dialogs/propertiesdialog.cpp:54
+#: dialogs/unitsdialog.cpp:55
+msgctxt "@action:button"
+msgid "Create..."
+msgstr "Δημιουργία..."
+
+#: dialogs/authorsdialog.cpp:50 dialogs/categorieseditordialog.cpp:50
+#: dialogs/ingredientgroupsdialog.cpp:45 dialogs/ingredientsdialog.cpp:68
+#: dialogs/prepmethodsdialog.cpp:49 dialogs/propertiesdialog.cpp:58
+#: dialogs/selectrecipedialog.cpp:108 dialogs/unitsdialog.cpp:60
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: dialogs/borderdialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Border"
+msgstr "Επιλογή περιγράμματος"
+
+#: dialogs/borderdialog.cpp:130
+msgctxt "@title:group"
+msgid "Requested Border"
+msgstr "Ζητούμενο περίγραμμα"
+
+#: dialogs/borderdialog.cpp:131
+msgctxt "@label:textbox Border style"
+msgid "Style:"
+msgstr "Στιλ:"
+
+#: dialogs/borderdialog.cpp:132
+msgctxt "@label:textbox Border color"
+msgid "Color:"
+msgstr "Χρώμα:"
+
+#: dialogs/borderdialog.cpp:133
+msgctxt "@label:textbox Border width"
+msgid "Width:"
+msgstr "Πλάτος:"
+
+#: dialogs/borderdialog.cpp:205
+msgctxt "@item:inlistbox Border type none"
+msgid "None"
+msgstr "Κανένα"
+
+#: dialogs/borderdialog.cpp:206
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dotted"
+msgstr "Με κουκκίδες"
+
+#: dialogs/borderdialog.cpp:207
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dashed"
+msgstr "Με παύλες"
+
+#: dialogs/borderdialog.cpp:208
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Solid"
+msgstr "Συμπαγές"
+
+#: dialogs/borderdialog.cpp:209
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Double"
+msgstr "Διπλό"
+
+#: dialogs/borderdialog.cpp:210
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Groove"
+msgstr "Κυματιστό"
+
+#: dialogs/borderdialog.cpp:211
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Ridge"
+msgstr "Οδοντωτό"
+
+#: dialogs/borderdialog.cpp:212
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Inset"
+msgstr "Ένθετο"
+
+#: dialogs/borderdialog.cpp:213
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Outset"
+msgstr "Έκθετο"
+
+#: dialogs/borderdialog.cpp:228
+msgid "Border Preview"
+msgstr "Προεπισκόπηση περιγράμματος"
+
+#: dialogs/conversiondialog.cpp:33
+msgctxt "@title:window"
+msgid "Measurement Converter"
+msgstr "Μετατροπέας μετρήσεων"
+
+#: dialogs/conversiondialog.cpp:37
+msgctxt "@action:button"
+msgid "Convert"
+msgstr "Μετατροπή"
+
+#: dialogs/conversiondialog.cpp:58
+msgctxt "@item:inlistbox"
+msgid "--Ingredient (optional)--"
+msgstr "--Συστατικό (προαιρετικό)--"
+
+#: dialogs/conversiondialog.cpp:61
+msgctxt "@item:inlistbox"
+msgid "-No Preparation-"
+msgstr "-Χωρίς προετοιμασία-"
+
+#: dialogs/conversiondialog.cpp:96
+msgctxt "@label"
+msgid "Convert"
+msgstr "Μετατροπή"
+
+#: dialogs/conversiondialog.cpp:97
+msgctxt "@label Convert to"
+msgid "To"
+msgstr "Σε"
+
+#: dialogs/conversiondialog.cpp:99
+msgctxt "@label Result of an unit conversion"
+msgid "<b>Result:</b>"
+msgstr "<b>Αποτέλεσμα:</b>"
+
+#: dialogs/conversiondialog.cpp:134
+msgctxt "@label:textbox"
+msgid "<b>Result:</b>"
+msgstr "<b>Αποτέλεσμα:</b>"
+
+#: dialogs/conversiondialog.cpp:138
+msgctxt "@label:textbox"
+msgid "<b>Approximated result:</b>"
+msgstr "<b>Αποτέλεσμα κατά προσέγγιση:</b>"
+
+#: dialogs/conversiondialog.cpp:142 dialogs/conversiondialog.cpp:146
+#: dialogs/conversiondialog.cpp:150 dialogs/conversiondialog.cpp:154
+#: dialogs/conversiondialog.cpp:158
+msgctxt "@label:textbox"
+msgid "<b>Error:</b>"
+msgstr "<b>Σφάλμα:</b>"
+
+#: dialogs/conversiondialog.cpp:143
+msgctxt "@info"
+msgid "Missing unit conversion"
+msgstr "Μη διαθέσιμη μετατροπή μονάδας"
+
+#: dialogs/conversiondialog.cpp:147
+msgctxt "@info"
+msgid "No ingredient weight available"
+msgstr "Μη διαθέσιμο βάρος συστατικού"
+
+#: dialogs/conversiondialog.cpp:151
+msgctxt "@info"
+msgid "No ingredient weight available for this method of preparation"
+msgstr "Μη διαθέσιμο βάρος συστατικού για αυτήν τη μέθοδο προετοιμασίας"
+
+#: dialogs/conversiondialog.cpp:155
+msgctxt "@info"
+msgid "Ingredient required for conversion"
+msgstr "Συστατικό που απαιτείται για μετατροπή"
+
+#: dialogs/conversiondialog.cpp:159
+msgctxt "@info"
+msgid "Impossible unit conversion based on unit types"
+msgstr "Αδύνατη η μετατροπή μονάδων με βάση τον τύπο τους"
+
+#: dialogs/createcategorydialog.cpp:25
+msgctxt "@title:window"
+msgid "New Category"
+msgstr "Νέα κατηγορία"
+
+#: dialogs/createcategorydialog.cpp:36
+msgctxt "@title:group"
+msgid "New Category"
+msgstr "Νέα κατηγορία"
+
+#: dialogs/createcategorydialog.cpp:39
+msgctxt "@label:textbox Category name"
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: dialogs/createcategorydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Subcategory of:"
+msgstr "Υποκατηγορία της:"
+
+#: dialogs/createcategorydialog.cpp:59
+msgctxt "@item:inlistbox No category"
+msgid "**NONE**"
+msgstr "**ΚΑΜΙΑ**"
+
+#: dialogs/createingredientweightdialog.cpp:32
+msgctxt "@title:window"
+msgid "Add Ingredient Weight"
+msgstr "Προσθήκη βάρους συστατικού"
+
+#: dialogs/createingredientweightdialog.cpp:74
+msgctxt "@item"
+msgid "-No Preparation-"
+msgstr "-Χωρίς προετοιμασία-"
+
+#: dialogs/createingredientweightdialog.cpp:94
+msgctxt "@title:group"
+msgid "New Ingredient Weight"
+msgstr "Βάρος νέου συστατικού"
+
+#: dialogs/createingredientweightdialog.cpp:95
+msgctxt "@label:textbox"
+msgid "Per Amount:"
+msgstr "Ανά ποσότητα:"
+
+#: dialogs/createingredientweightdialog.cpp:96
+msgctxt "@label:textbox"
+msgid "Weight:"
+msgstr "Βάρος:"
+
+#: dialogs/createingredientweightdialog.cpp:102
+#: dialogs/createingredientweightdialog.cpp:109
+msgctxt "@info"
+msgid "Amount field contains invalid input."
+msgstr "Το πεδίο ποσότητας περιέχει μη έγκυρα δεδομένα."
+
+#: dialogs/createingredientweightdialog.cpp:103
+#: dialogs/createingredientweightdialog.cpp:110
+msgctxt "@title:window"
+msgid "Invalid input"
+msgstr "Μη έγκυρα δεδομένα"
+
+#: dialogs/createpropertydialog.cpp:22
+msgctxt "@title:window"
+msgid "New Property"
+msgstr "Νέα ιδιότητα"
+
+#: dialogs/createpropertydialog.cpp:34
+msgctxt "@title:group"
+msgid "New Property"
+msgstr "Νέα ιδιότητα"
+
+#: dialogs/createpropertydialog.cpp:38
+msgctxt "@label:textbox"
+msgid "Property name:"
+msgstr "Όνομα ιδιότητας:"
+
+#: dialogs/createpropertydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Units:"
+msgstr "Μονάδες:"
+
+#: dialogs/createunitconversiondialog.cpp:74
+msgctxt "@title:window"
+msgid "Unit Conversion"
+msgstr "Μετατροπή μονάδας"
+
+#: dialogs/createunitconversiondialog.cpp:75
+msgctxt "@title:group"
+msgid "New Unit Conversion"
+msgstr "Νέα μετατροπή μονάδας"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "New Unit"
+msgstr "Νέα μονάδα"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "Unit"
+msgstr "Μονάδα"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "New Unit"
+msgstr "Νέα μονάδα"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "Unit"
+msgstr "Μονάδα"
+
+#: dialogs/createunitdialog.cpp:41
+msgctxt "@label:textbox Single unit name"
+msgid "Singular:"
+msgstr "Ενικός:"
+
+#: dialogs/createunitdialog.cpp:45
+msgctxt "@label:textbox Single unit abbreviation"
+msgid "Singular Abbreviation:"
+msgstr "Συντομογραφία ενικού:"
+
+#: dialogs/createunitdialog.cpp:49
+msgctxt "@label:textbox Plural unit name"
+msgid "Plural:"
+msgstr "Πληθυντικός:"
+
+#: dialogs/createunitdialog.cpp:53
+msgctxt "@label:textbox Plural unit abbreviation"
+msgid "Plural Abbreviation:"
+msgstr "Συντομογραφία πληθυντικού:"
+
+#: dialogs/createunitdialog.cpp:56 widgets/unitlistview.cpp:80
+msgctxt "@item:inlistbox Unit type other"
+msgid "Other"
+msgstr "Άλλο"
+
+#: dialogs/createunitdialog.cpp:57 widgets/unitlistview.cpp:81
+msgctxt "@item:inlistbox Unit type mass"
+msgid "Mass"
+msgstr "Μάζα"
+
+#: dialogs/createunitdialog.cpp:58 widgets/unitlistview.cpp:82
+msgctxt "@item:inlistbox Unit type volume"
+msgid "Volume"
+msgstr "Όγκος"
+
+#: dialogs/createunitdialog.cpp:62
+msgctxt "@label:textbox Unit Type"
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: dialogs/dbimportdialog.cpp:40
+msgctxt "@title:window"
+msgid "Database Import"
+msgstr "Εισαγωγή βάσης δεδομένων"
+
+#: dialogs/dbimportdialog.cpp:78
+msgctxt "@label:textbox"
+msgid "Database file:"
+msgstr "Αρχείο βάσης δεδομένων:"
+
+#: dialogs/dbimportdialog.cpp:151
+msgctxt "@title:group"
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: dialogs/dbimportdialog.cpp:155
+msgctxt "@label:textbox"
+msgid "Server:"
+msgstr "Εξυπηρετητής:"
+
+#: dialogs/dbimportdialog.cpp:156
+msgctxt "@label:textbox Database username"
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+#: dialogs/dbimportdialog.cpp:157
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+#: dialogs/dbimportdialog.cpp:158
+msgctxt "@label:textbox"
+msgid "Database name:"
+msgstr "Όνομα βάσης δεδομένων:"
+
+#: dialogs/dbimportdialog.cpp:159
+msgctxt "@label:textbox"
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: dialogs/dbimportdialog.cpp:160
+msgctxt "@label:textbox Default port"
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: dialogs/dependanciesdialog.cpp:53
+msgctxt "@title:window"
+msgid "Element with Dependencies"
+msgstr "Στοιχείο με εξαρτήσεις"
+
+#: dialogs/dependanciesdialog.cpp:65
+msgctxt "@info"
+msgid ""
+"<warning>The following will have to be removed also, since currently they "
+"use the element you have chosen to be removed.</warning>"
+msgstr ""
+"<warning>Επιπλέον πρέπει να αφαιρεθούν και τα παρακάτω αφού χρησιμοποιούν το "
+"συστατικό που επιλέξατε να αφαιρεθεί.</warning>"
+
+#: dialogs/dependanciesdialog.cpp:68
+msgctxt "@info"
+msgid ""
+"<warning>The following currently use the element you have chosen to be "
+"removed.</warning>"
+msgstr ""
+"<warning>Τα παρακάτω χρησιμοποιούν το συστατικό που επιλέξατε να αφαιρεθεί.</"
+"warning>"
+
+#: dialogs/dependanciesdialog.cpp:104
+msgctxt "@info"
+msgid "Are you sure you wish to proceed?"
+msgstr "Είστε βέβαιοι ότι επιθυμείτε να συνεχίσετε;"
+
+#: dialogs/dietviewdialog.cpp:24
+msgctxt "@title:window"
+msgid "View Diet"
+msgstr "Προβολή δίαιτας"
+
+#: dialogs/dietviewdialog.cpp:33
+msgctxt "@action:button"
+msgid "Create &Shopping List"
+msgstr "Δημιουργία λί&στας αγορών"
+
+#: dialogs/dietviewdialog.cpp:59 dialogs/dietviewdialog.cpp:78
+msgid "Diet"
+msgstr "Δίαιτα"
+
+#: dialogs/dietviewdialog.cpp:97
+#, kde-format
+msgid "Day %1"
+msgstr "Ημέρα %1"
+
+#: dialogs/dietwizarddialog.cpp:59
+msgctxt "@label:slider"
+msgid "Number of Days"
+msgstr "Αριθμός ημερών"
+
+#: dialogs/dietwizarddialog.cpp:78
+msgctxt "@label:slider"
+msgid "Meals per Day"
+msgstr "Γεύματα ανά ημέρα"
+
+#: dialogs/dietwizarddialog.cpp:106
+msgctxt "@action:button"
+msgid "Create the diet"
+msgstr "Δημιουργία της δίαιτας"
+
+#: dialogs/dietwizarddialog.cpp:110
+msgctxt "@action:button Clear Diet"
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: dialogs/dietwizarddialog.cpp:116 dialogs/dietwizarddialog.cpp:170
+#, kde-format
+msgctxt "@title:tab"
+msgid "Meal 1"
+msgid_plural "Meal %1"
+msgstr[0] "Γεύμα 1"
+msgstr[1] "Γεύμα %1"
+
+#: dialogs/dietwizarddialog.cpp:165 dialogs/dietwizarddialog.cpp:187
+#, kde-format
+msgid "- %1 -"
+msgstr "- %1 -"
+
+#: dialogs/dietwizarddialog.cpp:191
+#, kde-format
+msgid "- 1 week -"
+msgid_plural "- %1 weeks -"
+msgstr[0] "- 1 εβδομάδα -"
+msgstr[1] "- %1 εβδομάδες -"
+
+#: dialogs/dietwizarddialog.cpp:246
+msgctxt "@info"
+msgid ""
+"Given the constraints, a full diet list could not be constructed. Either the "
+"recipe list is too short or the constraints are too demanding. "
+msgstr ""
+"Είναι αδύνατη η δημιουργία μιας πλήρης δίαιτας με τους δοσμένους "
+"περιορισμούς. Η λίστα συνταγών είναι πολύ μικρή ή οι περιορισμοί υπερβολικά "
+"απαιτητικοί. "
+
+#: dialogs/dietwizarddialog.cpp:340
+msgctxt "@label:spinbox"
+msgid "No. of dishes: "
+msgstr "Αριθμός πιάτων: "
+
+#: dialogs/dietwizarddialog.cpp:348
+msgctxt "@action:button"
+msgid "Previous Dish"
+msgstr "Προηγούμενο πιάτο"
+
+#: dialogs/dietwizarddialog.cpp:351
+msgctxt "@action:button"
+msgid "Next Dish"
+msgstr "Επόμενο πιάτο"
+
+#: dialogs/dietwizarddialog.cpp:359
+msgid "1st Course"
+msgstr "1η μερίδα"
+
+#: dialogs/dietwizarddialog.cpp:362
+msgid "2nd Course"
+msgstr "2η μερίδα"
+
+#: dialogs/dietwizarddialog.cpp:365
+msgid "Dessert"
+msgstr "Επιδόρπιο"
+
+#: dialogs/dietwizarddialog.cpp:400
+#, kde-format
+msgctxt "Dish number %1"
+msgid "Dish %1"
+msgstr "Πιάτο %1"
+
+#: dialogs/dietwizarddialog.cpp:473
+msgctxt "@label:listbox"
+msgid "Dish Characteristics"
+msgstr "Χαρακτηριστικά πιάτου"
+
+#: dialogs/dietwizarddialog.cpp:485
+msgctxt "@option:check"
+msgid "Enable Category Filtering"
+msgstr "Ενεργοποίηση φιλτραρίσματος κατηγορίας"
+
+#: dialogs/editpropertiesdialog.cpp:127 dialogs/editpropertiesdialog.cpp:252
+msgctxt "@title:column"
+msgid "USDA Ingredient"
+msgstr "Συστατικό USDA"
+
+#: dialogs/editpropertiesdialog.cpp:167 dialogs/editpropertiesdialog.cpp:258
+#: dialogs/selectpropertydialog.cpp:56 widgets/propertylistview.cpp:130
+#: widgets/propertylistview.cpp:164
+msgctxt "@title:column"
+msgid "Property"
+msgstr "Ιδιότητα"
+
+#: dialogs/editpropertiesdialog.cpp:168 dialogs/editpropertiesdialog.cpp:259
+#: dialogs/ingredientparserdialog.cpp:67
+#: dialogs/ingredientparserdialog.cpp:116 dialogs/recipeinputdialog.cpp:345
+#: dialogs/refineshoppinglistdialog.cpp:91
+#: dialogs/refineshoppinglistdialog.cpp:124
+msgctxt "@title:column"
+msgid "Amount"
+msgstr "Ποσότητα"
+
+#: dialogs/editpropertiesdialog.cpp:169 dialogs/editpropertiesdialog.cpp:260
+#: dialogs/ingredientparserdialog.cpp:68
+#: dialogs/ingredientparserdialog.cpp:117
+#: dialogs/refineshoppinglistdialog.cpp:92
+#: dialogs/refineshoppinglistdialog.cpp:125 dialogs/selectunitdialog.cpp:41
+msgctxt "@title:column"
+msgid "Unit"
+msgstr "Μονάδα"
+
+#: dialogs/editpropertiesdialog.cpp:202 dialogs/editpropertiesdialog.cpp:264
+msgctxt "@title:column"
+msgid "Weight"
+msgstr "Βάρος"
+
+#: dialogs/editpropertiesdialog.cpp:203 dialogs/editpropertiesdialog.cpp:265
+msgctxt "@title:column"
+msgid "Per Amount"
+msgstr "Ανά ποσότητα"
+
+#: dialogs/editpropertiesdialog.cpp:250
+msgctxt "@title:window"
+msgid "Property Information"
+msgstr "Πληροφορίες ιδιότητας"
+
+#: dialogs/editpropertiesdialog.cpp:251
+#, kde-format
+msgctxt "@label"
+msgid "Property Information for <b>%1</b>"
+msgstr "Πληροφορίες της ιδιότητας <b>%1</b>"
+
+#: dialogs/editpropertiesdialog.cpp:254
+msgctxt "@action:button Load USDA data"
+msgid "Load"
+msgstr "Φόρτωση"
+
+#: dialogs/editpropertiesdialog.cpp:255
+msgctxt "@title:group"
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: dialogs/editpropertiesdialog.cpp:256 dialogs/editpropertiesdialog.cpp:262
+#: dialogs/editratingdialog.cpp:165
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: dialogs/editpropertiesdialog.cpp:257 dialogs/editpropertiesdialog.cpp:263
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: dialogs/editpropertiesdialog.cpp:261
+msgctxt "@title:group"
+msgid "Weights"
+msgstr "Βάρη"
+
+#: dialogs/editpropertiesdialog.cpp:291
+msgctxt "@info"
+msgid ""
+"Recipes may require this information for nutrient analysis. Are you sure you "
+"want to delete this entry?"
+msgstr ""
+"Οι συνταγές ίσως χρειάζονται αυτές τις πληροφορίες για την ανάλυση θρεπτικής "
+"αξίας. Επιθυμείτε σίγουρα να διαγράψετε αυτήν την εγγραφή;"
+
+#: dialogs/editpropertiesdialog.cpp:310 dialogs/editpropertiesdialog.cpp:342
+#: dialogs/ingredientmatcherdialog.cpp:159
+msgctxt "@title:window"
+msgid "Enter amount"
+msgstr "Εισαγωγή ποσότητα"
+
+#: dialogs/editpropertiesdialog.cpp:314 dialogs/editpropertiesdialog.cpp:346
+#: dialogs/ingredientmatcherdialog.cpp:163
+msgctxt "@title:group"
+msgid "Amount"
+msgstr "Ποσότητα"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@title:window"
+msgid "Property Exists"
+msgstr "Η ιδιότητα υπάρχει"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@info"
+msgid ""
+"The property you tried to add already exists in the ingredient with the same "
+"per units."
+msgstr ""
+"Η ιδιότητα που προσπαθήσατε να προσθέσετε υπάρχει ήδη στο συστατικό στην "
+"ίδια αναλογία."
+
+#: dialogs/editpropertiesdialog.cpp:655
+msgctxt "@info"
+msgid "Please select an ingredient in the USDA ingredient list"
+msgstr "Επιλέξτε ένα συστατικό από τη λίστα συστατικών USDA"
+
+#: dialogs/editratingdialog.cpp:55 dialogs/editratingdialog.cpp:68
+msgctxt "@title:window"
+msgid "Rating"
+msgstr "Βαθμολογία"
+
+#: dialogs/editratingdialog.cpp:139 dialogs/editratingdialog.cpp:166
+msgctxt "@action:button"
+msgid "&Delete"
+msgstr "&Διαγραφή"
+
+#: dialogs/editratingdialog.cpp:163
+msgctxt "@label:textbox"
+msgid "Criteria:"
+msgstr "Κριτήρια:"
+
+#: dialogs/editratingdialog.cpp:164
+msgctxt "@label:textbox"
+msgid "Stars:"
+msgstr "Αστέρια:"
+
+#: dialogs/editratingdialog.cpp:169
+msgctxt "@label:textbox"
+msgid "Comments:"
+msgstr "Σχόλια:"
+
+#: dialogs/editratingdialog.cpp:170
+msgctxt "@label:textbox"
+msgid "Rater:"
+msgstr "Βαθμολογητής:"
+
+#: dialogs/ingredientmatcherdialog.cpp:88
+msgctxt "@title:column"
+msgid "Ingredient (required?)"
+msgstr "Συστατικό (απαιτείται;)"
+
+#: dialogs/ingredientmatcherdialog.cpp:89
+msgctxt "@title:column"
+msgid "Amount Available"
+msgstr "Διαθέσιμη ποσότητα"
+
+#: dialogs/ingredientmatcherdialog.cpp:102
+msgctxt ""
+"@label:spinbox Number of missing ingredients allowed when doing a search by "
+"ingredients"
+msgid "Missing ingredients allowed:"
+msgstr "Ελλειπή συστατικά που επιτρέπονται:"
+
+#: dialogs/ingredientmatcherdialog.cpp:106
+msgctxt ""
+"@item Any amount of ingredients missing when doing a search by ingredients"
+msgid "Any"
+msgstr "Οποιοδήποτε"
+
+#: dialogs/ingredientmatcherdialog.cpp:109
+msgctxt "@title"
+msgid "Matching Recipes"
+msgstr "Συνταγές που ταιριάζουν"
+
+#: dialogs/ingredientmatcherdialog.cpp:112
+msgctxt "@title:column Recipe Title"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: dialogs/ingredientmatcherdialog.cpp:119
+msgctxt "@title:column Missing ingredients in a search result"
+msgid "Missing Ingredients"
+msgstr "Ελλειπή συστατικά"
+
+#: dialogs/ingredientmatcherdialog.cpp:130
+msgctxt "@action:button"
+msgid "Find matching recipes"
+msgstr "Εύρεση συνταγών που ταιριάζουν"
+
+#: dialogs/ingredientmatcherdialog.cpp:136
+msgctxt "@action:button Clear search criteria"
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: dialogs/ingredientmatcherdialog.cpp:345
+#, kde-format
+msgctxt "@label:textbox"
+msgid "You are missing 1 ingredient for:"
+msgid_plural "You are missing %1 ingredients for:"
+msgstr[0] "Λείπει 1 συστατικό για:"
+msgstr[1] "Λείπουν %1 συστατικά για:"
+
+#: dialogs/ingredientmatcherdialog.h:53 exporters/htmlexporter.cpp:308
+#: exporters/htmlexporter.cpp:331 exporters/xsltexporter.cpp:56
+#: widgets/inglistviewitem.cpp:28 widgets/inglistviewitem.cpp:40
+#: widgets/ingredientinputwidget.cpp:97
+msgid "OR"
+msgstr "Ή"
+
+#: dialogs/ingredientparserdialog.cpp:42
+msgctxt "@title:window"
+msgid "Ingredient Parser"
+msgstr "Αναλυτής συστατικών"
+
+#: dialogs/ingredientparserdialog.cpp:66
+#: dialogs/ingredientparserdialog.cpp:115 dialogs/recipeinputdialog.cpp:344
+#: widgets/ingredientlistview.cpp:107 widgets/ingredientlistview.cpp:132
+msgctxt "@title:column"
+msgid "Ingredient"
+msgstr "Συστατικό"
+
+#: dialogs/ingredientparserdialog.cpp:69
+#: dialogs/ingredientparserdialog.cpp:118 dialogs/recipeinputdialog.cpp:348
+#: widgets/prepmethodlistview.cpp:52
+msgctxt "@title:column"
+msgid "Preparation Method"
+msgstr "Μέθοδος προετοιμασίας"
+
+#: dialogs/ingredientparserdialog.cpp:88
+msgctxt "@action:button"
+msgid "Set &Header"
+msgstr "Ορισμός &επικεφαλίδας"
+
+#: dialogs/ingredientparserdialog.cpp:89
+msgctxt "@info:whatsthis"
+msgid ""
+"If an ingredient header is detected as an ingredient, select it and click "
+"this button so that Krecipes will recognize it as a header.  All the "
+"ingredients below the header will be included within that group.\n"
+"\n"
+"Alternatively, if you select multiple ingredients and click this button, "
+"those ingredients will be grouped together."
+msgstr ""
+"Αν ανιχνευτεί μια επικεφαλίδα συστατικού ως ένα συστατικό, επιλέξτε την και "
+"κάντε κλικ σε αυτό το κουμπί έτσι ώστε το Krecipes να την αναγνωρίσει ως "
+"επικεφαλίδα. Όλα τα συστατικά κάτω από αυτή την επικεφαλίδα θα ενσωματωθούν "
+"σε αυτήν την ομάδα.\n"
+"\n"
+"Εναλλακτικά, αν επιλέξετε πολλά συστατικά και κάνετε κλικ σε αυτό το κουμπί, "
+"αυτά τα συστατικά θα ομαδοποιηθούν."
+
+#: dialogs/ingredientparserdialog.cpp:94
+msgctxt "@item:inmenu"
+msgid "&Delete"
+msgstr "&Διαγραφή"
+
+#: dialogs/ingredientparserdialog.cpp:95
+msgctxt "@item:inmenu"
+msgid "Set &Header"
+msgstr "Ορισμός &επικεφαλίδας"
+
+#: dialogs/ingredientparserdialog.cpp:108
+msgctxt "@info"
+msgid ""
+"<para>To use: Paste a list of ingredient below, click <interface>Parse Text</"
+"interface>, and then you may correct any incorrectly parsed ingredients.</"
+"para><para><warning>Fields will be truncated if longer than the database "
+"allows</warning></para>"
+msgstr ""
+"<para>Για να το χρησιμοποιήσετε: Κάνετε επικόλληση μιας λίστας συστατικών "
+"παρακάτω, κάνετε κλικ στο <interface>Ανάλυση κειμένου</interface>, και "
+"έπειτα μπορείτε να διορθώσετε οποιαδήποτε συστατικά που αναλύθηκαν με λάθος "
+"τρόπο.</para><para><warning>Τα πεδία θα αποκοπούν αν είναι μεγαλύτερα από "
+"όσο επιτρέπει η βάση δεδομένων</warning></para>"
+
+#: dialogs/ingredientparserdialog.cpp:112
+msgctxt "@title"
+msgid "Ingredients as understood by Krecipes:"
+msgstr "Συστατικά όπως αναγνωρίστηκαν από το Krecipes:"
+
+#: dialogs/ingredientparserdialog.cpp:114
+msgctxt "@action:button"
+msgid "Parse Text"
+msgstr "Ανάλυση κειμένου"
+
+#: dialogs/ingredientsdialog.cpp:74
+msgctxt "@action:button"
+msgid "Property Information"
+msgstr "Πληροφορίες ιδιότητας"
+
+#: dialogs/ingredientsdialog.cpp:81 dialogs/recipeinputdialog.cpp:428
+msgctxt "@title:tab"
+msgid "Ingredients"
+msgstr "Συστατικά"
+
+#: dialogs/ingredientsdialog.cpp:84
+msgctxt "@title:tab"
+msgid "Headers"
+msgstr "Επικεφαλίδες"
+
+#: dialogs/ingredientsdialog.cpp:135
+msgctxt "@info"
+msgid "No ingredient selected."
+msgstr "Δεν έχει επιλεγεί συστατικό."
+
+#: dialogs/pagesetupdialog.cpp:51
+msgid "Page Setup"
+msgstr "Ρυθμίσεις σελίδας"
+
+#: dialogs/pagesetupdialog.cpp:60
+msgid "Items Shown"
+msgstr "Αντικείμενα που εμφανίζονται"
+
+#: dialogs/pagesetupdialog.cpp:63
+msgid "Show Items"
+msgstr "Εμφάνιση αντικειμένων"
+
+#: dialogs/pagesetupdialog.cpp:68
+msgid ""
+"<i>Usage: Select a template along the left, and right-click any element to "
+"edit the look of that element.</i>"
+msgstr ""
+"<i>Χρήση: Κάντε δεξί κλικ σε κάποιο στοιχείο για να επεξεργαστείτε την "
+"εμφάνισή του.</i>"
+
+#: dialogs/pagesetupdialog.cpp:87
+msgid "Save and Close"
+msgstr "Αποθήκευση και κλείσιμο"
+
+#: dialogs/pagesetupdialog.cpp:89
+msgid "&Cancel"
+msgstr "Α&κύρωση"
+
+#: dialogs/pagesetupdialog.cpp:138
+msgid ""
+"The recipe view layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Η διάταξη προβολής της συνταγής τροποποιήθηκε.\n"
+"Επιθυμείτε την αποθήκευσή της;"
+
+#: dialogs/pagesetupdialog.cpp:138 dialogs/pagesetupdialog.cpp:216
+msgid "Save Layout?"
+msgstr "Αποθήκευση διάταξης;"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Krecipes style or template file"
+msgstr "Αρχείο στυλ ή προτύπου του Krecipes"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Select Layout"
+msgstr "Επιλογή διάταξης"
+
+#: dialogs/pagesetupdialog.cpp:216
+msgid ""
+"This layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Αυτή η διάταξη τροποποιήθηκε.\n"
+"Επιθυμείτε την αποθήκευσή της;"
+
+#: dialogs/pagesetupdialog.cpp:242
+msgid ""
+"Unable to save the layout because you do not have sufficient permissions to "
+"modify this file.\n"
+"Would you like to instead save the current layout to a new file?"
+msgstr ""
+"Αδυναμία αποθήκευσης της διάταξης επειδή δεν έχετε επαρκή δικαιώματα να "
+"τροποποιήσετε αυτό το αρχείο.\n"
+"Θα θέλατε την αποθήκευση της τρέχουσας διάταξης σε ένα νέο αρχείο;"
+
+#: dialogs/pagesetupdialog.cpp:263
+msgid ""
+"You have selected a file that you do not have the permissions to write to.\n"
+"Would you like to select another file?"
+msgstr ""
+"Έχετε επιλέξει ένα αρχείο στο οποίο δεν έχετε δικαιώματα εγγραφής.\n"
+"Θα θέλατε να επιλέξετε ένα άλλο αρχείο;"
+
+#: dialogs/recipeimportdialog.cpp:34
+msgctxt "@title:window"
+msgid "Import Recipes"
+msgstr "Εισαγωγή συνταγών"
+
+#: dialogs/recipeimportdialog.cpp:44
+msgctxt "@title:column"
+msgid "Recipes"
+msgstr "Συνταγές"
+
+#: dialogs/recipeimportdialog.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox All items"
+msgid "All (%1)"
+msgstr "Όλες (%1)"
+
+#: dialogs/recipeimportdialog.cpp:102 dialogs/recipeimportdialog.cpp:103
+msgctxt "@item"
+msgid "Uncategorized"
+msgstr "Χωρίς κατηγοριοποίηση"
+
+#: dialogs/recipeinputdialog.cpp:170
+msgctxt "@info:tooltip"
+msgid "Select photo"
+msgstr "Επιλογή φωτογραφίας"
+
+#: dialogs/recipeinputdialog.cpp:174
+msgctxt "action:button"
+msgid "Save photo as..."
+msgstr "Αποθήκευση φωτογραφίας ως..."
+
+#: dialogs/recipeinputdialog.cpp:178
+msgctxt "@info:tooltip"
+msgid "Clear photo"
+msgstr "Καθαρισμός φωτογραφίας"
+
+#: dialogs/recipeinputdialog.cpp:191
+msgctxt "@label"
+msgid "Recipe Name"
+msgstr "Όνομα συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:207
+msgctxt "@label"
+msgid "Authors"
+msgstr "Συγγραφείς"
+
+#: dialogs/recipeinputdialog.cpp:224
+msgctxt "@label"
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: dialogs/recipeinputdialog.cpp:245
+msgctxt ""
+"@label How much food you will produce with a given cooking recipe (e.g. 2 "
+"servings or 3 bottles)"
+msgid "Yield"
+msgstr "Απόδοση"
+
+#: dialogs/recipeinputdialog.cpp:249
+msgctxt "@label The amount for yield"
+msgid "Amount"
+msgstr "Ποσότητα"
+
+#: dialogs/recipeinputdialog.cpp:252
+msgctxt "@label The type of yield (e.g. servings, bottles..."
+msgid "Type"
+msgstr "Τύπος"
+
+#: dialogs/recipeinputdialog.cpp:264
+msgctxt "@label"
+msgid "Preparation Time"
+msgstr "Χρόνος προετοιμασίας"
+
+#: dialogs/recipeinputdialog.cpp:336
+msgctxt "@info:tooltip"
+msgid "Add ingredient"
+msgstr "Προσθήκη συστατικού"
+
+#: dialogs/recipeinputdialog.cpp:337
+msgctxt "@info:tooltip"
+msgid "Move ingredient up"
+msgstr "Μετακίνηση συστατικού πάνω"
+
+#: dialogs/recipeinputdialog.cpp:338
+msgctxt "@info:tooltip"
+msgid "Move ingredient down"
+msgstr "Μετακίνηση συστατικού κάτω"
+
+#: dialogs/recipeinputdialog.cpp:339
+msgctxt "@info:tooltip"
+msgid "Remove ingredient"
+msgstr "Αφαίρεση συστατικού"
+
+#: dialogs/recipeinputdialog.cpp:340
+msgctxt "@info:tooltip"
+msgid "Paste Ingredients"
+msgstr "Επικόλληση συστατικών"
+
+#: dialogs/recipeinputdialog.cpp:347 widgets/propertylistview.cpp:131
+msgctxt "@title:column"
+msgid "Units"
+msgstr "Μονάδες"
+
+#: dialogs/recipeinputdialog.cpp:363
+msgctxt "@label"
+msgid "Property Status:"
+msgstr "Κατάσταση ιδιότητας:"
+
+#: dialogs/recipeinputdialog.cpp:367
+msgctxt "@action:button"
+msgid "Details..."
+msgstr "Λεπτομέρειες..."
+
+#: dialogs/recipeinputdialog.cpp:378
+msgctxt "@action:inmenu Updates the loaded information"
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: dialogs/recipeinputdialog.cpp:385
+msgctxt "@title:window "
+msgid "Property details"
+msgstr "Λεπτομέρειες ιδιότητας"
+
+#: dialogs/recipeinputdialog.cpp:419
+msgctxt "@action:button"
+msgid "Add Rating..."
+msgstr "Προσθήκη βαθμολογίας..."
+
+#: dialogs/recipeinputdialog.cpp:427
+msgctxt "@title:tab"
+msgid "Recipe"
+msgstr "Συνταγή"
+
+#: dialogs/recipeinputdialog.cpp:429
+msgctxt "@title:tab"
+msgid "Instructions"
+msgstr "Οδηγίες"
+
+#: dialogs/recipeinputdialog.cpp:430
+msgctxt "@title:tab"
+msgid "Ratings"
+msgstr "Βαθμολογίες"
+
+#: dialogs/recipeinputdialog.cpp:450
+msgctxt "@action:button"
+msgid "Save recipe"
+msgstr "Αποθήκευση συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:451
+msgctxt "@info:tooltip"
+msgid "Save recipe"
+msgstr "Αποθήκευση συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:453
+msgctxt "@action:button"
+msgid "Show recipe"
+msgstr "Εμφάνιση συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:454
+msgctxt "@info:tooltip"
+msgid "Show recipe"
+msgstr "Εμφάνιση συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:456 dialogs/recipeviewdialog.cpp:62
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: dialogs/recipeinputdialog.cpp:457 dialogs/recipeviewdialog.cpp:63
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: dialogs/recipeinputdialog.cpp:459
+msgctxt "@action:button"
+msgid "Resize recipe"
+msgstr "Αλλαγή μεγέθους συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:460
+msgctxt "@info:tooltip"
+msgid "Resize recipe"
+msgstr "Αλλαγή μεγέθους συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:681 dialogs/recipeinputdialog.cpp:723
+msgid "Images"
+msgstr "Εικόνες"
+
+#: dialogs/recipeinputdialog.cpp:725
+msgctxt "@title:window"
+msgid "Save photo as..."
+msgstr "Αποθήκευση εφεδρικού αντιγράφου ως..."
+
+#: dialogs/recipeinputdialog.cpp:733
+msgctxt "@info"
+msgid "The file already exists, do you want to overwrite it?"
+msgstr "Το αρχείο υπάρχει ήδη, επιθυμείτε να αντικατασταθεί;"
+
+#: dialogs/recipeinputdialog.cpp:740
+#, kde-format
+msgctxt "@info"
+msgid "The photo cannot be saved in %1"
+msgstr "Η φωτογραφία δεν μπορεί να αποθηκευτεί στο %1"
+
+#: dialogs/recipeinputdialog.cpp:1023
+#, kde-format
+msgctxt "@info"
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα της μονάδας δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα της μονάδας δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: dialogs/recipeinputdialog.cpp:1062
+#, kde-format
+msgctxt "@info"
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] ""
+"Η μέθοδος προετοιμασίας δεν μπορεί να είναι μεγαλύτερη από 1 χαρακτήρα."
+msgstr[1] ""
+"Η μέθοδος προετοιμασίας δεν μπορεί να είναι μεγαλύτερη από %1 χαρακτήρες."
+
+#: dialogs/recipeinputdialog.cpp:1112
+#, kde-format
+msgctxt "@info"
+msgid "Recipe title cannot be longer than 1 character."
+msgid_plural "Recipe title cannot be longer than %1 characters."
+msgstr[0] ""
+"Ο τίτλος της συνταγής δεν μπορεί να είναι μεγαλύτερος από 1 χαρακτήρα."
+msgstr[1] ""
+"Ο τίτλος της συνταγής δεν μπορεί να είναι μεγαλύτερος από %1 χαρακτήρες."
+
+#: dialogs/recipeinputdialog.cpp:1112
+msgid "Unable to save recipe"
+msgstr "Αδυναμία αποθήκευσης της συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:1152
+msgctxt "@label:textbox"
+msgid "Write the recipe instructions here"
+msgstr "Γράψτε εδώ τις οδηγίες της συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:1154
+msgctxt "@label:textbox"
+msgid "Write the recipe title here"
+msgstr "Γράψτε εδώ τον τίτλο της συνταγής"
+
+#: dialogs/recipeinputdialog.cpp:1260
+msgctxt "@info"
+msgid ""
+"This recipe contains unsaved changes.\n"
+"Would you like to save it before closing?"
+msgstr ""
+"Αυτή η συνταγή περιέχει τροποποιήσεις που δεν έχουν αποθηκευτεί.\n"
+"Επιθυμείτε την αποθήκευσή της πριν το κλείσιμο;"
+
+#: dialogs/recipeinputdialog.cpp:1260 dialogs/recipeinputdialog.cpp:1285
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@title:window"
+msgid "Unsaved changes"
+msgstr "Μη αποθηκευμένες τροποποιήσεις"
+
+#: dialogs/recipeinputdialog.cpp:1285
+msgctxt "@info"
+msgid ""
+"You need to save the recipe before displaying it. Would you like to save it "
+"now?"
+msgstr ""
+"Πρέπει να αποθηκεύσετε την συνταγή πριν την εμφανίσετε. Θα θέλατε να την "
+"αποθηκεύσετε τώρα;"
+
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@info"
+msgid ""
+"This recipe has changes that will not be displayed unless the recipe is "
+"saved. Would you like to save it now?"
+msgstr ""
+"Αυτή η συνταγή περιέχει τροποποιήσεις που δεν θα εμφανιστούν αν η συνταγή "
+"δεν αποθηκευτεί. Επιθυμείτε την αποθήκευσή της τώρα;"
+
+#: dialogs/recipeinputdialog.cpp:1555
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No nutrient information available. <a href=\"ingredient#"
+"%2\">Provide nutrient information.</a>"
+msgstr ""
+"<b>%1:</b> Μη διαθέσιμες θρεπτικές πληροφορίες. <a href=\"ingredient#"
+"%2\">Δώστε πληροφορίες θρεπτικής αξίας.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1576
+#, kde-format
+msgctxt "@info"
+msgid "<b>%3:</b> Unit conversion missing for conversion from '%1' to '%2'"
+msgstr "<b>%3:</b> Λείπει η μονάδα για τη μετατροπή από '%1' σε '%2'"
+
+#: dialogs/recipeinputdialog.cpp:1577
+msgid "-No unit-"
+msgstr "-Χωρίς μονάδα-"
+
+#: dialogs/recipeinputdialog.cpp:1591 dialogs/recipeinputdialog.cpp:1594
+#: dialogs/recipeinputdialog.cpp:1597 dialogs/recipeinputdialog.cpp:1600
+msgctxt "@info"
+msgid "-No unit-"
+msgstr "-Χωρίς μονάδα-"
+
+#: dialogs/recipeinputdialog.cpp:1605
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> Either <a href=\"ingredient#%3\">enter an appropriate ingredient "
+"weight entry</a>, or provide conversion information to perform one of the "
+"following conversions: %2"
+msgstr ""
+"<b>%1:</b> Είτε <a href=\"ingredient#%3\">εισαγάγετε μια κατάλληλη τιμή "
+"βάρους συστατικού</a>, ή δώστε πληροφορίες για την εκτέλεση των ακόλουθων "
+"μετατροπών: %2"
+
+#: dialogs/recipeinputdialog.cpp:1617
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No ingredient weight entries. <a href=\"ingredient#%2\">Provide "
+"ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Δεν υπάρχουν καταχωρήσεις βάρους συστατικού. <a href=\"ingredient#"
+"%2\">Δώστε το βάρος συστατικού.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1624
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when no preparation "
+"method is specified. <a href=\"ingredient#%2\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Δεν υπάρχει καταχώρηση βάρους συστατικού όταν δεν έχει καθοριστεί "
+"μέθοδος προετοιμασίας. <a href=\"ingredient#%2\">Δώστε το βάρος συστατικού.</"
+"a>"
+
+#: dialogs/recipeinputdialog.cpp:1630
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners: %2<a href=\"ingredient#%3\">Provide ingredient weight."
+"</a>"
+msgstr ""
+"<b>%1:</b> Δεν υπάρχει καταχώρηση βάρους όταν η προετοιμασία γίνει με τις "
+"ακόλουθες μεθόδους: %2<a href=\"ingredient#%3\">Δώστε το βάρος συστατικού.</"
+"a>"
+
+#: dialogs/recipeinputdialog.cpp:1639
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners (defaulting to a weight entry without a preparation "
+"method specified): %2<a href=\"ingredient#%3\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Δεν υπάρχει καταχώρηση βάρους συστατικού για προετοιμασία με τις "
+"ακόλουθες μεθόδους (καθορισμός βάρους χωρίς μέθοδο προετοιμασίας): %2<a href="
+"\"ingredient#%3\">Δώστε το βάρος συστατικού.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1663
+msgctxt "@info Property information for a recipe is complete"
+msgid "Complete"
+msgstr "Ολοκληρώθηκε"
+
+#: dialogs/recipeinputdialog.cpp:1670
+msgctxt "@info Property information for a recipe is complete, but..."
+msgid "Complete, but approximations made"
+msgstr "Ολοκληρώθηκε, αλλά έγιναν προσεγγίσεις"
+
+#: dialogs/recipeinputdialog.cpp:1678
+msgctxt "@info Property information for a recipe is incomplete"
+msgid "Incomplete"
+msgstr "Δεν ολοκληρώθηκε"
+
+#: dialogs/recipeinputdialog.cpp:1693
+msgctxt "@info"
+msgid ""
+"The nutrient information for this recipe is incomplete because the following "
+"information is missing:"
+msgstr ""
+"Η θρεπτική αξία για τη συνταγή αυτή δεν είναι ολοκληρωμένη επειδή λείπουν οι "
+"ακόλουθες πληροφορίες:"
+
+#: dialogs/recipeinputdialog.cpp:1704
+msgctxt "@info"
+msgid ""
+"The following approximations will be made when determining nutrient "
+"information:"
+msgstr ""
+"Οι παρακάτω προσεγγίσεις θα εκτελεστούν για τον καθορισμό της θρεπτικής "
+"αξίας:"
+
+#: dialogs/recipeviewdialog.cpp:113
+msgctxt "@title:window"
+msgid "Loading recipes, please wait..."
+msgstr "Φόρτωση συνταγών, παρακαλώ περιμένετε..."
+
+#: dialogs/refineshoppinglistdialog.cpp:37
+msgctxt "@title:window"
+msgid "Refine Shopping List"
+msgstr "Εξειδίκευση λίστας αγορών"
+
+#: dialogs/refineshoppinglistdialog.cpp:45
+msgctxt "@action:button Finished refining shopping list"
+msgid "&Done"
+msgstr "Έ&γινε"
+
+#: dialogs/refineshoppinglistdialog.cpp:90
+#: dialogs/refineshoppinglistdialog.cpp:123
+msgctxt "@title:column"
+msgid "Ingredients in Shopping List"
+msgstr "Συστατικά στη λίστα αγορών"
+
+#: dialogs/refineshoppinglistdialog.cpp:121
+msgctxt "@info"
+msgid ""
+"On the right are the ingredients needed for the recipes you selected.  You "
+"may now add additional ingredients, remove ingredients you do not need, or "
+"modify the amounts of existing ingredients."
+msgstr ""
+"Στα δεξιά εμφανίζονται τα συστατικά που είναι αναγκαία για τις συνταγές που "
+"επιλέξατε. Μπορείτε τώρα να προσθέσετε επιπλέον συστατικά, να αφαιρέσετε "
+"συστατικά που δεν χρειάζεστε, ή να μεταβάλετε τις ποσότητες των συστατικών "
+"που υπάρχουν."
+
+#: dialogs/refineshoppinglistdialog.cpp:122
+msgctxt "@title:column"
+msgid "Ingredients"
+msgstr "Συστατικά"
+
+#: dialogs/resizerecipedialog.cpp:30
+msgctxt "@title:window"
+msgid "Resize Recipe"
+msgstr "Αλλαγή μεγέθους συνταγής"
+
+#: dialogs/resizerecipedialog.cpp:74
+msgctxt "@info"
+msgid "Unable to scale a recipe with zero yield"
+msgstr "Αδυναμία κλιμάκωσης της συνταγής με μηδέν απόδοση"
+
+#: dialogs/resizerecipedialog.cpp:84 dialogs/resizerecipedialog.cpp:92
+msgctxt "@info"
+msgid "Invalid input"
+msgstr "Μη έγκυρα δεδομένα"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_yieldButton)
+#: dialogs/resizerecipedialog.ui:20
+msgid "&Scale by yield"
+msgstr "Κλιμάκω&ση με την απόδοση"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/resizerecipedialog.ui:49
+msgid "&New yield"
+msgstr "&Νέα απόδοση"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/resizerecipedialog.ui:59
+msgid "Current &yield:"
+msgstr "Τρέχο&υσα απόδοση:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_factorButton)
+#: dialogs/resizerecipedialog.ui:75
+msgid "Scale b&y factor"
+msgstr "Κλιμάκωση με τον σ&υντελεστή"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/resizerecipedialog.ui:94
+msgid "&Factor (e.g. 1/2 to half, 3 to triple):"
+msgstr "&Συντελεστής (π.χ. 1/2 για μισό, 3 για τριπλάσιο):"
+
+#: dialogs/selectauthorsdialog.cpp:36
+msgctxt "@title:window"
+msgid "Authors"
+msgstr "Συγγραφείς"
+
+#: dialogs/selectauthorsdialog.cpp:74 dialogs/selectpropertydialog.cpp:54
+#: dialogs/selectunitdialog.cpp:39 dialogs/shoppinglistdialog.cpp:120
+#: widgets/authorlistview.cpp:57 widgets/authorlistview.cpp:117
+#: widgets/categorylistview.cpp:317 widgets/categorylistview.cpp:381
+#: widgets/headerlistview.cpp:60 widgets/ingredientlistview.cpp:111
+#: widgets/ingredientlistview.cpp:136 widgets/kreauthorlistwidget.cpp:36
+#: widgets/krecategorieslistwidget.cpp:42 widgets/prepmethodlistview.cpp:56
+#: widgets/propertylistview.cpp:135 widgets/unitlistview.cpp:70
+msgctxt "@title:column"
+msgid "Id"
+msgstr "Id"
+
+#: dialogs/selectauthorsdialog.cpp:74 widgets/authorlistview.cpp:53
+#: widgets/authorlistview.cpp:113 widgets/kreauthorlistwidget.cpp:36
+msgctxt "@title:column"
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: dialogs/selectauthorsdialog.cpp:143
+#, kde-format
+msgctxt "@info"
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα του συγγραφέα δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα του συγγραφέα δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: dialogs/selectcategoriesdialog.cpp:32
+msgctxt "@title:window"
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: dialogs/selectcategoriesdialog.cpp:46
+msgctxt "@action:button"
+msgid "&New Category..."
+msgstr "&Νέα κατηγορία..."
+
+#: dialogs/selectcategoriesdialog.cpp:89
+#, kde-format
+msgctxt "@info"
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] ""
+"Το όνομα της κατηγορίας δεν μπορεί να είναι μεγαλύτερο από 1 χαρακτήρα."
+msgstr[1] ""
+"Το όνομα της κατηγορίας δεν μπορεί να είναι μεγαλύτερο από %1 χαρακτήρες."
+
+#: dialogs/selectpropertydialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Property"
+msgstr "Επιλογή ιδιότητας"
+
+#: dialogs/selectpropertydialog.cpp:43
+msgctxt "@title:group"
+msgid "Choose Property"
+msgstr "Επιλογή ιδιότητας"
+
+#: dialogs/selectpropertydialog.cpp:65
+msgctxt "@label:textbox"
+msgid "Per units:"
+msgstr "Ανά μονάδες:"
+
+#: dialogs/selectpropertydialog.cpp:143 dialogs/selectunitdialog.cpp:73
+msgctxt "@item"
+msgid "-No unit-"
+msgstr "-Χωρίς μονάδα-"
+
+#: dialogs/selectrecipedialog.cpp:81 widgets/krelistview.cpp:55
+msgctxt "@label:textbox Search recipes"
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: dialogs/selectrecipedialog.cpp:100
+msgctxt "@action:button"
+msgid "Show Recipe(s)"
+msgstr "Εμφάνιση συνταγών"
+
+#: dialogs/selectrecipedialog.cpp:104
+msgctxt "@action:button"
+msgid "Edit Recipe"
+msgstr "Επεξεργασία συνταγής"
+
+#: dialogs/selectrecipedialog.cpp:113
+msgctxt "@title:tab Basic search"
+msgid "Basic"
+msgstr "Βασική"
+
+#: dialogs/selectrecipedialog.cpp:116
+msgctxt "@title:tab Advanced search"
+msgid "Advanced"
+msgstr "Προχωρημένη"
+
+#: dialogs/selectunitdialog.cpp:25
+msgctxt "@title:window"
+msgid "Choose Unit"
+msgstr "Επιλογή μονάδας"
+
+#: dialogs/selectunitdialog.cpp:31
+msgctxt "@title:group"
+msgid "Choose Unit"
+msgstr "Επιλογή μονάδας"
+
+#: dialogs/setupdisplay.cpp:69
+msgid "Recipe Title"
+msgstr "Τίτλος συνταγής"
+
+#: dialogs/setupdisplay.cpp:71
+msgid "serving"
+msgstr "μερίδες"
+
+#: dialogs/setupdisplay.cpp:72
+msgid "Category 1, Category 2, ..."
+msgstr "Κατηγορία 1, Κατηγορία 2, ..."
+
+#: dialogs/setupdisplay.cpp:73 dialogs/setupdisplay.cpp:120
+#: exporters/htmlexporter.cpp:197 exporters/xsltexporter.cpp:44
+msgid "Instructions"
+msgstr "Οδηγίες"
+
+#: dialogs/setupdisplay.cpp:76
+msgid "Author 1, Author 2, ..."
+msgstr "Συγγραφέας 1, Συγγραφέας 2, ..."
+
+#: dialogs/setupdisplay.cpp:79
+msgid "Ingredient 1"
+msgstr "Συστατικό 1"
+
+#: dialogs/setupdisplay.cpp:82
+msgid "Ingredient 2"
+msgstr "Συστατικό 2"
+
+#. i18n: ectx: property (text), widget (QLabel, raterName)
+#: dialogs/setupdisplay.cpp:90 widgets/ratingdisplaywidget.ui:92
+msgid "Rater"
+msgstr "Βαθμολογητής"
+
+#: dialogs/setupdisplay.cpp:91
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: dialogs/setupdisplay.cpp:93
+msgid "Criteria 1"
+msgstr "Κριτήριο 1"
+
+#: dialogs/setupdisplay.cpp:97
+msgid "Criteria 2"
+msgstr "Κριτήριο 2"
+
+#: dialogs/setupdisplay.cpp:102
+msgid "Property 1"
+msgstr "Ιδιότητα 1"
+
+#: dialogs/setupdisplay.cpp:104
+msgid "Property 2"
+msgstr "Ιδιότητα 2"
+
+#: dialogs/setupdisplay.cpp:118
+msgctxt "Background color"
+msgid "Background"
+msgstr "Φόντο"
+
+#: dialogs/setupdisplay.cpp:119
+msgctxt "Recipe title"
+msgid "Title"
+msgstr "Τίτλος"
+
+#: dialogs/setupdisplay.cpp:121 exporters/htmlexporter.cpp:208
+msgid "Preparation Time"
+msgstr "Χρόνος προετοιμασίας"
+
+#: dialogs/setupdisplay.cpp:122
+msgid "Photo"
+msgstr "Φωτογραφία"
+
+#: dialogs/setupdisplay.cpp:123 exporters/htmlexporter.cpp:233
+#: exporters/xsltexporter.cpp:49 krecipesview.cpp:380 krecipesview.cpp:511
+msgid "Authors"
+msgstr "Συγγραφείς"
+
+#: dialogs/setupdisplay.cpp:124 exporters/htmlexporter.cpp:247
+#: exporters/xsltexporter.cpp:46 krecipesview.cpp:379 krecipesview.cpp:503
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: dialogs/setupdisplay.cpp:125 exporters/htmlexporter.cpp:342
+#: exporters/xsltexporter.cpp:52 krecipesview.cpp:375 krecipesview.cpp:471
+msgid "Ingredients"
+msgstr "Συστατικά"
+
+#: dialogs/setupdisplay.cpp:127 exporters/htmlexporter.cpp:396
+#: exporters/plaintextexporter.cpp:135 exporters/xsltexporter.cpp:55
+msgid "Ratings"
+msgstr "Βαθμολογίες"
+
+#: dialogs/setupdisplay.cpp:128 exporters/htmlexporter.cpp:202
+#: exporters/xsltexporter.cpp:47
+msgid "Yield"
+msgstr "Απόδοση"
+
+#: dialogs/setupdisplay.cpp:437
+msgid "Background Color..."
+msgstr "Χρώμα φόντου..."
+
+#: dialogs/setupdisplay.cpp:440
+msgid "Text Color..."
+msgstr "Χρώμα κειμένου..."
+
+#: dialogs/setupdisplay.cpp:443
+msgid "Font..."
+msgstr "Γραμματοσειρά..."
+
+#: dialogs/setupdisplay.cpp:446
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: dialogs/setupdisplay.cpp:455 dialogs/setupdisplay.cpp:588
+msgctxt "Align center"
+msgid "Center"
+msgstr "Κέντρο"
+
+#: dialogs/setupdisplay.cpp:457 dialogs/setupdisplay.cpp:590
+msgctxt "Align left"
+msgid "Left"
+msgstr "Αριστερά"
+
+#: dialogs/setupdisplay.cpp:459 dialogs/setupdisplay.cpp:592
+msgctxt "Align right"
+msgid "Right"
+msgstr "Δεξιά"
+
+#: dialogs/setupdisplay.cpp:472
+msgid "Alignment"
+msgstr "Στοίχιση"
+
+#: dialogs/setupdisplay.cpp:478
+msgid "Border..."
+msgstr "Περίγραμμα..."
+
+#: dialogs/setupdisplay.cpp:481
+msgid "Columns..."
+msgstr "Στήλες..."
+
+#: dialogs/setupdisplay.cpp:522
+msgid "Select the number of columns to use:"
+msgstr "Επιλογή του αριθμού των στηλών που θα χρησιμοποιηθούν:"
+
+#: dialogs/shoppinglistdialog.cpp:71
+msgctxt "@title"
+msgid "Full recipe list"
+msgstr "Πλήρης λίστα συνταγών"
+
+#: dialogs/shoppinglistdialog.cpp:106
+msgctxt "@title"
+msgid "Shopping List"
+msgstr "Λίστα αγορών"
+
+#: dialogs/shoppinglistdialog.cpp:116
+msgctxt "@title:column"
+msgid "Recipe Title"
+msgstr "Τίτλος συνταγής"
+
+#: dialogs/shoppinglistdialog.cpp:135
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "Ε&ντάξει"
+
+#: dialogs/shoppinglistdialog.cpp:142
+msgctxt "@action:button Clear list"
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: dialogs/shoppinglistviewdialog.cpp:30
+msgctxt "@title:window"
+msgid "Shopping List"
+msgstr "Λίστα αγορών"
+
+#: dialogs/shoppinglistviewdialog.cpp:67 dialogs/shoppinglistviewdialog.cpp:69
+#: krecipesview.cpp:374 krecipesview.cpp:446
+msgid "Shopping List"
+msgstr "Λίστα αγορών"
+
+#: dialogs/similarcategoriesdialog.cpp:179
+msgctxt "@title:window"
+msgid "Similar Categories"
+msgstr "Παρόμοιες κατηγορίες"
+
+#: dialogs/similarcategoriesdialog.cpp:180
+msgctxt "@label:textbox"
+msgid "Threshold:"
+msgstr "Κατώφλι:"
+
+#: dialogs/similarcategoriesdialog.cpp:181
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr "Κατηγορία:"
+
+#: dialogs/similarcategoriesdialog.cpp:184
+msgctxt "@action:button Search a recipe category in database"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: dialogs/similarcategoriesdialog.cpp:185
+msgctxt "@label:textbox"
+msgid "Similar Categories:"
+msgstr "Παρόμοιες κατηγορίες:"
+
+#: dialogs/similarcategoriesdialog.cpp:188
+msgctxt "@label:textbox"
+msgid "Categories to Merge:"
+msgstr "Κατηγορίες για συγχώνευση:"
+
+#: dialogs/similarcategoriesdialog.cpp:189
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "Συγχώνευση"
+
+#: dialogs/similarcategoriesdialog.cpp:190
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: dialogs/similarcategoriesdialog.cpp:192
+#: dialogs/similarcategoriesdialog.cpp:194 widgets/categorylistview.cpp:310
+#: widgets/categorylistview.cpp:377
+msgctxt "@title:column"
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: dialogs/similarcategoriesdialog.cpp:319
+msgctxt "@info"
+msgid "Please select only one category."
+msgstr "Παρακαλώ επιλέξτε μόνο μια κατηγορία."
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@info"
+msgid "No recipes selected."
+msgstr "Δεν επιλέχθηκαν συνταγές."
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@title"
+msgid "Edit Recipe"
+msgstr "Επεξεργασία συνταγής"
+
+#: dialogs/similarcategoriesdialog.cpp:379
+msgctxt "@info"
+msgid "No categories selected to merge."
+msgstr "Δεν επιλέχθηκαν συνταγές για συγχώνευση."
+
+#: dialogs/unitsdialog.cpp:66
+msgctxt "@title:tab"
+msgid "Units"
+msgstr "Μονάδες"
+
+#: dialogs/unitsdialog.cpp:69
+msgctxt "@title:tab"
+msgid "Mass Conversions"
+msgstr "Μετατροπές μάζας"
+
+#: dialogs/unitsdialog.cpp:72
+msgctxt "@title:tab"
+msgid "Volume Conversions"
+msgstr "Μετατροπές όγκου"
+
+#: dialogs/unitsdialog.cpp:190
+msgctxt "@title:window"
+msgid "Finding Unit Ratios"
+msgstr "Εύρεση αναλογιών μονάδων"
+
+#: exporters/htmlexporter.cpp:132
+msgid "Krecipes Recipes"
+msgstr "Συνταγές Krecipes"
+
+#: exporters/htmlexporter.cpp:431 exporters/xsltexporter.cpp:45
+msgid "Overall Rating"
+msgstr "Γενική βαθμολογία"
+
+#: exporters/plaintextexporter.cpp:76
+#, kde-format
+msgid "Authors: %1"
+msgstr "Συγγραφείς: %1"
+
+#: exporters/plaintextexporter.cpp:81
+#, kde-format
+msgid "Categories: %1"
+msgstr "Κατηγορίες: %1"
+
+#: exporters/plaintextexporter.cpp:86
+#, kde-format
+msgid "Yields: %1"
+msgstr "Αποδόσεις: %1"
+
+#: exporters/plaintextexporter.cpp:91
+#, kde-format
+msgid "Preparation Time: %1"
+msgstr "Χρόνος προετοιμασίας: %1"
+
+#: exporters/plaintextexporter.cpp:110 exporters/plaintextexporter.cpp:120
+msgid "or"
+msgstr "ή"
+
+#: exporters/plaintextexporter.cpp:148
+#, kde-format
+msgid "1 star"
+msgid_plural "%1 stars"
+msgstr[0] "1 αστέρι"
+msgstr[1] "%1 αστέρια"
+
+#: exporters/recipemlexporter.cpp:139
+msgctxt "Total preparation time"
+msgid "Total"
+msgstr "Σύνολο"
+
+#: exporters/xsltexporter.cpp:48
+msgid "Prep"
+msgstr "Προετ"
+
+#: exporters/xsltexporter.cpp:50
+msgid "Amount"
+msgstr "Ποσότητα"
+
+#: exporters/xsltexporter.cpp:51
+msgid "Ingredient"
+msgstr "Συστατικό"
+
+#: exporters/xsltexporter.cpp:53
+msgid "Preparation"
+msgstr "Προετοιμασία"
+
+#: exporters/xsltexporter.cpp:57
+msgid "reviews"
+msgstr "Ανασκοπήσεις"
+
+#: exporters/xsltexporter.cpp:226
+msgid ""
+"<html><b>Error:</b> Problem with KreML exporter.  Please export the recipe "
+"you are trying to view as KreML and attach it to a bug report to a Krecipes "
+"developer.</html>"
+msgstr ""
+"<html><b>Σφάλμα:</b> Πρόβλημα με τον εξαγωγέα KreML.  Παρακαλώ εξάγετε τη "
+"συνταγή που προσπαθείτε να προβάλετε ως KreML και επισυνάψτε την σε μια "
+"αναφορά σφάλματος σε κάποιον προγραμματιστή του Krecipes.</html>"
+
+#: exporters/xsltexporter.cpp:233
+#, kde-format
+msgid ""
+"<html><b>Error:</b> Bad template: %1.  Use \"Settings->Page Setup...\" to "
+"select a new template.</html>"
+msgstr ""
+"<html><b>Σφάλμα:</b> Εσφαλμένο πρότυπο: %1.  Χρησιμοποιήστε το \"Ρυθμίσεις-"
+">Ρύθμιση σελίδας...\" για την επιλογή ενός νέου προτύπου.</html>"
+
+#: importers/baseimporter.cpp:95 importers/baseimporter.cpp:118
+msgid "Importing selected recipes"
+msgstr "Εισαγωγή των επιλεγμένων συνταγών"
+
+#: importers/baseimporter.cpp:121
+msgid "%v/%m Recipes"
+msgstr "%v/%m συνταγές"
+
+#: importers/baseimporter.cpp:210
+msgid "All recipes up unto this point have been successfully imported."
+msgstr "Όλες οι συνταγές μέχρι αυτό το σημείο έχουν εισαχθεί με επιτυχία."
+
+#: importers/baseimporter.cpp:219
+#, kde-format
+msgid "Importing recipe: %1"
+msgstr "Εισαγωγή συνταγής: %1"
+
+#: importers/baseimporter.cpp:369
+#, kde-format
+msgid ""
+"<!doc>Import of recipes from the file <b>\"%1\"</b> <b>failed</b> due to the "
+"following error(s):"
+msgstr ""
+"<!doc>Η εισαγωγή συνταγών από το αρχείο <b>\"%1\"</b> <b>απέτυχε</b> "
+"εξαιτίας των παρακάτω σφαλμάτων:"
+
+#: importers/baseimporter.cpp:376
+#, kde-format
+msgid "The file <b>%1</b> generated the following warning(s):"
+msgstr "Το αρχείο <b>%1</b> προκάλεσε τις παρακάτω προειδοποιήσεις:"
+
+#: importers/kreimporter.cpp:48
+msgid "Archive does not contain a valid Krecipes file"
+msgstr "Η αρχειοθήκη δεν περιέχει ένα έγκυρο αρχείο Krecipes"
+
+#: importers/kreimporter.cpp:69
+#, kde-format
+msgid "\"%1\" at line %2, column %3"
+msgstr "\"%1\" στη γραμμή %2, στήλη %3"
+
+#: importers/kreimporter.cpp:76
+msgid "This file does not appear to be a *.kreml file"
+msgstr "Το αρχείο δε φαίνεται να είναι ένα αρχείο *.kreml"
+
+#: importers/mmfimporter.cpp:69 importers/mxpimporter.cpp:55
+#: importers/rezkonvimporter.cpp:51
+msgid "No recipes found in this file."
+msgstr "Δε βρέθηκαν συνταγές σε αυτό το αρχείο."
+
+#: importers/mmfimporter.cpp:72 importers/mx2importer.cpp:85
+#: importers/mxpimporter.cpp:58 importers/nycgenericimporter.cpp:46
+#: importers/recipemlimporter.cpp:61 importers/rezkonvimporter.cpp:54
+msgid "Unable to open file."
+msgstr "Αδυναμία ανοίγματος αρχείου."
+
+#: importers/mmfimporter.cpp:141
+#, kde-format
+msgid ""
+"While loading recipe <b>%1</b> an ingredient line was found after the "
+"directions. While this is valid, it most commonly indicates an incorrectly "
+"formatted recipe."
+msgstr ""
+"Κατά τη φόρτωση της συνταγής <b>%1</b> βρέθηκε ένα συστατικό μετά τις "
+"οδηγίες. Παρόλο που αυτό είναι αποδεκτό, συνήθως υποδηλώνει μια συνταγή με "
+"εσφαλμένη μορφή."
+
+#: importers/mmfimporter.cpp:310 importers/mx2importer.cpp:100
+#: importers/mxpimporter.cpp:103 importers/mxpimporter.cpp:253
+msgid "servings"
+msgstr "μερίδες"
+
+#: importers/mx2importer.cpp:54
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a *.mx2 file."
+msgstr ""
+"\"%1\" στην γραμμή %2, στήλη %3. Αυτό μπορεί να μην είναι ένα *.mx2 αρχείο."
+
+#: importers/mx2importer.cpp:62
+msgid "This file does not appear to be a *.mx2 file"
+msgstr "Αυτό το αρχείο δεν φαίνεται να είναι ένα αρχείο *.mx2"
+
+#: importers/mxpimporter.cpp:87
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Recipe By:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Κατά την φόρτωση της συνταγής \"%1\" το πεδίο \"Συνταγή από:\" λείπει ή δεν "
+"μπορεί να βρεθεί."
+
+#: importers/mxpimporter.cpp:107
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Serving Size:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Κατά την φόρτωση της συνταγής \"%1\" το πεδίο \"Μέγεθος μερίδας:\" λείπει ή "
+"δεν μπορεί να βρεθεί."
+
+#: importers/mxpimporter.cpp:118
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Preparation Time:\" is either "
+"missing or could not be detected."
+msgstr ""
+"Κατά την φόρτωση της συνταγής \"%1\" το πεδίο \"Χρόνος προετοιμασίας:\" "
+"λείπει ή δεν μπορεί να βρεθεί."
+
+#: importers/mxpimporter.cpp:162
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Categories:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Κατά την φόρτωση της συνταγής \"%1\" το πεδίο \"Κατηγορίες:\" λείπει ή δεν "
+"μπορεί να βρεθεί."
+
+#: importers/mxpimporter.cpp:190
+#, kde-format
+msgid "While loading recipe \"%1\" Invalid amount \"%2\" in the line \"%3\""
+msgstr ""
+"Κατά την φόρτωση της συνταγής \"%1\" μη έγκυρη ποσότητα \"%2\" στη γραμμή "
+"\"%3\""
+
+#: importers/mxpimporter.cpp:354
+msgid ""
+"MasterCook's Generic Export format is currently not supported.  Please write "
+"to jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Ο τύπος αρχειοθέτησης MasterCook's Generic Export δεν υποστηρίζεται προς το "
+"παρόν. Γράψτε στο jkivlighn@gmail.com για να ζητήσετε υποστήριξη για αυτόν "
+"τον τύπο."
+
+#: importers/mxpimporter.cpp:360
+msgid ""
+"MasterCook Mac's Export format is currently not supported.  Please write to "
+"jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Ο τύπος αρχειοθέτησης MasterCook Mac's Export δεν υποστηρίζεται προς το "
+"παρόν. Γράψτε στο jkivlighn@gmail.com για να ζητήσετε υποστήριξη για αυτόν "
+"τον τύπο."
+
+#: importers/nycgenericimporter.cpp:41
+msgid "File does not appear to be a valid NYC export."
+msgstr "Το αρχείο δε φαίνεται να είναι μια έγκυρη εξαγωγή NYC."
+
+#: importers/recipemlimporter.cpp:33
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a RecipeML file."
+msgstr ""
+"\"%1\" στη γραμμή %2, στήλη %3.  Αυτό μπορεί να μην είναι ένα αρχείο "
+"RecipeML."
+
+#: importers/recipemlimporter.cpp:40
+msgid "This file does not appear to be a valid RecipeML archive."
+msgstr "Αυτό το αρχείο δε φαίνεται να είναι μια έγκυρη αρχειοθήκη RecipeML."
+
+#: krecipes.cpp:120
+msgid ""
+"Gathering recipe data from file.\n"
+"Please wait..."
+msgstr ""
+"Ανάκτηση δεδομένων συνταγών από το αρχείο.\n"
+"Παρακαλώ περιμένετε..."
+
+#: krecipes.cpp:193
+msgctxt "@action:inmenu Reload Recipe"
+msgid "Reloa&d"
+msgstr "Επανα&φόρτωση"
+
+#: krecipes.cpp:200
+msgid "&Edit Recipe"
+msgstr "&Επεξεργασία συνταγής"
+
+#: krecipes.cpp:207
+msgid "&Measurement Converter"
+msgstr "&Μετατροπέας μετρήσεων"
+
+#: krecipes.cpp:218
+msgid "&Merge Similar Categories..."
+msgstr "&Συγχώνευση παρόμοιων κατηγοριών..."
+
+#: krecipes.cpp:225
+msgid "&Merge Similar Ingredients..."
+msgstr "Σ&υγχώνευση παρόμοιων συστατικών..."
+
+#: krecipes.cpp:233
+msgid "&New Recipe"
+msgstr "&Νέα συνταγή"
+
+#: krecipes.cpp:246
+msgid "Import from File..."
+msgstr "Εισαγωγή από αρχείο..."
+
+#: krecipes.cpp:253
+msgid "Import from Database..."
+msgstr "Εισαγωγή από βάση δεδομένων..."
+
+#: krecipes.cpp:259
+msgid "Export..."
+msgstr "Εξαγωγή..."
+
+#: krecipes.cpp:266
+msgid "&Copy to Clipboard"
+msgstr "&Αντιγραφή στο πρόχειρο"
+
+#: krecipes.cpp:274
+msgid "Page Setup..."
+msgstr "Ρυθμίσεις σελίδας..."
+
+#: krecipes.cpp:280
+msgid "Print Setup..."
+msgstr "Ρυθμίσεις εκτύπωσης..."
+
+#: krecipes.cpp:286
+msgid "Backup..."
+msgstr "Εφεδρικό αντίγραφο..."
+
+#: krecipes.cpp:292
+msgid "Restore..."
+msgstr "Επαναφορά..."
+
+#: krecipes.cpp:298
+msgid "Add to Shopping List"
+msgstr "Προσθήκη στη λίστα αγορών"
+
+#: krecipes.cpp:305
+msgid "Remove From Category"
+msgstr "Αφαίρεση από την κατηγορία"
+
+#: krecipes.cpp:312
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: krecipes.cpp:319
+msgid "Show Recipe(s)"
+msgstr "Εμφάνιση συνταγών"
+
+#: krecipes.cpp:326
+msgid "Categorize"
+msgstr "Κατηγοριοποίηση"
+
+#: krecipes.cpp:333
+msgid "Expand All"
+msgstr "Ανάπτυξη όλων"
+
+#: krecipes.cpp:339
+msgid "Collapse All"
+msgstr "Σύμπτυξη όλων"
+
+#: krecipes.cpp:346
+msgctxt "@action:button Create new data item"
+msgid "Create New"
+msgstr "Δημιουργία νέου"
+
+#: krecipes.cpp:353
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: krecipes.cpp:361
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#: krecipes.cpp:369
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: krecipes.cpp:376
+msgid "Paste as Subcategory"
+msgstr "Επικόλληση ως υποκατηγορία"
+
+#: krecipes.cpp:508
+msgid "MasterCook Export format"
+msgstr "τύπος αρχειοθέτησης MasterCook Export"
+
+#: krecipes.cpp:509
+msgid "\"Now You're Cooking\" Generic Export format"
+msgstr "«Τώρα μαγειρεύετε» με τύπο αρχειοθέτησης MasterCook Export"
+
+#: krecipes.cpp:514
+msgid "Import from file"
+msgstr "Εισαγωγή από αρχείο"
+
+#: krecipes.cpp:539
+#, kde-format
+msgid ""
+"Filter \"%1\" not recognized.\n"
+"Please select one of the provided filters."
+msgstr ""
+"Το φίλτρο \"%1\" δεν αναγνωρίζεται.\n"
+"Παρακαλώ επιλέξτε ένα από τα διαθέσιμα φίλτρα."
+
+#: krecipes.cpp:541
+msgid "Unrecognized Filter"
+msgstr "Μη αναγνωρίσιμο φίλτρο"
+
+#: krecipes.cpp:573
+msgid ""
+"<p>NOTE: We recommend that all recipes generating warnings be checked to "
+"ensure that they were properly imported, and no loss of recipe data has "
+"occurred.</p>"
+msgstr ""
+"<p>ΣΗΜΕΙΩΣΗ: Συνιστούμε να γίνεται έλεγχος σε όλες τις συνταγές που "
+"προκαλούν προειδοποιήσεις για να διαπιστωθεί αν έχουν εισαχθεί σωστά, και "
+"ότι δεν έχει παρουσιαστεί απώλεια δεδομένων.</p>"
+
+#: krecipes.cpp:578
+msgid "Import Warnings"
+msgstr "Εισαγωγή προειδοποιήσεων"
+
+#: krecipes.cpp:651 krecipes.cpp:670
+msgid ""
+"The recipe print and view layouts use the same file for their style, meaning "
+"changing one view's look changes them both.  If this is not the behavior you "
+"desire, load one style and save it under a different name."
+msgstr ""
+"Οι διατάξεις συνταγής εκτύπωσης και προβολής χρησιμοποιούν το ίδιο αρχείο "
+"για το στυλ τους, πράγμα το οποίο σημαίνει ότι η τροποποίηση της μιας "
+"προβολής, τροποποιεί και τις δύο. Αν αυτό δεν είναι επιθυμητό, φορτώστε "
+"κάποιο στυλ και αποθηκεύστε το με ένα διαφορετικό όνομα."
+
+#: krecipes.cpp:675
+msgid "Print Setup"
+msgstr "Ρυθμίσεις εκτύπωσης"
+
+#: krecipes.cpp:688 krecipes.cpp:709
+msgid "Krecipes Backup File"
+msgstr "Αρχείο εφεδρικού αντιγράφου του Krecipes"
+
+#: krecipes.cpp:689
+msgid "Save Backup As..."
+msgstr "Αποθήκευση εφεδρικού αντιγράφου ως..."
+
+#: krecipes.cpp:702
+msgid "Backup Failed"
+msgstr "Αποτυχία εφεδρικού αντιγράφου"
+
+#: krecipes.cpp:710
+msgid "Restore Backup"
+msgstr "Επαναφορά εφεδρικού αντιγράφου"
+
+#: krecipes.cpp:713
+msgid ""
+"<b>Restoring this file will erase ALL data currently in the database.</"
+"b><br /><br />If you want to keep the recipes in your database, click "
+"\"Cancel\" and first export your recipes.  These can then be imported once "
+"the restore is complete.<br /><br />Are you sure you want to proceed?"
+msgstr ""
+"<b>Η επαναφορά αυτού του αρχείου θα διαγράψει ΟΛΑ τα δεδομένα που υπάρχουν "
+"αυτήν τη στιγμή στη βάση δεδομένων.</b><br /><br />Αν επιθυμείτε να "
+"διατηρήσετε τις συνταγές σας, κάνετε κλικ στο \"Ακύρωση\" και πρώτα κάνετε "
+"εξαγωγή των συνταγών σας. Αυτές μπορούν έπειτα να εισαχθούν αφού ολοκληρωθεί "
+"η επαναφορά.<br /><br />Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+
+#: krecipes.cpp:720
+msgid "Restore successful."
+msgstr "Επιτυχής επαναφορά."
+
+#: krecipes.cpp:784
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save the changes before exiting?"
+msgstr ""
+"Μια συνταγή περιέχει μη αποθηκευμένες τροποποιήσεις.\n"
+"Επιθυμείτε την αποθήκευση των τροποποιήσεων πριν την έξοδο;"
+
+#: krecipes.cpp:786
+msgid "Unsaved Changes"
+msgstr "Μη αποθηκευμένες τροποποιήσεις"
+
+#. i18n: ectx: Menu (file)
+#: krecipesui.rc:4
+msgid "&File"
+msgstr "&Αρχείο"
+
+#. i18n: ectx: Menu (edit)
+#: krecipesui.rc:12
+msgid "&Edit"
+msgstr "&Επεξεργασία"
+
+#. i18n: ectx: Menu (tools)
+#: krecipesui.rc:22
+msgid "&Tools"
+msgstr "Ερ&γαλεία"
+
+#: krecipesview.cpp:101 krecipesview.cpp:373 krecipesview.cpp:440
+msgid "Find/Edit Recipes"
+msgstr "Αναζήτηση/επεξεργασία συνταγών"
+
+#: krecipesview.cpp:126
+msgid "Data..."
+msgstr "Δεδομένα..."
+
+#: krecipesview.cpp:332
+msgid ""
+"\n"
+"You are using SQLite; this error is often caused by using an SQLite 2 "
+"database with Krecipes supporting SQLite 3, if this is the case you could "
+"run the SQLite converter.\n"
+"What do you want to do?"
+msgstr ""
+"\n"
+"Χρησιμοποιείτε SQLite· αυτό το σφάλμα συχνά προκαλείται από τη χρήση μιας "
+"βάσης δεδομένων SQLite 2 με το Krecipes να υποστηρίζει SQLite 3, αν όντως "
+"είναι έτσι να εκτελέσετε τον SQLite μετατροπέα.\n"
+"Τι θέλετε να κάνετε?"
+
+#: krecipesview.cpp:337
+msgid "Run the setup assistant"
+msgstr "Εκτέλεση του βοηθού ρυθμίσεων"
+
+#: krecipesview.cpp:338
+msgid "Run the SQLite converter"
+msgstr "Εκτέλεση του SQLite μετατροπέα"
+
+#: krecipesview.cpp:354
+msgid ""
+"\n"
+"Would you like to run the setup wizard again? Otherwise, the application "
+"will be closed."
+msgstr ""
+"\n"
+"Επιθυμείτε την εκτέλεση του βοηθού ρύθμισης ξανά; Διαφορετικά η εφαρμογή θα "
+"κλείσει."
+
+#: krecipesview.cpp:377 krecipesview.cpp:487 pref.cpp:411
+msgid "Units"
+msgstr "Μονάδες"
+
+#: krecipesview.cpp:378 krecipesview.cpp:495
+msgid "Preparation Methods"
+msgstr "Μέθοδοι προετοιμασίας"
+
+#: krecipesview.cpp:381 krecipesview.cpp:454
+msgid "Diet Helper"
+msgstr "Βοηθός δίαιτας"
+
+#: krecipesview.cpp:382 krecipesview.cpp:462
+msgid "Ingredient Matcher"
+msgstr "Ταίριασμα συστατικών"
+
+#: krecipesview.cpp:522
+msgid "View Recipe"
+msgstr "Προβολή συνταγής"
+
+#: krecipesview.cpp:768
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before editing another "
+"recipe?"
+msgstr ""
+"Μια συνταγή περιέχει μη αποθηκευμένες τροποποιήσεις.\n"
+"Επιθυμείτε την αποθήκευση των τροποποιήσεων αυτής της συνταγής πριν "
+"επεξεργαστείτε κάποιαν άλλη;"
+
+#: krecipesview.cpp:770 krecipesview.cpp:857
+msgid "Unsaved changes"
+msgstr "Μη αποθηκευμένες τροποποιήσεις"
+
+#: krecipesview.cpp:788
+#, kde-format
+msgid "Are you sure you want to permanently remove the recipe, %1?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε οριστικά τη συνταγή, %1;"
+
+#: krecipesview.cpp:789 krecipesview.cpp:837
+msgid "Confirm remove"
+msgstr "Επιβεβαίωση αφαίρεσης"
+
+#: krecipesview.cpp:815 widgets/recipelistview.cpp:149
+msgctxt "Recipe created"
+msgid "Created:"
+msgstr "Δημιουργήθηκε:"
+
+#: krecipesview.cpp:816 widgets/recipelistview.cpp:150
+msgctxt "Recipe modified"
+msgid "Modified:"
+msgstr "Τροποποιήθηκε:"
+
+#: krecipesview.cpp:817 widgets/recipelistview.cpp:151
+msgctxt "Recipe last accessed"
+msgid "Last Accessed:"
+msgstr "Τελευταία πρόσβαση:"
+
+#: krecipesview.cpp:836
+msgid "Are you sure you want to permanently remove the selected recipes?"
+msgstr ""
+"Είστε βέβαιοι ότι επιθυμείτε να αφαιρέσετε οριστικά τις επιλεγμένες συνταγές;"
+
+#: krecipesview.cpp:855
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before creating a new recipe?"
+msgstr ""
+"Μια συνταγή περιέχει μη αποθηκευμένες τροποποιήσεις.\n"
+"Επιθυμείτε την αποθήκευση των τροποποιήσεων αυτής της συνταγής πριν "
+"δημιουργήσετε μια νέα;"
+
+#: krecipesview.cpp:1001
+msgid "Unable to setup database"
+msgstr "Αδυναμία ρύθμισης της βάσης δεδομένων"
+
+#: krecipesview.cpp:1184
+msgid "Unable to open database"
+msgstr "Αδυναμία ανοίγματος της βάσης δεδομένων"
+
+#: krecipesview.cpp:1214
+#, kde-format
+msgid "The configured database type (%1) is unsupported."
+msgstr "Ο διαμορφωμένος τύπος βάσης δεδομένων (%1) δεν υποστηρίζεται."
+
+#: krecipesview.cpp:1214
+msgid ""
+"Unsupported database type. Database must be either MySQL, SQLite, or "
+"PostgreSQL."
+msgstr ""
+"Μη υποστηριζόμενος τύπος βάσης δεδομένων: Η βάση δεδομένων πρέπει να είναι "
+"MySQL, SQLite ή PostgreSQL."
+
+#: main.cpp:32
+msgid "Convert the current SQLite 2.x database to SQLite 3 and exit"
+msgstr ""
+"Μετατροπή της τρέχουσας βάσης δεδομένων SQLite 2.x σε SQLite 3 και έξοδος"
+
+#: main.cpp:36
+msgid "Krecipes"
+msgstr "Krecipes"
+
+#: main.cpp:36
+msgid "The KDE Cookbook"
+msgstr "Το βιβλίο μαγειρικής του KDE"
+
+#: main.cpp:36
+msgid ""
+"(C) 2003 Unai Garro\n"
+"(C) 2004-2006 Jason Kivlighn"
+msgstr ""
+"(C) 2003 Unai Garro\n"
+"(C) 2004-2006 Jason Kivlighn"
+
+#: main.cpp:36
+msgid ""
+"This product is RecipeML compatible.\n"
+"You can get more information about this file format in:\n"
+"http://www.formatdata.com/recipeml"
+msgstr ""
+"Το προϊόν αυτό είναι συμβατό με το RecipeML.\n"
+"Μπορείτε να βρείτε περισσότερες πληροφορίες σχετικά με τη μορφή αυτή αρχείου "
+"στο:\n"
+"http://www.formatdata.com/recipeml"
+
+#: main.cpp:37
+msgid "Unai Garro"
+msgstr "Unai Garro"
+
+#: main.cpp:38
+msgid "Jason Kivlighn"
+msgstr "Jason Kivlighn"
+
+#: main.cpp:39
+msgid "Cyril Bosselut"
+msgstr "Cyril Bosselut"
+
+#: main.cpp:41
+msgid "Colleen Beamer"
+msgstr "Colleen Beamer"
+
+#: main.cpp:41
+msgid "Testing, bug reports, suggestions"
+msgstr "Δοκιμή, αναφορές σφάλματος, προτάσεις"
+
+#: main.cpp:42
+msgid "Robert Wadley"
+msgstr "Robert Wadley"
+
+#: main.cpp:42
+msgid "Icons and artwork"
+msgstr "Εικονίδια και γραφικά"
+
+#: main.cpp:43
+msgid "Daniel Sauvé"
+msgstr "Daniel Sauvé"
+
+#: main.cpp:43 main.cpp:45
+msgid "Porting to KDE4"
+msgstr "Μεταφορά στο KDE4"
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46
+msgid "José Manuel Santamaría Lema"
+msgstr "José Manuel Santamaría Lema"
+
+#: main.cpp:46
+msgid "Porting to KDE4, current maintainer"
+msgstr "Μεταφορά στο KDE4, τρέχων συντηρητής"
+
+#: main.cpp:47
+msgid "Martin Engelmann"
+msgstr "Martin Engelmann"
+
+#: main.cpp:47
+msgid "Porting to KDE4, developer"
+msgstr "Μεταφορά στο KDE4, προγραμματιστής"
+
+#: main.cpp:49
+msgid "Patrick Spendrin"
+msgstr "Patrick Spendrin"
+
+#: main.cpp:49
+msgid "Patches to make Krecipes work under Windows"
+msgstr "Προσαρμογές για να λειτουργεί το Krecipes με τα Windows"
+
+#: main.cpp:50
+msgid "Mike Ferguson"
+msgstr "Mike Ferguson"
+
+#: main.cpp:50
+msgid "Help with bugs, patches"
+msgstr "Βοήθεια με σφάλματα, διορθώσεις"
+
+#: main.cpp:51
+msgid "Warren Severin"
+msgstr "Warren Severin"
+
+#: main.cpp:51
+msgid "Code to export recipes to *.mx2 files"
+msgstr "Κώδικας για την εξαγωγή συνταγών σε αρχεία *.mx2"
+
+#: main.cpp:53
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
+
+#: main.cpp:54 main.cpp:57
+msgid "He advised using WebKit to fix printing support during Akademy-es 2010."
+msgstr ""
+"Πρότεινε τη χρήση WebKit για τη διόρθωση της υποστήριξης εκτυπώσεων κατά τη "
+"διάρκεια του Akademy-es 2010."
+
+#: main.cpp:56
+msgid "José Millán Soto"
+msgstr "José Millán Soto"
+
+#: mmdata.h:25
+msgid "bunch"
+msgstr "δέσμη"
+
+#: mmdata.h:25
+msgid "bunches"
+msgstr "δέσμες"
+
+#: mmdata.h:26
+msgid "cup"
+msgstr "φλιτζάνι"
+
+#: mmdata.h:26
+msgid "cups"
+msgstr "φλιτζάνια"
+
+#: mmdata.h:27
+msgid "cubic cm"
+msgstr "κυβικά εκ"
+
+#: mmdata.h:28
+msgid "centigram"
+msgstr "εκατοστόγραμμο"
+
+#: mmdata.h:28
+msgid "centigrams"
+msgstr "εκατοστόγραμμα"
+
+#: mmdata.h:29
+msgid "centiliter"
+msgstr "εκατοστόλιτρο"
+
+#: mmdata.h:29
+msgid "centiliters"
+msgstr "εκατοστόλιτρα"
+
+#: mmdata.h:30
+msgid "can"
+msgstr "δοχείο"
+
+#: mmdata.h:30
+msgid "cans"
+msgstr "δοχεία"
+
+#: mmdata.h:31
+msgid "carton"
+msgstr "πακέτο"
+
+#: mmdata.h:31
+msgid "cartons"
+msgstr "πακέτα"
+
+#: mmdata.h:32
+msgid "decigram"
+msgstr "δέκατο γραμμαρίου"
+
+#: mmdata.h:32
+msgid "decigrams"
+msgstr "δέκατα γραμμαρίου"
+
+#: mmdata.h:33
+msgid "deciliter"
+msgstr "δέκατο λίτρου"
+
+#: mmdata.h:33
+msgid "deciliters"
+msgstr "δέκατα λίτρου"
+
+#: mmdata.h:34
+msgid "drop"
+msgstr "σταγόνα"
+
+#: mmdata.h:34
+msgid "drops"
+msgstr "σταγόνες"
+
+#: mmdata.h:35
+msgid "dash"
+msgstr "μισή πρέζα"
+
+#: mmdata.h:35
+msgid "dashes"
+msgstr "μισές πρέζες"
+
+#: mmdata.h:36
+msgid "each"
+msgstr "κάθε"
+
+#: mmdata.h:37
+msgid "kilogram"
+msgstr "κιλό"
+
+#: mmdata.h:37
+msgid "kilograms"
+msgstr "κιλά"
+
+#: mmdata.h:38
+msgid "fluid ounce"
+msgstr "ουγγιά υγρού"
+
+#: mmdata.h:38
+msgid "fluid ounces"
+msgstr "ουγγιές υγρού"
+
+#: mmdata.h:39
+msgid "gram"
+msgstr "γραμμάριο"
+
+#: mmdata.h:39
+msgid "grams"
+msgstr "γραμμάρια"
+
+#: mmdata.h:40
+msgid "gallon"
+msgstr "γαλόνι"
+
+#: mmdata.h:40
+msgid "gallons"
+msgstr "γαλόνια"
+
+#: mmdata.h:41
+msgid "liter"
+msgstr "λίτρο"
+
+#: mmdata.h:41
+msgid "liters"
+msgstr "λίτρα"
+
+#: mmdata.h:42
+msgid "pound"
+msgstr "λίβρα"
+
+#: mmdata.h:42
+msgid "pounds"
+msgstr "λίβρες"
+
+#: mmdata.h:43
+msgid "large"
+msgstr "μεγάλο"
+
+#: mmdata.h:44
+msgid "medium"
+msgstr "μεσαίο"
+
+#: mmdata.h:45
+msgid "milligram"
+msgstr "χιλιοστόγραμμο"
+
+#: mmdata.h:45
+msgid "milligrams"
+msgstr "χιλιοστόγραμμα"
+
+#: mmdata.h:46
+msgid "milliliter"
+msgstr "χιλιοστόλιτρο"
+
+#: mmdata.h:46
+msgid "milliliters"
+msgstr "χιλιοστόλιτρα"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "package"
+msgstr "συσκευασία"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "packages"
+msgstr "συσκευασίες"
+
+#: mmdata.h:49
+msgid "pinch"
+msgstr "πρέζα"
+
+#: mmdata.h:49
+msgid "pinches"
+msgstr "πρέζες"
+
+#: mmdata.h:50
+msgid "pint"
+msgstr "πίντα"
+
+#: mmdata.h:50
+msgid "pints"
+msgstr "πίντες"
+
+#: mmdata.h:51
+msgid "ounce"
+msgstr "ουγγιά"
+
+#: mmdata.h:51
+msgid "ounces"
+msgstr "ουγγιές"
+
+#: mmdata.h:52
+msgid "quart"
+msgstr "τέταρτο γαλονιού"
+
+#: mmdata.h:52
+msgid "quarts"
+msgstr "τέταρτα γαλονιού"
+
+#: mmdata.h:53
+msgid "slice"
+msgstr "τεμάχιο"
+
+#: mmdata.h:53
+msgid "slices"
+msgstr "τεμάχια"
+
+#: mmdata.h:54
+msgid "small"
+msgstr "μικρό"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoon"
+msgstr "κουτάλι του γλυκού"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoons"
+msgstr "κουτάλια του γλυκού"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoon"
+msgstr "κουτάλι της σούπας"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoons"
+msgstr "κουτάλια της σούπας"
+
+#: mmdata.h:59
+msgid "per serving"
+msgstr "ανά μερίδα"
+
+#: pref.cpp:53
+msgid "Configure"
+msgstr "Διαμόρφωση"
+
+#: pref.cpp:62
+msgid "Database System"
+msgstr "Σύστημα βάσης δεδομένων"
+
+#: pref.cpp:64
+#, kde-format
+msgid "Database Management System Options (%1)"
+msgstr "Επιλογές συστήματος διαχείρισης βάσης δεδομένων (%1)"
+
+#: pref.cpp:71
+msgid "Formatting"
+msgstr "Διαμόρφωση"
+
+#: pref.cpp:73
+msgid "Customize Formatting"
+msgstr "Προσαρμογή διαμόρφωσης"
+
+#: pref.cpp:80
+msgid "Import/Export"
+msgstr "Εισαγωγή/εξαγωγή"
+
+#: pref.cpp:82
+msgid "Recipe Import and Export Options"
+msgstr "Επιλογές εισαγωγής και εξαγωγής συνταγών"
+
+#: pref.cpp:90
+msgid "Performance"
+msgstr "Επιδόσεις"
+
+#: pref.cpp:91
+msgid "Performance Options"
+msgstr "Επιλογές επιδόσεων"
+
+#: pref.cpp:100
+msgid "Spell checking"
+msgstr "Ορθογραφικός έλεγχος"
+
+#: pref.cpp:101
+msgid "Spell checking Options"
+msgstr "Επιλογές ορθογραφικού ελέγχου"
+
+#: pref.cpp:137 pref.cpp:207 setupassistant.cpp:509
+msgid "Server:"
+msgstr "Εξυπηρετητής:"
+
+#: pref.cpp:140 pref.cpp:210 setupassistant.cpp:232 setupassistant.cpp:360
+#: setupassistant.cpp:465
+msgctxt "@label:textbox Database Username"
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+#: pref.cpp:144 pref.cpp:214 setupassistant.cpp:236 setupassistant.cpp:364
+#: setupassistant.cpp:472
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+#: pref.cpp:148 pref.cpp:218
+msgctxt "Default Port"
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: pref.cpp:149 pref.cpp:219 setupassistant.cpp:520
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: pref.cpp:152 pref.cpp:222 setupassistant.cpp:479
+msgid "Database name:"
+msgstr "Όνομα βάσης δεδομένων:"
+
+#: pref.cpp:158 pref.cpp:229 pref.cpp:286
+msgctxt "@title:group Backup options"
+msgid "Backup"
+msgstr "Υποστηρικτική αποθήκευση"
+
+#: pref.cpp:162
+msgid "Select MySQL dump command"
+msgstr "Επιλογή εντολής αντιγράφου MySQL"
+
+#: pref.cpp:163 pref.cpp:167 pref.cpp:233 pref.cpp:237 pref.cpp:293
+#, kde-format
+msgid "Path to '%1':"
+msgstr "Διαδρομή για το '%1':"
+
+#: pref.cpp:166
+msgid "Select MySQL command"
+msgstr "Επιλογή εντολής MySQL"
+
+#: pref.cpp:181 pref.cpp:183 pref.cpp:251 pref.cpp:253 pref.cpp:321
+#: pref.cpp:323 pref.cpp:325
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: pref.cpp:232
+msgid "Select PostgreSQL dump command"
+msgstr "Επιλογή εντολής αντιγράφου PostgreSQL"
+
+#: pref.cpp:236
+msgid "Select PostgreSQL command"
+msgstr "Επιλογή εντολής PostgreSQL"
+
+#: pref.cpp:275 setupassistant.cpp:611
+msgid "Database file:"
+msgstr "Αρχείο βάσης δεδομένων:"
+
+#: pref.cpp:292
+msgid "Select SQLite command"
+msgstr "Επιλογή εντολής SQLite"
+
+#: pref.cpp:299
+msgid "SQLite converter"
+msgstr "Μετατροπέας SQLite"
+
+#: pref.cpp:305
+msgid "Select old SQLite version command"
+msgstr "Επιλογή εντολής παλαιάς έκδοσης SQLite"
+
+#: pref.cpp:306
+msgid "Path to SQLite old version command:"
+msgstr "Διαδρομή σε εντολή παλαιάς έκδοσης SQLite:"
+
+#: pref.cpp:309
+msgid "Select new SQLite version command"
+msgstr "Επιλογή εντολής νέας έκδοσης SQLite"
+
+#: pref.cpp:310
+msgid "Path to SQLite new version command:"
+msgstr "Διαδρομή σε εντολή νέας έκδοσης SQLite:"
+
+#: pref.cpp:318 setupassistant.cpp:641
+msgid "Select SQLite database file"
+msgstr "Επιλογή αρχείου βάσης δεδομένων SQLite"
+
+#: pref.cpp:361
+msgid "Re-run wizard on next startup"
+msgstr "Επανεκτέλεση του βοηθού στην επόμενη εκκίνηση"
+
+#: pref.cpp:367
+msgid ""
+"Note: Krecipes must be restarted for most server preferences to take effect."
+msgstr ""
+"Σημείωση: Πρέπει να γίνει επανεκκίνηση του Krecipes για να έχουν ισχύ οι "
+"περισσότερες προτιμήσεις εξυπηρετητή."
+
+#: pref.cpp:412
+msgid "Use abbreviations"
+msgstr "Χρήση συντομογραφιών"
+
+#: pref.cpp:448
+msgid "Number Format"
+msgstr "Μορφή αριθμού"
+
+#: pref.cpp:449
+msgctxt "@option:radio Display fraction"
+msgid "Fraction"
+msgstr "Κλάσμα"
+
+#: pref.cpp:450
+msgctxt "@option:radio Display decimal"
+msgid "Decimal"
+msgstr "Δεκαδικός"
+
+#: pref.cpp:470
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: pref.cpp:472
+msgid "Overwrite recipes with same title"
+msgstr "Αντικατάσταση συνταγών με τον ίδιο τίτλο"
+
+#: pref.cpp:477
+msgid "Ask which recipes to import"
+msgstr "Ερώτηση για τις συνταγές που θα εισαχθούν"
+
+#: pref.cpp:489
+msgid "'Copy to Clipboard' format:"
+msgstr "Μορφή 'αντιγραφής στο πρόχειρο':"
+
+#: pref.cpp:519
+msgid ""
+"When this is enabled, the importer will show every recipe in the file(s) and "
+"allow you to select which recipes you want imported.\n"
+" \t\t\t\t\t\t\t\t\tDisable this to always import every recipe, which allows "
+"for faster and less memory-intensive imports."
+msgstr ""
+"Αν ενεργοποιηθεί αυτή η επιλογή, η εισαγωγή θα εμφανίσει κάθε συνταγή στο "
+"αρχείο(α) και θα σας επιτρέψει να επιλέξετε τις συνταγές που επιθυμείτε να "
+"εισάγετε.\n"
+" \t\t\t\t\t\t\t\t\tΑπενεργοποιήστε αυτή την επιλογή για να γίνεται πάντα "
+"εισαγωγή όλων των συνταγών, η οποία είναι και γρηγορότερη και λιγότερο "
+"δαπανηρή σε μνήμη."
+
+#: pref.cpp:554
+msgid "Search as you type"
+msgstr "Αναζήτηση κατά την πληκτρολόγηση"
+
+#: pref.cpp:557
+msgid ""
+"In most instances these options do not need to be changed.  However, "
+"limiting the amount of items displayed at once will <b>allow Krecipes to "
+"better perform when the database is loaded with many thousands of recipes</"
+"b>."
+msgstr ""
+"Στις περισσότερες των περιπτώσεων αυτές οι επιλογές δεν είναι απαραίτητο να "
+"τροποποιηθούν. Ωστόσο ο περιορισμός των αντικειμένων που εμφανίζονται κάθε "
+"στιγμή θα <b>επιτρέψει στο Krecipes να αποδίδει καλύτερα όταν η βάση "
+"δεδομένων είναι φορτωμένη με χιλιάδες συνταγές</b>."
+
+#: pref.cpp:563
+msgid "Number of categories to display at once:"
+msgstr "Αριθμός κατηγοριών που θα εμφανίζονται:"
+
+#: pref.cpp:566
+msgctxt "Unlimited categories"
+msgid "Unlimited"
+msgstr "Απεριόριστες"
+
+#: pref.cpp:573
+msgid "Number of elements to display at once:"
+msgstr "Αριθμός στοιχείων που θα εμφανίζονται:"
+
+#: pref.cpp:576
+msgctxt "Unlimited elements"
+msgid "Unlimited"
+msgstr "Απεριόριστα"
+
+#: setupassistant.cpp:43
+msgid "Welcome to Krecipes"
+msgstr "Καλώς ήρθατε στο Krecipes"
+
+#: setupassistant.cpp:47
+msgid "Database Type"
+msgstr "Τύπος βάσης δεδομένων"
+
+#: setupassistant.cpp:51
+msgid "Database Management System Settings"
+msgstr "Ρυθμίσεις συστήματος διαχείρισης βάσης δεδομένων"
+
+#: setupassistant.cpp:55 setupassistant.cpp:59
+msgid "Database Permissions"
+msgstr "Δικαιώματα βάσης δεδομένων"
+
+#: setupassistant.cpp:63
+msgid "Server Settings"
+msgstr "Ρυθμίσεις εξυπηρετητή"
+
+#: setupassistant.cpp:67
+msgid "Initialize Database"
+msgstr "Αρχικοποίηση βάσης δεδομένων"
+
+#: setupassistant.cpp:71
+msgid "Finish & Save Settings"
+msgstr "Τέλος & αποθήκευση ρυθμίσεων"
+
+#: setupassistant.cpp:90
+msgid ""
+"There is currently no localized ingredient data for this locale.\n"
+"Would you like to load the English ingredients instead?"
+msgstr ""
+"Αυτή τη στιγμή δεν υπάρχουν δεδομένα συστατικών για αυτήν την τοπική "
+"ρύθμιση.\n"
+"Επιθυμείτε τη φόρτωση των Αγγλικών συστατικών;"
+
+#: setupassistant.cpp:146
+msgid ""
+"<p><b><font size=\"+1\">Thank you very much for choosing Krecipes.</font></"
+"b></p><p>It looks like this is the first time you are using it. This wizard "
+"will help you with the initial setup so that you can start using it quickly."
+"</p><p>Welcome, and enjoy cooking!</p>"
+msgstr ""
+"<p><b><font size=\"+1\">Ευχαριστούμε πολύ που επιλέξατε το Krecipes.</font></"
+"b></p><p>Φαίνεται ότι είναι η πρώτη φορά που το χρησιμοποιείτε. Με αυτόν το "
+"βοηθό θα ορίσετε την αρχική ρύθμιση έτσι ώστε να μπορείτε να ξεκινήσετε να "
+"το χρησιμοποιείτε γρήγορα.</p><p>Καλωσορίσατε, και καλό μαγείρεμα!</p>"
+
+#: setupassistant.cpp:179
+msgid ""
+"<p>This dialog will allow you to specify a MySQL account that has the "
+"necessary permissions to access the Krecipes MySQL database.</p><p><b><font "
+"size=\"+1\">Most users that use Krecipes and MySQL for the first time can "
+"just leave the default parameters and press 'Next'.</font></b></p> <p>If you "
+"set a MySQL root password before, or you have already permissions as normal "
+"user, click on the appropriate option. Otherwise the account 'root' will be "
+"used, with no password.</p><p>[For security reasons, we strongly encourage "
+"you to setup a MySQL root password if you have not done so yet. Just type as "
+"root: mysqladmin password <i>your_password</i>]</p>"
+msgstr ""
+"<p>Αυτός ο διάλογος σας επιτρέπει να ορίσετε ένα λογαριασμό MySQL που έχει "
+"τα απαραίτητα δικαιώματα πρόσβασης στη βάση δεδομένων MySQL του Krecipes.</"
+"p><p><b><font size=\"+1\">Οι περισσότεροι χρήστες που χρησιμοποιούν το "
+"Krecipes και τη MySQL για πρώτη φορά μπορούν να αφήσουν τις προκαθορισμένες "
+"επιλογές και να πατήσουν το 'Επόμενο'.</font></b></p> <p>Αν έχετε ορίσει "
+"έναν κωδικό root για τη MySQL, ή έχετε ήδη δικαιώματα απλού χρήστη, κάνετε "
+"κλικ στην κατάλληλη επιλογή. Σε άλλη περίπτωση θα χρησιμοποιηθεί ο "
+"λογαριασμός 'root', χωρίς κωδικό πρόσβασης.</p><p>[Για λόγους ασφαλείας, σας "
+"συστήνουμε τη ρύθμιση ενός κωδικού root MySQL αν δεν το έχετε ήδη κάνει. "
+"Απλά πληκτρολογήστε ως root: mysqladmin password <i>κωδικός_πρόσβασης</i>]</"
+"p>"
+
+#: setupassistant.cpp:198 setupassistant.cpp:325
+msgid "I have already set the necessary permissions"
+msgstr "Έχω ήδη ορίσει τα απαραίτητα δικαιώματα"
+
+#: setupassistant.cpp:215
+msgid "I have already set a MySQL root/admin account"
+msgstr "Έχω ήδη ορίσει έναν λογαριασμό root/διαχειριστή MySQL"
+
+#: setupassistant.cpp:227
+msgid "MySQL Administrator Account"
+msgstr "Λογαριασμός διαχειριστή MySQL"
+
+#: setupassistant.cpp:306
+msgid ""
+"<p>This dialog will allow you to specify a PostgreSQL account that has the "
+"necessary permissions to access the Krecipes PostgreSQL database.  This "
+"account may either be a <b>PostgreSQL superuser</b> or have the ability to "
+"both <b>create new PostgreSQL users and databases</b>.</p><p>If no superuser "
+"or privileged account is given, the account 'postgres' will be attempted, "
+"with no password.  If this is insufficient for your PostgreSQL setup, you "
+"<b>must</b> select the appropriate option below to enter the information of "
+"a privileged PostgreSQL account.</p>"
+msgstr ""
+"<p>Αυτός ο διάλογος θα σας επιτρέψει να ορίσετε έναν λογαριασμό PostgreSQL "
+"που έχει τα απαραίτητα δικαιώματα για πρόσβαση στη βάση δεδομένων PostgreSQL "
+"του Krecipes. Αυτός ο λογαριασμός μπορεί να είναι ένας <b>Υπερχρήστης "
+"PostgreSQL</b> ή ένας που να έχει τη δυνατότητα <b>δημιουργίας και νέων "
+"χρηστών και βάσεων δεδομένων PostgreSQL</b>.</p><p>Αν δεν δοθεί υπερχρήστης "
+"ή λογαριασμός με τέτοια δικαιώματα, θα γίνει δοκιμή χρήσης του λογαριασμού "
+"'postgres', χωρίς κωδικό πρόσβασης. Αν αυτό δεν αρκεί για την ρύθμιση του "
+"PostgreSQL, <b>πρέπει</b> να προχωρήσετε στην κατάλληλη από τις παρακάτω "
+"επιλογές για εισαγωγή των πληροφοριών ενός προνομιούχου λογαριασμού "
+"PostgreSQL.</p>"
+
+#: setupassistant.cpp:342
+msgid "I have already set a superuser or privileged account"
+msgstr "Έχω ήδη ορίσει ένα λογαριασμό υπερχρήστη ή προνομιούχο"
+
+#: setupassistant.cpp:355
+msgid "PostgreSQL Superuser or Privileged Account"
+msgstr "Λογαριασμός υπερχρήστη ή προνομιούχος PostgreSQL"
+
+#: setupassistant.cpp:435
+msgid ""
+"<p>In this dialog you can adjust the database server settings.</"
+"p><p><b>Warning: Passwords are stored in plain text and could potentially be "
+"compromised.  We recommend that you create a username and password "
+"combination solely for use by Krecipes.</b></p>"
+msgstr ""
+"<p>Σε αυτόν το διάλογο μπορείτε να προσαρμόσετε τις ρυθμίσεις του "
+"εξυπηρετητή της βάσης δεδομένων.</p><p><b>Προειδοποίηση: Οι κωδικοί "
+"αποθηκεύονται σε μορφή απλού κειμένου και μπορεί να γίνει υποκλοπή. "
+"Συστήνουμε τη δημιουργία ενός συνδυασμού με όνομα χρήστη και κωδικό "
+"πρόσβασης ειδικά για τη χρήση του Krecipes.</b></p>"
+
+#: setupassistant.cpp:489
+msgid "The server is remote"
+msgstr "Ο εξυπηρετητής είναι απομακρυσμένος"
+
+#: setupassistant.cpp:501
+msgid "Server / Client Settings"
+msgstr "Ρυθμίσεις εξυπηρετητή / πελάτη"
+
+#: setupassistant.cpp:514
+msgid "Client:"
+msgstr "Πελάτης:"
+
+#: setupassistant.cpp:519
+msgctxt "@label:textbox Default Port"
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: setupassistant.cpp:597
+msgid "In this dialog you can adjust SQLite settings."
+msgstr "Σε αυτόν το διάλογο μπορείτε να προσαρμόσετε τις ρυθμίσεις SQLite."
+
+#: setupassistant.cpp:619
+msgid "Open file dialog"
+msgstr "Διάλογος ανοίγματος αρχείου"
+
+#: setupassistant.cpp:671
+msgid ""
+"Congratulations; all the necessary configuration setup is done. Press "
+"'Finish' to continue, and enjoy cooking!"
+msgstr ""
+"Συγχαρητήρια: όλη η απαραίτητη διαμόρφωση έγινε. Πατήστε 'Τέλος' για να "
+"συνεχίσετε, και καλό μαγείρεμα!"
+
+#: setupassistant.cpp:768
+msgid ""
+"<p>Krecipes comes with some delicious default recipes and useful data.</"
+"p><p>Would you like to initialize your database with those? Note that this "
+"will erase all your previous recipes if you have any.</p>"
+msgstr ""
+"<p>Το Krecipes έρχεται με νόστιμες προκαθορισμένες συνταγές και χρήσιμα "
+"δεδομένα.</p><p>Επιθυμείτε την αρχικοποίηση της βάσης δεδομένων με αυτά; "
+"Σημειώστε ότι αυτό θα διαγράψει οποιαδήποτε συνταγή ήδη έχετε.</p>"
+
+#: setupassistant.cpp:793
+msgid "Yes please, initialize the database with the examples"
+msgstr "Ναι παρακαλώ να αρχικοποιηθεί η βάση δεδομένων με παραδείγματα"
+
+#: setupassistant.cpp:802
+msgid ""
+"<p>Krecipes can import nutrient data from the USDA's nutrient database for "
+"over 400 foods.  A total of 43 food properties are included for each food, "
+"such as energy, fat, vitamin C, etc.</p><p>Would you like to import this "
+"data now?  Note that this operation is safe to use on an existing database, "
+"and no data loss will occur.  This operation may take several minutes.</p>"
+msgstr ""
+"<p>Το Krecipes μπορεί να εισάγει δεδομένα θρεπτικής αξίας από τη βάση "
+"δεδομένων διατροφής USDA για παραπάνω από 400 φαγητά. Ένα σύνολο 43 "
+"ιδιοτήτων τροφής συμπεριλαμβάνονται, όπως η ενέργεια, το λίπος, η βιταμίνη "
+"C, κτλ.</p><p>Επιθυμείτε την εισαγωγή των δεδομένων τώρα; Σημειώστε ότι η "
+"χρήση αυτής της λειτουργίας είναι ασφαλής σε μια υπάρχουσα βάση δεδομένων "
+"χωρίς να συμβεί απώλεια δεδομένων. Αυτή η λειτουργία μπορεί να διαρκέσει "
+"αρκετά λεπτά.</p>"
+
+#: setupassistant.cpp:816
+msgid "Yes please, load the database with nutrient data for 400+ foods."
+msgstr ""
+"Ναι παρακαλώ να φορτωθεί η βάση με δεδομένα θρεπτικής αξίας για παραπάνω από "
+"400 τροφές."
+
+#: setupassistant.cpp:864
+msgid ""
+"Choose the type of database that you want to use. Most users will want to "
+"choose a simple local database here. However, you can also use remote "
+"servers by means of a MySQL or PostgreSQL database."
+msgstr ""
+"Επιλέξτε τον τύπο της βάσης δεδομένων που επιθυμείτε να χρησιμοποιήσετε. Οι "
+"περισσότεροι χρήστες θα επιθυμούσαν τη χρήση μιας απλής τοπικής βάσης "
+"δεδομένων. Ωστόσο μπορείτε να χρησιμοποιήσετε απομακρυσμένους εξυπηρετητές "
+"MySQL ή PostgreSQL."
+
+#: setupassistant.cpp:881
+msgid "Simple Local File (SQLite)"
+msgstr "Απλό τοπικό αρχείο (SQLite)"
+
+#: setupassistant.cpp:884
+msgid "Local or Remote MySQL Database"
+msgstr "Τοπική ή απομακρυσμένη βάση δεδομένων MySQL"
+
+#: setupassistant.cpp:887
+msgid "Local or Remote PostgreSQL Database"
+msgstr "Τοπική ή απομακρυσμένη βάση δεδομένων PostgreSQL"
+
+#: widgets/categorycombobox.cpp:36 widgets/categorycombobox.cpp:63
+msgid "All Categories"
+msgstr "Όλες οι κατηγορίες"
+
+#: widgets/dblistviewbase.cpp:33
+msgctxt "Previous item"
+msgid "<< Previous"
+msgstr "<< Προηγούμενο"
+
+#: widgets/dblistviewbase.cpp:49
+msgctxt "Next item"
+msgid "Next >>"
+msgstr "Επόμενο >>"
+
+#: widgets/headerlistview.cpp:55
+msgctxt "@title:column"
+msgid "Header"
+msgstr "Επικεφαλίδα"
+
+#: widgets/ingredientinputwidget.cpp:47 widgets/ingredientinputwidget.cpp:58
+msgid "Ingredient:"
+msgstr "Συστατικό:"
+
+#: widgets/ingredientinputwidget.cpp:51
+msgctxt "Ingredient grouping name"
+msgid "Header:"
+msgstr "Επικεφαλίδα:"
+
+#: widgets/ingredientinputwidget.cpp:75
+msgid "Amount:"
+msgstr "Ποσότητα:"
+
+#: widgets/ingredientinputwidget.cpp:82
+msgid "Unit:"
+msgstr "Μονάδα:"
+
+#: widgets/ingredientinputwidget.cpp:90
+msgid "Preparation Method:"
+msgstr "Μέθοδος προετοιμασίας:"
+
+#: widgets/ingredientinputwidget.cpp:238
+msgid "Please enter an ingredient"
+msgstr "Παρακαλώ εισάγετε ένα συστατικό"
+
+#: widgets/ingredientinputwidget.cpp:285
+msgid "Amount field contains invalid input."
+msgstr "Το πεδίο ποσότητας περιέχει μη έγκυρη τιμή."
+
+#: widgets/ingredientinputwidget.cpp:286
+msgid "Invalid input"
+msgstr "Μη έγκυρη είσοδος"
+
+#: widgets/kdateedit.cpp:368
+msgctxt "the day after today"
+msgid "tomorrow"
+msgstr "αύριο"
+
+#: widgets/kdateedit.cpp:369
+msgctxt "this day"
+msgid "today"
+msgstr "σήμερα"
+
+#: widgets/kdateedit.cpp:370
+msgctxt "the day before today"
+msgid "yesterday"
+msgstr "χθες"
+
+#: widgets/kdatepickerpopup.cpp:96
+msgctxt "@option today"
+msgid "&Today"
+msgstr "&Σήμερα"
+
+#: widgets/kdatepickerpopup.cpp:97
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "Αύ&ριο"
+
+#: widgets/kdatepickerpopup.cpp:98
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "Επόμενη ε&βδομάδα"
+
+#: widgets/kdatepickerpopup.cpp:99
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "Επόμενος &μήνας"
+
+#: widgets/kdatepickerpopup.cpp:107
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "Χωρίς ημερομηνία"
+
+#: widgets/krecategorieslistwidget.cpp:42
+msgctxt "@title:column"
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: widgets/kregenericlistwidget.cpp:95
+msgctxt "@label:textbox"
+msgid "Type here the text to search"
+msgstr "Πληκτρολογήστε εδώ το προς αναζήτηση κείμενο"
+
+#: widgets/kregenericlistwidget.cpp:99
+msgctxt "@label:textbox"
+msgid "Type here the text to search in the current page"
+msgstr "Πληκτρολογήστε εδώ το προς αναζήτηση στην τρέχουσα σελίδα κείμενο"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_previousButton)
+#: widgets/kregenericlistwidget.ui:46
+msgid "Previous Page"
+msgstr "Προηγούμενη σελίδα"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_nextButton)
+#: widgets/kregenericlistwidget.ui:62
+msgid "Next Page"
+msgstr "Επόμενη σελίδα"
+
+#: widgets/kremenu.cpp:129
+msgctxt "@action:button Up to top menu"
+msgid "Up..."
+msgstr "Πάνω..."
+
+#: widgets/propertylistview.cpp:163
+msgctxt "@title:column"
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: widgets/propertylistview.cpp:165
+msgctxt "@title:column"
+msgid "Min. Value"
+msgstr "Ελάχ. τιμή"
+
+#: widgets/propertylistview.cpp:166
+msgctxt "@title:column"
+msgid "Max. Value"
+msgstr "Μέγ. τιμή"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:115
+msgid "Criteria"
+msgstr "Κριτήρια"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:126
+msgid "Stars"
+msgstr "Αστέρια"
+
+#. i18n: ectx: property (text), widget (QLabel, comment)
+#: widgets/ratingdisplaywidget.ui:146
+msgid "Comments"
+msgstr "Σχόλια"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
+#: widgets/ratingdisplaywidget.ui:177
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
+#: widgets/ratingdisplaywidget.ui:187
+msgid "Edit..."
+msgstr "Επεξεργασία..."
+
+#: widgets/recipelistview.cpp:32
+msgid "Uncategorized"
+msgstr "Χωρίς κατηγοριοποίηση"
+
+#: widgets/recipelistview.cpp:101
+msgid "Recipe"
+msgstr "Συνταγή"
+
+#: widgets/recipelistview.cpp:236
+msgctxt "@info:progress"
+msgid "Loading recipes"
+msgstr "Φόρτωση συνταγών"
+
+#: widgets/unitlistview.cpp:62
+msgctxt "@title:column Unit name"
+msgid "Unit"
+msgstr "Μονάδα"
+
+#: widgets/unitlistview.cpp:63
+msgctxt "@title:column Unit abbreviation"
+msgid "Abbreviation"
+msgstr "Συντομογραφία"
+
+#: widgets/unitlistview.cpp:64
+msgctxt "@title:column Unit plural"
+msgid "Plural"
+msgstr "Πληθυντικός"
+
+#: widgets/unitlistview.cpp:65
+msgctxt "@title:column unit plural abbreviation"
+msgid "Abbreviation"
+msgstr "Συντομογραφία"
+
+#: widgets/unitlistview.cpp:66
+msgctxt "@title:column Unit type"
+msgid "Type"
+msgstr "Τύπος"
+
+#: widgets/unitlistview.h:104
+msgctxt "Unit type other"
+msgid "Other"
+msgstr "Άλλο"
+
+#: widgets/unitlistview.h:105
+msgctxt "Unit type mass"
+msgid "Mass"
+msgstr "Μάζα"
+
+#: widgets/unitlistview.h:106
+msgctxt "Unit type volume"
+msgid "Volume"
+msgstr "Όγκος"
+
+#: widgets/weightinput.cpp:23
+msgid "-No Preparation-"
+msgstr "-Χωρίς προετοιμασία-"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

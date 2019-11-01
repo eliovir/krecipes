@@ -1,0 +1,4356 @@
+# Translation of krecipes.po to Low Saxon
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sönke Dibbern <s_dibbern@web.de>, 2008, 2009, 2014.
+# Manfred Wiese <m.j.wiese@web.de>, 2009, 2010, 2011, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: krecipes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-03-10 08:33+0000\n"
+"PO-Revision-Date: 2014-06-11 00:11+0200\n"
+"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
+"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sönke Dibbern, Manfred Wiese"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s_dibbern@web.de, m.j.wiese@web.de"
+
+#: actionshandlers/categoryactionshandler.cpp:148
+#: actionshandlers/krecategoryactionshandler.cpp:152
+msgid ""
+"Are you sure you want to delete this category and all its subcategories?"
+msgstr ""
+"Büst Du seker, du wullt disse Kategorie un all ehr Ünnerkategorien wegdoon?"
+
+#: actionshandlers/categoryactionshandler.cpp:158
+#: actionshandlers/headeractionshandler.cpp:66
+#: actionshandlers/ingredientactionshandler.cpp:65
+#: actionshandlers/kreauthoractionshandler.cpp:70
+#: actionshandlers/krecategoryactionshandler.cpp:161
+#: actionshandlers/prepmethodactionshandler.cpp:65
+#: actionshandlers/recipeactionshandler.cpp:250
+#: actionshandlers/recipeactionshandler.cpp:261
+#: actionshandlers/unitactionshandler.cpp:133 krecipesview.cpp:696
+msgid "Recipes"
+msgstr "Rezepten"
+
+#: actionshandlers/categoryactionshandler.cpp:173
+#: actionshandlers/krecategoryactionshandler.cpp:175
+#, kde-format
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] "Kategorienaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Kategorienaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/categoryactionshandler.cpp:203
+#: actionshandlers/krecategoryactionshandler.cpp:207
+msgid ""
+"This category already exists. Continuing will merge these two categories "
+"into one. Are you sure?"
+msgstr ""
+"Dat gifft disse Kategorie al. Maakst Du wieder, warrt disse twee Kategorien "
+"to een tosamenföhrt. Wullt Du dat redig?"
+
+#: actionshandlers/headeractionshandler.cpp:39
+msgid "New Header"
+msgstr "Nieg Koppel"
+
+#: actionshandlers/headeractionshandler.cpp:80
+#, kde-format
+msgid "Header cannot be longer than 1 character."
+msgid_plural "Header cannot be longer than %1 characters."
+msgstr[0] "Koppelnaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Koppelnaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/headeractionshandler.cpp:103
+#: actionshandlers/prepmethodactionshandler.cpp:101
+msgid ""
+"This header already exists.  Continuing will merge these two headers into "
+"one.  Are you sure?"
+msgstr ""
+"Dat gifft dissen Koppel al. Maakst Du wieder, warrt disse twee Koppeln to "
+"een tosamenföhrt. Wullt Du dat redig?"
+
+#: actionshandlers/ingredientactionshandler.cpp:38
+msgid "New Ingredient"
+msgstr "Nieg Rindoels"
+
+#: actionshandlers/ingredientactionshandler.cpp:68
+#: actionshandlers/prepmethodactionshandler.cpp:67
+#: actionshandlers/unitactionshandler.cpp:154
+msgid "You are about to permanently delete recipes from your database."
+msgstr "Du büst dorbi un deist Rezepten duerhaftig ut de Datenbank weg."
+
+#: actionshandlers/ingredientactionshandler.cpp:80
+#: widgets/ingredientinputwidget.cpp:248
+#, kde-format
+msgid "Ingredient name cannot be longer than 1 character."
+msgid_plural "Ingredient name cannot be longer than %1 characters."
+msgstr[0] "Rindoelsnaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Rindoelsnaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/ingredientactionshandler.cpp:102
+msgid ""
+"This ingredient already exists. Continuing will merge these two ingredients "
+"into one. Are you sure?"
+msgstr ""
+"Dat gifft dit Rindoels al. Maakst Du wieder, warrt disse twee Rindoels to "
+"een tosamenföhrt. Wullt Du dat redig?"
+
+#: actionshandlers/kreauthoractionshandler.cpp:32
+msgid "New Author"
+msgstr "Nieg Autor"
+
+#: actionshandlers/kreauthoractionshandler.cpp:61
+msgid "Are you sure you want to delete this author?"
+msgstr "Büst Du seker, Du wullt dissen Autor wegdoon?"
+
+#: actionshandlers/kreauthoractionshandler.cpp:85
+#, kde-format
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] "Den Autor sien Naam mutt nich mehr as een Bookstaav hebben."
+msgstr[1] "Den Autor sien Naam mutt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/kreauthoractionshandler.cpp:115
+msgid ""
+"This author already exists. Continuing will merge these two authors into "
+"one. Are you sure?"
+msgstr ""
+"Dat gifft dissen Autor al. Maakst Du wieder, warrt disse twee Autoren to een "
+"tosamenföhrt. Wullt Du dat redig?"
+
+#: actionshandlers/prepmethodactionshandler.cpp:38
+msgid "New Preparation Method"
+msgstr "Nieg Torechtmaak-Metood"
+
+#: actionshandlers/prepmethodactionshandler.cpp:79
+#: widgets/ingredientinputwidget.cpp:270
+#, kde-format
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] "Torechtmaak-Metoden mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Torechtmaak-Metoden mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/propertyactionshandler.cpp:60
+msgid "Are you sure you want to delete this property?"
+msgstr "Büst Du seker, du wullt disse Egenschap wegdoon?"
+
+#: actionshandlers/propertyactionshandler.cpp:74
+#, kde-format
+msgid "Property name cannot be longer than 1 character."
+msgid_plural "Property name cannot be longer than %1 characters."
+msgstr[0] "Egenschapnaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Egenschapnaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/propertyactionshandler.cpp:93
+msgid ""
+"This property already exists.  Continuing will merge these two properties "
+"into one.  Are you sure?"
+msgstr ""
+"Dat gifft disse Egenschap al. Maakst Du wieder, warrt disse twee "
+"Egenschappen to een tosamenföhrt. Wullt Du dat redig?"
+
+#: actionshandlers/recipeactionshandler.cpp:229
+msgid "Please select only one recipe."
+msgstr "Söök bitte bloots een Rezept ut."
+
+#: actionshandlers/recipeactionshandler.cpp:229
+#: actionshandlers/recipeactionshandler.cpp:235 krecipesview.cpp:517
+msgid "Edit Recipe"
+msgstr "Rezept bewerken"
+
+#: actionshandlers/recipeactionshandler.cpp:235
+#: actionshandlers/recipeactionshandler.cpp:267
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "No recipes selected."
+msgstr "Keen Rezepten utsöcht"
+
+#: actionshandlers/recipeactionshandler.cpp:252 krecipesview.cpp:694
+#: krecipesview.cpp:696
+msgid "Export Recipe"
+msgstr "Rezept exporteren"
+
+#: actionshandlers/recipeactionshandler.cpp:258
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to export all recipes in the current view?"
+msgstr ""
+"Opstunns is keen Rezept utsöcht.\n"
+"Wullt Du all Rezepten ut de aktuelle Ansicht exporteren?"
+
+#: actionshandlers/recipeactionshandler.cpp:261
+msgid "Export Recipes"
+msgstr "Rezepten exporteren"
+
+#: actionshandlers/recipeactionshandler.cpp:267 pref.cpp:487
+msgid "Export"
+msgstr "Exporteren"
+
+#: actionshandlers/recipeactionshandler.cpp:283
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to print all recipes in the current view?"
+msgstr ""
+"Opstunns is keen Rezept utsöcht.\n"
+"Wullt Du all Rezepten ut de aktuelle Ansicht drucken?"
+
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "Print"
+msgstr "Drucken"
+
+#: actionshandlers/recipeactionshandler.cpp:391
+msgid "Compressed Krecipes format"
+msgstr "Komprimeert KRecipes-Formaat"
+
+#: actionshandlers/recipeactionshandler.cpp:392
+msgid "Web page"
+msgstr "Nettsiet"
+
+#: actionshandlers/recipeactionshandler.cpp:393 pref.cpp:492
+msgid "Plain Text"
+msgstr "Eenfach Text"
+
+#: actionshandlers/recipeactionshandler.cpp:394
+msgid "Web Book"
+msgstr "Nettbook"
+
+#: actionshandlers/recipeactionshandler.cpp:435 krecipes.cpp:693
+#, kde-format
+msgid "File \"%1\" exists.  Are you sure you want to overwrite it?"
+msgstr "Dat gifft de Datei \"%1\" al. Wullt Du ehr redig överschrieven?"
+
+#: actionshandlers/recipeactionshandler.cpp:435
+msgctxt "@title:window"
+msgid "Saving recipe"
+msgstr "Rezept sekern"
+
+#: actionshandlers/recipeactionshandler.cpp:439
+msgctxt "@info:progress"
+msgid "Saving recipes..."
+msgstr "Rezepten sekern..."
+
+#: actionshandlers/unitactionshandler.cpp:69
+msgid "Rename Unit"
+msgstr "Eenheit Ü&mnömen"
+
+#: actionshandlers/unitactionshandler.cpp:139 dialogs/setupdisplay.cpp:126
+#: exporters/htmlexporter.cpp:389 exporters/xsltexporter.cpp:54
+#: krecipesview.cpp:376 krecipesview.cpp:479
+msgid "Properties"
+msgstr "Egenschappen"
+
+#: actionshandlers/unitactionshandler.cpp:145
+msgid "Ingredient Weights"
+msgstr "Rindoels-Wichten"
+
+#: actionshandlers/unitactionshandler.cpp:167
+#: widgets/ingredientinputwidget.cpp:255
+#, kde-format
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] "Eenheitnaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Eenheitnaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: actionshandlers/unitactionshandler.cpp:205
+msgid ""
+"This unit already exists.  Continuing will merge these two units into one.  "
+"Are you sure?"
+msgstr ""
+"Dat gifft disse Eenheit al. Maakst Du wieder, warrt disse twee Eenheiten to "
+"een tosamenföhrt. Wullt Du dat redig?"
+
+#: backends/MySQL/mysqlrecipedb.cpp:526 backends/SQLite/literecipedb.cpp:767
+msgctxt "Overall rating"
+msgid "Overall"
+msgstr "Tosamen"
+
+#: backends/MySQL/mysqlrecipedb.cpp:527
+#: backends/PostgreSQL/psqlrecipedb.cpp:436
+#: backends/SQLite/literecipedb.cpp:768
+msgid "Taste"
+msgstr "Smack"
+
+#: backends/MySQL/mysqlrecipedb.cpp:528
+#: backends/PostgreSQL/psqlrecipedb.cpp:437
+#: backends/SQLite/literecipedb.cpp:769
+msgid "Appearance"
+msgstr "Utsehn"
+
+#: backends/MySQL/mysqlrecipedb.cpp:529
+#: backends/PostgreSQL/psqlrecipedb.cpp:438
+#: backends/SQLite/literecipedb.cpp:770
+msgid "Originality"
+msgstr "Eenkennigkeit"
+
+#: backends/MySQL/mysqlrecipedb.cpp:530
+#: backends/PostgreSQL/psqlrecipedb.cpp:439
+#: backends/SQLite/literecipedb.cpp:771
+msgid "Ease of Preparation"
+msgstr "Eenfachheit"
+
+#: backends/PostgreSQL/psqlrecipedb.cpp:435
+msgctxt "Overall Rating"
+msgid "Overall"
+msgstr "Tosamen"
+
+#: backends/qsqlrecipedb.cpp:88
+#, kde-format
+msgid ""
+"The Qt database plugin (%1) is not installed.  This plugin is required for "
+"using this database backend."
+msgstr ""
+"at Qt-Datenbankmoduul (%1) is nich installeert. Dit Moduul deit för't Bruken "
+"vun disse Datenbank noot."
+
+#: backends/qsqlrecipedb.cpp:130 backends/qsqlrecipedb.cpp:145
+#, kde-format
+msgid "Krecipes could not open the \"%1\" database."
+msgstr "KRecipes kann de Datenbank \"%1\" opmaken."
+
+#: backends/qsqlrecipedb.cpp:133 backends/qsqlrecipedb.cpp:148
+#, kde-format
+msgid ""
+"Krecipes could not open the database using the driver '%2' (with username: "
+"\"%1\"). You may not have the necessary permissions, or the server may be "
+"down."
+msgstr ""
+"KRecipes kann de Datenbank nich mit den Driever \"%2\" opmaken (Brukernaam "
+"\"%1\"). Villicht hest Du de nödigen Verlöven nich, oder de Server antert "
+"nich."
+
+#: backends/qsqlrecipedb.cpp:141
+#, kde-format
+msgid "Database message: %1"
+msgstr "Datenbank-Mellen: %1"
+
+#: backends/qsqlrecipedb.cpp:157
+msgid ""
+"This database was created with a newer version of Krecipes and cannot be "
+"opened."
+msgstr ""
+"Disse Datenbank wöör mit en nieger Verschoon vun KRecipes opstellt un lett "
+"sik nich opmaken."
+
+#: backends/qsqlrecipedb.cpp:166
+msgid "Failed to fix database structure."
+msgstr "Datenbankstruktuur lett sik nich richten."
+
+#: backends/qsqlrecipedb.cpp:1841
+#, kde-format
+msgid "In ingredient '%1': weight [%2/%3%4]"
+msgstr "In Rindoels \"%1\": Wicht [%2/%3%4]"
+
+#: backends/qsqlrecipedb.cpp:1891
+#, kde-format
+msgid "In ingredient '%1': property \"%2\" [%3/%4]"
+msgstr "In Rindoels \"%1\": Egenschap \"%2\" [%3/%4]"
+
+#: backends/qsqlrecipedb.cpp:2064
+msgctxt "@info"
+msgid ""
+"<p>The database was created with a previous version of Krecipes. Would you "
+"like Krecipes to update this database to work with this version of "
+"Krecipes?  Depending on the number of recipes and amount of data, this could "
+"take some time.</p><warning><p>After updating, this database will no longer "
+"be compatible with previous versions of Krecipes.</p><p>Cancelling this "
+"operation may result in corrupting the database.</p></warning>"
+msgstr ""
+"<p>De Datenbank wöör mit en verleden Verschoon vun KRecipes opstellt. Wullt "
+"Du, dat KRecipes de Datenbank opfrischt, so dat disse Verschoon dor mit "
+"arbeiden kann? Afhangen vun de Tall vun Rezepten un de Datenmengde mag dat "
+"en Stoot bruken.</p><warning><p>Wohrschoen: Na't Opfrischen is de Datenbank "
+"nich mehr kompatibel to verleden Verschonen vun KRecipes.</p><p>Dat Afbreken "
+"vun disse Akschoon mag en schaadhaftig Datenbank as Resultaat hebben.</p></"
+"warning>"
+
+#: backends/qsqlrecipedb.cpp:2074
+msgid "Porting database structure..."
+msgstr "Datenbankstruktuur warrt wannelt..."
+
+#: backends/qsqlrecipedb.cpp:2161
+msgctxt "@info:progress"
+msgid "Loading category list"
+msgstr "Kategorienlist warrt laadt"
+
+#: backends/recipedb.cpp:308
+msgctxt "@info:progress"
+msgid "Creating complete backup"
+msgstr "Ümfaten Sekerheitkopie warrt opstellt"
+
+#: backends/recipedb.cpp:309 backends/recipedb.cpp:481
+msgid ""
+"Depending on the number of recipes and amount of data, this could take some "
+"time."
+msgstr ""
+"Afhangen vun de Tall vun Rezepten un de Datenmengde mag dat en Stoot bruken."
+
+#: backends/recipedb.cpp:330 backends/recipedb.cpp:488
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH."
+msgstr ""
+"Dat Programm \"%1\" lett sik nich finnen oder opropen. Dat is nich "
+"installeert oder lett sik nich över Dien PATH-Variabel finnen."
+
+#: backends/recipedb.cpp:355
+#, kde-format
+msgid ""
+"Backup failed.\n"
+"%1"
+msgstr ""
+"Sekerheitkoperen fehlslaan.\n"
+"%1"
+
+#: backends/recipedb.cpp:444
+msgid ""
+"This backup was created with a newer version of Krecipes and cannot be "
+"restored."
+msgstr ""
+"Disse Sekerheitkopie wöör mit en nieger Verschoon vun KRecipes opstellt un "
+"lett sik nich wedderherstellen."
+
+#: backends/recipedb.cpp:453
+msgid "This file is not a Krecipes backup file or has become corrupt."
+msgstr "Disse Datei is keen KRecipes-Sekerheitkopie oder is schaadhaftig."
+
+#: backends/recipedb.cpp:458
+#, kde-format
+msgid ""
+"This backup was created using the \"%1\" backend.  It can only be restored "
+"into a database using this backend."
+msgstr ""
+"Disse Sekerheitkopie wöör mit dat Hülpprogramm \"%1\" opstellt, se lett sik "
+"bloots na en Datenbank wedderherstellen, de ok dit Hülpprogramm bruukt."
+
+#: backends/recipedb.cpp:480
+msgctxt "@info:progress"
+msgid "Restoring backup"
+msgstr "Sekerheitkopie warrt torüchspeelt"
+
+#: backends/recipedb.cpp:535 krecipes.cpp:722
+msgid "Restore Failed"
+msgstr "Wedderherstellen fehlslaan"
+
+#: backends/recipedb.cpp:918
+msgid "Nutrient Import"
+msgstr "Eteninholt importeren"
+
+#: backends/recipedb.cpp:918
+msgid "Importing USDA nutrient data"
+msgstr "USDA-Eteninholtdaten warrt importeert"
+
+#: convert_sqlite3.cpp:83 convert_sqlite3.cpp:91
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH. Do you want to configure other path for this "
+"command?"
+msgstr ""
+"Dat Programm \"%1\" lett sik nich finnen oder opropen. Dat is nich "
+"installeert oder lett sik nich över Dien PATH-Variabel finnen. Wullt Du för "
+"dissen Befehl en anner Padd instellen?"
+
+#: convert_sqlite3.cpp:100
+#, kde-format
+msgid ""
+"Conversion process failed. Probably the file %1 is not an SQLite 2 database."
+msgstr ""
+"Ümwanneln fehlslaan. Villicht is de Datei \"%1\" keen SQLite-2-Datenbank."
+
+#: convert_sqlite3.cpp:131
+#, c-format, kde-format
+msgid ""
+"Unable to backup SQLite 2 database, aborting. A successfully converted "
+"SQLite 3 file is available at %1.new."
+msgstr ""
+"SQLite-2-Datenbank lett sik nich sekern. Afbrook. - En mit Spood wannelt "
+"SQLite-3-Datenbankdatei steiht as \"%1.new\" praat."
+
+#: convert_sqlite3.cpp:137
+#, kde-format
+msgid ""
+"Unable to copy the new SQLite 3 database to %1.You may manually move %1.new "
+"to %1"
+msgstr ""
+"Nieg SQLite-3-Datenbank lett sik nich na %1 koperen. Villicht kannst Du \"%1."
+"new\" vun Hand na %1 koperen."
+
+#: convert_sqlite3.cpp:141
+#, kde-format
+msgid "Conversion successful! SQLite 2 database backed up to %1"
+msgstr "Ümwanneln harr Spood. SQLite-2-Datenbank as \"%1\" sekert."
+
+#: dialogs/advancedsearchdialog.cpp:71
+msgctxt "@label"
+msgid "Search using the following criteria:"
+msgstr "Mit disse Markmalen söken:"
+
+#: dialogs/advancedsearchdialog.cpp:98 dialogs/advancedsearchdialog.cpp:705
+msgctxt "@action:button Recipe title"
+msgid "Title >>"
+msgstr "Titel >>"
+
+#: dialogs/advancedsearchdialog.cpp:110 dialogs/advancedsearchdialog.cpp:343
+msgctxt "@option:check"
+msgid "Require All Words"
+msgstr "All Wöör nödig"
+
+#: dialogs/advancedsearchdialog.cpp:114 dialogs/advancedsearchdialog.cpp:347
+msgctxt "@label:textbox"
+msgid "Keywords:"
+msgstr "Slötelwöör:"
+
+#: dialogs/advancedsearchdialog.cpp:127 dialogs/advancedsearchdialog.cpp:713
+msgctxt "@action:button"
+msgid "Ingredients >>"
+msgstr "Rindoels >>"
+
+#: dialogs/advancedsearchdialog.cpp:138
+msgctxt "@info"
+msgid "Enter ingredients: (e.g. chicken pasta \"white wine\")"
+msgstr "Bitte Rindoels ingeven: (a.B: Speck Kantüffels \"grote Bohnen\")"
+
+#: dialogs/advancedsearchdialog.cpp:145
+msgctxt "@label:textbox"
+msgid "Uses all:"
+msgstr "Bruukt all:"
+
+#: dialogs/advancedsearchdialog.cpp:149
+msgctxt "@label:textbox"
+msgid "Uses any of:"
+msgstr "Bruukt een:"
+
+#: dialogs/advancedsearchdialog.cpp:153
+msgctxt "@label:textbox"
+msgid "Without:"
+msgstr "Ahn:"
+
+#: dialogs/advancedsearchdialog.cpp:164 dialogs/advancedsearchdialog.cpp:729
+msgctxt "@action:button"
+msgid "Categories >>"
+msgstr "Kategorien >>"
+
+#: dialogs/advancedsearchdialog.cpp:175
+msgctxt "@info"
+msgid "Enter categories: (e.g. Desserts Pastas \"Main Dishes\")"
+msgstr "Bitte Kategorien ingeven (a.B.: Naspies Aaft \"mit Stipp\")"
+
+#: dialogs/advancedsearchdialog.cpp:182
+msgctxt "@label:textbox"
+msgid "In all:"
+msgstr "Binnen all:"
+
+#: dialogs/advancedsearchdialog.cpp:186
+msgctxt "@label:textbox"
+msgid "In any of:"
+msgstr "Binnen een:"
+
+#: dialogs/advancedsearchdialog.cpp:190
+msgctxt "@label:textbox"
+msgid "Not in:"
+msgstr "Nich in:"
+
+#: dialogs/advancedsearchdialog.cpp:201 dialogs/advancedsearchdialog.cpp:721
+msgctxt "@action:button"
+msgid "Authors >>"
+msgstr "Autoren >>"
+
+#: dialogs/advancedsearchdialog.cpp:212
+msgctxt "@info"
+msgid "Enter author name (e.g. Smith or \"Jane Doe\")"
+msgstr "Bitte Autornaam ingeven (a.B.: Claassen oder \"Hein Mück\")"
+
+#: dialogs/advancedsearchdialog.cpp:219
+msgctxt "@label:textbox"
+msgid "By any of:"
+msgstr "Vun een:"
+
+#: dialogs/advancedsearchdialog.cpp:223
+msgctxt "@label:textbox"
+msgid "By all:"
+msgstr "Vun all:"
+
+#: dialogs/advancedsearchdialog.cpp:227
+msgctxt "@label:textbox"
+msgid "Not by:"
+msgstr "Nich vun:"
+
+#: dialogs/advancedsearchdialog.cpp:238 dialogs/advancedsearchdialog.cpp:737
+msgctxt "@action:button"
+msgid "Yield >>"
+msgstr "Aust >>"
+
+#: dialogs/advancedsearchdialog.cpp:252 dialogs/advancedsearchdialog.cpp:300
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "Anmaakt"
+
+#: dialogs/advancedsearchdialog.cpp:265
+msgctxt "@item:inlistbox"
+msgid "Yields at least:"
+msgstr "Gifft tominnst:"
+
+#: dialogs/advancedsearchdialog.cpp:266
+msgctxt "@item:inlistbox"
+msgid "Yields at most:"
+msgstr "Gifft tohööchst:"
+
+#: dialogs/advancedsearchdialog.cpp:267
+msgctxt "@item:inlistbox"
+msgid "Yields about:"
+msgstr "Gifft üm un bi:"
+
+#: dialogs/advancedsearchdialog.cpp:286 dialogs/advancedsearchdialog.cpp:745
+msgctxt "@action:button"
+msgid "Preparation Time >>"
+msgstr "Torechtmaaktiet >>"
+
+#: dialogs/advancedsearchdialog.cpp:312
+msgctxt "@item:inlistbox"
+msgid "Ready in at most:"
+msgstr "Praat in tohööchst:"
+
+#: dialogs/advancedsearchdialog.cpp:313
+msgctxt "@item:inlistbox"
+msgid "Ready in about:"
+msgstr "Praat in üm un bi:"
+
+#: dialogs/advancedsearchdialog.cpp:331 dialogs/advancedsearchdialog.cpp:753
+msgctxt "@action:button"
+msgid "Instructions >>"
+msgstr "Anwiesen >>"
+
+#: dialogs/advancedsearchdialog.cpp:361 dialogs/advancedsearchdialog.cpp:761
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Meta Data >>"
+msgctxt "@action:button"
+msgid "Meta Data >>"
+msgstr "Metadaten >>"
+
+#: dialogs/advancedsearchdialog.cpp:373
+msgctxt "@label Recipe created date"
+msgid "Created:"
+msgstr "Opstellt:"
+
+#: dialogs/advancedsearchdialog.cpp:384
+msgctxt "@label Recipe modified date"
+msgid "Modified:"
+msgstr "Ännert:"
+
+#: dialogs/advancedsearchdialog.cpp:395
+msgctxt "@label Recipe last accessed date"
+msgid "Last Accessed:"
+msgstr "Verleden Togriep:"
+
+#: dialogs/advancedsearchdialog.cpp:414 dialogs/advancedsearchdialog.cpp:769
+msgctxt "@action:button"
+msgid "Ratings >>"
+msgstr "Beweerten >>"
+
+#: dialogs/advancedsearchdialog.cpp:425
+msgctxt "@option:radio"
+msgid "By average:"
+msgstr "Na Dörsnitt:"
+
+#: dialogs/advancedsearchdialog.cpp:442
+msgctxt "@label"
+msgid "stars"
+msgstr "Steerns"
+
+#: dialogs/advancedsearchdialog.cpp:448
+msgctxt "@option:radio"
+msgid "By criteria:"
+msgstr "Na Markmaal:"
+
+#: dialogs/advancedsearchdialog.cpp:494
+msgctxt "@title:column"
+msgid "Criterion"
+msgstr "Markmaal"
+
+#: dialogs/advancedsearchdialog.cpp:495 dialogs/advancedsearchdialog.cpp:497
+#: dialogs/editratingdialog.cpp:117 dialogs/editratingdialog.cpp:168
+msgctxt "@title:column"
+msgid "Stars"
+msgstr "Steerns"
+
+#: dialogs/advancedsearchdialog.cpp:496 dialogs/editratingdialog.cpp:116
+#: dialogs/editratingdialog.cpp:167
+msgctxt "@title:column"
+msgid "Criteria"
+msgstr "Bedingen"
+
+#: dialogs/advancedsearchdialog.cpp:518
+msgctxt "@action:button Clear search criteria"
+msgid "C&lear"
+msgstr "&Wegdoon"
+
+#: dialogs/advancedsearchdialog.cpp:526
+msgctxt "@action:button Search recipes"
+msgid "&Search"
+msgstr "&Söken"
+
+#: dialogs/advancedsearchdialog.cpp:549
+msgctxt "@title:column Recipe title"
+msgid "Title"
+msgstr "Titel"
+
+#: dialogs/advancedsearchdialog.cpp:703
+#, fuzzy
+#| msgctxt "@title:column Recipe title"
+#| msgid "Title"
+msgctxt "@action:button Recipe title"
+msgid "Title <<"
+msgstr "Titel"
+
+#: dialogs/advancedsearchdialog.cpp:711
+#, fuzzy
+#| msgid "Ingredients"
+msgctxt "@action:button"
+msgid "Ingredients <<"
+msgstr "Rindoels"
+
+#: dialogs/advancedsearchdialog.cpp:719
+#, fuzzy
+#| msgid "Authors"
+msgctxt "@action:button"
+msgid "Authors <<"
+msgstr "Autoren"
+
+#: dialogs/advancedsearchdialog.cpp:727
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@action:button"
+msgid "Categories <<"
+msgstr "Kategorien"
+
+#: dialogs/advancedsearchdialog.cpp:735
+#, fuzzy
+#| msgid "Yield"
+msgctxt "@action:button"
+msgid "Yield <<"
+msgstr "Aust"
+
+#: dialogs/advancedsearchdialog.cpp:743
+#, fuzzy
+#| msgid "Preparation Time"
+msgctxt "@action:button"
+msgid "Preparation Time <<"
+msgstr "Torechtmaaktiet"
+
+#: dialogs/advancedsearchdialog.cpp:751
+#, fuzzy
+#| msgid "Instructions"
+msgctxt "@action:button"
+msgid "Instructions <<"
+msgstr "Anwiesen"
+
+#: dialogs/advancedsearchdialog.cpp:759
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Meta Data >>"
+msgctxt "@action:button"
+msgid "Meta Data <<"
+msgstr "Metadaten >>"
+
+#: dialogs/advancedsearchdialog.cpp:767
+#, fuzzy
+#| msgid "Ratings"
+msgctxt "@action:button"
+msgid "Ratings <<"
+msgstr "Beweerten"
+
+#: dialogs/advancedsearchdialog.cpp:990
+msgctxt "@item:inlistbox"
+msgid "No matching recipes found"
+msgstr "Keen passen Rezepten funnen"
+
+#: dialogs/authorsdialog.cpp:45 dialogs/categorieseditordialog.cpp:45
+#: dialogs/ingredientgroupsdialog.cpp:40 dialogs/ingredientsdialog.cpp:63
+#: dialogs/prepmethodsdialog.cpp:44 dialogs/propertiesdialog.cpp:54
+#: dialogs/unitsdialog.cpp:55
+msgctxt "@action:button"
+msgid "Create..."
+msgstr "Opstellen..."
+
+#: dialogs/authorsdialog.cpp:50 dialogs/categorieseditordialog.cpp:50
+#: dialogs/ingredientgroupsdialog.cpp:45 dialogs/ingredientsdialog.cpp:68
+#: dialogs/prepmethodsdialog.cpp:49 dialogs/propertiesdialog.cpp:58
+#: dialogs/selectrecipedialog.cpp:108 dialogs/unitsdialog.cpp:60
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Wegdoon"
+
+#: dialogs/borderdialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Border"
+msgstr "Rand utsöken"
+
+#: dialogs/borderdialog.cpp:130
+msgctxt "@title:group"
+msgid "Requested Border"
+msgstr "Randköör"
+
+#: dialogs/borderdialog.cpp:131
+msgctxt "@label:textbox Border style"
+msgid "Style:"
+msgstr "Stil:"
+
+#: dialogs/borderdialog.cpp:132
+msgctxt "@label:textbox Border color"
+msgid "Color:"
+msgstr "Klöör:"
+
+#: dialogs/borderdialog.cpp:133
+msgctxt "@label:textbox Border width"
+msgid "Width:"
+msgstr "Breed:"
+
+#: dialogs/borderdialog.cpp:205
+msgctxt "@item:inlistbox Border type none"
+msgid "None"
+msgstr "Keen"
+
+#: dialogs/borderdialog.cpp:206
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dotted"
+msgstr "Punkteert"
+
+#: dialogs/borderdialog.cpp:207
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dashed"
+msgstr "Ünnerbraken"
+
+#: dialogs/borderdialog.cpp:208
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Solid"
+msgstr "Vull"
+
+#: dialogs/borderdialog.cpp:209
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Double"
+msgstr "Dubbelt"
+
+#: dialogs/borderdialog.cpp:210
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Groove"
+msgstr "Ingraven"
+
+#: dialogs/borderdialog.cpp:211
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Ridge"
+msgstr "Rutheevt"
+
+#: dialogs/borderdialog.cpp:212
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Inset"
+msgstr "Insett"
+
+#: dialogs/borderdialog.cpp:213
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Outset"
+msgstr "Rutsett"
+
+#: dialogs/borderdialog.cpp:228
+msgid "Border Preview"
+msgstr "Rand-Vöransicht"
+
+#: dialogs/conversiondialog.cpp:33
+msgctxt "@title:window"
+msgid "Measurement Converter"
+msgstr "Maateenheiten-Ümreken"
+
+#: dialogs/conversiondialog.cpp:37
+msgctxt "@action:button"
+msgid "Convert"
+msgstr "Ümreken"
+
+#: dialogs/conversiondialog.cpp:58
+msgctxt "@item:inlistbox"
+msgid "--Ingredient (optional)--"
+msgstr "-- Rindoels (köörwies) --"
+
+#: dialogs/conversiondialog.cpp:61
+msgctxt "@item:inlistbox"
+msgid "-No Preparation-"
+msgstr "-Torechtmaken deit nich noot-"
+
+#: dialogs/conversiondialog.cpp:96
+msgctxt "@label"
+msgid "Convert"
+msgstr "Ümreken"
+
+#: dialogs/conversiondialog.cpp:97
+msgctxt "@label Convert to"
+msgid "To"
+msgstr "Na"
+
+#: dialogs/conversiondialog.cpp:99
+msgctxt "@label Result of an unit conversion"
+msgid "<b>Result:</b>"
+msgstr "<b>Resultaat:</b>"
+
+#: dialogs/conversiondialog.cpp:134
+msgctxt "@label:textbox"
+msgid "<b>Result:</b>"
+msgstr "<b>Resultaat:</b>"
+
+#: dialogs/conversiondialog.cpp:138
+msgctxt "@label:textbox"
+msgid "<b>Approximated result:</b>"
+msgstr "<b>Negert Resultaat:</b>"
+
+#: dialogs/conversiondialog.cpp:142 dialogs/conversiondialog.cpp:146
+#: dialogs/conversiondialog.cpp:150 dialogs/conversiondialog.cpp:154
+#: dialogs/conversiondialog.cpp:158
+msgctxt "@label:textbox"
+msgid "<b>Error:</b>"
+msgstr "<b>Fehler:</b>"
+
+#: dialogs/conversiondialog.cpp:143
+msgctxt "@info"
+msgid "Missing unit conversion"
+msgstr "Eenheiten-Ümreken fehlt"
+
+#: dialogs/conversiondialog.cpp:147
+msgctxt "@info"
+msgid "No ingredient weight available"
+msgstr "Keen Rindoels-Wicht verföögbor"
+
+#: dialogs/conversiondialog.cpp:151
+msgctxt "@info"
+msgid "No ingredient weight available for this method of preparation"
+msgstr "Keen Rindoels-Wicht för disse Torechtmaak-Metood verföögbor"
+
+#: dialogs/conversiondialog.cpp:155
+msgctxt "@info"
+msgid "Ingredient required for conversion"
+msgstr "Rindoels deit för't Ümreken noot"
+
+#: dialogs/conversiondialog.cpp:159
+msgctxt "@info"
+msgid "Impossible unit conversion based on unit types"
+msgstr "Na de Eenheitentypen is keen Ümreken mööglich"
+
+#: dialogs/createcategorydialog.cpp:25
+msgctxt "@title:window"
+msgid "New Category"
+msgstr "Nieg Kategorie"
+
+#: dialogs/createcategorydialog.cpp:36
+msgctxt "@title:group"
+msgid "New Category"
+msgstr "Nieg Kategorie"
+
+#: dialogs/createcategorydialog.cpp:39
+msgctxt "@label:textbox Category name"
+msgid "Name:"
+msgstr "Naam:"
+
+#: dialogs/createcategorydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Subcategory of:"
+msgstr "Ünnerkategorie vun:"
+
+#: dialogs/createcategorydialog.cpp:59
+msgctxt "@item:inlistbox No category"
+msgid "**NONE**"
+msgstr "**Keen**"
+
+#: dialogs/createingredientweightdialog.cpp:32
+msgctxt "@title:window"
+msgid "Add Ingredient Weight"
+msgstr "Rindoels-Wicht tofögen"
+
+#: dialogs/createingredientweightdialog.cpp:74
+msgctxt "@item"
+msgid "-No Preparation-"
+msgstr "-Torechtmaken deit nich noot-"
+
+#: dialogs/createingredientweightdialog.cpp:94
+msgctxt "@title:group"
+msgid "New Ingredient Weight"
+msgstr "Nieg Rindoels-Wicht"
+
+#: dialogs/createingredientweightdialog.cpp:95
+msgctxt "@label:textbox"
+msgid "Per Amount:"
+msgstr "Per Mengde:"
+
+#: dialogs/createingredientweightdialog.cpp:96
+msgctxt "@label:textbox"
+msgid "Weight:"
+msgstr "Wicht:"
+
+#: dialogs/createingredientweightdialog.cpp:102
+#: dialogs/createingredientweightdialog.cpp:109
+msgctxt "@info"
+msgid "Amount field contains invalid input."
+msgstr "De Inholt vun't Mengde-Feld is leeg."
+
+#: dialogs/createingredientweightdialog.cpp:103
+#: dialogs/createingredientweightdialog.cpp:110
+msgctxt "@title:window"
+msgid "Invalid input"
+msgstr "Leeg Ingaav"
+
+#: dialogs/createpropertydialog.cpp:22
+msgctxt "@title:window"
+msgid "New Property"
+msgstr "Nieg Egenschap"
+
+#: dialogs/createpropertydialog.cpp:34
+msgctxt "@title:group"
+msgid "New Property"
+msgstr "Nieg Egenschap"
+
+#: dialogs/createpropertydialog.cpp:38
+msgctxt "@label:textbox"
+msgid "Property name:"
+msgstr "Egenschap-Naam:"
+
+#: dialogs/createpropertydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Units:"
+msgstr "Eenheiten:"
+
+#: dialogs/createunitconversiondialog.cpp:74
+msgctxt "@title:window"
+msgid "Unit Conversion"
+msgstr "Eenheiten ümreken"
+
+#: dialogs/createunitconversiondialog.cpp:75
+msgctxt "@title:group"
+msgid "New Unit Conversion"
+msgstr "Nieg Eenheiten-Ümreken"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "New Unit"
+msgstr "Nieg Eenheit"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "Unit"
+msgstr "Eenheit"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "New Unit"
+msgstr "Nieg Eenheit"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "Unit"
+msgstr "Eenheit"
+
+#: dialogs/createunitdialog.cpp:41
+msgctxt "@label:textbox Single unit name"
+msgid "Singular:"
+msgstr "Eentall:"
+
+#: dialogs/createunitdialog.cpp:45
+msgctxt "@label:textbox Single unit abbreviation"
+msgid "Singular Abbreviation:"
+msgstr "Eentall-Afkörten:"
+
+#: dialogs/createunitdialog.cpp:49
+msgctxt "@label:textbox Plural unit name"
+msgid "Plural:"
+msgstr "Mehrtall:"
+
+#: dialogs/createunitdialog.cpp:53
+msgctxt "@label:textbox Plural unit abbreviation"
+msgid "Plural Abbreviation:"
+msgstr "Mehrtall-Afkörten:"
+
+#: dialogs/createunitdialog.cpp:56 widgets/unitlistview.cpp:80
+msgctxt "@item:inlistbox Unit type other"
+msgid "Other"
+msgstr "Anner"
+
+#: dialogs/createunitdialog.cpp:57 widgets/unitlistview.cpp:81
+msgctxt "@item:inlistbox Unit type mass"
+msgid "Mass"
+msgstr "Mass"
+
+#: dialogs/createunitdialog.cpp:58 widgets/unitlistview.cpp:82
+msgctxt "@item:inlistbox Unit type volume"
+msgid "Volume"
+msgstr "Ruuminholt"
+
+#: dialogs/createunitdialog.cpp:62
+msgctxt "@label:textbox Unit Type"
+msgid "Type:"
+msgstr "Typ:"
+
+#: dialogs/dbimportdialog.cpp:40
+msgctxt "@title:window"
+msgid "Database Import"
+msgstr "Datenbank importeren"
+
+#: dialogs/dbimportdialog.cpp:78
+msgctxt "@label:textbox"
+msgid "Database file:"
+msgstr "Datenbank-Datei:"
+
+#: dialogs/dbimportdialog.cpp:151
+msgctxt "@title:group"
+msgid "Database"
+msgstr "Datenbank"
+
+#: dialogs/dbimportdialog.cpp:155
+msgctxt "@label:textbox"
+msgid "Server:"
+msgstr "Server:"
+
+#: dialogs/dbimportdialog.cpp:156
+msgctxt "@label:textbox Database username"
+msgid "Username:"
+msgstr "Brukernaam:"
+
+#: dialogs/dbimportdialog.cpp:157
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Passwoort:"
+
+#: dialogs/dbimportdialog.cpp:158
+msgctxt "@label:textbox"
+msgid "Database name:"
+msgstr "Datenbanknaam:"
+
+#: dialogs/dbimportdialog.cpp:159
+msgctxt "@label:textbox"
+msgid "Port:"
+msgstr "Port:"
+
+#: dialogs/dbimportdialog.cpp:160
+msgctxt "@label:textbox Default port"
+msgid "Default"
+msgstr "Standard"
+
+#: dialogs/dependanciesdialog.cpp:53
+msgctxt "@title:window"
+msgid "Element with Dependencies"
+msgstr "Element mit Afhangigkeiten"
+
+#: dialogs/dependanciesdialog.cpp:65
+msgctxt "@info"
+msgid ""
+"<warning>The following will have to be removed also, since currently they "
+"use the element you have chosen to be removed.</warning>"
+msgstr ""
+"<warning>Disse Elementen warrt ok wegdaan, se bruukt dat Element, dat Du "
+"wegdoon wullt.</warning>"
+
+#: dialogs/dependanciesdialog.cpp:68
+msgctxt "@info"
+msgid ""
+"<warning>The following currently use the element you have chosen to be "
+"removed.</warning>"
+msgstr "<warning>Disse Elementen bruukt dat, wat Du wegdoon wullt.</warning>"
+
+#: dialogs/dependanciesdialog.cpp:104
+msgctxt "@info"
+msgid "Are you sure you wish to proceed?"
+msgstr "Wullt Du redig wiedermaken?"
+
+#: dialogs/dietviewdialog.cpp:24
+msgctxt "@title:window"
+msgid "View Diet"
+msgstr "Eten ankieken"
+
+#: dialogs/dietviewdialog.cpp:33
+msgctxt "@action:button"
+msgid "Create &Shopping List"
+msgstr "&Inkööplist opstellen"
+
+#: dialogs/dietviewdialog.cpp:59 dialogs/dietviewdialog.cpp:78
+msgid "Diet"
+msgstr "Eten"
+
+#: dialogs/dietviewdialog.cpp:97
+#, kde-format
+msgid "Day %1"
+msgstr "Dag %1"
+
+#: dialogs/dietwizarddialog.cpp:59
+msgctxt "@label:slider"
+msgid "Number of Days"
+msgstr "Daag"
+
+#: dialogs/dietwizarddialog.cpp:78
+msgctxt "@label:slider"
+msgid "Meals per Day"
+msgstr "Mahltieden per Dag"
+
+#: dialogs/dietwizarddialog.cpp:106
+msgctxt "@action:button"
+msgid "Create the diet"
+msgstr "Dat Eten maken"
+
+#: dialogs/dietwizarddialog.cpp:110
+msgctxt "@action:button Clear Diet"
+msgid "Clear"
+msgstr "Leddig maken"
+
+#: dialogs/dietwizarddialog.cpp:116 dialogs/dietwizarddialog.cpp:170
+#, kde-format
+msgctxt "@title:tab"
+msgid "Meal 1"
+msgid_plural "Meal %1"
+msgstr[0] "Mahltiet 1"
+msgstr[1] "Mahltiet %1"
+
+#: dialogs/dietwizarddialog.cpp:165 dialogs/dietwizarddialog.cpp:187
+#, kde-format
+msgid "- %1 -"
+msgstr "- %1 -"
+
+#: dialogs/dietwizarddialog.cpp:191
+#, kde-format
+msgid "- 1 week -"
+msgid_plural "- %1 weeks -"
+msgstr[0] "- 1 Week -"
+msgstr[1] "- %1 Weken -"
+
+#: dialogs/dietwizarddialog.cpp:246
+msgctxt "@info"
+msgid ""
+"Given the constraints, a full diet list could not be constructed. Either the "
+"recipe list is too short or the constraints are too demanding. "
+msgstr ""
+"De Etenlist lett sik mit disse Bedingen nich opstellen. Dat gifft to wenig "
+"Rezepten, oder de Bedingen sünd to drang. "
+
+#: dialogs/dietwizarddialog.cpp:340
+msgctxt "@label:spinbox"
+msgid "No. of dishes: "
+msgstr "Etentall: "
+
+#: dialogs/dietwizarddialog.cpp:348
+msgctxt "@action:button"
+msgid "Previous Dish"
+msgstr "Verleden Eten"
+
+#: dialogs/dietwizarddialog.cpp:351
+msgctxt "@action:button"
+msgid "Next Dish"
+msgstr "Nakamen Eten"
+
+#: dialogs/dietwizarddialog.cpp:359
+msgid "1st Course"
+msgstr "1. Gang"
+
+#: dialogs/dietwizarddialog.cpp:362
+msgid "2nd Course"
+msgstr "2. Gang"
+
+#: dialogs/dietwizarddialog.cpp:365
+msgid "Dessert"
+msgstr "Naspies"
+
+#: dialogs/dietwizarddialog.cpp:400
+#, kde-format
+msgctxt "Dish number %1"
+msgid "Dish %1"
+msgstr "Eten %1"
+
+#: dialogs/dietwizarddialog.cpp:473
+msgctxt "@label:listbox"
+msgid "Dish Characteristics"
+msgstr "Eten-Egenschappen"
+
+#: dialogs/dietwizarddialog.cpp:485
+msgctxt "@option:check"
+msgid "Enable Category Filtering"
+msgstr "Kategoriefilter bruken"
+
+#: dialogs/editpropertiesdialog.cpp:127 dialogs/editpropertiesdialog.cpp:252
+msgctxt "@title:column"
+msgid "USDA Ingredient"
+msgstr "USDA-Rindoels"
+
+#: dialogs/editpropertiesdialog.cpp:167 dialogs/editpropertiesdialog.cpp:258
+#: dialogs/selectpropertydialog.cpp:56 widgets/propertylistview.cpp:130
+#: widgets/propertylistview.cpp:164
+msgctxt "@title:column"
+msgid "Property"
+msgstr "Egenschap"
+
+#: dialogs/editpropertiesdialog.cpp:168 dialogs/editpropertiesdialog.cpp:259
+#: dialogs/ingredientparserdialog.cpp:67
+#: dialogs/ingredientparserdialog.cpp:116 dialogs/recipeinputdialog.cpp:345
+#: dialogs/refineshoppinglistdialog.cpp:91
+#: dialogs/refineshoppinglistdialog.cpp:124
+msgctxt "@title:column"
+msgid "Amount"
+msgstr "Mengde"
+
+#: dialogs/editpropertiesdialog.cpp:169 dialogs/editpropertiesdialog.cpp:260
+#: dialogs/ingredientparserdialog.cpp:68
+#: dialogs/ingredientparserdialog.cpp:117
+#: dialogs/refineshoppinglistdialog.cpp:92
+#: dialogs/refineshoppinglistdialog.cpp:125 dialogs/selectunitdialog.cpp:41
+msgctxt "@title:column"
+msgid "Unit"
+msgstr "Eenheit"
+
+#: dialogs/editpropertiesdialog.cpp:202 dialogs/editpropertiesdialog.cpp:264
+msgctxt "@title:column"
+msgid "Weight"
+msgstr "Wicht"
+
+#: dialogs/editpropertiesdialog.cpp:203 dialogs/editpropertiesdialog.cpp:265
+msgctxt "@title:column"
+msgid "Per Amount"
+msgstr "Per Mengde"
+
+#: dialogs/editpropertiesdialog.cpp:250
+msgctxt "@title:window"
+msgid "Property Information"
+msgstr "Egenschap-Informatschoon"
+
+#: dialogs/editpropertiesdialog.cpp:251
+#, kde-format
+msgctxt "@label"
+msgid "Property Information for <b>%1</b>"
+msgstr "Egenschappen för <b>%1</b>"
+
+#: dialogs/editpropertiesdialog.cpp:254
+msgctxt "@action:button Load USDA data"
+msgid "Load"
+msgstr "Laden"
+
+#: dialogs/editpropertiesdialog.cpp:255
+msgctxt "@title:group"
+msgid "Properties"
+msgstr "Egenschappen"
+
+#: dialogs/editpropertiesdialog.cpp:256 dialogs/editpropertiesdialog.cpp:262
+#: dialogs/editratingdialog.cpp:165
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Tofögen"
+
+#: dialogs/editpropertiesdialog.cpp:257 dialogs/editpropertiesdialog.cpp:263
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Wegmaken"
+
+#: dialogs/editpropertiesdialog.cpp:261
+msgctxt "@title:group"
+msgid "Weights"
+msgstr "Wichten"
+
+#: dialogs/editpropertiesdialog.cpp:291
+msgctxt "@info"
+msgid ""
+"Recipes may require this information for nutrient analysis. Are you sure you "
+"want to delete this entry?"
+msgstr ""
+"Disse Informatschoon deit för't Utreken vun Eteninholden noot. Wullt Du den "
+"Indrag redig wegdoon?"
+
+#: dialogs/editpropertiesdialog.cpp:310 dialogs/editpropertiesdialog.cpp:342
+#: dialogs/ingredientmatcherdialog.cpp:159
+msgctxt "@title:window"
+msgid "Enter amount"
+msgstr "Mengde ingeven"
+
+#: dialogs/editpropertiesdialog.cpp:314 dialogs/editpropertiesdialog.cpp:346
+#: dialogs/ingredientmatcherdialog.cpp:163
+msgctxt "@title:group"
+msgid "Amount"
+msgstr "Mengde"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@title:window"
+msgid "Property Exists"
+msgstr "Gifft de Egenschap al"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@info"
+msgid ""
+"The property you tried to add already exists in the ingredient with the same "
+"per units."
+msgstr ""
+"De Egenschap, de Du tofögen wullt, gifft dat för de Rindoels al mit de "
+"sülven Eenheiten."
+
+#: dialogs/editpropertiesdialog.cpp:655
+msgctxt "@info"
+msgid "Please select an ingredient in the USDA ingredient list"
+msgstr "Söök bitte en Rindoels ut de USDA-Rindoelslist ut."
+
+#: dialogs/editratingdialog.cpp:55 dialogs/editratingdialog.cpp:68
+msgctxt "@title:window"
+msgid "Rating"
+msgstr "Beweerten"
+
+#: dialogs/editratingdialog.cpp:139 dialogs/editratingdialog.cpp:166
+msgctxt "@action:button"
+msgid "&Delete"
+msgstr "&Wegdoon"
+
+#: dialogs/editratingdialog.cpp:163
+msgctxt "@label:textbox"
+msgid "Criteria:"
+msgstr "Bedingen:"
+
+#: dialogs/editratingdialog.cpp:164
+msgctxt "@label:textbox"
+msgid "Stars:"
+msgstr "Steerns:"
+
+#: dialogs/editratingdialog.cpp:169
+msgctxt "@label:textbox"
+msgid "Comments:"
+msgstr "Kommentaren:"
+
+#: dialogs/editratingdialog.cpp:170
+msgctxt "@label:textbox"
+msgid "Rater:"
+msgstr "Beweerter:"
+
+#: dialogs/ingredientmatcherdialog.cpp:88
+msgctxt "@title:column"
+msgid "Ingredient (required?)"
+msgstr "Rindoels (nödig?)"
+
+#: dialogs/ingredientmatcherdialog.cpp:89
+msgctxt "@title:column"
+msgid "Amount Available"
+msgstr "Verföögbor Mengde"
+
+#: dialogs/ingredientmatcherdialog.cpp:102
+msgctxt ""
+"@label:spinbox Number of missing ingredients allowed when doing a search by "
+"ingredients"
+msgid "Missing ingredients allowed:"
+msgstr "Möögliche Rindoels, de fehlt:"
+
+#: dialogs/ingredientmatcherdialog.cpp:106
+msgctxt ""
+"@item Any amount of ingredients missing when doing a search by ingredients"
+msgid "Any"
+msgstr "All"
+
+#: dialogs/ingredientmatcherdialog.cpp:109
+msgctxt "@title"
+msgid "Matching Recipes"
+msgstr "Passen Rezepten"
+
+#: dialogs/ingredientmatcherdialog.cpp:112
+msgctxt "@title:column Recipe Title"
+msgid "Title"
+msgstr "Titel"
+
+#: dialogs/ingredientmatcherdialog.cpp:119
+msgctxt "@title:column Missing ingredients in a search result"
+msgid "Missing Ingredients"
+msgstr "Rindoels, de fehlt"
+
+#: dialogs/ingredientmatcherdialog.cpp:130
+msgctxt "@action:button"
+msgid "Find matching recipes"
+msgstr "Passen Rezepten söken"
+
+#: dialogs/ingredientmatcherdialog.cpp:136
+msgctxt "@action:button Clear search criteria"
+msgid "Clear"
+msgstr "Leddig maken"
+
+#: dialogs/ingredientmatcherdialog.cpp:345
+#, kde-format
+msgctxt "@label:textbox"
+msgid "You are missing 1 ingredient for:"
+msgid_plural "You are missing %1 ingredients for:"
+msgstr[0] "Di fehlt een Rindoels för:"
+msgstr[1] "Di fehlt %1 Rindoels för:"
+
+#: dialogs/ingredientmatcherdialog.h:53 exporters/htmlexporter.cpp:308
+#: exporters/htmlexporter.cpp:331 exporters/xsltexporter.cpp:56
+#: widgets/inglistviewitem.cpp:28 widgets/inglistviewitem.cpp:40
+#: widgets/ingredientinputwidget.cpp:97
+msgid "OR"
+msgstr "oder"
+
+#: dialogs/ingredientparserdialog.cpp:42
+msgctxt "@title:window"
+msgid "Ingredient Parser"
+msgstr "Rindoels-Inleser"
+
+#: dialogs/ingredientparserdialog.cpp:66
+#: dialogs/ingredientparserdialog.cpp:115 dialogs/recipeinputdialog.cpp:344
+#: widgets/ingredientlistview.cpp:107 widgets/ingredientlistview.cpp:132
+msgctxt "@title:column"
+msgid "Ingredient"
+msgstr "Rindoels"
+
+#: dialogs/ingredientparserdialog.cpp:69
+#: dialogs/ingredientparserdialog.cpp:118 dialogs/recipeinputdialog.cpp:348
+#: widgets/prepmethodlistview.cpp:52
+msgctxt "@title:column"
+msgid "Preparation Method"
+msgstr "Torechtmaak-Metood"
+
+#: dialogs/ingredientparserdialog.cpp:88
+msgctxt "@action:button"
+msgid "Set &Header"
+msgstr "As &Koppel bruken"
+
+#: dialogs/ingredientparserdialog.cpp:89
+msgctxt "@info:whatsthis"
+msgid ""
+"If an ingredient header is detected as an ingredient, select it and click "
+"this button so that Krecipes will recognize it as a header.  All the "
+"ingredients below the header will be included within that group.\n"
+"\n"
+"Alternatively, if you select multiple ingredients and click this button, "
+"those ingredients will be grouped together."
+msgstr ""
+"Warrt en Koppelnaam as Rindoels wiest, söök dat ut un klick op dissen Knoop, "
+"KRecipes kennt em denn as Koppelnaam. All Rindoels nerrn den Koppelnaam "
+"warrt na den Koppel inslaten.\n"
+"\n"
+"Du kannst ok en Reeg Rindoels utsöken un op dissen Knoop klicken, de "
+"Rindoels warrt denn tosamenkoppelt."
+
+#: dialogs/ingredientparserdialog.cpp:94
+msgctxt "@item:inmenu"
+msgid "&Delete"
+msgstr "&Wegdoon"
+
+#: dialogs/ingredientparserdialog.cpp:95
+msgctxt "@item:inmenu"
+msgid "Set &Header"
+msgstr "As &Koppel bruken"
+
+#: dialogs/ingredientparserdialog.cpp:108
+msgctxt "@info"
+msgid ""
+"<para>To use: Paste a list of ingredient below, click <interface>Parse Text</"
+"interface>, and then you may correct any incorrectly parsed ingredients.</"
+"para><para><warning>Fields will be truncated if longer than the database "
+"allows</warning></para>"
+msgstr ""
+"<para>Bruuk: Föög nerrn en List mit Rindoels in un klick op <interface>Text "
+"inlesen</interface>. Achteran kannst Du fehlerhaftig inleest Rindoels-"
+"Indrääg richten.</para><para><warning>De Feller warrt afsneden, wenn de "
+"Inholt länger is, as wat de Datenbank tolaten deit.</warning></para>"
+
+#: dialogs/ingredientparserdialog.cpp:112
+msgctxt "@title"
+msgid "Ingredients as understood by Krecipes:"
+msgstr "Rindoels, as Krecipes se verstahn hett:"
+
+#: dialogs/ingredientparserdialog.cpp:114
+msgctxt "@action:button"
+msgid "Parse Text"
+msgstr "Text inlesen"
+
+#: dialogs/ingredientsdialog.cpp:74
+msgctxt "@action:button"
+msgid "Property Information"
+msgstr "Egenschap-Informatschoon"
+
+#: dialogs/ingredientsdialog.cpp:81 dialogs/recipeinputdialog.cpp:428
+msgctxt "@title:tab"
+msgid "Ingredients"
+msgstr "Rindoels"
+
+#: dialogs/ingredientsdialog.cpp:84
+msgctxt "@title:tab"
+msgid "Headers"
+msgstr "Överschriften"
+
+#: dialogs/ingredientsdialog.cpp:135
+msgctxt "@info"
+msgid "No ingredient selected."
+msgstr "Keen Rindoels utsöcht"
+
+#: dialogs/pagesetupdialog.cpp:51
+msgid "Page Setup"
+msgstr "Siedeninstellen"
+
+#: dialogs/pagesetupdialog.cpp:60
+msgid "Items Shown"
+msgstr "Wiest Indrääg"
+
+#: dialogs/pagesetupdialog.cpp:63
+msgid "Show Items"
+msgstr "Indrääg wiesen"
+
+#: dialogs/pagesetupdialog.cpp:68
+msgid ""
+"<i>Usage: Select a template along the left, and right-click any element to "
+"edit the look of that element.</i>"
+msgstr ""
+"<i>Bruuk: Linkerhand en Vörlaag utsöken. Över Rechtsklick lett sik dat "
+"Utsehn vun elk Element bewerken.</i>"
+
+#: dialogs/pagesetupdialog.cpp:87
+msgid "Save and Close"
+msgstr "Sekern un Tomaken"
+
+#: dialogs/pagesetupdialog.cpp:89
+msgid "&Cancel"
+msgstr "&Afbreken"
+
+#: dialogs/pagesetupdialog.cpp:138
+msgid ""
+"The recipe view layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Du hest dat Rezept-Utsehn ännert.\n"
+"Wullt Du dat sekern?"
+
+#: dialogs/pagesetupdialog.cpp:138 dialogs/pagesetupdialog.cpp:216
+msgid "Save Layout?"
+msgstr "Utsehn sekern?"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Krecipes style or template file"
+msgstr "Stil- oder Vörlaagdatei vun KRecipes"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Select Layout"
+msgstr "Utsehn utsöken"
+
+#: dialogs/pagesetupdialog.cpp:216
+msgid ""
+"This layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Du hest dit Utsehn ännert.\n"
+"Wullt Du dat sekern?"
+
+#: dialogs/pagesetupdialog.cpp:242
+msgid ""
+"Unable to save the layout because you do not have sufficient permissions to "
+"modify this file.\n"
+"Would you like to instead save the current layout to a new file?"
+msgstr ""
+"Dat Utsehn lett sik nich sekern, Du hest nich noog Verlöven för't Ännern vun "
+"disse Datei.\n"
+"Wullt Du dat ansteed as en nieg Datei sekern?"
+
+#: dialogs/pagesetupdialog.cpp:263
+msgid ""
+"You have selected a file that you do not have the permissions to write to.\n"
+"Would you like to select another file?"
+msgstr ""
+"Du hest en Datei utsöcht, för de Du keen Schriefverlöven hest.\n"
+"Wullt Du en anner Datei utsöken?"
+
+#: dialogs/recipeimportdialog.cpp:34
+msgctxt "@title:window"
+msgid "Import Recipes"
+msgstr "Rezepten importeren"
+
+#: dialogs/recipeimportdialog.cpp:44
+msgctxt "@title:column"
+msgid "Recipes"
+msgstr "Rezepten"
+
+#: dialogs/recipeimportdialog.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox All items"
+msgid "All (%1)"
+msgstr "All (%1)"
+
+#: dialogs/recipeimportdialog.cpp:102 dialogs/recipeimportdialog.cpp:103
+msgctxt "@item"
+msgid "Uncategorized"
+msgstr "Keen Kategorie"
+
+#: dialogs/recipeinputdialog.cpp:170
+msgctxt "@info:tooltip"
+msgid "Select photo"
+msgstr "Foto utsöken"
+
+#: dialogs/recipeinputdialog.cpp:174
+msgctxt "action:button"
+msgid "Save photo as..."
+msgstr "Foto sekern as..."
+
+#: dialogs/recipeinputdialog.cpp:178
+msgctxt "@info:tooltip"
+msgid "Clear photo"
+msgstr "Foto wegdoon"
+
+#: dialogs/recipeinputdialog.cpp:191
+msgctxt "@label"
+msgid "Recipe Name"
+msgstr "Rezeptnaam"
+
+#: dialogs/recipeinputdialog.cpp:207
+msgctxt "@label"
+msgid "Authors"
+msgstr "Autoren"
+
+#: dialogs/recipeinputdialog.cpp:224
+msgctxt "@label"
+msgid "Categories"
+msgstr "Kategorien"
+
+#: dialogs/recipeinputdialog.cpp:245
+msgctxt ""
+"@label How much food you will produce with a given cooking recipe (e.g. 2 "
+"servings or 3 bottles)"
+msgid "Yield"
+msgstr "Aust"
+
+#: dialogs/recipeinputdialog.cpp:249
+msgctxt "@label The amount for yield"
+msgid "Amount"
+msgstr "Mengde"
+
+#: dialogs/recipeinputdialog.cpp:252
+msgctxt "@label The type of yield (e.g. servings, bottles..."
+msgid "Type"
+msgstr "Typ"
+
+#: dialogs/recipeinputdialog.cpp:264
+msgctxt "@label"
+msgid "Preparation Time"
+msgstr "Torechtmaaktiet"
+
+#: dialogs/recipeinputdialog.cpp:336
+msgctxt "@info:tooltip"
+msgid "Add ingredient"
+msgstr "Rindoels tofögen"
+
+#: dialogs/recipeinputdialog.cpp:337
+msgctxt "@info:tooltip"
+msgid "Move ingredient up"
+msgstr "Rindoels na baven"
+
+#: dialogs/recipeinputdialog.cpp:338
+msgctxt "@info:tooltip"
+msgid "Move ingredient down"
+msgstr "Rindoels na nerrn"
+
+#: dialogs/recipeinputdialog.cpp:339
+msgctxt "@info:tooltip"
+msgid "Remove ingredient"
+msgstr "Rindoels wegmaken"
+
+#: dialogs/recipeinputdialog.cpp:340
+msgctxt "@info:tooltip"
+msgid "Paste Ingredients"
+msgstr "Rindoels infögen"
+
+#: dialogs/recipeinputdialog.cpp:347 widgets/propertylistview.cpp:131
+msgctxt "@title:column"
+msgid "Units"
+msgstr "Eenheiten"
+
+#: dialogs/recipeinputdialog.cpp:363
+msgctxt "@label"
+msgid "Property Status:"
+msgstr "Egenschap-Status:"
+
+#: dialogs/recipeinputdialog.cpp:367
+msgctxt "@action:button"
+msgid "Details..."
+msgstr "Enkelheiten..."
+
+#: dialogs/recipeinputdialog.cpp:378
+msgctxt "@action:inmenu Updates the loaded information"
+msgid "Update"
+msgstr "Opfrischen"
+
+#: dialogs/recipeinputdialog.cpp:385
+msgctxt "@title:window "
+msgid "Property details"
+msgstr "Egenschap-Enkelheiten"
+
+#: dialogs/recipeinputdialog.cpp:419
+msgctxt "@action:button"
+msgid "Add Rating..."
+msgstr "Beweerten tofögen..."
+
+#: dialogs/recipeinputdialog.cpp:427
+msgctxt "@title:tab"
+msgid "Recipe"
+msgstr "Rezept"
+
+#: dialogs/recipeinputdialog.cpp:429
+msgctxt "@title:tab"
+msgid "Instructions"
+msgstr "Anwiesen"
+
+#: dialogs/recipeinputdialog.cpp:430
+msgctxt "@title:tab"
+msgid "Ratings"
+msgstr "Beweerten"
+
+#: dialogs/recipeinputdialog.cpp:450
+msgctxt "@action:button"
+msgid "Save recipe"
+msgstr "Rezept sekern"
+
+#: dialogs/recipeinputdialog.cpp:451
+msgctxt "@info:tooltip"
+msgid "Save recipe"
+msgstr "Rezept sekern"
+
+#: dialogs/recipeinputdialog.cpp:453
+msgctxt "@action:button"
+msgid "Show recipe"
+msgstr "Rezept wiesen"
+
+#: dialogs/recipeinputdialog.cpp:454
+msgctxt "@info:tooltip"
+msgid "Show recipe"
+msgstr "Rezept wiesen"
+
+#: dialogs/recipeinputdialog.cpp:456 dialogs/recipeviewdialog.cpp:62
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Tomaken"
+
+#: dialogs/recipeinputdialog.cpp:457 dialogs/recipeviewdialog.cpp:63
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Tomaken"
+
+#: dialogs/recipeinputdialog.cpp:459
+msgctxt "@action:button"
+msgid "Resize recipe"
+msgstr "Rezeptgrött ännern"
+
+#: dialogs/recipeinputdialog.cpp:460
+msgctxt "@info:tooltip"
+msgid "Resize recipe"
+msgstr "Rezeptgrött ännern"
+
+#: dialogs/recipeinputdialog.cpp:681 dialogs/recipeinputdialog.cpp:723
+msgid "Images"
+msgstr "Biller"
+
+#: dialogs/recipeinputdialog.cpp:725
+msgctxt "@title:window"
+msgid "Save photo as..."
+msgstr "Foto sekern as..."
+
+#: dialogs/recipeinputdialog.cpp:733
+msgctxt "@info"
+msgid "The file already exists, do you want to overwrite it?"
+msgstr "Dat gifft de Datei al. Wullt Du ehr redig överschrieven?"
+
+#: dialogs/recipeinputdialog.cpp:740
+#, kde-format
+msgctxt "@info"
+msgid "The photo cannot be saved in %1"
+msgstr "Dat Foto lett sik binnen \"%1\" nich sekern."
+
+#: dialogs/recipeinputdialog.cpp:1023
+#, kde-format
+msgctxt "@info"
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] "Eenheitnaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Eenheitnaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: dialogs/recipeinputdialog.cpp:1062
+#, kde-format
+msgctxt "@info"
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] "Torechtmaak-Metoden mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Torechtmaak-Metoden mööt nich mehr as %1 Bookstaven hebben."
+
+#: dialogs/recipeinputdialog.cpp:1112
+#, kde-format
+msgctxt "@info"
+msgid "Recipe title cannot be longer than 1 character."
+msgid_plural "Recipe title cannot be longer than %1 characters."
+msgstr[0] "Rezepttiteln mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Rezepttiteln mööt nich mehr as %1 Bookstaven hebben."
+
+#: dialogs/recipeinputdialog.cpp:1112
+msgid "Unable to save recipe"
+msgstr "Rezept lett sik nich sekern"
+
+#: dialogs/recipeinputdialog.cpp:1152
+msgctxt "@label:textbox"
+msgid "Write the recipe instructions here"
+msgstr "Hier bitte de Rezeptanwiesen henschrieven."
+
+#: dialogs/recipeinputdialog.cpp:1154
+msgctxt "@label:textbox"
+msgid "Write the recipe title here"
+msgstr "Hier bitte den Rezepttitel henschrieven."
+
+#: dialogs/recipeinputdialog.cpp:1260
+msgctxt "@info"
+msgid ""
+"This recipe contains unsaved changes.\n"
+"Would you like to save it before closing?"
+msgstr ""
+"Dat Rezept bargt nich sekert Ännern.\n"
+"Wullt Du dat ehr't Tomaken sekern?"
+
+#: dialogs/recipeinputdialog.cpp:1260 dialogs/recipeinputdialog.cpp:1285
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@title:window"
+msgid "Unsaved changes"
+msgstr "Ännern nich sekert"
+
+#: dialogs/recipeinputdialog.cpp:1285
+msgctxt "@info"
+msgid ""
+"You need to save the recipe before displaying it. Would you like to save it "
+"now?"
+msgstr ""
+"Du muttst dat Rezept sekern, ehr Du dat wiesen kannst. Wullt Du dat nu "
+"sekern?"
+
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@info"
+msgid ""
+"This recipe has changes that will not be displayed unless the recipe is "
+"saved. Would you like to save it now?"
+msgstr ""
+"Dat Rezept bargt Ännern, de nich wiest warrt, ehr Du dat nich sekert hest. "
+"Wullt Du dat nu sekern?"
+
+#: dialogs/recipeinputdialog.cpp:1555
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No nutrient information available. <a href=\"ingredient#"
+"%2\">Provide nutrient information.</a>"
+msgstr ""
+"<b>%1</b>Keen Informatschonen över den Eteninholt verföögbor.  <a href="
+"\"ingredient#%2\">Eteninholt angeven</a>"
+
+#: dialogs/recipeinputdialog.cpp:1576
+#, kde-format
+msgctxt "@info"
+msgid "<b>%3:</b> Unit conversion missing for conversion from '%1' to '%2'"
+msgstr "<b>%3:</b> Eenheiten-Ümreken vun \"%1\" na \"%2\" fehlt"
+
+#: dialogs/recipeinputdialog.cpp:1577
+msgid "-No unit-"
+msgstr "-Keen Eenheit-"
+
+#: dialogs/recipeinputdialog.cpp:1591 dialogs/recipeinputdialog.cpp:1594
+#: dialogs/recipeinputdialog.cpp:1597 dialogs/recipeinputdialog.cpp:1600
+msgctxt "@info"
+msgid "-No unit-"
+msgstr "-Keen Eenheit-"
+
+#: dialogs/recipeinputdialog.cpp:1605
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> Either <a href=\"ingredient#%3\">enter an appropriate ingredient "
+"weight entry</a>, or provide conversion information to perform one of the "
+"following conversions: %2"
+msgstr ""
+"<b>%1:</b> Giff bitte en propper <a href=\"ingredient#%3\">Rindoels-"
+"Wichtindrag</a> in oder bruuk en vun de nakamen Ümreken: %2"
+
+#: dialogs/recipeinputdialog.cpp:1617
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No ingredient weight entries. <a href=\"ingredient#%2\">Provide "
+"ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Keen Rindoels-Wichtindrääg: <a href=\"ingredient#%2\">Rindoels-"
+"Wicht angeven</a>"
+
+#: dialogs/recipeinputdialog.cpp:1624
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when no preparation "
+"method is specified. <a href=\"ingredient#%2\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Dat gifft keen Rindoels-Wichtindrag för den Fall, dor is keen "
+"Torechtmaak-Metood angeven. <a href=\"ingredient#%2\">Rindoels-Wicht "
+"angeven</a>"
+
+#: dialogs/recipeinputdialog.cpp:1630
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners: %2<a href=\"ingredient#%3\">Provide ingredient weight."
+"</a>"
+msgstr ""
+"<b>%1</b> Dat gifft keen Rindoels-Wichtindrag för de nakamen Torechtmaak-"
+"Metoden: %2 <a href=\"ingredient#%3\">Rindoels-Wicht angeven</a>"
+
+#: dialogs/recipeinputdialog.cpp:1639
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners (defaulting to a weight entry without a preparation "
+"method specified): %2<a href=\"ingredient#%3\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1</b> Dat gifft keen Rindoels-Wichtindrag för de nakamen Torechtmaak-"
+"Metoden (standardwies en Wichtindrag ahn Torechtmaak-Metood): %2 <a href="
+"\"ingredient#%3\">Rindoels-Wicht angeven</a>"
+
+#: dialogs/recipeinputdialog.cpp:1663
+msgctxt "@info Property information for a recipe is complete"
+msgid "Complete"
+msgstr "Afslaten"
+
+#: dialogs/recipeinputdialog.cpp:1670
+msgctxt "@info Property information for a recipe is complete, but..."
+msgid "Complete, but approximations made"
+msgstr "Afslaten, man Negern bruukt"
+
+#: dialogs/recipeinputdialog.cpp:1678
+msgctxt "@info Property information for a recipe is incomplete"
+msgid "Incomplete"
+msgstr "Nich afslaten"
+
+#: dialogs/recipeinputdialog.cpp:1693
+msgctxt "@info"
+msgid ""
+"The nutrient information for this recipe is incomplete because the following "
+"information is missing:"
+msgstr ""
+"De Eteninholt-Informatschonen vun dit Rezept sünd nich afslaten, de nakamen "
+"Informatschonen fehlt:"
+
+#: dialogs/recipeinputdialog.cpp:1704
+msgctxt "@info"
+msgid ""
+"The following approximations will be made when determining nutrient "
+"information:"
+msgstr "Disse Negern warrt bi't Utreken vun den Eteninholt bruukt:"
+
+#: dialogs/recipeviewdialog.cpp:113
+msgctxt "@title:window"
+msgid "Loading recipes, please wait..."
+msgstr "Rezepten warrt laadt, tööv bitte..."
+
+#: dialogs/refineshoppinglistdialog.cpp:37
+msgctxt "@title:window"
+msgid "Refine Shopping List"
+msgstr "Inkööplist topassen"
+
+#: dialogs/refineshoppinglistdialog.cpp:45
+msgctxt "@action:button Finished refining shopping list"
+msgid "&Done"
+msgstr "&Afsluten"
+
+#: dialogs/refineshoppinglistdialog.cpp:90
+#: dialogs/refineshoppinglistdialog.cpp:123
+msgctxt "@title:column"
+msgid "Ingredients in Shopping List"
+msgstr "Rindoels op Inkööplist"
+
+#: dialogs/refineshoppinglistdialog.cpp:121
+msgctxt "@info"
+msgid ""
+"On the right are the ingredients needed for the recipes you selected.  You "
+"may now add additional ingredients, remove ingredients you do not need, or "
+"modify the amounts of existing ingredients."
+msgstr ""
+"Rechterhand staht de Rindoels för de Rezepten, de Du utsöcht hest. Du kannst "
+"nu anner Rindoels tofögen, Rindoels wegmaken, de Du nich bruukst, oder de "
+"Mengden richten."
+
+#: dialogs/refineshoppinglistdialog.cpp:122
+msgctxt "@title:column"
+msgid "Ingredients"
+msgstr "Rindoels"
+
+#: dialogs/resizerecipedialog.cpp:30
+msgctxt "@title:window"
+msgid "Resize Recipe"
+msgstr "Rezeptgrött ännern"
+
+#: dialogs/resizerecipedialog.cpp:74
+msgctxt "@info"
+msgid "Unable to scale a recipe with zero yield"
+msgstr "Rezept mit en Aust vun 0 lett sik nich topassen"
+
+#: dialogs/resizerecipedialog.cpp:84 dialogs/resizerecipedialog.cpp:92
+msgctxt "@info"
+msgid "Invalid input"
+msgstr "Leeg Ingaav"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_yieldButton)
+#: dialogs/resizerecipedialog.ui:20
+msgid "&Scale by yield"
+msgstr "Na &Aust topassen"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/resizerecipedialog.ui:49
+msgid "&New yield"
+msgstr "&Nieg Aust"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/resizerecipedialog.ui:59
+msgid "Current &yield:"
+msgstr "&Aust opstunns:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_factorButton)
+#: dialogs/resizerecipedialog.ui:75
+msgid "Scale b&y factor"
+msgstr "Na &Faktor topassen"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/resizerecipedialog.ui:94
+msgid "&Factor (e.g. 1/2 to half, 3 to triple):"
+msgstr "&Faktor (also 1/2 för half, 3 för dreedubbelt):"
+
+#: dialogs/selectauthorsdialog.cpp:36
+msgctxt "@title:window"
+msgid "Authors"
+msgstr "Autoren"
+
+#: dialogs/selectauthorsdialog.cpp:74 dialogs/selectpropertydialog.cpp:54
+#: dialogs/selectunitdialog.cpp:39 dialogs/shoppinglistdialog.cpp:120
+#: widgets/authorlistview.cpp:57 widgets/authorlistview.cpp:117
+#: widgets/categorylistview.cpp:317 widgets/categorylistview.cpp:381
+#: widgets/headerlistview.cpp:60 widgets/ingredientlistview.cpp:111
+#: widgets/ingredientlistview.cpp:136 widgets/kreauthorlistwidget.cpp:36
+#: widgets/krecategorieslistwidget.cpp:42 widgets/prepmethodlistview.cpp:56
+#: widgets/propertylistview.cpp:135 widgets/unitlistview.cpp:70
+msgctxt "@title:column"
+msgid "Id"
+msgstr "ID"
+
+#: dialogs/selectauthorsdialog.cpp:74 widgets/authorlistview.cpp:53
+#: widgets/authorlistview.cpp:113 widgets/kreauthorlistwidget.cpp:36
+msgctxt "@title:column"
+msgid "Author"
+msgstr "Autor"
+
+#: dialogs/selectauthorsdialog.cpp:143
+#, kde-format
+msgctxt "@info"
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] "Den Autor sien Naam mutt nich mehr as een Bookstaav hebben."
+msgstr[1] "Den Autor sien Naam mutt nich mehr as %1 Bookstaven hebben."
+
+#: dialogs/selectcategoriesdialog.cpp:32
+msgctxt "@title:window"
+msgid "Categories"
+msgstr "Kategorien"
+
+#: dialogs/selectcategoriesdialog.cpp:46
+msgctxt "@action:button"
+msgid "&New Category..."
+msgstr "&Nieg Kategorie..."
+
+#: dialogs/selectcategoriesdialog.cpp:89
+#, kde-format
+msgctxt "@info"
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] "Kategorienaams mööt nich mehr as een Bookstaav hebben."
+msgstr[1] "Kategorienaams mööt nich mehr as %1 Bookstaven hebben."
+
+#: dialogs/selectpropertydialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Property"
+msgstr "Egenschap utsöken"
+
+#: dialogs/selectpropertydialog.cpp:43
+msgctxt "@title:group"
+msgid "Choose Property"
+msgstr "Egenschap utsöken"
+
+#: dialogs/selectpropertydialog.cpp:65
+msgctxt "@label:textbox"
+msgid "Per units:"
+msgstr "Per Eenheit:"
+
+#: dialogs/selectpropertydialog.cpp:143 dialogs/selectunitdialog.cpp:73
+msgctxt "@item"
+msgid "-No unit-"
+msgstr "-Keen Eenheit-"
+
+#: dialogs/selectrecipedialog.cpp:81 widgets/krelistview.cpp:55
+msgctxt "@label:textbox Search recipes"
+msgid "Search:"
+msgstr "Söken:"
+
+#: dialogs/selectrecipedialog.cpp:100
+msgctxt "@action:button"
+msgid "Show Recipe(s)"
+msgstr "Rezepten wiesen"
+
+#: dialogs/selectrecipedialog.cpp:104
+msgctxt "@action:button"
+msgid "Edit Recipe"
+msgstr "Rezept bewerken"
+
+#: dialogs/selectrecipedialog.cpp:113
+msgctxt "@title:tab Basic search"
+msgid "Basic"
+msgstr "Eenfach"
+
+#: dialogs/selectrecipedialog.cpp:116
+msgctxt "@title:tab Advanced search"
+msgid "Advanced"
+msgstr "Sworer"
+
+#: dialogs/selectunitdialog.cpp:25
+msgctxt "@title:window"
+msgid "Choose Unit"
+msgstr "Eenheit utsöken"
+
+#: dialogs/selectunitdialog.cpp:31
+msgctxt "@title:group"
+msgid "Choose Unit"
+msgstr "Eenheit utsöken"
+
+#: dialogs/setupdisplay.cpp:69
+msgid "Recipe Title"
+msgstr "Rezepttitel"
+
+#: dialogs/setupdisplay.cpp:71
+msgid "serving"
+msgstr "opdoon"
+
+#: dialogs/setupdisplay.cpp:72
+msgid "Category 1, Category 2, ..."
+msgstr "Kategorie 1, Kategorie 2, ..."
+
+#: dialogs/setupdisplay.cpp:73 dialogs/setupdisplay.cpp:120
+#: exporters/htmlexporter.cpp:197 exporters/xsltexporter.cpp:44
+msgid "Instructions"
+msgstr "Anwiesen"
+
+#: dialogs/setupdisplay.cpp:76
+msgid "Author 1, Author 2, ..."
+msgstr "Autor 1, Autor 2, ..."
+
+#: dialogs/setupdisplay.cpp:79
+msgid "Ingredient 1"
+msgstr "Rindoels 1"
+
+#: dialogs/setupdisplay.cpp:82
+msgid "Ingredient 2"
+msgstr "Rindoels 2"
+
+#. i18n: ectx: property (text), widget (QLabel, raterName)
+#: dialogs/setupdisplay.cpp:90 widgets/ratingdisplaywidget.ui:92
+msgid "Rater"
+msgstr "Beweerter"
+
+#: dialogs/setupdisplay.cpp:91
+msgid "Comment"
+msgstr "Kommentar"
+
+#: dialogs/setupdisplay.cpp:93
+msgid "Criteria 1"
+msgstr "Beding 1"
+
+#: dialogs/setupdisplay.cpp:97
+msgid "Criteria 2"
+msgstr "Beding 2"
+
+#: dialogs/setupdisplay.cpp:102
+msgid "Property 1"
+msgstr "Egenschap 1"
+
+#: dialogs/setupdisplay.cpp:104
+msgid "Property 2"
+msgstr "Egenschap 2"
+
+#: dialogs/setupdisplay.cpp:118
+msgctxt "Background color"
+msgid "Background"
+msgstr "Achtergrund"
+
+#: dialogs/setupdisplay.cpp:119
+msgctxt "Recipe title"
+msgid "Title"
+msgstr "Titel"
+
+#: dialogs/setupdisplay.cpp:121 exporters/htmlexporter.cpp:208
+msgid "Preparation Time"
+msgstr "Torechtmaaktiet"
+
+#: dialogs/setupdisplay.cpp:122
+msgid "Photo"
+msgstr "Foto"
+
+#: dialogs/setupdisplay.cpp:123 exporters/htmlexporter.cpp:233
+#: exporters/xsltexporter.cpp:49 krecipesview.cpp:380 krecipesview.cpp:511
+msgid "Authors"
+msgstr "Autoren"
+
+#: dialogs/setupdisplay.cpp:124 exporters/htmlexporter.cpp:247
+#: exporters/xsltexporter.cpp:46 krecipesview.cpp:379 krecipesview.cpp:503
+msgid "Categories"
+msgstr "Kategorien"
+
+#: dialogs/setupdisplay.cpp:125 exporters/htmlexporter.cpp:342
+#: exporters/xsltexporter.cpp:52 krecipesview.cpp:375 krecipesview.cpp:471
+msgid "Ingredients"
+msgstr "Rindoels"
+
+#: dialogs/setupdisplay.cpp:127 exporters/htmlexporter.cpp:396
+#: exporters/plaintextexporter.cpp:135 exporters/xsltexporter.cpp:55
+msgid "Ratings"
+msgstr "Beweerten"
+
+#: dialogs/setupdisplay.cpp:128 exporters/htmlexporter.cpp:202
+#: exporters/xsltexporter.cpp:47
+msgid "Yield"
+msgstr "Aust"
+
+#: dialogs/setupdisplay.cpp:437
+msgid "Background Color..."
+msgstr "Achtergrundklöör..."
+
+#: dialogs/setupdisplay.cpp:440
+msgid "Text Color..."
+msgstr "Textklöör..."
+
+#: dialogs/setupdisplay.cpp:443
+msgid "Font..."
+msgstr "Schriftoort..."
+
+#: dialogs/setupdisplay.cpp:446
+msgid "Show"
+msgstr "Wiesen"
+
+#: dialogs/setupdisplay.cpp:455 dialogs/setupdisplay.cpp:588
+msgctxt "Align center"
+msgid "Center"
+msgstr "Merrn"
+
+#: dialogs/setupdisplay.cpp:457 dialogs/setupdisplay.cpp:590
+msgctxt "Align left"
+msgid "Left"
+msgstr "Links"
+
+#: dialogs/setupdisplay.cpp:459 dialogs/setupdisplay.cpp:592
+msgctxt "Align right"
+msgid "Right"
+msgstr "Rechts"
+
+#: dialogs/setupdisplay.cpp:472
+msgid "Alignment"
+msgstr "Utrichten"
+
+#: dialogs/setupdisplay.cpp:478
+msgid "Border..."
+msgstr "Rahmen..."
+
+#: dialogs/setupdisplay.cpp:481
+msgid "Columns..."
+msgstr "Striepen..."
+
+#: dialogs/setupdisplay.cpp:522
+msgid "Select the number of columns to use:"
+msgstr "De Tall vun Striepen utsöken, de Du bruken wullt:"
+
+#: dialogs/shoppinglistdialog.cpp:71
+msgctxt "@title"
+msgid "Full recipe list"
+msgstr "Heel Rezeptenlist"
+
+#: dialogs/shoppinglistdialog.cpp:106
+msgctxt "@title"
+msgid "Shopping List"
+msgstr "Inkööplist"
+
+#: dialogs/shoppinglistdialog.cpp:116
+msgctxt "@title:column"
+msgid "Recipe Title"
+msgstr "Rezepttitel"
+
+#: dialogs/shoppinglistdialog.cpp:135
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "&OK"
+
+#: dialogs/shoppinglistdialog.cpp:142
+msgctxt "@action:button Clear list"
+msgid "Clear"
+msgstr "Leddig maken"
+
+#: dialogs/shoppinglistviewdialog.cpp:30
+msgctxt "@title:window"
+msgid "Shopping List"
+msgstr "Inkööplist"
+
+#: dialogs/shoppinglistviewdialog.cpp:67 dialogs/shoppinglistviewdialog.cpp:69
+#: krecipesview.cpp:374 krecipesview.cpp:446
+msgid "Shopping List"
+msgstr "Inkööplist"
+
+#: dialogs/similarcategoriesdialog.cpp:179
+msgctxt "@title:window"
+msgid "Similar Categories"
+msgstr "Liek Kategorien"
+
+#: dialogs/similarcategoriesdialog.cpp:180
+msgctxt "@label:textbox"
+msgid "Threshold:"
+msgstr "Süll:"
+
+#: dialogs/similarcategoriesdialog.cpp:181
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: dialogs/similarcategoriesdialog.cpp:184
+msgctxt "@action:button Search a recipe category in database"
+msgid "Search"
+msgstr "Söken"
+
+#: dialogs/similarcategoriesdialog.cpp:185
+msgctxt "@label:textbox"
+msgid "Similar Categories:"
+msgstr "Liek Kategorien:"
+
+#: dialogs/similarcategoriesdialog.cpp:188
+msgctxt "@label:textbox"
+msgid "Categories to Merge:"
+msgstr "Kategorien, de Du tosamenföhren wullt:"
+
+#: dialogs/similarcategoriesdialog.cpp:189
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "Tosamenföhren"
+
+#: dialogs/similarcategoriesdialog.cpp:190
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Afbreken"
+
+#: dialogs/similarcategoriesdialog.cpp:192
+#: dialogs/similarcategoriesdialog.cpp:194 widgets/categorylistview.cpp:310
+#: widgets/categorylistview.cpp:377
+msgctxt "@title:column"
+msgid "Category"
+msgstr "Kategorie"
+
+#: dialogs/similarcategoriesdialog.cpp:319
+msgctxt "@info"
+msgid "Please select only one category."
+msgstr "Söök bitte bloots een Kategorie ut."
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@info"
+msgid "No recipes selected."
+msgstr "Keen Rezepten utsöcht"
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@title"
+msgid "Edit Recipe"
+msgstr "Rezept bewerken"
+
+#: dialogs/similarcategoriesdialog.cpp:379
+msgctxt "@info"
+msgid "No categories selected to merge."
+msgstr "Keen Kategorien för't Tosamenföhren utsöcht."
+
+#: dialogs/unitsdialog.cpp:66
+msgctxt "@title:tab"
+msgid "Units"
+msgstr "Eenheiten"
+
+#: dialogs/unitsdialog.cpp:69
+msgctxt "@title:tab"
+msgid "Mass Conversions"
+msgstr "Mass-Ümreken"
+
+#: dialogs/unitsdialog.cpp:72
+msgctxt "@title:tab"
+msgid "Volume Conversions"
+msgstr "Ruummaat-Ümreken"
+
+#: dialogs/unitsdialog.cpp:190
+msgctxt "@title:window"
+msgid "Finding Unit Ratios"
+msgstr "Eenheiten-Proportschonen söken"
+
+#: exporters/htmlexporter.cpp:132
+msgid "Krecipes Recipes"
+msgstr "KRecipes-Rezepten"
+
+#: exporters/htmlexporter.cpp:431 exporters/xsltexporter.cpp:45
+msgid "Overall Rating"
+msgstr "Heel Beweerten"
+
+#: exporters/plaintextexporter.cpp:76
+#, kde-format
+msgid "Authors: %1"
+msgstr "Autoren: %1"
+
+#: exporters/plaintextexporter.cpp:81
+#, kde-format
+msgid "Categories: %1"
+msgstr "Kategorien: %1"
+
+#: exporters/plaintextexporter.cpp:86
+#, kde-format
+msgid "Yields: %1"
+msgstr "Gifft: %1"
+
+#: exporters/plaintextexporter.cpp:91
+#, kde-format
+msgid "Preparation Time: %1"
+msgstr "Torechtmaaktiet: %1"
+
+#: exporters/plaintextexporter.cpp:110 exporters/plaintextexporter.cpp:120
+msgid "or"
+msgstr "oder"
+
+#: exporters/plaintextexporter.cpp:148
+#, kde-format
+msgid "1 star"
+msgid_plural "%1 stars"
+msgstr[0] "1 Steern"
+msgstr[1] "%1 Steerns"
+
+#: exporters/recipemlexporter.cpp:139
+msgctxt "Total preparation time"
+msgid "Total"
+msgstr "Tosamen"
+
+#: exporters/xsltexporter.cpp:48
+msgid "Prep"
+msgstr "Trechtmk"
+
+#: exporters/xsltexporter.cpp:50
+msgid "Amount"
+msgstr "Mengde"
+
+#: exporters/xsltexporter.cpp:51
+msgid "Ingredient"
+msgstr "Rindoels"
+
+#: exporters/xsltexporter.cpp:53
+msgid "Preparation"
+msgstr "Torechtmaken"
+
+#: exporters/xsltexporter.cpp:57
+msgid "reviews"
+msgstr "Överarbeiden"
+
+#: exporters/xsltexporter.cpp:226
+msgid ""
+"<html><b>Error:</b> Problem with KreML exporter.  Please export the recipe "
+"you are trying to view as KreML and attach it to a bug report to a Krecipes "
+"developer.</html>"
+msgstr ""
+"<html><b>Fehler:</b> Problem mit den Export na KreXML. Exporteer dat Rezept, "
+"dat Du ankieken wullt, as KreML un legg dat en Fehlerbericht na den "
+"Schriever vun KRecipes bi.</html>"
+
+#: exporters/xsltexporter.cpp:233
+#, kde-format
+msgid ""
+"<html><b>Error:</b> Bad template: %1.  Use \"Settings->Page Setup...\" to "
+"select a new template.</html>"
+msgstr ""
+"<html><b>Fehler:</b> Leeg Vörlaag: %1. Bruuk \"Instellen -> "
+"Siedeninstellen...\" un söök en nieg Vörlaag ut.</html>"
+
+#: importers/baseimporter.cpp:95 importers/baseimporter.cpp:118
+msgid "Importing selected recipes"
+msgstr "Utsöcht Rezepten warrt importeert"
+
+#: importers/baseimporter.cpp:121
+msgid "%v/%m Recipes"
+msgstr "%v/%m Rezepten"
+
+#: importers/baseimporter.cpp:210
+msgid "All recipes up unto this point have been successfully imported."
+msgstr "Betherto wöörn all Rezepten mit Spood importeert."
+
+#: importers/baseimporter.cpp:219
+#, kde-format
+msgid "Importing recipe: %1"
+msgstr "Rezept warrt importeert: %1"
+
+#: importers/baseimporter.cpp:369
+#, kde-format
+msgid ""
+"<!doc>Import of recipes from the file <b>\"%1\"</b> <b>failed</b> due to the "
+"following error(s):"
+msgstr ""
+"<!doc>Importeren vun Rezepten ut de Datei <b>%1</b> is <b> fehlslaan</b>, "
+"dit sünd de Fehlermellen:"
+
+#: importers/baseimporter.cpp:376
+#, kde-format
+msgid "The file <b>%1</b> generated the following warning(s):"
+msgstr "Bi de Datei <b>%1</b> hett dat disse Wohrschoen geven:"
+
+#: importers/kreimporter.cpp:48
+msgid "Archive does not contain a valid Krecipes file"
+msgstr "Dat Archiev bargt keen gellen KRecipes-Datei"
+
+#: importers/kreimporter.cpp:69
+#, kde-format
+msgid "\"%1\" at line %2, column %3"
+msgstr "\"%1\" op Reeg %2, Striep %3"
+
+#: importers/kreimporter.cpp:76
+msgid "This file does not appear to be a *.kreml file"
+msgstr "As't lett is dit keen *.kreml-Datei"
+
+#: importers/mmfimporter.cpp:69 importers/mxpimporter.cpp:55
+#: importers/rezkonvimporter.cpp:51
+msgid "No recipes found in this file."
+msgstr "Keen Rezepten binnen disse Datei funnen."
+
+#: importers/mmfimporter.cpp:72 importers/mx2importer.cpp:85
+#: importers/mxpimporter.cpp:58 importers/nycgenericimporter.cpp:46
+#: importers/recipemlimporter.cpp:61 importers/rezkonvimporter.cpp:54
+msgid "Unable to open file."
+msgstr "Datei lett sik nich opmaken."
+
+#: importers/mmfimporter.cpp:141
+#, kde-format
+msgid ""
+"While loading recipe <b>%1</b> an ingredient line was found after the "
+"directions. While this is valid, it most commonly indicates an incorrectly "
+"formatted recipe."
+msgstr ""
+"Bi't Laden vun't Rezept <b>%1</b> wöör en Rindoels-Reeg achter de Anwiesen "
+"funnen. Dat gellt wull, man wiest normalerwies op en leeg formateert Rezept "
+"hen."
+
+#: importers/mmfimporter.cpp:310 importers/mx2importer.cpp:100
+#: importers/mxpimporter.cpp:103 importers/mxpimporter.cpp:253
+msgid "servings"
+msgstr "Portschonen"
+
+#: importers/mx2importer.cpp:54
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a *.mx2 file."
+msgstr "\"%1\" op Reeg %2, Striep %3. Dat is villicht keen *.mx2-Datei."
+
+#: importers/mx2importer.cpp:62
+msgid "This file does not appear to be a *.mx2 file"
+msgstr "As't lett is dit keen *.mx2-Datei."
+
+#: importers/mxpimporter.cpp:87
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Recipe By:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Bi't Laden vun't Rezept \"%1\" fehlt dat Feld \"Rezept vun:\", oder dat wöör "
+"nich opdeckt."
+
+#: importers/mxpimporter.cpp:107
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Serving Size:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Bi't Laden vun't Rezept \"%1\" fehlt dat Feld \"Portschoongrött::\", oder "
+"dat wöör nich opdeckt."
+
+#: importers/mxpimporter.cpp:118
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Preparation Time:\" is either "
+"missing or could not be detected."
+msgstr ""
+"Bi't Laden vun't Rezept \"%1\" fehlt dat Feld \"Torechtmaaktiet:\", oder dat "
+"wöör nich opdeckt."
+
+#: importers/mxpimporter.cpp:162
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Categories:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Bi't Laden vun't Rezept \"%1\" fehlt dat Feld \"Kategorien:\", oder dat wöör "
+"nich opdeckt."
+
+#: importers/mxpimporter.cpp:190
+#, kde-format
+msgid "While loading recipe \"%1\" Invalid amount \"%2\" in the line \"%3\""
+msgstr ""
+"Bi't Laden vun't Rezept \"%1\" leeg Mengde \"%2\" binnen Reeg \"%3\" funnen."
+
+#: importers/mxpimporter.cpp:354
+msgid ""
+"MasterCook's Generic Export format is currently not supported.  Please write "
+"to jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Dat Orginaal-Exportformaat vun MasterCook warrt opstunns nich ünnerstütt. "
+"Stüer dor bitte jkivlighn@gmail.com en Anfraag na to."
+
+#: importers/mxpimporter.cpp:360
+msgid ""
+"MasterCook Mac's Export format is currently not supported.  Please write to "
+"jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Dat Mac-Exportformaat vun MasterCook warrt opstunns nich ünnerstütt. Stüer "
+"dor bitte jkivlighn@gmail.com en Anfraag na to."
+
+#: importers/nycgenericimporter.cpp:41
+msgid "File does not appear to be a valid NYC export."
+msgstr "As't lett is dit keen gellen NYC-Exporteren."
+
+#: importers/recipemlimporter.cpp:33
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a RecipeML file."
+msgstr "\"%1\" op Reeg %2, Striep %3. Dit is villicht keen RecipeML-Datei."
+
+#: importers/recipemlimporter.cpp:40
+msgid "This file does not appear to be a valid RecipeML archive."
+msgstr "As't lett is dit keen gellen RecipeML-Archiev."
+
+#: krecipes.cpp:120
+msgid ""
+"Gathering recipe data from file.\n"
+"Please wait..."
+msgstr ""
+"Rezeptdaten warrt ut Datei haalt.\n"
+"Tööv bitte..."
+
+#: krecipes.cpp:193
+msgctxt "@action:inmenu Reload Recipe"
+msgid "Reloa&d"
+msgstr "&Nieg laden"
+
+#: krecipes.cpp:200
+msgid "&Edit Recipe"
+msgstr "Rezept &bewerken"
+
+#: krecipes.cpp:207
+msgid "&Measurement Converter"
+msgstr "Maateenheiten ü&mwanneln"
+
+#: krecipes.cpp:218
+msgid "&Merge Similar Categories..."
+msgstr "Liek Kategorien &tosamenföhren..."
+
+#: krecipes.cpp:225
+msgid "&Merge Similar Ingredients..."
+msgstr "Liek Rindoels &tosamenföhren..."
+
+#: krecipes.cpp:233
+msgid "&New Recipe"
+msgstr "&Nieg Rezept"
+
+#: krecipes.cpp:246
+msgid "Import from File..."
+msgstr "Ut Datei importeren..."
+
+#: krecipes.cpp:253
+msgid "Import from Database..."
+msgstr "Ut Datenbank importeren..."
+
+#: krecipes.cpp:259
+msgid "Export..."
+msgstr "Exporteren..."
+
+#: krecipes.cpp:266
+msgid "&Copy to Clipboard"
+msgstr "Na Twischenaflaag &koperen"
+
+#: krecipes.cpp:274
+msgid "Page Setup..."
+msgstr "Siedeninstellen..."
+
+#: krecipes.cpp:280
+msgid "Print Setup..."
+msgstr "Druckinstellen..."
+
+#: krecipes.cpp:286
+msgid "Backup..."
+msgstr "Sekerheitkopie..."
+
+#: krecipes.cpp:292
+msgid "Restore..."
+msgstr "Wedderherstellen..."
+
+#: krecipes.cpp:298
+msgid "Add to Shopping List"
+msgstr "Na Inkööplist tofögen"
+
+#: krecipes.cpp:305
+msgid "Remove From Category"
+msgstr "Ut Kategorie wegmaken"
+
+#: krecipes.cpp:312
+msgid "Delete"
+msgstr "Wegdoon"
+
+#: krecipes.cpp:319
+msgid "Show Recipe(s)"
+msgstr "Rezepten wiesen"
+
+#: krecipes.cpp:326
+msgid "Categorize"
+msgstr "Kategorie towiesen"
+
+#: krecipes.cpp:333
+msgid "Expand All"
+msgstr "All utfoolden"
+
+#: krecipes.cpp:339
+msgid "Collapse All"
+msgstr "All infoolden"
+
+#: krecipes.cpp:346
+msgctxt "@action:button Create new data item"
+msgid "Create New"
+msgstr "Nieg opstellen"
+
+#: krecipes.cpp:353
+msgid "Rename"
+msgstr "Ümnömen"
+
+#: krecipes.cpp:361
+msgid "Cut"
+msgstr "Knippen"
+
+#: krecipes.cpp:369
+msgid "Paste"
+msgstr "Infögen"
+
+#: krecipes.cpp:376
+msgid "Paste as Subcategory"
+msgstr "As Ünnerkategorie infögen"
+
+#: krecipes.cpp:508
+msgid "MasterCook Export format"
+msgstr "\"MasterCook\"-Exportformaat"
+
+#: krecipes.cpp:509
+msgid "\"Now You're Cooking\" Generic Export format"
+msgstr "\"Now You're Cooking\"-Exportformaat"
+
+#: krecipes.cpp:514
+msgid "Import from file"
+msgstr "Ut Datei importeren"
+
+#: krecipes.cpp:539
+#, kde-format
+msgid ""
+"Filter \"%1\" not recognized.\n"
+"Please select one of the provided filters."
+msgstr ""
+"Filter \"%1\" nich begäng.\n"
+"Söök bitte een vun de praatstellten Filtern ut."
+
+#: krecipes.cpp:541
+msgid "Unrecognized Filter"
+msgstr "Filter nich begäng"
+
+#: krecipes.cpp:573
+msgid ""
+"<p>NOTE: We recommend that all recipes generating warnings be checked to "
+"ensure that they were properly imported, and no loss of recipe data has "
+"occurred.</p>"
+msgstr ""
+"<p>Beacht: Dat is anraadt, dat Du bi all Rezepten, för de dat Wohrschoen "
+"gifft, nipp un nau pröövst, wat se propper importeert wöörn un keen Daten "
+"wegkamen sünd.</p>"
+
+#: krecipes.cpp:578
+msgid "Import Warnings"
+msgstr "Import-Wohrschoen"
+
+#: krecipes.cpp:651 krecipes.cpp:670
+msgid ""
+"The recipe print and view layouts use the same file for their style, meaning "
+"changing one view's look changes them both.  If this is not the behavior you "
+"desire, load one style and save it under a different name."
+msgstr ""
+"Dat Rezept sien Utsehn op den Schirm un bi't Drucken hangt vun de sülve "
+"Stildatei af. Ännerst Du een, ännert sik ok dat anner. Is dat nich dat, wat "
+"Du wullt, laad den Stil un seker em mit en anner Naam."
+
+#: krecipes.cpp:675
+msgid "Print Setup"
+msgstr "Druckinstellen"
+
+#: krecipes.cpp:688 krecipes.cpp:709
+msgid "Krecipes Backup File"
+msgstr "KRecipes-Sekerheitkopie"
+
+#: krecipes.cpp:689
+msgid "Save Backup As..."
+msgstr "Sekerheitkopie sekern as..."
+
+#: krecipes.cpp:702
+msgid "Backup Failed"
+msgstr "Sekerheitkoperen fehlslaan"
+
+#: krecipes.cpp:710
+msgid "Restore Backup"
+msgstr "Sekerheitkopie wedderherstellen"
+
+#: krecipes.cpp:713
+msgid ""
+"<b>Restoring this file will erase ALL data currently in the database.</"
+"b><br /><br />If you want to keep the recipes in your database, click "
+"\"Cancel\" and first export your recipes.  These can then be imported once "
+"the restore is complete.<br /><br />Are you sure you want to proceed?"
+msgstr ""
+"<b>Stellst Du disse Datei wedder her, warrt ALL Daten, de opstunns binnen de "
+"Datenbank staht, wegmaakt!</b><br /><br />Klick op \"Afbreken\" un exporteer "
+"Dien Rezepten toeerst, wenn Du se wohren wullt.<br /><br />Wullt Du redig "
+"wiedermaken?"
+
+#: krecipes.cpp:720
+msgid "Restore successful."
+msgstr "Mit Spood wedderherstellt."
+
+#: krecipes.cpp:784
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save the changes before exiting?"
+msgstr ""
+"En Rezept bargt nich sekert Ännern.\n"
+"Wullt Du de Ännern sekern, ehr Du dat Programm utmaakst?"
+
+#: krecipes.cpp:786
+msgid "Unsaved Changes"
+msgstr "Nich sekerte Ännern"
+
+#. i18n: ectx: Menu (file)
+#: krecipesui.rc:4
+msgid "&File"
+msgstr "&Datei"
+
+#. i18n: ectx: Menu (edit)
+#: krecipesui.rc:12
+msgid "&Edit"
+msgstr "&Bewerken"
+
+#. i18n: ectx: Menu (tools)
+#: krecipesui.rc:22
+msgid "&Tools"
+msgstr "&Warktüüch"
+
+#: krecipesview.cpp:101 krecipesview.cpp:373 krecipesview.cpp:440
+msgid "Find/Edit Recipes"
+msgstr "Rezepten söken/bewerken"
+
+#: krecipesview.cpp:126
+msgid "Data..."
+msgstr "Daten..."
+
+#: krecipesview.cpp:332
+msgid ""
+"\n"
+"You are using SQLite; this error is often caused by using an SQLite 2 "
+"database with Krecipes supporting SQLite 3, if this is the case you could "
+"run the SQLite converter.\n"
+"What do you want to do?"
+msgstr ""
+"\n"
+"Du bruukst SQLite. De Oorsaak för dissen Fehler is faken de Bruuk vun en "
+"SQLite-2-Datenbank mit KRecipes, wat man SQLite-3 ünnerstütten deit. Op't "
+"best wannelst Du de Datenbank üm.\n"
+"Wat wullt Du doon?"
+
+#: krecipesview.cpp:337
+msgid "Run the setup assistant"
+msgstr "Den Hölper anmaken"
+
+#: krecipesview.cpp:338
+msgid "Run the SQLite converter"
+msgstr "SQLite ümwanneln"
+
+#: krecipesview.cpp:354
+msgid ""
+"\n"
+"Would you like to run the setup wizard again? Otherwise, the application "
+"will be closed."
+msgstr ""
+"\n"
+"Wullt Du den Inrichthölper nochmaal utföhren? Wenn nich, warrt dat Programm "
+"utmaakt."
+
+#: krecipesview.cpp:377 krecipesview.cpp:487 pref.cpp:411
+msgid "Units"
+msgstr "Eenheiten"
+
+#: krecipesview.cpp:378 krecipesview.cpp:495
+msgid "Preparation Methods"
+msgstr "Torechtmaak-Metoden"
+
+#: krecipesview.cpp:381 krecipesview.cpp:454
+msgid "Diet Helper"
+msgstr "Etenplaan-Hölper"
+
+#: krecipesview.cpp:382 krecipesview.cpp:462
+msgid "Ingredient Matcher"
+msgstr "Rindoels söken"
+
+#: krecipesview.cpp:522
+msgid "View Recipe"
+msgstr "Rezept ankieken"
+
+#: krecipesview.cpp:768
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before editing another "
+"recipe?"
+msgstr ""
+"En Rezept bargt nich sekert Ännern.\n"
+"Wullt Du de Ännern to dit Rezept sekern, ehr Du en anner Rezept bewerken "
+"deist?"
+
+#: krecipesview.cpp:770 krecipesview.cpp:857
+msgid "Unsaved changes"
+msgstr "Ännern nich sekert"
+
+#: krecipesview.cpp:788
+#, kde-format
+msgid "Are you sure you want to permanently remove the recipe, %1?"
+msgstr "Wullt Du dat Rezept \"%1\" redig duerhaftig wegmaken?"
+
+#: krecipesview.cpp:789 krecipesview.cpp:837
+msgid "Confirm remove"
+msgstr "Wegmaken beglöven"
+
+#: krecipesview.cpp:815 widgets/recipelistview.cpp:149
+msgctxt "Recipe created"
+msgid "Created:"
+msgstr "Opstellt:"
+
+#: krecipesview.cpp:816 widgets/recipelistview.cpp:150
+msgctxt "Recipe modified"
+msgid "Modified:"
+msgstr "Ännert:"
+
+#: krecipesview.cpp:817 widgets/recipelistview.cpp:151
+msgctxt "Recipe last accessed"
+msgid "Last Accessed:"
+msgstr "Verleden Togriep:"
+
+#: krecipesview.cpp:836
+msgid "Are you sure you want to permanently remove the selected recipes?"
+msgstr "Wullt Du de utsöchten Rezepten redig duerhaftig wegmaken?"
+
+#: krecipesview.cpp:855
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before creating a new recipe?"
+msgstr ""
+"En Rezept bargt nich sekert Ännern.\n"
+"Wullt Du de Ännern to dit Rezept sekern, ehr Du en nieg  Rezept opstellst?"
+
+#: krecipesview.cpp:1001
+msgid "Unable to setup database"
+msgstr "Datenbank lett sik nich inrichten"
+
+#: krecipesview.cpp:1184
+msgid "Unable to open database"
+msgstr "Datenbank lett sik nich opmaken"
+
+#: krecipesview.cpp:1214
+#, kde-format
+msgid "The configured database type (%1) is unsupported."
+msgstr "De instellte Datenbanktyp (%1) warrt nich ünnerstütt."
+
+#: krecipesview.cpp:1214
+msgid ""
+"Unsupported database type. Database must be either MySQL, SQLite, or "
+"PostgreSQL."
+msgstr ""
+"Nich ünnerstütt Datenbanktyp. De Datenbank mutt MySQL, SQLite oder "
+"PostgreSQL wesen."
+
+#: main.cpp:32
+msgid "Convert the current SQLite 2.x database to SQLite 3 and exit"
+msgstr "De aktuelle SQLite-2.x-Datenbank na SQLite-3 ümwanneln un ophollen"
+
+#: main.cpp:36
+msgid "Krecipes"
+msgstr "KRecipes"
+
+#: main.cpp:36
+msgid "The KDE Cookbook"
+msgstr "Dat KDE-Kookbook"
+
+#: main.cpp:36
+msgid ""
+"(C) 2003 Unai Garro\n"
+"(C) 2004-2006 Jason Kivlighn"
+msgstr ""
+"© 2003 Unai Garro\n"
+"© 2004-2006 Jason Kivlighn"
+
+#: main.cpp:36
+msgid ""
+"This product is RecipeML compatible.\n"
+"You can get more information about this file format in:\n"
+"http://www.formatdata.com/recipeml"
+msgstr ""
+"Dit Produkt is kompatibel to RecipeML.\n"
+"Du kannst op http://www.formatdata.com/recipeml\n"
+"mehr Informatschonen över dit Formaat finnen."
+
+#: main.cpp:37
+msgid "Unai Garro"
+msgstr "Unai Garro"
+
+#: main.cpp:38
+msgid "Jason Kivlighn"
+msgstr "Jason Kivlighn"
+
+#: main.cpp:39
+msgid "Cyril Bosselut"
+msgstr "Cyril Bosselut"
+
+#: main.cpp:41
+msgid "Colleen Beamer"
+msgstr "Colleen Beamer"
+
+#: main.cpp:41
+msgid "Testing, bug reports, suggestions"
+msgstr "Utproberen, Fehlerberichten, Vörslääg"
+
+#: main.cpp:42
+msgid "Robert Wadley"
+msgstr "Robert Wadley"
+
+#: main.cpp:42
+msgid "Icons and artwork"
+msgstr "Lüttbiller un Billerwark"
+
+#: main.cpp:43
+msgid "Daniel Sauvé"
+msgstr "Daniel Sauvé"
+
+#: main.cpp:43 main.cpp:45
+msgid "Porting to KDE4"
+msgstr "Porteren na KDE 4"
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46
+msgid "José Manuel Santamaría Lema"
+msgstr "José Manuel Santamaría Lema"
+
+#: main.cpp:46
+msgid "Porting to KDE4, current maintainer"
+msgstr "Porteren na KDE 4, Pleger opstunns"
+
+#: main.cpp:47
+msgid "Martin Engelmann"
+msgstr "Martin Engelmann"
+
+#: main.cpp:47
+msgid "Porting to KDE4, developer"
+msgstr "Porteren na KDE 4, Programmschriever"
+
+#: main.cpp:49
+msgid "Patrick Spendrin"
+msgstr "Patrick Spendrin"
+
+#: main.cpp:49
+msgid "Patches to make Krecipes work under Windows"
+msgstr "Kodeplasters, dormit KRecipes ok ünner Windows löppt"
+
+#: main.cpp:50
+msgid "Mike Ferguson"
+msgstr "Mike Ferguson"
+
+#: main.cpp:50
+msgid "Help with bugs, patches"
+msgstr "Hülp bi't Fehlerrichten, Kodeplasters"
+
+#: main.cpp:51
+msgid "Warren Severin"
+msgstr "Warren Severin"
+
+#: main.cpp:51
+msgid "Code to export recipes to *.mx2 files"
+msgstr "Kode för't Exporteren vun Rezepten na MX2-Dateien (*.mx2)"
+
+#: main.cpp:53
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
+
+#: main.cpp:54 main.cpp:57
+msgid "He advised using WebKit to fix printing support during Akademy-es 2010."
+msgstr ""
+"Hett bi \"Akademy-es 2010\" den Bruuk vun WebKit för't Richten vun de "
+"Druckünnerstütten anraadt."
+
+#: main.cpp:56
+msgid "José Millán Soto"
+msgstr "José Millán Soto"
+
+#: mmdata.h:25
+msgid "bunch"
+msgstr "Bund"
+
+#: mmdata.h:25
+msgid "bunches"
+msgstr "Bünn"
+
+#: mmdata.h:26
+msgid "cup"
+msgstr "Köppke"
+
+#: mmdata.h:26
+msgid "cups"
+msgstr "Köppkes"
+
+#: mmdata.h:27
+msgid "cubic cm"
+msgstr "cm³"
+
+#: mmdata.h:28
+msgid "centigram"
+msgstr "Zentigramm"
+
+#: mmdata.h:28
+msgid "centigrams"
+msgstr "Zentigramm"
+
+#: mmdata.h:29
+msgid "centiliter"
+msgstr "Zentiliter"
+
+#: mmdata.h:29
+msgid "centiliters"
+msgstr "Zentiliters"
+
+#: mmdata.h:30
+msgid "can"
+msgstr "Büss"
+
+#: mmdata.h:30
+msgid "cans"
+msgstr "Büssen"
+
+#: mmdata.h:31
+msgid "carton"
+msgstr "Packen"
+
+#: mmdata.h:31
+msgid "cartons"
+msgstr "Packen"
+
+#: mmdata.h:32
+msgid "decigram"
+msgstr "Dezigramm"
+
+#: mmdata.h:32
+msgid "decigrams"
+msgstr "Dezigramm"
+
+#: mmdata.h:33
+msgid "deciliter"
+msgstr "Deziliter"
+
+#: mmdata.h:33
+msgid "deciliters"
+msgstr "Deziliters"
+
+#: mmdata.h:34
+msgid "drop"
+msgstr "Drüppen"
+
+#: mmdata.h:34
+msgid "drops"
+msgstr "Drüppens"
+
+#: mmdata.h:35
+msgid "dash"
+msgstr "Pries"
+
+#: mmdata.h:35
+msgid "dashes"
+msgstr "Priesen"
+
+#: mmdata.h:36
+msgid "each"
+msgstr "elkeen"
+
+#: mmdata.h:37
+msgid "kilogram"
+msgstr "Kilogramm"
+
+#: mmdata.h:37
+msgid "kilograms"
+msgstr "Kilogramm"
+
+#: mmdata.h:38
+msgid "fluid ounce"
+msgstr "Flaatunz"
+
+#: mmdata.h:38
+msgid "fluid ounces"
+msgstr "Flaatunzen"
+
+#: mmdata.h:39
+msgid "gram"
+msgstr "Gramm"
+
+#: mmdata.h:39
+msgid "grams"
+msgstr "Gramm"
+
+#: mmdata.h:40
+msgid "gallon"
+msgstr "Galloon"
+
+#: mmdata.h:40
+msgid "gallons"
+msgstr "Gallonen"
+
+#: mmdata.h:41
+msgid "liter"
+msgstr "Liter"
+
+#: mmdata.h:41
+msgid "liters"
+msgstr "Liters"
+
+#: mmdata.h:42
+msgid "pound"
+msgstr "Pund"
+
+#: mmdata.h:42
+msgid "pounds"
+msgstr "Pund"
+
+#: mmdata.h:43
+msgid "large"
+msgstr "groot"
+
+#: mmdata.h:44
+msgid "medium"
+msgstr "middel"
+
+#: mmdata.h:45
+msgid "milligram"
+msgstr "Milligramm"
+
+#: mmdata.h:45
+msgid "milligrams"
+msgstr "Milligramm"
+
+#: mmdata.h:46
+msgid "milliliter"
+msgstr "Milliliter"
+
+#: mmdata.h:46
+msgid "milliliters"
+msgstr "Milliliters"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "package"
+msgstr "Paket"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "packages"
+msgstr "Paketen"
+
+#: mmdata.h:49
+msgid "pinch"
+msgstr "Lepelspitz"
+
+#: mmdata.h:49
+msgid "pinches"
+msgstr "Lepelspitzen"
+
+#: mmdata.h:50
+msgid "pint"
+msgstr "Pint"
+
+#: mmdata.h:50
+msgid "pints"
+msgstr "Pinten"
+
+#: mmdata.h:51
+msgid "ounce"
+msgstr "Unz"
+
+#: mmdata.h:51
+msgid "ounces"
+msgstr "Unzen"
+
+#: mmdata.h:52
+msgid "quart"
+msgstr "Liter"
+
+#: mmdata.h:52
+msgid "quarts"
+msgstr "Liters"
+
+#: mmdata.h:53
+msgid "slice"
+msgstr "Schiev"
+
+#: mmdata.h:53
+msgid "slices"
+msgstr "Schieven"
+
+#: mmdata.h:54
+msgid "small"
+msgstr "lütt"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoon"
+msgstr "Teelepel"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoons"
+msgstr "Teelepels"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoon"
+msgstr "Lepel"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoons"
+msgstr "Lepels"
+
+#: mmdata.h:59
+msgid "per serving"
+msgstr "per Portschoon"
+
+#: pref.cpp:53
+msgid "Configure"
+msgstr "Instellen"
+
+#: pref.cpp:62
+msgid "Database System"
+msgstr "Datenbanksysteem"
+
+#: pref.cpp:64
+#, kde-format
+msgid "Database Management System Options (%1)"
+msgstr "Systeemoptschonen för de Datenbankpleeg (%1)"
+
+#: pref.cpp:71
+msgid "Formatting"
+msgstr "Formateren"
+
+#: pref.cpp:73
+msgid "Customize Formatting"
+msgstr "Formaten topassen"
+
+#: pref.cpp:80
+msgid "Import/Export"
+msgstr "Im- un exporteren"
+
+#: pref.cpp:82
+msgid "Recipe Import and Export Options"
+msgstr "Rezept-Im- un Exportoptschonen"
+
+#: pref.cpp:90
+msgid "Performance"
+msgstr "Leisten"
+
+#: pref.cpp:91
+msgid "Performance Options"
+msgstr "Leisten-Optschonen"
+
+#: pref.cpp:100
+msgid "Spell checking"
+msgstr "Klookschriever"
+
+#: pref.cpp:101
+msgid "Spell checking Options"
+msgstr "Klookschriever-Optschonen"
+
+#: pref.cpp:137 pref.cpp:207 setupassistant.cpp:509
+msgid "Server:"
+msgstr "Server:"
+
+#: pref.cpp:140 pref.cpp:210 setupassistant.cpp:232 setupassistant.cpp:360
+#: setupassistant.cpp:465
+msgctxt "@label:textbox Database Username"
+msgid "Username:"
+msgstr "Brukernaam:"
+
+#: pref.cpp:144 pref.cpp:214 setupassistant.cpp:236 setupassistant.cpp:364
+#: setupassistant.cpp:472
+msgid "Password:"
+msgstr "Passwoort:"
+
+#: pref.cpp:148 pref.cpp:218
+msgctxt "Default Port"
+msgid "Default"
+msgstr "Standard"
+
+#: pref.cpp:149 pref.cpp:219 setupassistant.cpp:520
+msgid "Port:"
+msgstr "Port:"
+
+#: pref.cpp:152 pref.cpp:222 setupassistant.cpp:479
+msgid "Database name:"
+msgstr "Datenbanknaam:"
+
+#: pref.cpp:158 pref.cpp:229 pref.cpp:286
+msgctxt "@title:group Backup options"
+msgid "Backup"
+msgstr "Sekerheitkopie"
+
+#: pref.cpp:162
+msgid "Select MySQL dump command"
+msgstr "MySQL-\"dump\"-Befehl  utsöken"
+
+#: pref.cpp:163 pref.cpp:167 pref.cpp:233 pref.cpp:237 pref.cpp:293
+#, kde-format
+msgid "Path to '%1':"
+msgstr "Padd na \"%1\":"
+
+#: pref.cpp:166
+msgid "Select MySQL command"
+msgstr "MySQL-Befehl utsöken"
+
+#: pref.cpp:181 pref.cpp:183 pref.cpp:251 pref.cpp:253 pref.cpp:321
+#: pref.cpp:323 pref.cpp:325
+msgid "All files"
+msgstr "All Dateien"
+
+#: pref.cpp:232
+msgid "Select PostgreSQL dump command"
+msgstr "PostgreSQL-\"dump\"-Befehl utsöken"
+
+#: pref.cpp:236
+msgid "Select PostgreSQL command"
+msgstr "MySQL-\"dump\"-Befehl utsöken"
+
+#: pref.cpp:275 setupassistant.cpp:611
+msgid "Database file:"
+msgstr "Datenbank-Datei:"
+
+#: pref.cpp:292
+msgid "Select SQLite command"
+msgstr "SQLite-Befehl utsöken"
+
+#: pref.cpp:299
+msgid "SQLite converter"
+msgstr "SQLite-Ümwanneln"
+
+#: pref.cpp:305
+msgid "Select old SQLite version command"
+msgstr "Oolt SQLite-Befehl utsöken"
+
+#: pref.cpp:306
+msgid "Path to SQLite old version command:"
+msgstr "Padd na den olen SQLite-Befehl:"
+
+#: pref.cpp:309
+msgid "Select new SQLite version command"
+msgstr "Nieg SQLite-Befehl utsöken"
+
+#: pref.cpp:310
+msgid "Path to SQLite new version command:"
+msgstr "Padd na den niegen SQLite-Befehl:"
+
+#: pref.cpp:318 setupassistant.cpp:641
+msgid "Select SQLite database file"
+msgstr "SQLite-Datenbankdatei utsöken"
+
+#: pref.cpp:361
+msgid "Re-run wizard on next startup"
+msgstr "Bi den nakamen Oproop Hölper nochmaal utföhren"
+
+#: pref.cpp:367
+msgid ""
+"Note: Krecipes must be restarted for most server preferences to take effect."
+msgstr ""
+"Beacht: Bi de mehrsten Server-Optschonen muttst Du KRecipes nieg starten, "
+"ehr Ännern dor an övernahmen warrt."
+
+#: pref.cpp:412
+msgid "Use abbreviations"
+msgstr "Afkörten bruken"
+
+#: pref.cpp:448
+msgid "Number Format"
+msgstr "Tallenformaat"
+
+#: pref.cpp:449
+msgctxt "@option:radio Display fraction"
+msgid "Fraction"
+msgstr "Brook"
+
+#: pref.cpp:450
+msgctxt "@option:radio Display decimal"
+msgid "Decimal"
+msgstr "Dezimaal"
+
+#: pref.cpp:470
+msgid "Import"
+msgstr "Import"
+
+#: pref.cpp:472
+msgid "Overwrite recipes with same title"
+msgstr "Rezepten mit sülven Titel överschrieven"
+
+#: pref.cpp:477
+msgid "Ask which recipes to import"
+msgstr "Nafragen, welke Rezepten Du importeren wullt"
+
+#: pref.cpp:489
+msgid "'Copy to Clipboard' format:"
+msgstr "Formaat för't Koperen na de Twischenaflaag:"
+
+#: pref.cpp:519
+msgid ""
+"When this is enabled, the importer will show every recipe in the file(s) and "
+"allow you to select which recipes you want imported.\n"
+" \t\t\t\t\t\t\t\t\tDisable this to always import every recipe, which allows "
+"for faster and less memory-intensive imports."
+msgstr ""
+"Is dit anmaakt, warrt all Rezepten binnen de Datei(en) wiest un Du kannst de "
+"utsöken, de Du importeren wullt.\n"
+" \t\t\t\t\t\t\t\t\tMaak dit ut, wenn Du jümmers all Rezepten importeren "
+"wullt. Dat geiht gauer un bruukt minn Spieker."
+
+#: pref.cpp:554
+msgid "Search as you type"
+msgstr "Al bi't Ingeven söken"
+
+#: pref.cpp:557
+msgid ""
+"In most instances these options do not need to be changed.  However, "
+"limiting the amount of items displayed at once will <b>allow Krecipes to "
+"better perform when the database is loaded with many thousands of recipes</"
+"b>."
+msgstr ""
+"Normalerwies bruukst Du disse Instellen nich topassen, man wenn dat en "
+"Hööchsttall för de op eenmaal wiesten Indrääg gifft,<b>is KRecipes gauer, "
+"wenn dat binnen de Datenbank vele Dusend Rezepten gifft</b>."
+
+#: pref.cpp:563
+msgid "Number of categories to display at once:"
+msgstr "Tall vun Kategorien, de op eenmaal wiest warrt:"
+
+#: pref.cpp:566
+msgctxt "Unlimited categories"
+msgid "Unlimited"
+msgstr "Keen Grenz"
+
+#: pref.cpp:573
+msgid "Number of elements to display at once:"
+msgstr "Tall vun Indrääg, de op eenmaal wiest warrt:"
+
+#: pref.cpp:576
+msgctxt "Unlimited elements"
+msgid "Unlimited"
+msgstr "Keen Grenz"
+
+#: setupassistant.cpp:43
+msgid "Welcome to Krecipes"
+msgstr "Willkamen bi KRecipes"
+
+#: setupassistant.cpp:47
+msgid "Database Type"
+msgstr "Datenbanktyp"
+
+#: setupassistant.cpp:51
+msgid "Database Management System Settings"
+msgstr "Systeeminstellen för de Datenbankpleeg"
+
+#: setupassistant.cpp:55 setupassistant.cpp:59
+msgid "Database Permissions"
+msgstr "Datenbank-Verlöven"
+
+#: setupassistant.cpp:63
+msgid "Server Settings"
+msgstr "Server-Instellen"
+
+#: setupassistant.cpp:67
+msgid "Initialize Database"
+msgstr "Datenbank torechtmaken"
+
+#: setupassistant.cpp:71
+msgid "Finish & Save Settings"
+msgstr "Afsluten & Instellen sekern"
+
+#: setupassistant.cpp:90
+msgid ""
+"There is currently no localized ingredient data for this locale.\n"
+"Would you like to load the English ingredients instead?"
+msgstr ""
+"Opstunns gifft dat keen topasst Rindoels-Daten för dit Rebeet.\n"
+"Wullt Du ansteed de engelschen Rindoels laden?"
+
+#: setupassistant.cpp:146
+msgid ""
+"<p><b><font size=\"+1\">Thank you very much for choosing Krecipes.</font></"
+"b></p><p>It looks like this is the first time you are using it. This wizard "
+"will help you with the initial setup so that you can start using it quickly."
+"</p><p>Welcome, and enjoy cooking!</p>"
+msgstr ""
+"<p><b><font size=\"+1\">Velen Dank, dat Du KRecipes utsöcht hest.</font></"
+"b></p><p>As't lett is dit dat eerste Maal. dat Du dat bruukst. Disse Hölper "
+"maakt Di dat Inrichten licht, so dat Du dat gau bruken kannst.</"
+"p><p>Willkamen, un veel Spaaß bi't Koken!</p>"
+
+#: setupassistant.cpp:179
+msgid ""
+"<p>This dialog will allow you to specify a MySQL account that has the "
+"necessary permissions to access the Krecipes MySQL database.</p><p><b><font "
+"size=\"+1\">Most users that use Krecipes and MySQL for the first time can "
+"just leave the default parameters and press 'Next'.</font></b></p> <p>If you "
+"set a MySQL root password before, or you have already permissions as normal "
+"user, click on the appropriate option. Otherwise the account 'root' will be "
+"used, with no password.</p><p>[For security reasons, we strongly encourage "
+"you to setup a MySQL root password if you have not done so yet. Just type as "
+"root: mysqladmin password <i>your_password</i>]</p>"
+msgstr ""
+"<p>Mit dissen Dialoog kannst Du en MySQL-Konto angeven, dat de nödigen "
+"Verlöven för't Togriepen op de KRecipes-Datenbank hett.</p><p><b><font size="
+"\"+1\">De mehrsten Brukers köönt eenfach de Standardparameters so laten un "
+"op \"Nakamen\" klicken, wenn se KRecipes un MySQL dat eerste Maal bruukt.</"
+"font></b></p> <p>Hest Du al en Systeempleger-Passwoort för MySQL fastleggt, "
+"oder wenn Du al Verlöven as en normaal Bruker hest, klick op de passen "
+"Optschoon. Anners warrt de Bruker \"root\" ahn Passwoort bruukt.</p><p>(För "
+"de Sekerheit raadt wi Di eernsthaftig, dat Du en Systeempleger-Passwoort för "
+"MySQL inrichtst, wenn Du dat noch nich daan hest. Bruuk eenfach as "
+"Systeempleger den Befehl \"mysqladmin password <i>dien_passwoort</i>\".)</p>"
+
+#: setupassistant.cpp:198 setupassistant.cpp:325
+msgid "I have already set the necessary permissions"
+msgstr "Ik heff de nödigen Verlöven al fastleggt"
+
+#: setupassistant.cpp:215
+msgid "I have already set a MySQL root/admin account"
+msgstr "Ik heff al en Systeempleger-Passwoort för MySQL fastleggt"
+
+#: setupassistant.cpp:227
+msgid "MySQL Administrator Account"
+msgstr "MySQL-Plegerkonto"
+
+#: setupassistant.cpp:306
+msgid ""
+"<p>This dialog will allow you to specify a PostgreSQL account that has the "
+"necessary permissions to access the Krecipes PostgreSQL database.  This "
+"account may either be a <b>PostgreSQL superuser</b> or have the ability to "
+"both <b>create new PostgreSQL users and databases</b>.</p><p>If no superuser "
+"or privileged account is given, the account 'postgres' will be attempted, "
+"with no password.  If this is insufficient for your PostgreSQL setup, you "
+"<b>must</b> select the appropriate option below to enter the information of "
+"a privileged PostgreSQL account.</p>"
+msgstr ""
+"<p>Mit dissen Dialoog kannst en PostgreSQL-Konto angeven, dat de nödigen "
+"Verlöven för't Togriepen op KRecipes sien PostgreSQL-Datenbank hett. Dat mag "
+"en <b>PostgreSQL-Baasbruker</b> wesen oder de Verlöven för't <b>Opstellen "
+"vun nieg PostgreSQL-Brukers un -Datenbanken</b> hebben.</p><p>Giffst Du keen "
+"Baasbruker oder Konto mit disse Verlöven an, warrt de Bruker \"postgres\" "
+"ahn Passwoort utprobeert. Langt dat nich för Dien PostgreSQL-Instellen, "
+"<b>muttst</b> Du nerrn de passen Optschoon utsöken un de Informatschonen vun "
+"en PostgreSQL-Konto mit passen Verlöven ingeven.</p>"
+
+#: setupassistant.cpp:342
+msgid "I have already set a superuser or privileged account"
+msgstr "Ik heff al en Baasbruker oder Konto mit passen Verlöven fastleggt"
+
+#: setupassistant.cpp:355
+msgid "PostgreSQL Superuser or Privileged Account"
+msgstr "PostgreSQL-Baasbruker oder Verlööf-Konto"
+
+#: setupassistant.cpp:435
+msgid ""
+"<p>In this dialog you can adjust the database server settings.</"
+"p><p><b>Warning: Passwords are stored in plain text and could potentially be "
+"compromised.  We recommend that you create a username and password "
+"combination solely for use by Krecipes.</b></p>"
+msgstr ""
+"<p>Mit dissen Dialoog kannst Du de Instellen för den Datenbankserver "
+"topassen.</p><p><b>Wohrschoen: Passwöör warrt as Normaaltext wohrt, wat nich "
+"seker is. Wi raadt Di an, dat Du en Brukernaam- un Passwoort-Poor bloots för "
+"Krecipes opstellst.</b></p>"
+
+#: setupassistant.cpp:489
+msgid "The server is remote"
+msgstr "De Server is op en anner Reekner"
+
+#: setupassistant.cpp:501
+msgid "Server / Client Settings"
+msgstr "Server-/Client-Instellen"
+
+#: setupassistant.cpp:514
+msgid "Client:"
+msgstr "Client:"
+
+#: setupassistant.cpp:519
+msgctxt "@label:textbox Default Port"
+msgid "Default"
+msgstr "Standard"
+
+#: setupassistant.cpp:597
+msgid "In this dialog you can adjust SQLite settings."
+msgstr "Mit dissen Dialoog kannst Du de SQLite-Instellen topassen."
+
+#: setupassistant.cpp:619
+msgid "Open file dialog"
+msgstr "Dateidialoog opmaken"
+
+#: setupassistant.cpp:671
+msgid ""
+"Congratulations; all the necessary configuration setup is done. Press "
+"'Finish' to continue, and enjoy cooking!"
+msgstr ""
+"Graleren, nu is allens instellt, wat nödig is. Klick op \"Afsluten\" un heff "
+"Spaaß bi't Koken!"
+
+#: setupassistant.cpp:768
+msgid ""
+"<p>Krecipes comes with some delicious default recipes and useful data.</"
+"p><p>Would you like to initialize your database with those? Note that this "
+"will erase all your previous recipes if you have any.</p>"
+msgstr ""
+"<p>KRecipes warrt mit bruukbor Daten un en Reeg smacklich Standardrezepten "
+"utlevert.</p><p>Wullt Du dor Dien Datenbank mit torechtmaken? Beacht: Dit "
+"maakt all Dien vörhannen Rezepten weg, wenn Du al Rezepten hest.</p>"
+
+#: setupassistant.cpp:793
+msgid "Yes please, initialize the database with the examples"
+msgstr "Jo, de Datenbank bitte mit de Bispelen torechtmaken"
+
+#: setupassistant.cpp:802
+msgid ""
+"<p>Krecipes can import nutrient data from the USDA's nutrient database for "
+"over 400 foods.  A total of 43 food properties are included for each food, "
+"such as energy, fat, vitamin C, etc.</p><p>Would you like to import this "
+"data now?  Note that this operation is safe to use on an existing database, "
+"and no data loss will occur.  This operation may take several minutes.</p>"
+msgstr ""
+"<p>KRecipes kann Eteninholtdaten för mehr as 400 Etensaken ut de USDA ehr "
+"Eteninholt-Datenbank importeren. För elk Etensaak sünd 43 Egenschappen "
+"inslaten, so as Energie, Fett, Vitamien C usw.</p><p>Wullt Du disse Daten nu "
+"importeren? Du kannst dat ok doon, wenn Du al wat binnen Dien Datenbank "
+"hest, Di kaamt dor keen bi Daten weg. De Akschoon mag en poor Minuten bruken."
+"</p>"
+
+#: setupassistant.cpp:816
+msgid "Yes please, load the database with nutrient data for 400+ foods."
+msgstr ""
+"Jo, bitte de Datenbank mit Eteninholden vun mehr as 400 Etensaken laden."
+
+#: setupassistant.cpp:864
+msgid ""
+"Choose the type of database that you want to use. Most users will want to "
+"choose a simple local database here. However, you can also use remote "
+"servers by means of a MySQL or PostgreSQL database."
+msgstr ""
+"Söök bitte den Datenbanktyp ut, den Du bruken wullt. De mehrsten Brukers "
+"söökt hier en eenfach lokaal Datenbank ut, man Du kannst ok en feern Server "
+"mit en MySQL- oder PostgreSQL-Datenbank bruken."
+
+#: setupassistant.cpp:881
+msgid "Simple Local File (SQLite)"
+msgstr "Eenfach lokaal Datei (SQLite)"
+
+#: setupassistant.cpp:884
+msgid "Local or Remote MySQL Database"
+msgstr "Lokaal oder feern MySQL-Datenbank"
+
+#: setupassistant.cpp:887
+msgid "Local or Remote PostgreSQL Database"
+msgstr "Lokaal oder feern PostgreSQL-Datenbank"
+
+#: widgets/categorycombobox.cpp:36 widgets/categorycombobox.cpp:63
+msgid "All Categories"
+msgstr "All Kategorien"
+
+#: widgets/dblistviewbase.cpp:33
+msgctxt "Previous item"
+msgid "<< Previous"
+msgstr "<< Verleden"
+
+#: widgets/dblistviewbase.cpp:49
+msgctxt "Next item"
+msgid "Next >>"
+msgstr "Nakamen >>"
+
+#: widgets/headerlistview.cpp:55
+msgctxt "@title:column"
+msgid "Header"
+msgstr "Koppel"
+
+#: widgets/ingredientinputwidget.cpp:47 widgets/ingredientinputwidget.cpp:58
+msgid "Ingredient:"
+msgstr "Rindoels:"
+
+#: widgets/ingredientinputwidget.cpp:51
+msgctxt "Ingredient grouping name"
+msgid "Header:"
+msgstr "Koppel:"
+
+#: widgets/ingredientinputwidget.cpp:75
+msgid "Amount:"
+msgstr "Mengde:"
+
+#: widgets/ingredientinputwidget.cpp:82
+msgid "Unit:"
+msgstr "Eenheit:"
+
+#: widgets/ingredientinputwidget.cpp:90
+msgid "Preparation Method:"
+msgstr "Torechtmaak- Metood:"
+
+#: widgets/ingredientinputwidget.cpp:238
+msgid "Please enter an ingredient"
+msgstr "Giff bitte en Rindoels in"
+
+#: widgets/ingredientinputwidget.cpp:285
+msgid "Amount field contains invalid input."
+msgstr "De Inholt vun't Mengde-Feld is leeg."
+
+#: widgets/ingredientinputwidget.cpp:286
+msgid "Invalid input"
+msgstr "Leeg Ingaav"
+
+#: widgets/kdateedit.cpp:368
+msgctxt "the day after today"
+msgid "tomorrow"
+msgstr "morgen"
+
+#: widgets/kdateedit.cpp:369
+msgctxt "this day"
+msgid "today"
+msgstr "vundaag"
+
+#: widgets/kdateedit.cpp:370
+msgctxt "the day before today"
+msgid "yesterday"
+msgstr "güstern"
+
+#: widgets/kdatepickerpopup.cpp:96
+msgctxt "@option today"
+msgid "&Today"
+msgstr "&Vundaag"
+
+#: widgets/kdatepickerpopup.cpp:97
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "&Morgen"
+
+#: widgets/kdatepickerpopup.cpp:98
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "Nakamen &Week"
+
+#: widgets/kdatepickerpopup.cpp:99
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "Nakamen M&aand"
+
+#: widgets/kdatepickerpopup.cpp:107
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "Keen Datum"
+
+#: widgets/krecategorieslistwidget.cpp:42
+msgctxt "@title:column"
+msgid "Categories"
+msgstr "Kategorien"
+
+#: widgets/kregenericlistwidget.cpp:95
+msgctxt "@label:textbox"
+msgid "Type here the text to search"
+msgstr "Hier den Sööktext ingeven"
+
+#: widgets/kregenericlistwidget.cpp:99
+msgctxt "@label:textbox"
+msgid "Type here the text to search in the current page"
+msgstr "Hier wat för de Söök binnen de aktuelle Siet ingeven"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_previousButton)
+#: widgets/kregenericlistwidget.ui:46
+msgid "Previous Page"
+msgstr "Verleden Siet"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_nextButton)
+#: widgets/kregenericlistwidget.ui:62
+msgid "Next Page"
+msgstr "Nakamen Siet"
+
+#: widgets/kremenu.cpp:129
+msgctxt "@action:button Up to top menu"
+msgid "Up..."
+msgstr "Na baven..."
+
+#: widgets/propertylistview.cpp:163
+msgctxt "@title:column"
+msgid "Enabled"
+msgstr "Anmaakt"
+
+#: widgets/propertylistview.cpp:165
+msgctxt "@title:column"
+msgid "Min. Value"
+msgstr "Lüttst Weert"
+
+#: widgets/propertylistview.cpp:166
+msgctxt "@title:column"
+msgid "Max. Value"
+msgstr "Gröttst Weert"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:115
+msgid "Criteria"
+msgstr "Bedingen"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:126
+msgid "Stars"
+msgstr "Steerns"
+
+#. i18n: ectx: property (text), widget (QLabel, comment)
+#: widgets/ratingdisplaywidget.ui:146
+msgid "Comments"
+msgstr "Kommentaren"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
+#: widgets/ratingdisplaywidget.ui:177
+msgid "Remove"
+msgstr "Wegmaken"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
+#: widgets/ratingdisplaywidget.ui:187
+msgid "Edit..."
+msgstr "Bewerken..."
+
+#: widgets/recipelistview.cpp:32
+msgid "Uncategorized"
+msgstr "Keen Kategorie"
+
+#: widgets/recipelistview.cpp:101
+msgid "Recipe"
+msgstr "Rezept"
+
+#: widgets/recipelistview.cpp:236
+msgctxt "@info:progress"
+msgid "Loading recipes"
+msgstr "Rezepten warrt laadt"
+
+#: widgets/unitlistview.cpp:62
+msgctxt "@title:column Unit name"
+msgid "Unit"
+msgstr "Eenheit"
+
+#: widgets/unitlistview.cpp:63
+msgctxt "@title:column Unit abbreviation"
+msgid "Abbreviation"
+msgstr "Afkörten"
+
+#: widgets/unitlistview.cpp:64
+msgctxt "@title:column Unit plural"
+msgid "Plural"
+msgstr "Mehrtall"
+
+#: widgets/unitlistview.cpp:65
+msgctxt "@title:column unit plural abbreviation"
+msgid "Abbreviation"
+msgstr "Afkörten"
+
+#: widgets/unitlistview.cpp:66
+msgctxt "@title:column Unit type"
+msgid "Type"
+msgstr "Typ"
+
+#: widgets/unitlistview.h:104
+msgctxt "Unit type other"
+msgid "Other"
+msgstr "Anner"
+
+#: widgets/unitlistview.h:105
+msgctxt "Unit type mass"
+msgid "Mass"
+msgstr "Mass"
+
+#: widgets/unitlistview.h:106
+msgctxt "Unit type volume"
+msgid "Volume"
+msgstr "Ruuminholt"
+
+#: widgets/weightinput.cpp:23
+msgid "-No Preparation-"
+msgstr "-Torechtmaken deit nich noot-"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy

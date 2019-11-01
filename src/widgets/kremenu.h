@@ -18,7 +18,7 @@
 #include <QPixmap>
 #include <QResizeEvent>
 #include <QMouseEvent>
-#include <Q3ValueList>
+#include <QLinkedList>
 #include <QChildEvent>
 #include <QKeyEvent>
 #include <QPaintEvent>
@@ -34,7 +34,7 @@
 class Menu;
 class KreMenu;
 class KreMenuButton;
-typedef Q3ValueList <Menu>::Iterator MenuId;
+typedef QLinkedList <Menu>::Iterator MenuId;
 
 
 class Menu
@@ -92,7 +92,7 @@ protected:
 
 private:
 	//Variables
-	Q3ValueList <Menu> menus;
+	QLinkedList <Menu> menus;
 	MenuId mainMenuId;
 	MenuId currentMenuId;
 	Menu *m_currentMenu;

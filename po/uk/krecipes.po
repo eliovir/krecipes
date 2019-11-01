@@ -1,0 +1,4139 @@
+# Translation of krecipes.po to Ukrainian
+# Copyright (C) 2008-2015 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2008, 2009, 2010, 2011, 2012, 2013, 2015.
+# Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: krecipes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-03-10 08:33+0000\n"
+"PO-Revision-Date: 2015-02-22 09:16+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: actionshandlers/categoryactionshandler.cpp:148
+#: actionshandlers/krecategoryactionshandler.cpp:152
+msgid ""
+"Are you sure you want to delete this category and all its subcategories?"
+msgstr "Ви справді бажаєте вилучити цю категорію і всі її підкатегорії?"
+
+#: actionshandlers/categoryactionshandler.cpp:158
+#: actionshandlers/headeractionshandler.cpp:66
+#: actionshandlers/ingredientactionshandler.cpp:65
+#: actionshandlers/kreauthoractionshandler.cpp:70
+#: actionshandlers/krecategoryactionshandler.cpp:161
+#: actionshandlers/prepmethodactionshandler.cpp:65
+#: actionshandlers/recipeactionshandler.cpp:250
+#: actionshandlers/recipeactionshandler.cpp:261
+#: actionshandlers/unitactionshandler.cpp:133 krecipesview.cpp:696
+msgid "Recipes"
+msgstr "Рецепти"
+
+#: actionshandlers/categoryactionshandler.cpp:173
+#: actionshandlers/krecategoryactionshandler.cpp:175
+#, kde-format
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] "Назва категорії не може бути довшою за %1 символ."
+msgstr[1] "Назва категорії не може бути довшою за %1 символи."
+msgstr[2] "Назва категорії не може бути довшою за %1 символів."
+msgstr[3] "Назва категорії не може бути довшою за %1 символ."
+
+#: actionshandlers/categoryactionshandler.cpp:203
+#: actionshandlers/krecategoryactionshandler.cpp:207
+msgid ""
+"This category already exists. Continuing will merge these two categories "
+"into one. Are you sure?"
+msgstr ""
+"Ця категорія вже існує. Якщо ви продовжите, ці дві категорії буде об’єднано "
+"у одну. Ви справді цього бажаєте?"
+
+#: actionshandlers/headeractionshandler.cpp:39
+msgid "New Header"
+msgstr "Створити заголовок"
+
+#: actionshandlers/headeractionshandler.cpp:80
+#, kde-format
+msgid "Header cannot be longer than 1 character."
+msgid_plural "Header cannot be longer than %1 characters."
+msgstr[0] "Заголовок не повинен бути довшим за %1 символ."
+msgstr[1] "Заголовок не повинен бути довшим за %1 символи."
+msgstr[2] "Заголовок не повинен бути довшим за %1 символів."
+msgstr[3] "Заголовок не повинен бути довшим за %1 символ."
+
+#: actionshandlers/headeractionshandler.cpp:103
+#: actionshandlers/prepmethodactionshandler.cpp:101
+msgid ""
+"This header already exists.  Continuing will merge these two headers into "
+"one.  Are you sure?"
+msgstr ""
+"Такий заголовок вже записано. Якщо ви продовжите, ці два заголовки буде "
+"об’єднано у один. Ви справді цього бажаєте?"
+
+#: actionshandlers/ingredientactionshandler.cpp:38
+msgid "New Ingredient"
+msgstr "Нова складова"
+
+#: actionshandlers/ingredientactionshandler.cpp:68
+#: actionshandlers/prepmethodactionshandler.cpp:67
+#: actionshandlers/unitactionshandler.cpp:154
+msgid "You are about to permanently delete recipes from your database."
+msgstr ""
+"Ви виконуєте операцію незворотного вилучення рецептів з вашої бази даних."
+
+#: actionshandlers/ingredientactionshandler.cpp:80
+#: widgets/ingredientinputwidget.cpp:248
+#, kde-format
+msgid "Ingredient name cannot be longer than 1 character."
+msgid_plural "Ingredient name cannot be longer than %1 characters."
+msgstr[0] "Назва складової не повинна бути довшою за %1 символ."
+msgstr[1] "Назва складової не повинна бути довшою за %1 символи."
+msgstr[2] "Назва складової не повинна бути довшою за %1 символів."
+msgstr[3] "Назва складової не повинна бути довшою за %1 символ."
+
+#: actionshandlers/ingredientactionshandler.cpp:102
+msgid ""
+"This ingredient already exists. Continuing will merge these two ingredients "
+"into one. Are you sure?"
+msgstr ""
+"Цю складову вже записано. Якщо ви продовжите, ці дві складові буде об’єднано "
+"у одну. Ви справді цього бажаєте?"
+
+#: actionshandlers/kreauthoractionshandler.cpp:32
+msgid "New Author"
+msgstr "Новий автор"
+
+#: actionshandlers/kreauthoractionshandler.cpp:61
+msgid "Are you sure you want to delete this author?"
+msgstr "Ви справді бажаєте вилучити цього автора?"
+
+#: actionshandlers/kreauthoractionshandler.cpp:85
+#, kde-format
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] "Ім’я автора не повинне бути довшим за %1 символ."
+msgstr[1] "Ім’я автора не повинне бути довшим за %1 символи."
+msgstr[2] "Ім’я автора не повинне бути довшим за %1 символів."
+msgstr[3] "Ім’я автора не повинне бути довшим за %1 символ."
+
+#: actionshandlers/kreauthoractionshandler.cpp:115
+msgid ""
+"This author already exists. Continuing will merge these two authors into "
+"one. Are you sure?"
+msgstr ""
+"Цього автора вже записано. Якщо ви продовжите, цих авторів буде об’єднано у "
+"одного. Ви справді цього бажаєте?"
+
+#: actionshandlers/prepmethodactionshandler.cpp:38
+msgid "New Preparation Method"
+msgstr "Новий спосіб приготування"
+
+#: actionshandlers/prepmethodactionshandler.cpp:79
+#: widgets/ingredientinputwidget.cpp:270
+#, kde-format
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] "Назва способу приготування не повинна бути довшою за %1 символ."
+msgstr[1] "Назва способу приготування не повинна бути довшою за %1 символи."
+msgstr[2] "Назва способу приготування не повинна бути довшою за %1 символів."
+msgstr[3] "Назва способу приготування не повинна бути довшою за %1 символ."
+
+#: actionshandlers/propertyactionshandler.cpp:60
+msgid "Are you sure you want to delete this property?"
+msgstr "Ви справді бажаєте вилучити цю властивість?"
+
+#: actionshandlers/propertyactionshandler.cpp:74
+#, kde-format
+msgid "Property name cannot be longer than 1 character."
+msgid_plural "Property name cannot be longer than %1 characters."
+msgstr[0] "Назва властивості не повинна бути довшою за %1 символ."
+msgstr[1] "Назва властивості не повинна бути довшою за %1 символи."
+msgstr[2] "Назва властивості не повинна бути довшою за %1 символів."
+msgstr[3] "Назва властивості не повинна бути довшою за %1 символ."
+
+#: actionshandlers/propertyactionshandler.cpp:93
+msgid ""
+"This property already exists.  Continuing will merge these two properties "
+"into one.  Are you sure?"
+msgstr ""
+"Цю властивість вже записано. Якщо ви продовжите, ці дві властивості буде "
+"об’єднано у одну. Ви справді цього бажаєте?"
+
+#: actionshandlers/recipeactionshandler.cpp:229
+msgid "Please select only one recipe."
+msgstr "Будь ласка, виберіть лише один рецепт."
+
+#: actionshandlers/recipeactionshandler.cpp:229
+#: actionshandlers/recipeactionshandler.cpp:235 krecipesview.cpp:517
+msgid "Edit Recipe"
+msgstr "Змінити рецепт"
+
+#: actionshandlers/recipeactionshandler.cpp:235
+#: actionshandlers/recipeactionshandler.cpp:267
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "No recipes selected."
+msgstr "Не вибрано жодного рецепта."
+
+#: actionshandlers/recipeactionshandler.cpp:252 krecipesview.cpp:694
+#: krecipesview.cpp:696
+msgid "Export Recipe"
+msgstr "Експортувати рецепт"
+
+#: actionshandlers/recipeactionshandler.cpp:258
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to export all recipes in the current view?"
+msgstr ""
+"Зараз не позначено жодного рецепта.\n"
+"Чи бажаєте ви експортувати всі рецепти у поточному перегляді?"
+
+#: actionshandlers/recipeactionshandler.cpp:261
+msgid "Export Recipes"
+msgstr "Експортувати рецепти"
+
+#: actionshandlers/recipeactionshandler.cpp:267 pref.cpp:487
+msgid "Export"
+msgstr "Експортувати"
+
+#: actionshandlers/recipeactionshandler.cpp:283
+msgid ""
+"No recipes are currently selected.\n"
+"Would you like to print all recipes in the current view?"
+msgstr ""
+"Зараз не позначено жодного рецепта.\n"
+"Чи бажаєте ви надрукувати всі рецепти у поточному перегляді?"
+
+#: actionshandlers/recipeactionshandler.cpp:293
+msgid "Print"
+msgstr "Надрукувати"
+
+#: actionshandlers/recipeactionshandler.cpp:391
+msgid "Compressed Krecipes format"
+msgstr "Стиснений формат Krecipes"
+
+#: actionshandlers/recipeactionshandler.cpp:392
+msgid "Web page"
+msgstr "Сторінка мережі"
+
+#: actionshandlers/recipeactionshandler.cpp:393 pref.cpp:492
+msgid "Plain Text"
+msgstr "Простий текст"
+
+#: actionshandlers/recipeactionshandler.cpp:394
+msgid "Web Book"
+msgstr "Вебкнига"
+
+#: actionshandlers/recipeactionshandler.cpp:435 krecipes.cpp:693
+#, kde-format
+msgid "File \"%1\" exists.  Are you sure you want to overwrite it?"
+msgstr "Файл «%1» вже існує. Ви справді бажаєте його перезаписати?"
+
+#: actionshandlers/recipeactionshandler.cpp:435
+msgctxt "@title:window"
+msgid "Saving recipe"
+msgstr "Збереження рецепта"
+
+#: actionshandlers/recipeactionshandler.cpp:439
+msgctxt "@info:progress"
+msgid "Saving recipes..."
+msgstr "Збереження рецептів…"
+
+#: actionshandlers/unitactionshandler.cpp:69
+msgid "Rename Unit"
+msgstr "Перейменувати одиницю"
+
+#: actionshandlers/unitactionshandler.cpp:139 dialogs/setupdisplay.cpp:126
+#: exporters/htmlexporter.cpp:389 exporters/xsltexporter.cpp:54
+#: krecipesview.cpp:376 krecipesview.cpp:479
+msgid "Properties"
+msgstr "Властивості"
+
+#: actionshandlers/unitactionshandler.cpp:145
+msgid "Ingredient Weights"
+msgstr "Вага складових"
+
+#: actionshandlers/unitactionshandler.cpp:167
+#: widgets/ingredientinputwidget.cpp:255
+#, kde-format
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] "Назва одиниці не повинна бути довшою за %1 символ."
+msgstr[1] "Назва одиниці не повинна бути довшою за %1 символи."
+msgstr[2] "Назва одиниці не повинна бути довшою за %1 символів."
+msgstr[3] "Назва одиниці не повинна бути довшою за %1 символ."
+
+#: actionshandlers/unitactionshandler.cpp:205
+msgid ""
+"This unit already exists.  Continuing will merge these two units into one.  "
+"Are you sure?"
+msgstr ""
+"Ця одиниця вже існує. Якщо ви продовжите, ці дві одиниці буде об’єднано у "
+"одну. Ви справді цього бажаєте?"
+
+#: backends/MySQL/mysqlrecipedb.cpp:526 backends/SQLite/literecipedb.cpp:767
+msgctxt "Overall rating"
+msgid "Overall"
+msgstr "Загалом"
+
+#: backends/MySQL/mysqlrecipedb.cpp:527
+#: backends/PostgreSQL/psqlrecipedb.cpp:436
+#: backends/SQLite/literecipedb.cpp:768
+msgid "Taste"
+msgstr "Смак"
+
+#: backends/MySQL/mysqlrecipedb.cpp:528
+#: backends/PostgreSQL/psqlrecipedb.cpp:437
+#: backends/SQLite/literecipedb.cpp:769
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: backends/MySQL/mysqlrecipedb.cpp:529
+#: backends/PostgreSQL/psqlrecipedb.cpp:438
+#: backends/SQLite/literecipedb.cpp:770
+msgid "Originality"
+msgstr "Оригінальність"
+
+#: backends/MySQL/mysqlrecipedb.cpp:530
+#: backends/PostgreSQL/psqlrecipedb.cpp:439
+#: backends/SQLite/literecipedb.cpp:771
+msgid "Ease of Preparation"
+msgstr "Легкість приготування"
+
+#: backends/PostgreSQL/psqlrecipedb.cpp:435
+msgctxt "Overall Rating"
+msgid "Overall"
+msgstr "Загалом"
+
+#: backends/qsqlrecipedb.cpp:88
+#, kde-format
+msgid ""
+"The Qt database plugin (%1) is not installed.  This plugin is required for "
+"using this database backend."
+msgstr ""
+"Додаток до Qt для бази даних (%1) не встановлено. Цей додаток потрібен для "
+"використання вказаного сервера баз даних."
+
+#: backends/qsqlrecipedb.cpp:130 backends/qsqlrecipedb.cpp:145
+#, kde-format
+msgid "Krecipes could not open the \"%1\" database."
+msgstr "Krecipes не вдалося відкрити базу даних «%1»."
+
+#: backends/qsqlrecipedb.cpp:133 backends/qsqlrecipedb.cpp:148
+#, kde-format
+msgid ""
+"Krecipes could not open the database using the driver '%2' (with username: "
+"\"%1\"). You may not have the necessary permissions, or the server may be "
+"down."
+msgstr ""
+"Krecipes не вдалося відкрити базу даних за допомогою драйвера «%2» (з іменем "
+"користувача: «%1»). Можливо, ви не маєте потрібного дозволу, або сервер бази "
+"даних непрацездатний."
+
+#: backends/qsqlrecipedb.cpp:141
+#, kde-format
+msgid "Database message: %1"
+msgstr "Повідомлення бази даних: %1"
+
+#: backends/qsqlrecipedb.cpp:157
+msgid ""
+"This database was created with a newer version of Krecipes and cannot be "
+"opened."
+msgstr ""
+"Цю базу даних було створено за допомогою новішої версії Krecipes, її "
+"неможливо відкрити."
+
+#: backends/qsqlrecipedb.cpp:166
+msgid "Failed to fix database structure."
+msgstr "Не вдалося виправити структуру бази даних."
+
+#: backends/qsqlrecipedb.cpp:1841
+#, kde-format
+msgid "In ingredient '%1': weight [%2/%3%4]"
+msgstr "У складовій «%1»: вага [%2/%3%4]"
+
+#: backends/qsqlrecipedb.cpp:1891
+#, kde-format
+msgid "In ingredient '%1': property \"%2\" [%3/%4]"
+msgstr "У складовій «%1»: властивість «%2» [%3/%4]"
+
+#: backends/qsqlrecipedb.cpp:2064
+msgctxt "@info"
+msgid ""
+"<p>The database was created with a previous version of Krecipes. Would you "
+"like Krecipes to update this database to work with this version of "
+"Krecipes?  Depending on the number of recipes and amount of data, this could "
+"take some time.</p><warning><p>After updating, this database will no longer "
+"be compatible with previous versions of Krecipes.</p><p>Cancelling this "
+"operation may result in corrupting the database.</p></warning>"
+msgstr ""
+"<p>Цю базу даних було створено за допомогою попередньої версії Krecipes. Чи "
+"бажаєте ви, щоб Krecipes оновила базу даних для роботи з поточною версією "
+"Krecipes? Залежно від кількості рецептів та об’єму даних, таке оновлення "
+"може тривати деякий час.</p><warning><p>Після оновлення ця база даних більше "
+"не буде сумісною з попередніми версіями Krecipes.</p><p>Скасування дії з "
+"оновлення може призвести до псування бази даних.</p></warning>"
+
+#: backends/qsqlrecipedb.cpp:2074
+msgid "Porting database structure..."
+msgstr "Портування структури бази даних…"
+
+#: backends/qsqlrecipedb.cpp:2161
+msgctxt "@info:progress"
+msgid "Loading category list"
+msgstr "Завантаження списку категорій"
+
+#: backends/recipedb.cpp:308
+msgctxt "@info:progress"
+msgid "Creating complete backup"
+msgstr "Створення повної резервної копії"
+
+#: backends/recipedb.cpp:309 backends/recipedb.cpp:481
+msgid ""
+"Depending on the number of recipes and amount of data, this could take some "
+"time."
+msgstr ""
+"Залежно від кількості рецептів та об’єму даних, ця операція може тривати "
+"деякий час."
+
+#: backends/recipedb.cpp:330 backends/recipedb.cpp:488
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH."
+msgstr ""
+"Не вдалося знайти або виконати програму «%1». Цю програму або не встановлено "
+"на вашій системі, або вона не знаходиться у теці, записаній у змінній $PATH."
+
+#: backends/recipedb.cpp:355
+#, kde-format
+msgid ""
+"Backup failed.\n"
+"%1"
+msgstr ""
+"Резервне копіювання завершилося невдало.\n"
+"%1"
+
+#: backends/recipedb.cpp:444
+msgid ""
+"This backup was created with a newer version of Krecipes and cannot be "
+"restored."
+msgstr ""
+"Цю резервну копію було створено за допомогою новішої версії Krecipes, "
+"відновитися з неї неможливо."
+
+#: backends/recipedb.cpp:453
+msgid "This file is not a Krecipes backup file or has become corrupt."
+msgstr ""
+"Цей файл не є файлом резервної копії даних Krecipes або цей файл пошкоджено."
+
+#: backends/recipedb.cpp:458
+#, kde-format
+msgid ""
+"This backup was created using the \"%1\" backend.  It can only be restored "
+"into a database using this backend."
+msgstr ""
+"Цю резервну копію було створено за допомогою сервера «%1». Її можна "
+"відновити лише у базу даних, що використовує саме цей сервер."
+
+#: backends/recipedb.cpp:480
+msgctxt "@info:progress"
+msgid "Restoring backup"
+msgstr "Відновлення з резервної копії"
+
+#: backends/recipedb.cpp:535 krecipes.cpp:722
+msgid "Restore Failed"
+msgstr "Відновлення зазнало невдачі"
+
+#: backends/recipedb.cpp:918
+msgid "Nutrient Import"
+msgstr "Імпорт даних про поживність"
+
+#: backends/recipedb.cpp:918
+msgid "Importing USDA nutrient data"
+msgstr "Імпорт даних про поживність USDA"
+
+#: convert_sqlite3.cpp:83 convert_sqlite3.cpp:91
+#, kde-format
+msgid ""
+"Unable to find or run the program '%1'.  Either it is not installed on your "
+"system or it is not in $PATH. Do you want to configure other path for this "
+"command?"
+msgstr ""
+"Не вдалося знайти або виконати програму «%1». Цю програму або не встановлено "
+"на вашій системі, або вона не знаходиться у теці, записаній у змінній $PATH. "
+"Бажаєте вказати іншу адресу цієї команди?"
+
+#: convert_sqlite3.cpp:100
+#, kde-format
+msgid ""
+"Conversion process failed. Probably the file %1 is not an SQLite 2 database."
+msgstr ""
+"Спроба перетворення зазнала невдачі. Ймовірно, файл %1 не є файлом бази "
+"даних SQLite 2."
+
+#: convert_sqlite3.cpp:131
+#, c-format, kde-format
+msgid ""
+"Unable to backup SQLite 2 database, aborting. A successfully converted "
+"SQLite 3 file is available at %1.new."
+msgstr ""
+"Не вдалося створити резервну копію бази даних SQLite 2, обробку перервано. "
+"Успішно перетворений файл бази даних SQLite 3 названо %1.new."
+
+#: convert_sqlite3.cpp:137
+#, kde-format
+msgid ""
+"Unable to copy the new SQLite 3 database to %1.You may manually move %1.new "
+"to %1"
+msgstr ""
+"Не вдалося скопіювати нову базу даних SQLite 3 до %1. Вам доведеться вручну "
+"пересунути %1.new у %1"
+
+#: convert_sqlite3.cpp:141
+#, kde-format
+msgid "Conversion successful! SQLite 2 database backed up to %1"
+msgstr ""
+"Перетворення успішно завершено! Створено резервну копію бази даних SQLite 2 "
+"у %1"
+
+#: dialogs/advancedsearchdialog.cpp:71
+msgctxt "@label"
+msgid "Search using the following criteria:"
+msgstr "Шукати з використанням таких критеріїв:"
+
+#: dialogs/advancedsearchdialog.cpp:98 dialogs/advancedsearchdialog.cpp:705
+msgctxt "@action:button Recipe title"
+msgid "Title >>"
+msgstr "Назва >>"
+
+#: dialogs/advancedsearchdialog.cpp:110 dialogs/advancedsearchdialog.cpp:343
+msgctxt "@option:check"
+msgid "Require All Words"
+msgstr "За всіма словами"
+
+#: dialogs/advancedsearchdialog.cpp:114 dialogs/advancedsearchdialog.cpp:347
+msgctxt "@label:textbox"
+msgid "Keywords:"
+msgstr "Ключові слова:"
+
+#: dialogs/advancedsearchdialog.cpp:127 dialogs/advancedsearchdialog.cpp:713
+msgctxt "@action:button"
+msgid "Ingredients >>"
+msgstr "Складові >>"
+
+#: dialogs/advancedsearchdialog.cpp:138
+msgctxt "@info"
+msgid "Enter ingredients: (e.g. chicken pasta \"white wine\")"
+msgstr "Введіть складові: (наприклад, макарони з курятиною «біле вино»)"
+
+#: dialogs/advancedsearchdialog.cpp:145
+msgctxt "@label:textbox"
+msgid "Uses all:"
+msgstr "Використовує все:"
+
+#: dialogs/advancedsearchdialog.cpp:149
+msgctxt "@label:textbox"
+msgid "Uses any of:"
+msgstr "Використовує щось з:"
+
+#: dialogs/advancedsearchdialog.cpp:153
+msgctxt "@label:textbox"
+msgid "Without:"
+msgstr "Без:"
+
+#: dialogs/advancedsearchdialog.cpp:164 dialogs/advancedsearchdialog.cpp:729
+msgctxt "@action:button"
+msgid "Categories >>"
+msgstr "Категорії >>"
+
+#: dialogs/advancedsearchdialog.cpp:175
+msgctxt "@info"
+msgid "Enter categories: (e.g. Desserts Pastas \"Main Dishes\")"
+msgstr "Введіть категорії: (наприклад, Десертні макарони «Головні страви»)"
+
+#: dialogs/advancedsearchdialog.cpp:182
+msgctxt "@label:textbox"
+msgid "In all:"
+msgstr "У всіх:"
+
+#: dialogs/advancedsearchdialog.cpp:186
+msgctxt "@label:textbox"
+msgid "In any of:"
+msgstr "У чомусь з:"
+
+#: dialogs/advancedsearchdialog.cpp:190
+msgctxt "@label:textbox"
+msgid "Not in:"
+msgstr "Не у:"
+
+#: dialogs/advancedsearchdialog.cpp:201 dialogs/advancedsearchdialog.cpp:721
+msgctxt "@action:button"
+msgid "Authors >>"
+msgstr "Автори >>"
+
+#: dialogs/advancedsearchdialog.cpp:212
+msgctxt "@info"
+msgid "Enter author name (e.g. Smith or \"Jane Doe\")"
+msgstr "Введіть ім’я автора (наприклад, Петренко або «Панько Невмивака»)"
+
+#: dialogs/advancedsearchdialog.cpp:219
+msgctxt "@label:textbox"
+msgid "By any of:"
+msgstr "За чимось з:"
+
+#: dialogs/advancedsearchdialog.cpp:223
+msgctxt "@label:textbox"
+msgid "By all:"
+msgstr "За всім:"
+
+#: dialogs/advancedsearchdialog.cpp:227
+msgctxt "@label:textbox"
+msgid "Not by:"
+msgstr "Не за:"
+
+#: dialogs/advancedsearchdialog.cpp:238 dialogs/advancedsearchdialog.cpp:737
+msgctxt "@action:button"
+msgid "Yield >>"
+msgstr "Порції >>"
+
+#: dialogs/advancedsearchdialog.cpp:252 dialogs/advancedsearchdialog.cpp:300
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: dialogs/advancedsearchdialog.cpp:265
+msgctxt "@item:inlistbox"
+msgid "Yields at least:"
+msgstr "Порцій не менше:"
+
+#: dialogs/advancedsearchdialog.cpp:266
+msgctxt "@item:inlistbox"
+msgid "Yields at most:"
+msgstr "Порцій не більше:"
+
+#: dialogs/advancedsearchdialog.cpp:267
+msgctxt "@item:inlistbox"
+msgid "Yields about:"
+msgstr "Порцій приблизно:"
+
+#: dialogs/advancedsearchdialog.cpp:286 dialogs/advancedsearchdialog.cpp:745
+msgctxt "@action:button"
+msgid "Preparation Time >>"
+msgstr "Час приготування >>"
+
+#: dialogs/advancedsearchdialog.cpp:312
+msgctxt "@item:inlistbox"
+msgid "Ready in at most:"
+msgstr "Готується не більше:"
+
+#: dialogs/advancedsearchdialog.cpp:313
+msgctxt "@item:inlistbox"
+msgid "Ready in about:"
+msgstr "Готується приблизно:"
+
+#: dialogs/advancedsearchdialog.cpp:331 dialogs/advancedsearchdialog.cpp:753
+msgctxt "@action:button"
+msgid "Instructions >>"
+msgstr "Настанови >>"
+
+#: dialogs/advancedsearchdialog.cpp:361 dialogs/advancedsearchdialog.cpp:761
+msgctxt "@action:button"
+msgid "Meta Data >>"
+msgstr "Метадані >>"
+
+#: dialogs/advancedsearchdialog.cpp:373
+msgctxt "@label Recipe created date"
+msgid "Created:"
+msgstr "Створено:"
+
+#: dialogs/advancedsearchdialog.cpp:384
+msgctxt "@label Recipe modified date"
+msgid "Modified:"
+msgstr "Змінено:"
+
+#: dialogs/advancedsearchdialog.cpp:395
+msgctxt "@label Recipe last accessed date"
+msgid "Last Accessed:"
+msgstr "Останній доступ:"
+
+#: dialogs/advancedsearchdialog.cpp:414 dialogs/advancedsearchdialog.cpp:769
+msgctxt "@action:button"
+msgid "Ratings >>"
+msgstr "Оцінки >>"
+
+#: dialogs/advancedsearchdialog.cpp:425
+msgctxt "@option:radio"
+msgid "By average:"
+msgstr "За середньою:"
+
+#: dialogs/advancedsearchdialog.cpp:442
+msgctxt "@label"
+msgid "stars"
+msgstr "зірок"
+
+#: dialogs/advancedsearchdialog.cpp:448
+msgctxt "@option:radio"
+msgid "By criteria:"
+msgstr "За критеріями:"
+
+#: dialogs/advancedsearchdialog.cpp:494
+msgctxt "@title:column"
+msgid "Criterion"
+msgstr "Критерій"
+
+#: dialogs/advancedsearchdialog.cpp:495 dialogs/advancedsearchdialog.cpp:497
+#: dialogs/editratingdialog.cpp:117 dialogs/editratingdialog.cpp:168
+msgctxt "@title:column"
+msgid "Stars"
+msgstr "Зірки"
+
+#: dialogs/advancedsearchdialog.cpp:496 dialogs/editratingdialog.cpp:116
+#: dialogs/editratingdialog.cpp:167
+msgctxt "@title:column"
+msgid "Criteria"
+msgstr "Критерії"
+
+#: dialogs/advancedsearchdialog.cpp:518
+msgctxt "@action:button Clear search criteria"
+msgid "C&lear"
+msgstr "Сп&орожнити"
+
+#: dialogs/advancedsearchdialog.cpp:526
+msgctxt "@action:button Search recipes"
+msgid "&Search"
+msgstr "&Пошук"
+
+#: dialogs/advancedsearchdialog.cpp:549
+msgctxt "@title:column Recipe title"
+msgid "Title"
+msgstr "Назва"
+
+#: dialogs/advancedsearchdialog.cpp:703
+msgctxt "@action:button Recipe title"
+msgid "Title <<"
+msgstr "Назва <<"
+
+#: dialogs/advancedsearchdialog.cpp:711
+msgctxt "@action:button"
+msgid "Ingredients <<"
+msgstr "Складові <<"
+
+#: dialogs/advancedsearchdialog.cpp:719
+msgctxt "@action:button"
+msgid "Authors <<"
+msgstr "Автори <<"
+
+#: dialogs/advancedsearchdialog.cpp:727
+msgctxt "@action:button"
+msgid "Categories <<"
+msgstr "Категорії <<"
+
+#: dialogs/advancedsearchdialog.cpp:735
+msgctxt "@action:button"
+msgid "Yield <<"
+msgstr "Порції <<"
+
+#: dialogs/advancedsearchdialog.cpp:743
+msgctxt "@action:button"
+msgid "Preparation Time <<"
+msgstr "Час приготування <<"
+
+#: dialogs/advancedsearchdialog.cpp:751
+msgctxt "@action:button"
+msgid "Instructions <<"
+msgstr "Настанови <<"
+
+#: dialogs/advancedsearchdialog.cpp:759
+msgctxt "@action:button"
+msgid "Meta Data <<"
+msgstr "Метадані <<"
+
+#: dialogs/advancedsearchdialog.cpp:767
+msgctxt "@action:button"
+msgid "Ratings <<"
+msgstr "Оцінки <<"
+
+#: dialogs/advancedsearchdialog.cpp:990
+msgctxt "@item:inlistbox"
+msgid "No matching recipes found"
+msgstr "Відповідних рецептів не знайдено"
+
+#: dialogs/authorsdialog.cpp:45 dialogs/categorieseditordialog.cpp:45
+#: dialogs/ingredientgroupsdialog.cpp:40 dialogs/ingredientsdialog.cpp:63
+#: dialogs/prepmethodsdialog.cpp:44 dialogs/propertiesdialog.cpp:54
+#: dialogs/unitsdialog.cpp:55
+msgctxt "@action:button"
+msgid "Create..."
+msgstr "Створити…"
+
+#: dialogs/authorsdialog.cpp:50 dialogs/categorieseditordialog.cpp:50
+#: dialogs/ingredientgroupsdialog.cpp:45 dialogs/ingredientsdialog.cpp:68
+#: dialogs/prepmethodsdialog.cpp:49 dialogs/propertiesdialog.cpp:58
+#: dialogs/selectrecipedialog.cpp:108 dialogs/unitsdialog.cpp:60
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Вилучити"
+
+#: dialogs/borderdialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Border"
+msgstr "Оберіть рамку"
+
+#: dialogs/borderdialog.cpp:130
+msgctxt "@title:group"
+msgid "Requested Border"
+msgstr "Бажана рамка"
+
+#: dialogs/borderdialog.cpp:131
+msgctxt "@label:textbox Border style"
+msgid "Style:"
+msgstr "Стиль:"
+
+#: dialogs/borderdialog.cpp:132
+msgctxt "@label:textbox Border color"
+msgid "Color:"
+msgstr "Колір:"
+
+#: dialogs/borderdialog.cpp:133
+msgctxt "@label:textbox Border width"
+msgid "Width:"
+msgstr "Ширина:"
+
+#: dialogs/borderdialog.cpp:205
+msgctxt "@item:inlistbox Border type none"
+msgid "None"
+msgstr "Немає"
+
+#: dialogs/borderdialog.cpp:206
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dotted"
+msgstr "Пунктир"
+
+#: dialogs/borderdialog.cpp:207
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Dashed"
+msgstr "Штрих-пунктир"
+
+#: dialogs/borderdialog.cpp:208
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Solid"
+msgstr "Суцільна"
+
+#: dialogs/borderdialog.cpp:209
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Double"
+msgstr "Подвійна"
+
+#: dialogs/borderdialog.cpp:210
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Groove"
+msgstr "Виступ"
+
+#: dialogs/borderdialog.cpp:211
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Ridge"
+msgstr "Гребінь"
+
+#: dialogs/borderdialog.cpp:212
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Inset"
+msgstr "Вкладка"
+
+#: dialogs/borderdialog.cpp:213
+msgctxt ""
+"@item:inlistbox See http://krecipes.sourceforge.net/bordertypes.png for an "
+"example"
+msgid "Outset"
+msgstr "Накладка"
+
+#: dialogs/borderdialog.cpp:228
+msgid "Border Preview"
+msgstr "Перегляд рамки"
+
+#: dialogs/conversiondialog.cpp:33
+msgctxt "@title:window"
+msgid "Measurement Converter"
+msgstr "Перетворювач одиниць виміру"
+
+#: dialogs/conversiondialog.cpp:37
+msgctxt "@action:button"
+msgid "Convert"
+msgstr "Перетворити"
+
+#: dialogs/conversiondialog.cpp:58
+msgctxt "@item:inlistbox"
+msgid "--Ingredient (optional)--"
+msgstr "—Складова (необов’язкова)—"
+
+#: dialogs/conversiondialog.cpp:61
+msgctxt "@item:inlistbox"
+msgid "-No Preparation-"
+msgstr "-Без приготування-"
+
+#: dialogs/conversiondialog.cpp:96
+msgctxt "@label"
+msgid "Convert"
+msgstr "Перетворити"
+
+#: dialogs/conversiondialog.cpp:97
+msgctxt "@label Convert to"
+msgid "To"
+msgstr "у"
+
+#: dialogs/conversiondialog.cpp:99
+msgctxt "@label Result of an unit conversion"
+msgid "<b>Result:</b>"
+msgstr "<b>Результат:</b>"
+
+#: dialogs/conversiondialog.cpp:134
+msgctxt "@label:textbox"
+msgid "<b>Result:</b>"
+msgstr "<b>Результат:</b>"
+
+#: dialogs/conversiondialog.cpp:138
+msgctxt "@label:textbox"
+msgid "<b>Approximated result:</b>"
+msgstr "<b>Приблизний результат:</b>"
+
+#: dialogs/conversiondialog.cpp:142 dialogs/conversiondialog.cpp:146
+#: dialogs/conversiondialog.cpp:150 dialogs/conversiondialog.cpp:154
+#: dialogs/conversiondialog.cpp:158
+msgctxt "@label:textbox"
+msgid "<b>Error:</b>"
+msgstr "<b>Помилка:</b>"
+
+#: dialogs/conversiondialog.cpp:143
+msgctxt "@info"
+msgid "Missing unit conversion"
+msgstr "Відсутнє перетворення одиниць виміру"
+
+#: dialogs/conversiondialog.cpp:147
+msgctxt "@info"
+msgid "No ingredient weight available"
+msgstr "Не доступна вага складових"
+
+#: dialogs/conversiondialog.cpp:151
+msgctxt "@info"
+msgid "No ingredient weight available for this method of preparation"
+msgstr "Для цього способу приготування не доступна вага складових"
+
+#: dialogs/conversiondialog.cpp:155
+msgctxt "@info"
+msgid "Ingredient required for conversion"
+msgstr "Слід вказати складову для перетворення"
+
+#: dialogs/conversiondialog.cpp:159
+msgctxt "@info"
+msgid "Impossible unit conversion based on unit types"
+msgstr "Неможливе перетворення одиниць, їхні типи є різними"
+
+#: dialogs/createcategorydialog.cpp:25
+msgctxt "@title:window"
+msgid "New Category"
+msgstr "Нова категорія"
+
+#: dialogs/createcategorydialog.cpp:36
+msgctxt "@title:group"
+msgid "New Category"
+msgstr "Нова категорія"
+
+#: dialogs/createcategorydialog.cpp:39
+msgctxt "@label:textbox Category name"
+msgid "Name:"
+msgstr "Назва:"
+
+#: dialogs/createcategorydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Subcategory of:"
+msgstr "Підкатегорія:"
+
+#: dialogs/createcategorydialog.cpp:59
+msgctxt "@item:inlistbox No category"
+msgid "**NONE**"
+msgstr "**НЕМАЄ**"
+
+#: dialogs/createingredientweightdialog.cpp:32
+msgctxt "@title:window"
+msgid "Add Ingredient Weight"
+msgstr "Додати вагу складових"
+
+#: dialogs/createingredientweightdialog.cpp:74
+msgctxt "@item"
+msgid "-No Preparation-"
+msgstr "-Без приготування-"
+
+#: dialogs/createingredientweightdialog.cpp:94
+msgctxt "@title:group"
+msgid "New Ingredient Weight"
+msgstr "Вага нової складової"
+
+#: dialogs/createingredientweightdialog.cpp:95
+msgctxt "@label:textbox"
+msgid "Per Amount:"
+msgstr "На кількість:"
+
+#: dialogs/createingredientweightdialog.cpp:96
+msgctxt "@label:textbox"
+msgid "Weight:"
+msgstr "Вага:"
+
+#: dialogs/createingredientweightdialog.cpp:102
+#: dialogs/createingredientweightdialog.cpp:109
+msgctxt "@info"
+msgid "Amount field contains invalid input."
+msgstr "У полі «Кількість» містяться некоректні дані."
+
+#: dialogs/createingredientweightdialog.cpp:103
+#: dialogs/createingredientweightdialog.cpp:110
+msgctxt "@title:window"
+msgid "Invalid input"
+msgstr "Некоректні дані"
+
+#: dialogs/createpropertydialog.cpp:22
+msgctxt "@title:window"
+msgid "New Property"
+msgstr "Нова властивість"
+
+#: dialogs/createpropertydialog.cpp:34
+msgctxt "@title:group"
+msgid "New Property"
+msgstr "Нова властивість"
+
+#: dialogs/createpropertydialog.cpp:38
+msgctxt "@label:textbox"
+msgid "Property name:"
+msgstr "Назва властивості:"
+
+#: dialogs/createpropertydialog.cpp:42
+msgctxt "@label:textbox"
+msgid "Units:"
+msgstr "Одиниці:"
+
+#: dialogs/createunitconversiondialog.cpp:74
+msgctxt "@title:window"
+msgid "Unit Conversion"
+msgstr "Перетворення одиниць"
+
+#: dialogs/createunitconversiondialog.cpp:75
+msgctxt "@title:group"
+msgid "New Unit Conversion"
+msgstr "Нове перетворення одиниць"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "New Unit"
+msgstr "Нова одиниця"
+
+#: dialogs/createunitdialog.cpp:27
+msgctxt "@title:window"
+msgid "Unit"
+msgstr "Одиниця"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "New Unit"
+msgstr "Нова одиниця"
+
+#: dialogs/createunitdialog.cpp:37
+msgctxt "@title:group"
+msgid "Unit"
+msgstr "Одиниця"
+
+#: dialogs/createunitdialog.cpp:41
+msgctxt "@label:textbox Single unit name"
+msgid "Singular:"
+msgstr "Однина:"
+
+#: dialogs/createunitdialog.cpp:45
+msgctxt "@label:textbox Single unit abbreviation"
+msgid "Singular Abbreviation:"
+msgstr "Скорочення однини:"
+
+#: dialogs/createunitdialog.cpp:49
+msgctxt "@label:textbox Plural unit name"
+msgid "Plural:"
+msgstr "Множина:"
+
+#: dialogs/createunitdialog.cpp:53
+msgctxt "@label:textbox Plural unit abbreviation"
+msgid "Plural Abbreviation:"
+msgstr "Скорочення множини:"
+
+#: dialogs/createunitdialog.cpp:56 widgets/unitlistview.cpp:80
+msgctxt "@item:inlistbox Unit type other"
+msgid "Other"
+msgstr "Інший"
+
+#: dialogs/createunitdialog.cpp:57 widgets/unitlistview.cpp:81
+msgctxt "@item:inlistbox Unit type mass"
+msgid "Mass"
+msgstr "Маса"
+
+#: dialogs/createunitdialog.cpp:58 widgets/unitlistview.cpp:82
+msgctxt "@item:inlistbox Unit type volume"
+msgid "Volume"
+msgstr "Об’єм"
+
+#: dialogs/createunitdialog.cpp:62
+msgctxt "@label:textbox Unit Type"
+msgid "Type:"
+msgstr "Тип:"
+
+#: dialogs/dbimportdialog.cpp:40
+msgctxt "@title:window"
+msgid "Database Import"
+msgstr "Імпорт бази даних"
+
+#: dialogs/dbimportdialog.cpp:78
+msgctxt "@label:textbox"
+msgid "Database file:"
+msgstr "Файл бази даних:"
+
+#: dialogs/dbimportdialog.cpp:151
+msgctxt "@title:group"
+msgid "Database"
+msgstr "База даних"
+
+#: dialogs/dbimportdialog.cpp:155
+msgctxt "@label:textbox"
+msgid "Server:"
+msgstr "Сервер:"
+
+#: dialogs/dbimportdialog.cpp:156
+msgctxt "@label:textbox Database username"
+msgid "Username:"
+msgstr "Користувач:"
+
+#: dialogs/dbimportdialog.cpp:157
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Пароль:"
+
+#: dialogs/dbimportdialog.cpp:158
+msgctxt "@label:textbox"
+msgid "Database name:"
+msgstr "База даних:"
+
+#: dialogs/dbimportdialog.cpp:159
+msgctxt "@label:textbox"
+msgid "Port:"
+msgstr "Порт:"
+
+#: dialogs/dbimportdialog.cpp:160
+msgctxt "@label:textbox Default port"
+msgid "Default"
+msgstr "Типовий"
+
+#: dialogs/dependanciesdialog.cpp:53
+msgctxt "@title:window"
+msgid "Element with Dependencies"
+msgstr "Елемент з залежностями"
+
+#: dialogs/dependanciesdialog.cpp:65
+msgctxt "@info"
+msgid ""
+"<warning>The following will have to be removed also, since currently they "
+"use the element you have chosen to be removed.</warning>"
+msgstr ""
+"<warning>Наступну інформацію також буде вилучено, оскільки у ній використано "
+"елемент, який ви обрали для вилучення.</warning>"
+
+#: dialogs/dependanciesdialog.cpp:68
+msgctxt "@info"
+msgid ""
+"<warning>The following currently use the element you have chosen to be "
+"removed.</warning>"
+msgstr ""
+"<warning>Вказані нижче елементи використовують елемент, який ви обрали для "
+"вилучення.</warning>"
+
+#: dialogs/dependanciesdialog.cpp:104
+msgctxt "@info"
+msgid "Are you sure you wish to proceed?"
+msgstr "Ви справді бажаєте продовжувати?"
+
+#: dialogs/dietviewdialog.cpp:24
+msgctxt "@title:window"
+msgid "View Diet"
+msgstr "Перегляд дієти"
+
+#: dialogs/dietviewdialog.cpp:33
+msgctxt "@action:button"
+msgid "Create &Shopping List"
+msgstr "Створити список &закупівель"
+
+#: dialogs/dietviewdialog.cpp:59 dialogs/dietviewdialog.cpp:78
+msgid "Diet"
+msgstr "Дієта"
+
+#: dialogs/dietviewdialog.cpp:97
+#, kde-format
+msgid "Day %1"
+msgstr "День %1"
+
+#: dialogs/dietwizarddialog.cpp:59
+msgctxt "@label:slider"
+msgid "Number of Days"
+msgstr "Кількість днів"
+
+#: dialogs/dietwizarddialog.cpp:78
+msgctxt "@label:slider"
+msgid "Meals per Day"
+msgstr "Прийомів їжі на день"
+
+#: dialogs/dietwizarddialog.cpp:106
+msgctxt "@action:button"
+msgid "Create the diet"
+msgstr "Створити дієту"
+
+#: dialogs/dietwizarddialog.cpp:110
+msgctxt "@action:button Clear Diet"
+msgid "Clear"
+msgstr "Спорожнити"
+
+#: dialogs/dietwizarddialog.cpp:116 dialogs/dietwizarddialog.cpp:170
+#, kde-format
+msgctxt "@title:tab"
+msgid "Meal 1"
+msgid_plural "Meal %1"
+msgstr[0] "Прийняття їжі %1"
+msgstr[1] "Прийняття їжі %1"
+msgstr[2] "Прийняття їжі %1"
+msgstr[3] "Прийняття їжі %1"
+
+#: dialogs/dietwizarddialog.cpp:165 dialogs/dietwizarddialog.cpp:187
+#, kde-format
+msgid "- %1 -"
+msgstr "- %1 -"
+
+#: dialogs/dietwizarddialog.cpp:191
+#, kde-format
+msgid "- 1 week -"
+msgid_plural "- %1 weeks -"
+msgstr[0] "- %1 тиждень -"
+msgstr[1] "- %1 тижні -"
+msgstr[2] "- %1 тижнів -"
+msgstr[3] "- %1 тиждень -"
+
+#: dialogs/dietwizarddialog.cpp:246
+msgctxt "@info"
+msgid ""
+"Given the constraints, a full diet list could not be constructed. Either the "
+"recipe list is too short or the constraints are too demanding. "
+msgstr ""
+"За вказаними обмеженнями не вдалося створити повний список дієти. Можливо, "
+"список рецептів є закоротким або обмеження є зажорсткими. "
+
+#: dialogs/dietwizarddialog.cpp:340
+msgctxt "@label:spinbox"
+msgid "No. of dishes: "
+msgstr "Кількість страв: "
+
+#: dialogs/dietwizarddialog.cpp:348
+msgctxt "@action:button"
+msgid "Previous Dish"
+msgstr "Попередня страва"
+
+#: dialogs/dietwizarddialog.cpp:351
+msgctxt "@action:button"
+msgid "Next Dish"
+msgstr "Наступна страва"
+
+#: dialogs/dietwizarddialog.cpp:359
+msgid "1st Course"
+msgstr "Перша страва"
+
+#: dialogs/dietwizarddialog.cpp:362
+msgid "2nd Course"
+msgstr "Друга страва"
+
+#: dialogs/dietwizarddialog.cpp:365
+msgid "Dessert"
+msgstr "Десерт"
+
+#: dialogs/dietwizarddialog.cpp:400
+#, kde-format
+msgctxt "Dish number %1"
+msgid "Dish %1"
+msgstr "Страва %1"
+
+#: dialogs/dietwizarddialog.cpp:473
+msgctxt "@label:listbox"
+msgid "Dish Characteristics"
+msgstr "Характеристики страви"
+
+#: dialogs/dietwizarddialog.cpp:485
+msgctxt "@option:check"
+msgid "Enable Category Filtering"
+msgstr "Увімкнути фільтрування за категоріями"
+
+#: dialogs/editpropertiesdialog.cpp:127 dialogs/editpropertiesdialog.cpp:252
+msgctxt "@title:column"
+msgid "USDA Ingredient"
+msgstr "Складова USDA (ДСГ США)"
+
+#: dialogs/editpropertiesdialog.cpp:167 dialogs/editpropertiesdialog.cpp:258
+#: dialogs/selectpropertydialog.cpp:56 widgets/propertylistview.cpp:130
+#: widgets/propertylistview.cpp:164
+msgctxt "@title:column"
+msgid "Property"
+msgstr "Властивість"
+
+#: dialogs/editpropertiesdialog.cpp:168 dialogs/editpropertiesdialog.cpp:259
+#: dialogs/ingredientparserdialog.cpp:67
+#: dialogs/ingredientparserdialog.cpp:116 dialogs/recipeinputdialog.cpp:345
+#: dialogs/refineshoppinglistdialog.cpp:91
+#: dialogs/refineshoppinglistdialog.cpp:124
+msgctxt "@title:column"
+msgid "Amount"
+msgstr "Кількість"
+
+#: dialogs/editpropertiesdialog.cpp:169 dialogs/editpropertiesdialog.cpp:260
+#: dialogs/ingredientparserdialog.cpp:68
+#: dialogs/ingredientparserdialog.cpp:117
+#: dialogs/refineshoppinglistdialog.cpp:92
+#: dialogs/refineshoppinglistdialog.cpp:125 dialogs/selectunitdialog.cpp:41
+msgctxt "@title:column"
+msgid "Unit"
+msgstr "Одиниця"
+
+#: dialogs/editpropertiesdialog.cpp:202 dialogs/editpropertiesdialog.cpp:264
+msgctxt "@title:column"
+msgid "Weight"
+msgstr "Вага"
+
+#: dialogs/editpropertiesdialog.cpp:203 dialogs/editpropertiesdialog.cpp:265
+msgctxt "@title:column"
+msgid "Per Amount"
+msgstr "На кількість"
+
+#: dialogs/editpropertiesdialog.cpp:250
+msgctxt "@title:window"
+msgid "Property Information"
+msgstr "Інформація про властивості"
+
+#: dialogs/editpropertiesdialog.cpp:251
+#, kde-format
+msgctxt "@label"
+msgid "Property Information for <b>%1</b>"
+msgstr "Інформація про властивості <b>%1</b>"
+
+#: dialogs/editpropertiesdialog.cpp:254
+msgctxt "@action:button Load USDA data"
+msgid "Load"
+msgstr "Завантажити"
+
+#: dialogs/editpropertiesdialog.cpp:255
+msgctxt "@title:group"
+msgid "Properties"
+msgstr "Властивості"
+
+#: dialogs/editpropertiesdialog.cpp:256 dialogs/editpropertiesdialog.cpp:262
+#: dialogs/editratingdialog.cpp:165
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Додати"
+
+#: dialogs/editpropertiesdialog.cpp:257 dialogs/editpropertiesdialog.cpp:263
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Вилучити"
+
+#: dialogs/editpropertiesdialog.cpp:261
+msgctxt "@title:group"
+msgid "Weights"
+msgstr "Вага"
+
+#: dialogs/editpropertiesdialog.cpp:291
+msgctxt "@info"
+msgid ""
+"Recipes may require this information for nutrient analysis. Are you sure you "
+"want to delete this entry?"
+msgstr ""
+"Ця інформація може бути потрібна рецептам для аналізу поживності. Ви справді "
+"бажаєте вилучити цей запис?"
+
+#: dialogs/editpropertiesdialog.cpp:310 dialogs/editpropertiesdialog.cpp:342
+#: dialogs/ingredientmatcherdialog.cpp:159
+msgctxt "@title:window"
+msgid "Enter amount"
+msgstr "Введіть кількість"
+
+#: dialogs/editpropertiesdialog.cpp:314 dialogs/editpropertiesdialog.cpp:346
+#: dialogs/ingredientmatcherdialog.cpp:163
+msgctxt "@title:group"
+msgid "Amount"
+msgstr "Кількість"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@title:window"
+msgid "Property Exists"
+msgstr "Властивість існує"
+
+#: dialogs/editpropertiesdialog.cpp:435
+msgctxt "@info"
+msgid ""
+"The property you tried to add already exists in the ingredient with the same "
+"per units."
+msgstr ""
+"Властивість, яку ви намагалися ввести, вже було введено для складової з тими "
+"ж одиницями виміру."
+
+#: dialogs/editpropertiesdialog.cpp:655
+msgctxt "@info"
+msgid "Please select an ingredient in the USDA ingredient list"
+msgstr "Будь ласка, вкажіть складову у списку складових USDA."
+
+#: dialogs/editratingdialog.cpp:55 dialogs/editratingdialog.cpp:68
+msgctxt "@title:window"
+msgid "Rating"
+msgstr "Оцінка"
+
+#: dialogs/editratingdialog.cpp:139 dialogs/editratingdialog.cpp:166
+msgctxt "@action:button"
+msgid "&Delete"
+msgstr "&Вилучити"
+
+#: dialogs/editratingdialog.cpp:163
+msgctxt "@label:textbox"
+msgid "Criteria:"
+msgstr "Критерії:"
+
+#: dialogs/editratingdialog.cpp:164
+msgctxt "@label:textbox"
+msgid "Stars:"
+msgstr "Зірки:"
+
+#: dialogs/editratingdialog.cpp:169
+msgctxt "@label:textbox"
+msgid "Comments:"
+msgstr "Коментарі:"
+
+#: dialogs/editratingdialog.cpp:170
+msgctxt "@label:textbox"
+msgid "Rater:"
+msgstr "Дегустатор:"
+
+#: dialogs/ingredientmatcherdialog.cpp:88
+msgctxt "@title:column"
+msgid "Ingredient (required?)"
+msgstr "Складова (потрібна?)"
+
+#: dialogs/ingredientmatcherdialog.cpp:89
+msgctxt "@title:column"
+msgid "Amount Available"
+msgstr "Доступна кількість"
+
+#: dialogs/ingredientmatcherdialog.cpp:102
+msgctxt ""
+"@label:spinbox Number of missing ingredients allowed when doing a search by "
+"ingredients"
+msgid "Missing ingredients allowed:"
+msgstr "Дозволена відсутність складових:"
+
+#: dialogs/ingredientmatcherdialog.cpp:106
+msgctxt ""
+"@item Any amount of ingredients missing when doing a search by ingredients"
+msgid "Any"
+msgstr "Будь-яка"
+
+#: dialogs/ingredientmatcherdialog.cpp:109
+msgctxt "@title"
+msgid "Matching Recipes"
+msgstr "Відповідні рецепти"
+
+#: dialogs/ingredientmatcherdialog.cpp:112
+msgctxt "@title:column Recipe Title"
+msgid "Title"
+msgstr "Назва"
+
+#: dialogs/ingredientmatcherdialog.cpp:119
+msgctxt "@title:column Missing ingredients in a search result"
+msgid "Missing Ingredients"
+msgstr "Відсутні складові"
+
+#: dialogs/ingredientmatcherdialog.cpp:130
+msgctxt "@action:button"
+msgid "Find matching recipes"
+msgstr "Знайти відповідні рецепти"
+
+#: dialogs/ingredientmatcherdialog.cpp:136
+msgctxt "@action:button Clear search criteria"
+msgid "Clear"
+msgstr "Спорожнити"
+
+#: dialogs/ingredientmatcherdialog.cpp:345
+#, kde-format
+msgctxt "@label:textbox"
+msgid "You are missing 1 ingredient for:"
+msgid_plural "You are missing %1 ingredients for:"
+msgstr[0] "Вам не вистачає %1 складової для:"
+msgstr[1] "Вам не вистачає %1 складових для:"
+msgstr[2] "Вам не вистачає %1 складових для:"
+msgstr[3] "Вам не вистачає однієї складової для:"
+
+#: dialogs/ingredientmatcherdialog.h:53 exporters/htmlexporter.cpp:308
+#: exporters/htmlexporter.cpp:331 exporters/xsltexporter.cpp:56
+#: widgets/inglistviewitem.cpp:28 widgets/inglistviewitem.cpp:40
+#: widgets/ingredientinputwidget.cpp:97
+msgid "OR"
+msgstr "АБО"
+
+#: dialogs/ingredientparserdialog.cpp:42
+msgctxt "@title:window"
+msgid "Ingredient Parser"
+msgstr "Аналізатор складових"
+
+#: dialogs/ingredientparserdialog.cpp:66
+#: dialogs/ingredientparserdialog.cpp:115 dialogs/recipeinputdialog.cpp:344
+#: widgets/ingredientlistview.cpp:107 widgets/ingredientlistview.cpp:132
+msgctxt "@title:column"
+msgid "Ingredient"
+msgstr "Складова"
+
+#: dialogs/ingredientparserdialog.cpp:69
+#: dialogs/ingredientparserdialog.cpp:118 dialogs/recipeinputdialog.cpp:348
+#: widgets/prepmethodlistview.cpp:52
+msgctxt "@title:column"
+msgid "Preparation Method"
+msgstr "Спосіб приготування"
+
+#: dialogs/ingredientparserdialog.cpp:88
+msgctxt "@action:button"
+msgid "Set &Header"
+msgstr "Встановити &заголовок"
+
+#: dialogs/ingredientparserdialog.cpp:89
+msgctxt "@info:whatsthis"
+msgid ""
+"If an ingredient header is detected as an ingredient, select it and click "
+"this button so that Krecipes will recognize it as a header.  All the "
+"ingredients below the header will be included within that group.\n"
+"\n"
+"Alternatively, if you select multiple ingredients and click this button, "
+"those ingredients will be grouped together."
+msgstr ""
+"Якщо заголовок складової розпізнається як складова, виберіть його і "
+"натисніть цю кнопку, щоб Krecipes розпізнавав його як заголовок. Всі "
+"складові під заголовком буде зараховано до цієї групи.\n"
+"\n"
+"Іншим способом групування є позначення декілька елементів з наступним "
+"натисканням цієї кнопки."
+
+#: dialogs/ingredientparserdialog.cpp:94
+msgctxt "@item:inmenu"
+msgid "&Delete"
+msgstr "&Вилучити"
+
+#: dialogs/ingredientparserdialog.cpp:95
+msgctxt "@item:inmenu"
+msgid "Set &Header"
+msgstr "Встановити &заголовок"
+
+#: dialogs/ingredientparserdialog.cpp:108
+msgctxt "@info"
+msgid ""
+"<para>To use: Paste a list of ingredient below, click <interface>Parse Text</"
+"interface>, and then you may correct any incorrectly parsed ingredients.</"
+"para><para><warning>Fields will be truncated if longer than the database "
+"allows</warning></para>"
+msgstr ""
+"<para>Як використовувати: Вставте нижче список складових, натисніть кнопку "
+"<interface>Аналізувати текст</interface>, а потім виправте неправильно "
+"розпізнані складові.</para><para><warning>Поля буде обрізано, якщо їхня "
+"довжина перевищить дозволену базою даних</warning></para>"
+
+#: dialogs/ingredientparserdialog.cpp:112
+msgctxt "@title"
+msgid "Ingredients as understood by Krecipes:"
+msgstr "Складові, що розпізнано Krecipes:"
+
+#: dialogs/ingredientparserdialog.cpp:114
+msgctxt "@action:button"
+msgid "Parse Text"
+msgstr "Аналізувати текст"
+
+#: dialogs/ingredientsdialog.cpp:74
+msgctxt "@action:button"
+msgid "Property Information"
+msgstr "Інформація про властивості"
+
+#: dialogs/ingredientsdialog.cpp:81 dialogs/recipeinputdialog.cpp:428
+msgctxt "@title:tab"
+msgid "Ingredients"
+msgstr "Складові"
+
+#: dialogs/ingredientsdialog.cpp:84
+msgctxt "@title:tab"
+msgid "Headers"
+msgstr "Заголовки"
+
+#: dialogs/ingredientsdialog.cpp:135
+msgctxt "@info"
+msgid "No ingredient selected."
+msgstr "Не вказано складових."
+
+#: dialogs/pagesetupdialog.cpp:51
+msgid "Page Setup"
+msgstr "Налаштування сторінки"
+
+#: dialogs/pagesetupdialog.cpp:60
+msgid "Items Shown"
+msgstr "Показані елементи"
+
+#: dialogs/pagesetupdialog.cpp:63
+msgid "Show Items"
+msgstr "Показати елементи"
+
+#: dialogs/pagesetupdialog.cpp:68
+msgid ""
+"<i>Usage: Select a template along the left, and right-click any element to "
+"edit the look of that element.</i>"
+msgstr ""
+"<i>Використання: Виберіть шаблон ліворуч, а потім клацніть правою кнопкою на "
+"будь-якому елементі, щоб змінити вигляд елемента.</i>"
+
+#: dialogs/pagesetupdialog.cpp:87
+msgid "Save and Close"
+msgstr "Зберегти і закрити"
+
+#: dialogs/pagesetupdialog.cpp:89
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#: dialogs/pagesetupdialog.cpp:138
+msgid ""
+"The recipe view layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Компонування перегляду рецепта було змінено.\n"
+"Чи бажаєте ви зберегти його?"
+
+#: dialogs/pagesetupdialog.cpp:138 dialogs/pagesetupdialog.cpp:216
+msgid "Save Layout?"
+msgstr "Зберегти компонування?"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Krecipes style or template file"
+msgstr "Файл стилю або шаблону Krecipes"
+
+#: dialogs/pagesetupdialog.cpp:192
+msgid "Select Layout"
+msgstr "Виберіть компонування"
+
+#: dialogs/pagesetupdialog.cpp:216
+msgid ""
+"This layout has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Це компонування було змінено.\n"
+"Чи бажаєте ви зберегти його?"
+
+#: dialogs/pagesetupdialog.cpp:242
+msgid ""
+"Unable to save the layout because you do not have sufficient permissions to "
+"modify this file.\n"
+"Would you like to instead save the current layout to a new file?"
+msgstr ""
+"Не вдалося зберегти компонування, оскільки у вас недостатньо прав на зміну "
+"цього файла.\n"
+"Чи не бажаєте ви зберегти поточне компонування до нового файла?"
+
+#: dialogs/pagesetupdialog.cpp:263
+msgid ""
+"You have selected a file that you do not have the permissions to write to.\n"
+"Would you like to select another file?"
+msgstr ""
+"Ви вибрали файл, до якого ви не маєте права записувати інформацію.\n"
+"Чи не бажаєте ви вибрати інший файл?"
+
+#: dialogs/recipeimportdialog.cpp:34
+msgctxt "@title:window"
+msgid "Import Recipes"
+msgstr "Імпортувати рецепти"
+
+#: dialogs/recipeimportdialog.cpp:44
+msgctxt "@title:column"
+msgid "Recipes"
+msgstr "Рецепти"
+
+#: dialogs/recipeimportdialog.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox All items"
+msgid "All (%1)"
+msgstr "Всі (%1)"
+
+#: dialogs/recipeimportdialog.cpp:102 dialogs/recipeimportdialog.cpp:103
+msgctxt "@item"
+msgid "Uncategorized"
+msgstr "Без категорій"
+
+#: dialogs/recipeinputdialog.cpp:170
+msgctxt "@info:tooltip"
+msgid "Select photo"
+msgstr "Вибрати фото"
+
+#: dialogs/recipeinputdialog.cpp:174
+msgctxt "action:button"
+msgid "Save photo as..."
+msgstr "Зберегти фотографію як…"
+
+#: dialogs/recipeinputdialog.cpp:178
+msgctxt "@info:tooltip"
+msgid "Clear photo"
+msgstr "Прибрати фото"
+
+#: dialogs/recipeinputdialog.cpp:191
+msgctxt "@label"
+msgid "Recipe Name"
+msgstr "Назва рецепта"
+
+#: dialogs/recipeinputdialog.cpp:207
+msgctxt "@label"
+msgid "Authors"
+msgstr "Автори"
+
+#: dialogs/recipeinputdialog.cpp:224
+msgctxt "@label"
+msgid "Categories"
+msgstr "Категорії"
+
+#: dialogs/recipeinputdialog.cpp:245
+msgctxt ""
+"@label How much food you will produce with a given cooking recipe (e.g. 2 "
+"servings or 3 bottles)"
+msgid "Yield"
+msgstr "Порції"
+
+#: dialogs/recipeinputdialog.cpp:249
+msgctxt "@label The amount for yield"
+msgid "Amount"
+msgstr "Кількість"
+
+#: dialogs/recipeinputdialog.cpp:252
+msgctxt "@label The type of yield (e.g. servings, bottles..."
+msgid "Type"
+msgstr "Тип"
+
+#: dialogs/recipeinputdialog.cpp:264
+msgctxt "@label"
+msgid "Preparation Time"
+msgstr "Час приготування"
+
+#: dialogs/recipeinputdialog.cpp:336
+msgctxt "@info:tooltip"
+msgid "Add ingredient"
+msgstr "Додати складову"
+
+#: dialogs/recipeinputdialog.cpp:337
+msgctxt "@info:tooltip"
+msgid "Move ingredient up"
+msgstr "Пересунути складову вгору"
+
+#: dialogs/recipeinputdialog.cpp:338
+msgctxt "@info:tooltip"
+msgid "Move ingredient down"
+msgstr "Пересунути складову вниз"
+
+#: dialogs/recipeinputdialog.cpp:339
+msgctxt "@info:tooltip"
+msgid "Remove ingredient"
+msgstr "Вилучити складову"
+
+#: dialogs/recipeinputdialog.cpp:340
+msgctxt "@info:tooltip"
+msgid "Paste Ingredients"
+msgstr "Вставити складові"
+
+#: dialogs/recipeinputdialog.cpp:347 widgets/propertylistview.cpp:131
+msgctxt "@title:column"
+msgid "Units"
+msgstr "Одиниці"
+
+#: dialogs/recipeinputdialog.cpp:363
+msgctxt "@label"
+msgid "Property Status:"
+msgstr "Дані щодо властивостей:"
+
+#: dialogs/recipeinputdialog.cpp:367
+msgctxt "@action:button"
+msgid "Details..."
+msgstr "Докладно…"
+
+#: dialogs/recipeinputdialog.cpp:378
+msgctxt "@action:inmenu Updates the loaded information"
+msgid "Update"
+msgstr "Оновити"
+
+#: dialogs/recipeinputdialog.cpp:385
+msgctxt "@title:window "
+msgid "Property details"
+msgstr "Докладно про властивість"
+
+#: dialogs/recipeinputdialog.cpp:419
+msgctxt "@action:button"
+msgid "Add Rating..."
+msgstr "Додати оцінку…"
+
+#: dialogs/recipeinputdialog.cpp:427
+msgctxt "@title:tab"
+msgid "Recipe"
+msgstr "Рецепт"
+
+#: dialogs/recipeinputdialog.cpp:429
+msgctxt "@title:tab"
+msgid "Instructions"
+msgstr "Настанови"
+
+#: dialogs/recipeinputdialog.cpp:430
+msgctxt "@title:tab"
+msgid "Ratings"
+msgstr "Оцінки"
+
+#: dialogs/recipeinputdialog.cpp:450
+msgctxt "@action:button"
+msgid "Save recipe"
+msgstr "Зберегти рецепт"
+
+#: dialogs/recipeinputdialog.cpp:451
+msgctxt "@info:tooltip"
+msgid "Save recipe"
+msgstr "Зберегти рецепт"
+
+#: dialogs/recipeinputdialog.cpp:453
+msgctxt "@action:button"
+msgid "Show recipe"
+msgstr "Показати рецепт"
+
+#: dialogs/recipeinputdialog.cpp:454
+msgctxt "@info:tooltip"
+msgid "Show recipe"
+msgstr "Показати рецепт"
+
+#: dialogs/recipeinputdialog.cpp:456 dialogs/recipeviewdialog.cpp:62
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Закрити"
+
+#: dialogs/recipeinputdialog.cpp:457 dialogs/recipeviewdialog.cpp:63
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Закрити"
+
+#: dialogs/recipeinputdialog.cpp:459
+msgctxt "@action:button"
+msgid "Resize recipe"
+msgstr "Змінити розмір рецепта"
+
+#: dialogs/recipeinputdialog.cpp:460
+msgctxt "@info:tooltip"
+msgid "Resize recipe"
+msgstr "Змінити розмір рецепта"
+
+#: dialogs/recipeinputdialog.cpp:681 dialogs/recipeinputdialog.cpp:723
+msgid "Images"
+msgstr "Зображення"
+
+#: dialogs/recipeinputdialog.cpp:725
+msgctxt "@title:window"
+msgid "Save photo as..."
+msgstr "Зберегти фотографію як…"
+
+#: dialogs/recipeinputdialog.cpp:733
+msgctxt "@info"
+msgid "The file already exists, do you want to overwrite it?"
+msgstr "Файл вже існує. Ви справді бажаєте його перезаписати?"
+
+#: dialogs/recipeinputdialog.cpp:740
+#, kde-format
+msgctxt "@info"
+msgid "The photo cannot be saved in %1"
+msgstr "Не вдалося зберегти фотографію у %1"
+
+#: dialogs/recipeinputdialog.cpp:1023
+#, kde-format
+msgctxt "@info"
+msgid "Unit name cannot be longer than 1 character."
+msgid_plural "Unit name cannot be longer than %1 characters."
+msgstr[0] "Назва одиниці не повинна бути довшою за %1 символ."
+msgstr[1] "Назва одиниці не повинна бути довшою за %1 символи."
+msgstr[2] "Назва одиниці не повинна бути довшою за %1 символів."
+msgstr[3] "Назва одиниці не повинна бути довшою за %1 символ."
+
+#: dialogs/recipeinputdialog.cpp:1062
+#, kde-format
+msgctxt "@info"
+msgid "Preparation method cannot be longer than 1 character."
+msgid_plural "Preparation method cannot be longer than %1 characters."
+msgstr[0] "Назва способу приготування не повинна бути довшою за %1 символ."
+msgstr[1] "Назва способу приготування не повинна бути довшою за %1 символи."
+msgstr[2] "Назва способу приготування не повинна бути довшою за %1 символів."
+msgstr[3] "Назва способу приготування не повинна бути довшою за %1 символ."
+
+#: dialogs/recipeinputdialog.cpp:1112
+#, kde-format
+msgctxt "@info"
+msgid "Recipe title cannot be longer than 1 character."
+msgid_plural "Recipe title cannot be longer than %1 characters."
+msgstr[0] "Назва рецепта не може бути довшою за %1 символ."
+msgstr[1] "Назва рецепта не може бути довшою за %1 символи."
+msgstr[2] "Назва рецепта не може бути довшою за %1 символів."
+msgstr[3] "Назва рецепта не може бути довшою за %1 символ."
+
+#: dialogs/recipeinputdialog.cpp:1112
+msgid "Unable to save recipe"
+msgstr "Не вдалося зберегти рецепт"
+
+#: dialogs/recipeinputdialog.cpp:1152
+msgctxt "@label:textbox"
+msgid "Write the recipe instructions here"
+msgstr "Тут ви можете записати настанови рецепта"
+
+#: dialogs/recipeinputdialog.cpp:1154
+msgctxt "@label:textbox"
+msgid "Write the recipe title here"
+msgstr "Тут ви можете записати назву рецепта"
+
+#: dialogs/recipeinputdialog.cpp:1260
+msgctxt "@info"
+msgid ""
+"This recipe contains unsaved changes.\n"
+"Would you like to save it before closing?"
+msgstr ""
+"У цьому рецепті є незбережені зміни.\n"
+"Чи бажаєте ви зберегти їх до закриття?"
+
+#: dialogs/recipeinputdialog.cpp:1260 dialogs/recipeinputdialog.cpp:1285
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@title:window"
+msgid "Unsaved changes"
+msgstr "Незбережені зміни"
+
+#: dialogs/recipeinputdialog.cpp:1285
+msgctxt "@info"
+msgid ""
+"You need to save the recipe before displaying it. Would you like to save it "
+"now?"
+msgstr ""
+"Перш ніж показувати рецепт, його слід зберегти. Чи бажаєте ви зберегти його "
+"зараз?"
+
+#: dialogs/recipeinputdialog.cpp:1295
+msgctxt "@info"
+msgid ""
+"This recipe has changes that will not be displayed unless the recipe is "
+"saved. Would you like to save it now?"
+msgstr ""
+"Цей рецепт містить зміни, які не буде показано, доки ви не збережете його. "
+"Чи бажаєте ви зберегти його зараз?"
+
+#: dialogs/recipeinputdialog.cpp:1555
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No nutrient information available. <a href=\"ingredient#"
+"%2\">Provide nutrient information.</a>"
+msgstr ""
+"<b>%1:</b> Недоступна інформація про поживність. <a href=\"ingredient#"
+"%2\">Надайте цю інформацію.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1576
+#, kde-format
+msgctxt "@info"
+msgid "<b>%3:</b> Unit conversion missing for conversion from '%1' to '%2'"
+msgstr "<b>%3:</b> Відсутня інформація для перетворення з «%1» у «%2»"
+
+#: dialogs/recipeinputdialog.cpp:1577
+msgid "-No unit-"
+msgstr "-Без одиниці-"
+
+#: dialogs/recipeinputdialog.cpp:1591 dialogs/recipeinputdialog.cpp:1594
+#: dialogs/recipeinputdialog.cpp:1597 dialogs/recipeinputdialog.cpp:1600
+msgctxt "@info"
+msgid "-No unit-"
+msgstr "-Без одиниці-"
+
+#: dialogs/recipeinputdialog.cpp:1605
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> Either <a href=\"ingredient#%3\">enter an appropriate ingredient "
+"weight entry</a>, or provide conversion information to perform one of the "
+"following conversions: %2"
+msgstr ""
+"<b>%1:</b> Або <a href=\"ingredient#%3\">введіть відповідний запис про вагу "
+"складової</a>, або надайте інформацію про спосіб виконання одного з таких "
+"перетворень: %2"
+
+#: dialogs/recipeinputdialog.cpp:1617
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> No ingredient weight entries. <a href=\"ingredient#%2\">Provide "
+"ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Немає записів про вагу складових. <a href=\"ingredient#"
+"%2\">Надайте інформацію про вагу складових.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1624
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when no preparation "
+"method is specified. <a href=\"ingredient#%2\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Відсутній запис про вагу складової у випадку без задання способу "
+"приготування. <a href=\"ingredient#%2\">Надайте інформацію про вагу "
+"складової.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1630
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners: %2<a href=\"ingredient#%3\">Provide ingredient weight."
+"</a>"
+msgstr ""
+"<b>%1:</b> Немає запису про вагу складової, якщо її приготувати одним з "
+"таких способів: %2<a href=\"ingredient#%3\">Надайте інформацію про вагу "
+"складової.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1639
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<b>%1:</b> There is no ingredient weight entry for when prepared in any of "
+"the following manners (defaulting to a weight entry without a preparation "
+"method specified): %2<a href=\"ingredient#%3\">Provide ingredient weight.</a>"
+msgstr ""
+"<b>%1:</b> Немає запису про вагу складової, якщо її приготувати одним з "
+"таких способів (заміну зроблено на типовий запис ваги без вказання способу "
+"приготування): %2<a href=\"ingredient#%3\">Надайте інформацію про вагу "
+"складової.</a>"
+
+#: dialogs/recipeinputdialog.cpp:1663
+msgctxt "@info Property information for a recipe is complete"
+msgid "Complete"
+msgstr "повні"
+
+#: dialogs/recipeinputdialog.cpp:1670
+msgctxt "@info Property information for a recipe is complete, but..."
+msgid "Complete, but approximations made"
+msgstr "повні, але з наближеннями"
+
+#: dialogs/recipeinputdialog.cpp:1678
+msgctxt "@info Property information for a recipe is incomplete"
+msgid "Incomplete"
+msgstr "неповні"
+
+#: dialogs/recipeinputdialog.cpp:1693
+msgctxt "@info"
+msgid ""
+"The nutrient information for this recipe is incomplete because the following "
+"information is missing:"
+msgstr ""
+"Інформація про поживність для цього рецепта є неповною, оскільки відсутня "
+"така інформація:"
+
+#: dialogs/recipeinputdialog.cpp:1704
+msgctxt "@info"
+msgid ""
+"The following approximations will be made when determining nutrient "
+"information:"
+msgstr "Під час визначення поживності буде використано такі наближення:"
+
+#: dialogs/recipeviewdialog.cpp:113
+msgctxt "@title:window"
+msgid "Loading recipes, please wait..."
+msgstr "Звантаження рецептів, будь ласка, зачекайте…"
+
+#: dialogs/refineshoppinglistdialog.cpp:37
+msgctxt "@title:window"
+msgid "Refine Shopping List"
+msgstr "Удосконалити список закупівель"
+
+#: dialogs/refineshoppinglistdialog.cpp:45
+msgctxt "@action:button Finished refining shopping list"
+msgid "&Done"
+msgstr "&Виконано"
+
+#: dialogs/refineshoppinglistdialog.cpp:90
+#: dialogs/refineshoppinglistdialog.cpp:123
+msgctxt "@title:column"
+msgid "Ingredients in Shopping List"
+msgstr "Складові у списку закупівель"
+
+#: dialogs/refineshoppinglistdialog.cpp:121
+msgctxt "@info"
+msgid ""
+"On the right are the ingredients needed for the recipes you selected.  You "
+"may now add additional ingredients, remove ingredients you do not need, or "
+"modify the amounts of existing ingredients."
+msgstr ""
+"Праворуч розміщено складові, потрібні для вибраних вами рецептів. Тепер ви "
+"можете додати складові, вилучити складові, які вам не потрібні, або змінити "
+"кількість наявних складових."
+
+#: dialogs/refineshoppinglistdialog.cpp:122
+msgctxt "@title:column"
+msgid "Ingredients"
+msgstr "Складові"
+
+#: dialogs/resizerecipedialog.cpp:30
+msgctxt "@title:window"
+msgid "Resize Recipe"
+msgstr "Змінити розмір рецепта"
+
+#: dialogs/resizerecipedialog.cpp:74
+msgctxt "@info"
+msgid "Unable to scale a recipe with zero yield"
+msgstr "Неможливо змінити розмір рецепта за нульовою кількістю порцій"
+
+#: dialogs/resizerecipedialog.cpp:84 dialogs/resizerecipedialog.cpp:92
+msgctxt "@info"
+msgid "Invalid input"
+msgstr "Некоректні дані"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_yieldButton)
+#: dialogs/resizerecipedialog.ui:20
+msgid "&Scale by yield"
+msgstr "З&мінити розмір за порціями"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/resizerecipedialog.ui:49
+msgid "&New yield"
+msgstr "&Нові порції"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/resizerecipedialog.ui:59
+msgid "Current &yield:"
+msgstr "&Поточні порції:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_factorButton)
+#: dialogs/resizerecipedialog.ui:75
+msgid "Scale b&y factor"
+msgstr "Змінити з&а множником"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/resizerecipedialog.ui:94
+msgid "&Factor (e.g. 1/2 to half, 3 to triple):"
+msgstr "Мно&жник (тобто 1/2 для половини, 3 для потроєння):"
+
+#: dialogs/selectauthorsdialog.cpp:36
+msgctxt "@title:window"
+msgid "Authors"
+msgstr "Автори"
+
+#: dialogs/selectauthorsdialog.cpp:74 dialogs/selectpropertydialog.cpp:54
+#: dialogs/selectunitdialog.cpp:39 dialogs/shoppinglistdialog.cpp:120
+#: widgets/authorlistview.cpp:57 widgets/authorlistview.cpp:117
+#: widgets/categorylistview.cpp:317 widgets/categorylistview.cpp:381
+#: widgets/headerlistview.cpp:60 widgets/ingredientlistview.cpp:111
+#: widgets/ingredientlistview.cpp:136 widgets/kreauthorlistwidget.cpp:36
+#: widgets/krecategorieslistwidget.cpp:42 widgets/prepmethodlistview.cpp:56
+#: widgets/propertylistview.cpp:135 widgets/unitlistview.cpp:70
+msgctxt "@title:column"
+msgid "Id"
+msgstr "Ідентифікатор"
+
+#: dialogs/selectauthorsdialog.cpp:74 widgets/authorlistview.cpp:53
+#: widgets/authorlistview.cpp:113 widgets/kreauthorlistwidget.cpp:36
+msgctxt "@title:column"
+msgid "Author"
+msgstr "Автор"
+
+#: dialogs/selectauthorsdialog.cpp:143
+#, kde-format
+msgctxt "@info"
+msgid "Author name cannot be longer than 1 character."
+msgid_plural "Author name cannot be longer than %1 characters."
+msgstr[0] "Ім’я автора не повинне бути довшим за %1 символ."
+msgstr[1] "Ім’я автора не повинне бути довшим за %1 символи."
+msgstr[2] "Ім’я автора не повинне бути довшим за %1 символів."
+msgstr[3] "Ім’я автора не повинне бути довшим за %1 символ."
+
+#: dialogs/selectcategoriesdialog.cpp:32
+msgctxt "@title:window"
+msgid "Categories"
+msgstr "Категорії"
+
+#: dialogs/selectcategoriesdialog.cpp:46
+msgctxt "@action:button"
+msgid "&New Category..."
+msgstr "&Створити категорію…"
+
+#: dialogs/selectcategoriesdialog.cpp:89
+#, kde-format
+msgctxt "@info"
+msgid "Category name cannot be longer than 1 character."
+msgid_plural "Category name cannot be longer than %1 characters."
+msgstr[0] "Назва категорії не може бути довшою за %1 символ."
+msgstr[1] "Назва категорії не може бути довшою за %1 символи."
+msgstr[2] "Назва категорії не може бути довшою за %1 символів."
+msgstr[3] "Назва категорії не може бути довшою за %1 символ."
+
+#: dialogs/selectpropertydialog.cpp:34
+msgctxt "@title:window"
+msgid "Choose Property"
+msgstr "Виберіть властивість"
+
+#: dialogs/selectpropertydialog.cpp:43
+msgctxt "@title:group"
+msgid "Choose Property"
+msgstr "Виберіть властивість"
+
+#: dialogs/selectpropertydialog.cpp:65
+msgctxt "@label:textbox"
+msgid "Per units:"
+msgstr "На одиницю:"
+
+#: dialogs/selectpropertydialog.cpp:143 dialogs/selectunitdialog.cpp:73
+msgctxt "@item"
+msgid "-No unit-"
+msgstr "-Без одиниці-"
+
+#: dialogs/selectrecipedialog.cpp:81 widgets/krelistview.cpp:55
+msgctxt "@label:textbox Search recipes"
+msgid "Search:"
+msgstr "Пошук:"
+
+#: dialogs/selectrecipedialog.cpp:100
+msgctxt "@action:button"
+msgid "Show Recipe(s)"
+msgstr "Показати рецепти"
+
+#: dialogs/selectrecipedialog.cpp:104
+msgctxt "@action:button"
+msgid "Edit Recipe"
+msgstr "Змінити рецепт"
+
+#: dialogs/selectrecipedialog.cpp:113
+msgctxt "@title:tab Basic search"
+msgid "Basic"
+msgstr "Простий"
+
+#: dialogs/selectrecipedialog.cpp:116
+msgctxt "@title:tab Advanced search"
+msgid "Advanced"
+msgstr "Докладний"
+
+#: dialogs/selectunitdialog.cpp:25
+msgctxt "@title:window"
+msgid "Choose Unit"
+msgstr "Вибір одиниці"
+
+#: dialogs/selectunitdialog.cpp:31
+msgctxt "@title:group"
+msgid "Choose Unit"
+msgstr "Вибір одиниці"
+
+#: dialogs/setupdisplay.cpp:69
+msgid "Recipe Title"
+msgstr "Назва рецепта"
+
+#: dialogs/setupdisplay.cpp:71
+msgid "serving"
+msgstr "подавання"
+
+#: dialogs/setupdisplay.cpp:72
+msgid "Category 1, Category 2, ..."
+msgstr "Категорія 1, Категорія 2, …"
+
+#: dialogs/setupdisplay.cpp:73 dialogs/setupdisplay.cpp:120
+#: exporters/htmlexporter.cpp:197 exporters/xsltexporter.cpp:44
+msgid "Instructions"
+msgstr "Настанови"
+
+#: dialogs/setupdisplay.cpp:76
+msgid "Author 1, Author 2, ..."
+msgstr "Автор 1, Автор 2, …"
+
+#: dialogs/setupdisplay.cpp:79
+msgid "Ingredient 1"
+msgstr "Складова 1"
+
+#: dialogs/setupdisplay.cpp:82
+msgid "Ingredient 2"
+msgstr "Складова 2"
+
+#. i18n: ectx: property (text), widget (QLabel, raterName)
+#: dialogs/setupdisplay.cpp:90 widgets/ratingdisplaywidget.ui:92
+msgid "Rater"
+msgstr "Дегустатор"
+
+#: dialogs/setupdisplay.cpp:91
+msgid "Comment"
+msgstr "Коментар"
+
+#: dialogs/setupdisplay.cpp:93
+msgid "Criteria 1"
+msgstr "Критерії 1"
+
+#: dialogs/setupdisplay.cpp:97
+msgid "Criteria 2"
+msgstr "Критерії 2"
+
+#: dialogs/setupdisplay.cpp:102
+msgid "Property 1"
+msgstr "Властивість 1"
+
+#: dialogs/setupdisplay.cpp:104
+msgid "Property 2"
+msgstr "Властивість 2"
+
+#: dialogs/setupdisplay.cpp:118
+msgctxt "Background color"
+msgid "Background"
+msgstr "Тло"
+
+#: dialogs/setupdisplay.cpp:119
+msgctxt "Recipe title"
+msgid "Title"
+msgstr "Назва"
+
+#: dialogs/setupdisplay.cpp:121 exporters/htmlexporter.cpp:208
+msgid "Preparation Time"
+msgstr "Час приготування"
+
+#: dialogs/setupdisplay.cpp:122
+msgid "Photo"
+msgstr "Фото"
+
+#: dialogs/setupdisplay.cpp:123 exporters/htmlexporter.cpp:233
+#: exporters/xsltexporter.cpp:49 krecipesview.cpp:380 krecipesview.cpp:511
+msgid "Authors"
+msgstr "Автори"
+
+#: dialogs/setupdisplay.cpp:124 exporters/htmlexporter.cpp:247
+#: exporters/xsltexporter.cpp:46 krecipesview.cpp:379 krecipesview.cpp:503
+msgid "Categories"
+msgstr "Категорії"
+
+#: dialogs/setupdisplay.cpp:125 exporters/htmlexporter.cpp:342
+#: exporters/xsltexporter.cpp:52 krecipesview.cpp:375 krecipesview.cpp:471
+msgid "Ingredients"
+msgstr "Складові"
+
+#: dialogs/setupdisplay.cpp:127 exporters/htmlexporter.cpp:396
+#: exporters/plaintextexporter.cpp:135 exporters/xsltexporter.cpp:55
+msgid "Ratings"
+msgstr "Оцінки"
+
+#: dialogs/setupdisplay.cpp:128 exporters/htmlexporter.cpp:202
+#: exporters/xsltexporter.cpp:47
+msgid "Yield"
+msgstr "Порції"
+
+#: dialogs/setupdisplay.cpp:437
+msgid "Background Color..."
+msgstr "Колір тла…"
+
+#: dialogs/setupdisplay.cpp:440
+msgid "Text Color..."
+msgstr "Колір тексту…"
+
+#: dialogs/setupdisplay.cpp:443
+msgid "Font..."
+msgstr "Шрифт…"
+
+#: dialogs/setupdisplay.cpp:446
+msgid "Show"
+msgstr "Показати"
+
+#: dialogs/setupdisplay.cpp:455 dialogs/setupdisplay.cpp:588
+msgctxt "Align center"
+msgid "Center"
+msgstr "По центру"
+
+#: dialogs/setupdisplay.cpp:457 dialogs/setupdisplay.cpp:590
+msgctxt "Align left"
+msgid "Left"
+msgstr "Ліворуч"
+
+#: dialogs/setupdisplay.cpp:459 dialogs/setupdisplay.cpp:592
+msgctxt "Align right"
+msgid "Right"
+msgstr "Праворуч"
+
+#: dialogs/setupdisplay.cpp:472
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: dialogs/setupdisplay.cpp:478
+msgid "Border..."
+msgstr "Рамка…"
+
+#: dialogs/setupdisplay.cpp:481
+msgid "Columns..."
+msgstr "Стовпчики…"
+
+#: dialogs/setupdisplay.cpp:522
+msgid "Select the number of columns to use:"
+msgstr "Виберіть кількість стовпчиків:"
+
+#: dialogs/shoppinglistdialog.cpp:71
+msgctxt "@title"
+msgid "Full recipe list"
+msgstr "Повний список рецептів"
+
+#: dialogs/shoppinglistdialog.cpp:106
+msgctxt "@title"
+msgid "Shopping List"
+msgstr "Список закупівель"
+
+#: dialogs/shoppinglistdialog.cpp:116
+msgctxt "@title:column"
+msgid "Recipe Title"
+msgstr "Назва рецепта"
+
+#: dialogs/shoppinglistdialog.cpp:135
+msgctxt "@action:button"
+msgid "&OK"
+msgstr "&Гаразд"
+
+#: dialogs/shoppinglistdialog.cpp:142
+msgctxt "@action:button Clear list"
+msgid "Clear"
+msgstr "Спорожнити"
+
+#: dialogs/shoppinglistviewdialog.cpp:30
+msgctxt "@title:window"
+msgid "Shopping List"
+msgstr "Список закупівель"
+
+#: dialogs/shoppinglistviewdialog.cpp:67 dialogs/shoppinglistviewdialog.cpp:69
+#: krecipesview.cpp:374 krecipesview.cpp:446
+msgid "Shopping List"
+msgstr "Список закупівель"
+
+#: dialogs/similarcategoriesdialog.cpp:179
+msgctxt "@title:window"
+msgid "Similar Categories"
+msgstr "Подібні категорії"
+
+#: dialogs/similarcategoriesdialog.cpp:180
+msgctxt "@label:textbox"
+msgid "Threshold:"
+msgstr "Поріг:"
+
+#: dialogs/similarcategoriesdialog.cpp:181
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr "Категорія:"
+
+#: dialogs/similarcategoriesdialog.cpp:184
+msgctxt "@action:button Search a recipe category in database"
+msgid "Search"
+msgstr "Шукати"
+
+#: dialogs/similarcategoriesdialog.cpp:185
+msgctxt "@label:textbox"
+msgid "Similar Categories:"
+msgstr "Подібні категорії:"
+
+#: dialogs/similarcategoriesdialog.cpp:188
+msgctxt "@label:textbox"
+msgid "Categories to Merge:"
+msgstr "Категорії для об’єднання:"
+
+#: dialogs/similarcategoriesdialog.cpp:189
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "Об’єднати"
+
+#: dialogs/similarcategoriesdialog.cpp:190
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: dialogs/similarcategoriesdialog.cpp:192
+#: dialogs/similarcategoriesdialog.cpp:194 widgets/categorylistview.cpp:310
+#: widgets/categorylistview.cpp:377
+msgctxt "@title:column"
+msgid "Category"
+msgstr "Категорія"
+
+#: dialogs/similarcategoriesdialog.cpp:319
+msgctxt "@info"
+msgid "Please select only one category."
+msgstr "Будь ласка, виберіть лише одну категорію."
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@info"
+msgid "No recipes selected."
+msgstr "Не вибрано жодного рецепта."
+
+#: dialogs/similarcategoriesdialog.cpp:348
+msgctxt "@title"
+msgid "Edit Recipe"
+msgstr "Змінити рецепт"
+
+#: dialogs/similarcategoriesdialog.cpp:379
+msgctxt "@info"
+msgid "No categories selected to merge."
+msgstr "Не вибрано категорій для об’єднання."
+
+#: dialogs/unitsdialog.cpp:66
+msgctxt "@title:tab"
+msgid "Units"
+msgstr "Одиниці"
+
+#: dialogs/unitsdialog.cpp:69
+msgctxt "@title:tab"
+msgid "Mass Conversions"
+msgstr "Перетворення мас"
+
+#: dialogs/unitsdialog.cpp:72
+msgctxt "@title:tab"
+msgid "Volume Conversions"
+msgstr "Перетворення об’ємів"
+
+#: dialogs/unitsdialog.cpp:190
+msgctxt "@title:window"
+msgid "Finding Unit Ratios"
+msgstr "Пошук відношень одиниць"
+
+#: exporters/htmlexporter.cpp:132
+msgid "Krecipes Recipes"
+msgstr "Рецепти Krecipes"
+
+#: exporters/htmlexporter.cpp:431 exporters/xsltexporter.cpp:45
+msgid "Overall Rating"
+msgstr "Загальна оцінка"
+
+#: exporters/plaintextexporter.cpp:76
+#, kde-format
+msgid "Authors: %1"
+msgstr "Автори: %1"
+
+#: exporters/plaintextexporter.cpp:81
+#, kde-format
+msgid "Categories: %1"
+msgstr "Категорії: %1"
+
+#: exporters/plaintextexporter.cpp:86
+#, kde-format
+msgid "Yields: %1"
+msgstr "Порції: %1"
+
+#: exporters/plaintextexporter.cpp:91
+#, kde-format
+msgid "Preparation Time: %1"
+msgstr "Час приготування: %1"
+
+#: exporters/plaintextexporter.cpp:110 exporters/plaintextexporter.cpp:120
+msgid "or"
+msgstr "або"
+
+#: exporters/plaintextexporter.cpp:148
+#, kde-format
+msgid "1 star"
+msgid_plural "%1 stars"
+msgstr[0] "%1 зірка"
+msgstr[1] "%1 зірки"
+msgstr[2] "%1 зірок"
+msgstr[3] "%1 зірка"
+
+#: exporters/recipemlexporter.cpp:139
+msgctxt "Total preparation time"
+msgid "Total"
+msgstr "Загалом"
+
+#: exporters/xsltexporter.cpp:48
+msgid "Prep"
+msgstr "Готування"
+
+#: exporters/xsltexporter.cpp:50
+msgid "Amount"
+msgstr "Кількість"
+
+#: exporters/xsltexporter.cpp:51
+msgid "Ingredient"
+msgstr "Складова"
+
+#: exporters/xsltexporter.cpp:53
+msgid "Preparation"
+msgstr "Приготування"
+
+#: exporters/xsltexporter.cpp:57
+msgid "reviews"
+msgstr "рецензій"
+
+#: exporters/xsltexporter.cpp:226
+msgid ""
+"<html><b>Error:</b> Problem with KreML exporter.  Please export the recipe "
+"you are trying to view as KreML and attach it to a bug report to a Krecipes "
+"developer.</html>"
+msgstr ""
+"<html><b>Помилка:</b> Проблема з підпрограмою експорту до KreML. Будь ласка, "
+"експортуйте рецепт, який ви намагаєтесь переглянути як KreML і надішліть "
+"повідомлення про ваду розробникові Krecipes.</html>"
+
+#: exporters/xsltexporter.cpp:233
+#, kde-format
+msgid ""
+"<html><b>Error:</b> Bad template: %1.  Use \"Settings->Page Setup...\" to "
+"select a new template.</html>"
+msgstr ""
+"<html><b>Помилка:</b> Помилковий шаблон: %1. Скористайтеся меню «Параметри-"
+">Налаштування сторінки…», щоб вказати новий шаблон.</html>"
+
+#: importers/baseimporter.cpp:95 importers/baseimporter.cpp:118
+msgid "Importing selected recipes"
+msgstr "Імпорт позначених рецептів"
+
+#: importers/baseimporter.cpp:121
+msgid "%v/%m Recipes"
+msgstr "%v/%m Рецептів"
+
+#: importers/baseimporter.cpp:210
+msgid "All recipes up unto this point have been successfully imported."
+msgstr "Всі рецепти, аж до цього місця, було успішно імпортовано."
+
+#: importers/baseimporter.cpp:219
+#, kde-format
+msgid "Importing recipe: %1"
+msgstr "Імпорт рецепта: %1"
+
+#: importers/baseimporter.cpp:369
+#, kde-format
+msgid ""
+"<!doc>Import of recipes from the file <b>\"%1\"</b> <b>failed</b> due to the "
+"following error(s):"
+msgstr ""
+"<!doc>Імпорт рецептів з файла <b>«%1»</b> <b>зазнав невдачі</b> через такі "
+"помилки:"
+
+#: importers/baseimporter.cpp:376
+#, kde-format
+msgid "The file <b>%1</b> generated the following warning(s):"
+msgstr "Під час опрацювання файла <b>%1</b> було створено такі попередження:"
+
+#: importers/kreimporter.cpp:48
+msgid "Archive does not contain a valid Krecipes file"
+msgstr "У архіві відсутній коректний файл Krecipes"
+
+#: importers/kreimporter.cpp:69
+#, kde-format
+msgid "\"%1\" at line %2, column %3"
+msgstr "«%1» у рядку %2, позиція %3"
+
+#: importers/kreimporter.cpp:76
+msgid "This file does not appear to be a *.kreml file"
+msgstr "Здається, цей файл не є файлом *.kreml"
+
+#: importers/mmfimporter.cpp:69 importers/mxpimporter.cpp:55
+#: importers/rezkonvimporter.cpp:51
+msgid "No recipes found in this file."
+msgstr "У цьому файлі рецептів не знайдено."
+
+#: importers/mmfimporter.cpp:72 importers/mx2importer.cpp:85
+#: importers/mxpimporter.cpp:58 importers/nycgenericimporter.cpp:46
+#: importers/recipemlimporter.cpp:61 importers/rezkonvimporter.cpp:54
+msgid "Unable to open file."
+msgstr "Не вдалося відкрити файл."
+
+#: importers/mmfimporter.cpp:141
+#, kde-format
+msgid ""
+"While loading recipe <b>%1</b> an ingredient line was found after the "
+"directions. While this is valid, it most commonly indicates an incorrectly "
+"formatted recipe."
+msgstr ""
+"Під час завантаження рецепта <b>%1</b> було виявлено, що рядок складових "
+"стоїть перед настановами. Хоча так і можна робити, часто це вказує на "
+"неправильне форматування рецепта."
+
+#: importers/mmfimporter.cpp:310 importers/mx2importer.cpp:100
+#: importers/mxpimporter.cpp:103 importers/mxpimporter.cpp:253
+msgid "servings"
+msgstr "подавання"
+
+#: importers/mx2importer.cpp:54
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a *.mx2 file."
+msgstr "«%1» у рядку %2, позиція %3. Можливо, цей файл не є файлом *.mx2."
+
+#: importers/mx2importer.cpp:62
+msgid "This file does not appear to be a *.mx2 file"
+msgstr "Здається, цей файл не є файлом *.mx2"
+
+#: importers/mxpimporter.cpp:87
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Recipe By:\" is either missing or "
+"could not be detected."
+msgstr "Під час завантаження рецепта «%1» не було виявлено поля «Recipe By:»."
+
+#: importers/mxpimporter.cpp:107
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Serving Size:\" is either missing or "
+"could not be detected."
+msgstr ""
+"Під час завантаження рецепта «%1» не було виявлено поля «Serving Size:»."
+
+#: importers/mxpimporter.cpp:118
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Preparation Time:\" is either "
+"missing or could not be detected."
+msgstr ""
+"Під час завантаження рецепта «%1» не було виявлено поля «Preparation Time:»."
+
+#: importers/mxpimporter.cpp:162
+#, kde-format
+msgid ""
+"While loading recipe \"%1\" the field \"Categories:\" is either missing or "
+"could not be detected."
+msgstr "Під час завантаження рецепта «%1» не було виявлено поля «Categories:»."
+
+#: importers/mxpimporter.cpp:190
+#, kde-format
+msgid "While loading recipe \"%1\" Invalid amount \"%2\" in the line \"%3\""
+msgstr ""
+"Під час завантаження рецепта «%1» було виявлено некоректне значення «%2» у "
+"рядку «%3»"
+
+#: importers/mxpimporter.cpp:354
+msgid ""
+"MasterCook's Generic Export format is currently not supported.  Please write "
+"to jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Простий формат експорту MasterCook на даний час не підтримується. Будь "
+"ласка, надсилайте прохання про його підтримку на адресу jkivlighn@gmail.com."
+
+#: importers/mxpimporter.cpp:360
+msgid ""
+"MasterCook Mac's Export format is currently not supported.  Please write to "
+"jkivlighn@gmail.com to request support for this format."
+msgstr ""
+"Формат MasterCook з Mac-ів на даний час не підтримується. Будь ласка, "
+"надсилайте прохання про його підтримку на адресу jkivlighn@gmail.com."
+
+#: importers/nycgenericimporter.cpp:41
+msgid "File does not appear to be a valid NYC export."
+msgstr "Здається, цей файл не є коректним файлом експорту NYC."
+
+#: importers/recipemlimporter.cpp:33
+#, kde-format
+msgid "\"%1\" at line %2, column %3.  This may not be a RecipeML file."
+msgstr "«%1» у рядку %2, позиція %3. Можливо, цей файл не є файлом RecipeML."
+
+#: importers/recipemlimporter.cpp:40
+msgid "This file does not appear to be a valid RecipeML archive."
+msgstr "Здається, цей файл не є коректним архівом RecipeML."
+
+#: krecipes.cpp:120
+msgid ""
+"Gathering recipe data from file.\n"
+"Please wait..."
+msgstr ""
+"Збирання даних рецепта з файла.\n"
+"Будь ласка, зачекайте…"
+
+#: krecipes.cpp:193
+msgctxt "@action:inmenu Reload Recipe"
+msgid "Reloa&d"
+msgstr "Переза&вантажити"
+
+#: krecipes.cpp:200
+msgid "&Edit Recipe"
+msgstr "&Змінити рецепт"
+
+#: krecipes.cpp:207
+msgid "&Measurement Converter"
+msgstr "Перетворювач &мір"
+
+#: krecipes.cpp:218
+msgid "&Merge Similar Categories..."
+msgstr "&Об’єднати подібні категорії…"
+
+#: krecipes.cpp:225
+msgid "&Merge Similar Ingredients..."
+msgstr "&Об’єднати подібні складові…"
+
+#: krecipes.cpp:233
+msgid "&New Recipe"
+msgstr "&Створити рецепт"
+
+#: krecipes.cpp:246
+msgid "Import from File..."
+msgstr "Імпортувати з файла…"
+
+#: krecipes.cpp:253
+msgid "Import from Database..."
+msgstr "Імпортувати з бази даних…"
+
+#: krecipes.cpp:259
+msgid "Export..."
+msgstr "Експортувати…"
+
+#: krecipes.cpp:266
+msgid "&Copy to Clipboard"
+msgstr "&Копіювати до буфера"
+
+#: krecipes.cpp:274
+msgid "Page Setup..."
+msgstr "Налаштування сторінки…"
+
+#: krecipes.cpp:280
+msgid "Print Setup..."
+msgstr "Налаштування друку…"
+
+#: krecipes.cpp:286
+msgid "Backup..."
+msgstr "Резервна копія…"
+
+#: krecipes.cpp:292
+msgid "Restore..."
+msgstr "Відновити…"
+
+#: krecipes.cpp:298
+msgid "Add to Shopping List"
+msgstr "Додати до списку закупівель"
+
+#: krecipes.cpp:305
+msgid "Remove From Category"
+msgstr "Вилучити з категорії"
+
+#: krecipes.cpp:312
+msgid "Delete"
+msgstr "Вилучити"
+
+#: krecipes.cpp:319
+msgid "Show Recipe(s)"
+msgstr "Показати рецепти"
+
+#: krecipes.cpp:326
+msgid "Categorize"
+msgstr "Категоризувати"
+
+#: krecipes.cpp:333
+msgid "Expand All"
+msgstr "Розгорнути всі"
+
+#: krecipes.cpp:339
+msgid "Collapse All"
+msgstr "Згорнути всі"
+
+#: krecipes.cpp:346
+msgctxt "@action:button Create new data item"
+msgid "Create New"
+msgstr "Створити"
+
+#: krecipes.cpp:353
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: krecipes.cpp:361
+msgid "Cut"
+msgstr "Вирізати"
+
+#: krecipes.cpp:369
+msgid "Paste"
+msgstr "Вставити"
+
+#: krecipes.cpp:376
+msgid "Paste as Subcategory"
+msgstr "Вставити як підкатегорію"
+
+#: krecipes.cpp:508
+msgid "MasterCook Export format"
+msgstr "Формат експорту MasterCook"
+
+#: krecipes.cpp:509
+msgid "\"Now You're Cooking\" Generic Export format"
+msgstr "Загальний формат експорту «Now You're Cooking»"
+
+#: krecipes.cpp:514
+msgid "Import from file"
+msgstr "Імпортувати з файла"
+
+#: krecipes.cpp:539
+#, kde-format
+msgid ""
+"Filter \"%1\" not recognized.\n"
+"Please select one of the provided filters."
+msgstr ""
+"Фільтр «%1» не розпізнано.\n"
+"Будь ласка, виберіть один з готових фільтрів."
+
+#: krecipes.cpp:541
+msgid "Unrecognized Filter"
+msgstr "Невідомий фільтр"
+
+#: krecipes.cpp:573
+msgid ""
+"<p>NOTE: We recommend that all recipes generating warnings be checked to "
+"ensure that they were properly imported, and no loss of recipe data has "
+"occurred.</p>"
+msgstr ""
+"<p>ЗАУВАЖЕННЯ: Ми рекомендуємо вам позначати всі рецепти з попередженнями, "
+"щоб переконатися, що їх імпортовано правильно, і не сталося втрати деяких "
+"даних рецепта.</p>"
+
+#: krecipes.cpp:578
+msgid "Import Warnings"
+msgstr "Імпортувати попередження"
+
+#: krecipes.cpp:651 krecipes.cpp:670
+msgid ""
+"The recipe print and view layouts use the same file for their style, meaning "
+"changing one view's look changes them both.  If this is not the behavior you "
+"desire, load one style and save it under a different name."
+msgstr ""
+"Компонування рецепта для друку і перегляду використовують один і той же файл "
+"для свого стилю, це означає, що зміна у одному з компонувань змінить обидва. "
+"Якщо це не та поведінка, на яку ви розраховували, завантажте один зі стилів "
+"і збережіть його під іншою назвою."
+
+#: krecipes.cpp:675
+msgid "Print Setup"
+msgstr "Налаштування друку"
+
+#: krecipes.cpp:688 krecipes.cpp:709
+msgid "Krecipes Backup File"
+msgstr "Файл резервної копії Krecipes"
+
+#: krecipes.cpp:689
+msgid "Save Backup As..."
+msgstr "Зберегти резервну копію як…"
+
+#: krecipes.cpp:702
+msgid "Backup Failed"
+msgstr "Резервне копіювання зазнало невдачі"
+
+#: krecipes.cpp:710
+msgid "Restore Backup"
+msgstr "Відновити з резервної копії"
+
+#: krecipes.cpp:713
+msgid ""
+"<b>Restoring this file will erase ALL data currently in the database.</"
+"b><br /><br />If you want to keep the recipes in your database, click "
+"\"Cancel\" and first export your recipes.  These can then be imported once "
+"the restore is complete.<br /><br />Are you sure you want to proceed?"
+msgstr ""
+"<b>Відновлення цього файла знищить ВСІ дані, які зараз є у базі даних.</"
+"b><br /><br />Якщо ви бажаєте зберегти всі рецепти у вашій базі даних, "
+"натисніть кнопку «Скасувати» і спочатку експортуйте ваші рецепти. Їх можна "
+"буде імпортувати одразу після завершення відновлення.<br /><br />Ви справді "
+"бажаєте продовжувати?"
+
+#: krecipes.cpp:720
+msgid "Restore successful."
+msgstr "Успішне відновлення."
+
+#: krecipes.cpp:784
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save the changes before exiting?"
+msgstr ""
+"У рецепті є незбережені зміни.\n"
+"Чи бажаєте ви зберегти ці зміни, перш ніж вийти?"
+
+#: krecipes.cpp:786
+msgid "Unsaved Changes"
+msgstr "Незбережені зміни"
+
+#. i18n: ectx: Menu (file)
+#: krecipesui.rc:4
+msgid "&File"
+msgstr "&Файл"
+
+#. i18n: ectx: Menu (edit)
+#: krecipesui.rc:12
+msgid "&Edit"
+msgstr "З&міни"
+
+#. i18n: ectx: Menu (tools)
+#: krecipesui.rc:22
+msgid "&Tools"
+msgstr "&Інструменти"
+
+#: krecipesview.cpp:101 krecipesview.cpp:373 krecipesview.cpp:440
+msgid "Find/Edit Recipes"
+msgstr "Знайти/Змінити рецепти"
+
+#: krecipesview.cpp:126
+msgid "Data..."
+msgstr "Дані…"
+
+#: krecipesview.cpp:332
+msgid ""
+"\n"
+"You are using SQLite; this error is often caused by using an SQLite 2 "
+"database with Krecipes supporting SQLite 3, if this is the case you could "
+"run the SQLite converter.\n"
+"What do you want to do?"
+msgstr ""
+"\n"
+"Ви використовуєте SQLite; причиною подібної помилки часто буває використання "
+"бази даних SQLite 2 у Krecipes з підтримкою SQLite 3. Якщо все саме так, "
+"запустіть інструмент перетворення SQLite.\n"
+"Отже, якими будуть подальші дії?"
+
+#: krecipesview.cpp:337
+msgid "Run the setup assistant"
+msgstr "Запустити помічник налаштування"
+
+#: krecipesview.cpp:338
+msgid "Run the SQLite converter"
+msgstr "Запустити перетворювач SQLite"
+
+#: krecipesview.cpp:354
+msgid ""
+"\n"
+"Would you like to run the setup wizard again? Otherwise, the application "
+"will be closed."
+msgstr ""
+"\n"
+"Чи не бажаєте запустити майстер налаштування ще раз? Якщо не бажаєте, "
+"програму буде закрито."
+
+#: krecipesview.cpp:377 krecipesview.cpp:487 pref.cpp:411
+msgid "Units"
+msgstr "Одиниці"
+
+#: krecipesview.cpp:378 krecipesview.cpp:495
+msgid "Preparation Methods"
+msgstr "Способи приготування"
+
+#: krecipesview.cpp:381 krecipesview.cpp:454
+msgid "Diet Helper"
+msgstr "Помічник для дієт"
+
+#: krecipesview.cpp:382 krecipesview.cpp:462
+msgid "Ingredient Matcher"
+msgstr "Порівнювач складових"
+
+#: krecipesview.cpp:522
+msgid "View Recipe"
+msgstr "Перегляд рецепта"
+
+#: krecipesview.cpp:768
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before editing another "
+"recipe?"
+msgstr ""
+"У рецепті є незбережені зміни.\n"
+"Чи бажаєте ви зберегти зміни зроблені у цьому рецепті, перш ніж почати "
+"редагувати інший?"
+
+#: krecipesview.cpp:770 krecipesview.cpp:857
+msgid "Unsaved changes"
+msgstr "Незбережені зміни"
+
+#: krecipesview.cpp:788
+#, kde-format
+msgid "Are you sure you want to permanently remove the recipe, %1?"
+msgstr "Ви справді бажаєте назавжди вилучити рецепт %1?"
+
+#: krecipesview.cpp:789 krecipesview.cpp:837
+msgid "Confirm remove"
+msgstr "Підтвердити вилучення"
+
+#: krecipesview.cpp:815 widgets/recipelistview.cpp:149
+msgctxt "Recipe created"
+msgid "Created:"
+msgstr "Створено:"
+
+#: krecipesview.cpp:816 widgets/recipelistview.cpp:150
+msgctxt "Recipe modified"
+msgid "Modified:"
+msgstr "Змінено:"
+
+#: krecipesview.cpp:817 widgets/recipelistview.cpp:151
+msgctxt "Recipe last accessed"
+msgid "Last Accessed:"
+msgstr "Останній доступ:"
+
+#: krecipesview.cpp:836
+msgid "Are you sure you want to permanently remove the selected recipes?"
+msgstr "Ви справді бажаєте назавжди вилучити рецепт позначені рецепти?"
+
+#: krecipesview.cpp:855
+msgid ""
+"A recipe contains unsaved changes.\n"
+"Do you want to save changes made to this recipe before creating a new recipe?"
+msgstr ""
+"У рецепті є незбережені зміни.\n"
+"Чи бажаєте ви зберегти зміни до цього рецепта, перш ніж створювати новий "
+"рецепт?"
+
+#: krecipesview.cpp:1001
+msgid "Unable to setup database"
+msgstr "Не вдалося налаштувати базу даних"
+
+#: krecipesview.cpp:1184
+msgid "Unable to open database"
+msgstr "Не вдалося відкрити базу даних"
+
+#: krecipesview.cpp:1214
+#, kde-format
+msgid "The configured database type (%1) is unsupported."
+msgstr "Налаштований тип бази даних (%1) не підтримується."
+
+#: krecipesview.cpp:1214
+msgid ""
+"Unsupported database type. Database must be either MySQL, SQLite, or "
+"PostgreSQL."
+msgstr ""
+"Непідтримуваний тип бази даних. Базою даних повинна бути або MySQL, SQLite, "
+"або PostgreSQL."
+
+#: main.cpp:32
+msgid "Convert the current SQLite 2.x database to SQLite 3 and exit"
+msgstr "Перетворити поточну базу даних SQLite 2.x у SQLite 3 і вийти"
+
+#: main.cpp:36
+msgid "Krecipes"
+msgstr "Krecipes"
+
+#: main.cpp:36
+msgid "The KDE Cookbook"
+msgstr "Кухарська книга для KDE"
+
+#: main.cpp:36
+msgid ""
+"(C) 2003 Unai Garro\n"
+"(C) 2004-2006 Jason Kivlighn"
+msgstr ""
+"© Unai Garro, 2003\n"
+"© Jason Kivlighn, 2004–2006"
+
+#: main.cpp:36
+msgid ""
+"This product is RecipeML compatible.\n"
+"You can get more information about this file format in:\n"
+"http://www.formatdata.com/recipeml"
+msgstr ""
+"Ця програма сумісна з RecipeML.\n"
+"Докладнішу інформацію про цей формат файлів можна отримати тут:\n"
+"http://www.formatdata.com/recipeml"
+
+#: main.cpp:37
+msgid "Unai Garro"
+msgstr "Unai Garro"
+
+#: main.cpp:38
+msgid "Jason Kivlighn"
+msgstr "Jason Kivlighn"
+
+#: main.cpp:39
+msgid "Cyril Bosselut"
+msgstr "Cyril Bosselut"
+
+#: main.cpp:41
+msgid "Colleen Beamer"
+msgstr "Colleen Beamer"
+
+#: main.cpp:41
+msgid "Testing, bug reports, suggestions"
+msgstr "Тестування, повідомлення про вади, пропозиції"
+
+#: main.cpp:42
+msgid "Robert Wadley"
+msgstr "Robert Wadley"
+
+#: main.cpp:42
+msgid "Icons and artwork"
+msgstr "Піктограми і малюнки"
+
+#: main.cpp:43
+msgid "Daniel Sauvé"
+msgstr "Daniel Sauvé"
+
+#: main.cpp:43 main.cpp:45
+msgid "Porting to KDE4"
+msgstr "Портування на KDE4"
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46
+msgid "José Manuel Santamaría Lema"
+msgstr "José Manuel Santamaría Lema"
+
+#: main.cpp:46
+msgid "Porting to KDE4, current maintainer"
+msgstr "Портування на KDE4, поточний відповідальний за програму"
+
+#: main.cpp:47
+msgid "Martin Engelmann"
+msgstr "Martin Engelmann"
+
+#: main.cpp:47
+msgid "Porting to KDE4, developer"
+msgstr "Портування на KDE4, розробник"
+
+#: main.cpp:49
+msgid "Patrick Spendrin"
+msgstr "Patrick Spendrin"
+
+#: main.cpp:49
+msgid "Patches to make Krecipes work under Windows"
+msgstr "Латки, за допомогою яких Krecipes може працювати у Windows"
+
+#: main.cpp:50
+msgid "Mike Ferguson"
+msgstr "Mike Ferguson"
+
+#: main.cpp:50
+msgid "Help with bugs, patches"
+msgstr "Допомога в усуванні вад, латки"
+
+#: main.cpp:51
+msgid "Warren Severin"
+msgstr "Warren Severin"
+
+#: main.cpp:51
+msgid "Code to export recipes to *.mx2 files"
+msgstr "Код експортування рецептів з файлів *.mx2"
+
+#: main.cpp:53
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
+
+#: main.cpp:54 main.cpp:57
+msgid "He advised using WebKit to fix printing support during Akademy-es 2010."
+msgstr ""
+"Порада щодо використання WebKit для виправлення помилок з друком під час "
+"Akademy-es 2010."
+
+#: main.cpp:56
+msgid "José Millán Soto"
+msgstr "José Millán Soto"
+
+#: mmdata.h:25
+msgid "bunch"
+msgstr "жмуток"
+
+#: mmdata.h:25
+msgid "bunches"
+msgstr "жмутки"
+
+#: mmdata.h:26
+msgid "cup"
+msgstr "чашка"
+
+#: mmdata.h:26
+msgid "cups"
+msgstr "чашки"
+
+#: mmdata.h:27
+msgid "cubic cm"
+msgstr "кубічний сантиметр"
+
+#: mmdata.h:28
+msgid "centigram"
+msgstr "десята грама"
+
+#: mmdata.h:28
+msgid "centigrams"
+msgstr "десяті грама"
+
+#: mmdata.h:29
+msgid "centiliter"
+msgstr "десята літра"
+
+#: mmdata.h:29
+msgid "centiliters"
+msgstr "десяті літра"
+
+#: mmdata.h:30
+msgid "can"
+msgstr "банка"
+
+#: mmdata.h:30
+msgid "cans"
+msgstr "банки"
+
+#: mmdata.h:31
+msgid "carton"
+msgstr "пакетик"
+
+#: mmdata.h:31
+msgid "cartons"
+msgstr "пакетики"
+
+#: mmdata.h:32
+msgid "decigram"
+msgstr "десяток грамів"
+
+#: mmdata.h:32
+msgid "decigrams"
+msgstr "десятки грамів"
+
+#: mmdata.h:33
+msgid "deciliter"
+msgstr "десяток літрів"
+
+#: mmdata.h:33
+msgid "deciliters"
+msgstr "десятки літрів"
+
+#: mmdata.h:34
+msgid "drop"
+msgstr "крапля"
+
+#: mmdata.h:34
+msgid "drops"
+msgstr "краплі"
+
+#: mmdata.h:35
+msgid "dash"
+msgstr "дрібка"
+
+#: mmdata.h:35
+msgid "dashes"
+msgstr "дрібки"
+
+#: mmdata.h:36
+msgid "each"
+msgstr "будь-які"
+
+#: mmdata.h:37
+msgid "kilogram"
+msgstr "кілограм"
+
+#: mmdata.h:37
+msgid "kilograms"
+msgstr "кілограми"
+
+#: mmdata.h:38
+msgid "fluid ounce"
+msgstr "унція рідини"
+
+#: mmdata.h:38
+msgid "fluid ounces"
+msgstr "унції рідини"
+
+#: mmdata.h:39
+msgid "gram"
+msgstr "грам"
+
+#: mmdata.h:39
+msgid "grams"
+msgstr "грами"
+
+#: mmdata.h:40
+msgid "gallon"
+msgstr "галон"
+
+#: mmdata.h:40
+msgid "gallons"
+msgstr "галони"
+
+#: mmdata.h:41
+msgid "liter"
+msgstr "літр"
+
+#: mmdata.h:41
+msgid "liters"
+msgstr "літри"
+
+#: mmdata.h:42
+msgid "pound"
+msgstr "фунт"
+
+#: mmdata.h:42
+msgid "pounds"
+msgstr "фунти"
+
+#: mmdata.h:43
+msgid "large"
+msgstr "великі"
+
+#: mmdata.h:44
+msgid "medium"
+msgstr "середні"
+
+#: mmdata.h:45
+msgid "milligram"
+msgstr "міліграм"
+
+#: mmdata.h:45
+msgid "milligrams"
+msgstr "міліграми"
+
+#: mmdata.h:46
+msgid "milliliter"
+msgstr "мілілітр"
+
+#: mmdata.h:46
+msgid "milliliters"
+msgstr "мілілітри"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "package"
+msgstr "пакунок"
+
+#: mmdata.h:47 mmdata.h:48
+msgid "packages"
+msgstr "пакунки"
+
+#: mmdata.h:49
+msgid "pinch"
+msgstr "пучка"
+
+#: mmdata.h:49
+msgid "pinches"
+msgstr "пучок"
+
+#: mmdata.h:50
+msgid "pint"
+msgstr "пінта"
+
+#: mmdata.h:50
+msgid "pints"
+msgstr "пінти"
+
+#: mmdata.h:51
+msgid "ounce"
+msgstr "унція"
+
+#: mmdata.h:51
+msgid "ounces"
+msgstr "унції"
+
+#: mmdata.h:52
+msgid "quart"
+msgstr "кварта"
+
+#: mmdata.h:52
+msgid "quarts"
+msgstr "кварти"
+
+#: mmdata.h:53
+msgid "slice"
+msgstr "скибка"
+
+#: mmdata.h:53
+msgid "slices"
+msgstr "скибки"
+
+#: mmdata.h:54
+msgid "small"
+msgstr "малі"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoon"
+msgstr "чайна ложка"
+
+#: mmdata.h:55 mmdata.h:57
+msgid "teaspoons"
+msgstr "чайні ложки"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoon"
+msgstr "столова ложка"
+
+#: mmdata.h:56 mmdata.h:58
+msgid "tablespoons"
+msgstr "столові ложки"
+
+#: mmdata.h:59
+msgid "per serving"
+msgstr "на порцію"
+
+#: pref.cpp:53
+msgid "Configure"
+msgstr "Налаштувати"
+
+#: pref.cpp:62
+msgid "Database System"
+msgstr "Система бази даних"
+
+#: pref.cpp:64
+#, kde-format
+msgid "Database Management System Options (%1)"
+msgstr "Параметри системи керування базою даних (%1)"
+
+#: pref.cpp:71
+msgid "Formatting"
+msgstr "Форматування"
+
+#: pref.cpp:73
+msgid "Customize Formatting"
+msgstr "Налаштувати форматування"
+
+#: pref.cpp:80
+msgid "Import/Export"
+msgstr "Імпорт/Експорт"
+
+#: pref.cpp:82
+msgid "Recipe Import and Export Options"
+msgstr "Параметри імпорту і експорту рецептів"
+
+#: pref.cpp:90
+msgid "Performance"
+msgstr "Швидкодія"
+
+#: pref.cpp:91
+msgid "Performance Options"
+msgstr "Параметри швидкодії"
+
+#: pref.cpp:100
+msgid "Spell checking"
+msgstr "Перевірка правопису"
+
+#: pref.cpp:101
+msgid "Spell checking Options"
+msgstr "Параметри перевірки правопису"
+
+#: pref.cpp:137 pref.cpp:207 setupassistant.cpp:509
+msgid "Server:"
+msgstr "Сервер:"
+
+#: pref.cpp:140 pref.cpp:210 setupassistant.cpp:232 setupassistant.cpp:360
+#: setupassistant.cpp:465
+msgctxt "@label:textbox Database Username"
+msgid "Username:"
+msgstr "Користувач:"
+
+#: pref.cpp:144 pref.cpp:214 setupassistant.cpp:236 setupassistant.cpp:364
+#: setupassistant.cpp:472
+msgid "Password:"
+msgstr "Пароль:"
+
+#: pref.cpp:148 pref.cpp:218
+msgctxt "Default Port"
+msgid "Default"
+msgstr "Типовий"
+
+#: pref.cpp:149 pref.cpp:219 setupassistant.cpp:520
+msgid "Port:"
+msgstr "Порт:"
+
+#: pref.cpp:152 pref.cpp:222 setupassistant.cpp:479
+msgid "Database name:"
+msgstr "База даних:"
+
+#: pref.cpp:158 pref.cpp:229 pref.cpp:286
+msgctxt "@title:group Backup options"
+msgid "Backup"
+msgstr "Резервна копія"
+
+#: pref.cpp:162
+msgid "Select MySQL dump command"
+msgstr "Оберіть команду створення дампу MySQL"
+
+#: pref.cpp:163 pref.cpp:167 pref.cpp:233 pref.cpp:237 pref.cpp:293
+#, kde-format
+msgid "Path to '%1':"
+msgstr "Шлях до «%1»:"
+
+#: pref.cpp:166
+msgid "Select MySQL command"
+msgstr "Оберіть команду MySQL"
+
+#: pref.cpp:181 pref.cpp:183 pref.cpp:251 pref.cpp:253 pref.cpp:321
+#: pref.cpp:323 pref.cpp:325
+msgid "All files"
+msgstr "Всі файли"
+
+#: pref.cpp:232
+msgid "Select PostgreSQL dump command"
+msgstr "Оберіть команду створення дампу PostgreSQL"
+
+#: pref.cpp:236
+msgid "Select PostgreSQL command"
+msgstr "Оберіть команду PostgreSQL"
+
+#: pref.cpp:275 setupassistant.cpp:611
+msgid "Database file:"
+msgstr "Файл бази даних:"
+
+#: pref.cpp:292
+msgid "Select SQLite command"
+msgstr "Оберіть команду SQLite"
+
+#: pref.cpp:299
+msgid "SQLite converter"
+msgstr "Перетворювач SQLite"
+
+#: pref.cpp:305
+msgid "Select old SQLite version command"
+msgstr "Оберіть команду для застарілої версії SQLite"
+
+#: pref.cpp:306
+msgid "Path to SQLite old version command:"
+msgstr "Адреса застарілої версії програми SQLite:"
+
+#: pref.cpp:309
+msgid "Select new SQLite version command"
+msgstr "Оберіть команду для нової версії SQLite"
+
+#: pref.cpp:310
+msgid "Path to SQLite new version command:"
+msgstr "Адреса нової версії програми SQLite:"
+
+#: pref.cpp:318 setupassistant.cpp:641
+msgid "Select SQLite database file"
+msgstr "Оберіть файл бази даних SQLite"
+
+#: pref.cpp:361
+msgid "Re-run wizard on next startup"
+msgstr "Перезапустити майстер під час наступного запуску"
+
+#: pref.cpp:367
+msgid ""
+"Note: Krecipes must be restarted for most server preferences to take effect."
+msgstr ""
+"Зауваження: щоб більшість налаштувань сервера набули чинності, Krecipes слід "
+"перезапустити."
+
+#: pref.cpp:412
+msgid "Use abbreviations"
+msgstr "Використовувати скорочення"
+
+#: pref.cpp:448
+msgid "Number Format"
+msgstr "Формат чисел"
+
+#: pref.cpp:449
+msgctxt "@option:radio Display fraction"
+msgid "Fraction"
+msgstr "Дроби"
+
+#: pref.cpp:450
+msgctxt "@option:radio Display decimal"
+msgid "Decimal"
+msgstr "Десяткові"
+
+#: pref.cpp:470
+msgid "Import"
+msgstr "Імпортувати"
+
+#: pref.cpp:472
+msgid "Overwrite recipes with same title"
+msgstr "Перезаписати рецепти з однаковою назвою"
+
+#: pref.cpp:477
+msgid "Ask which recipes to import"
+msgstr "Запитати, які рецепти імпортувати"
+
+#: pref.cpp:489
+msgid "'Copy to Clipboard' format:"
+msgstr "Формат «Копіювання до буфера»:"
+
+#: pref.cpp:519
+msgid ""
+"When this is enabled, the importer will show every recipe in the file(s) and "
+"allow you to select which recipes you want imported.\n"
+" \t\t\t\t\t\t\t\t\tDisable this to always import every recipe, which allows "
+"for faster and less memory-intensive imports."
+msgstr ""
+"Якщо увімкнути цей параметр, підпрограма імпортування показуватиме всі "
+"рецепти у файлах і надасть вам можливість вибирати ті рецепти, які ви "
+"бажаєте імпортувати.\n"
+" \t\t\t\t\t\t\t\t\tЯкщо параметр вимкнути, імпортуватимуться всі рецепти, "
+"таким чином буде пришвидшено імпорт і зменшено використання пам’яті."
+
+#: pref.cpp:554
+msgid "Search as you type"
+msgstr "Шукати під час набирання"
+
+#: pref.cpp:557
+msgid ""
+"In most instances these options do not need to be changed.  However, "
+"limiting the amount of items displayed at once will <b>allow Krecipes to "
+"better perform when the database is loaded with many thousands of recipes</"
+"b>."
+msgstr ""
+"У більшості випадків ці параметри не потрібно змінювати. Але, обмеження "
+"кількості записів, які відображаються одночасно <b>надасть Krecipes змогу "
+"бути швидшим, якщо завантажено базу даних, яка містить тисячі рецептів</b>."
+
+#: pref.cpp:563
+msgid "Number of categories to display at once:"
+msgstr "Кількість категорій, які показуються одночасно:"
+
+#: pref.cpp:566
+msgctxt "Unlimited categories"
+msgid "Unlimited"
+msgstr "Не обмежено"
+
+#: pref.cpp:573
+msgid "Number of elements to display at once:"
+msgstr "Кількість елементів, які показуються одночасно:"
+
+#: pref.cpp:576
+msgctxt "Unlimited elements"
+msgid "Unlimited"
+msgstr "Не обмежено"
+
+#: setupassistant.cpp:43
+msgid "Welcome to Krecipes"
+msgstr "Ласкаво просимо до Krecipes"
+
+#: setupassistant.cpp:47
+msgid "Database Type"
+msgstr "Тип бази даних"
+
+#: setupassistant.cpp:51
+msgid "Database Management System Settings"
+msgstr "Параметри системи керування базою даних"
+
+#: setupassistant.cpp:55 setupassistant.cpp:59
+msgid "Database Permissions"
+msgstr "Дозволи бази даних"
+
+#: setupassistant.cpp:63
+msgid "Server Settings"
+msgstr "Параметри сервера"
+
+#: setupassistant.cpp:67
+msgid "Initialize Database"
+msgstr "Ініціювати базу даних"
+
+#: setupassistant.cpp:71
+msgid "Finish & Save Settings"
+msgstr "Завершити і зберегти параметри"
+
+#: setupassistant.cpp:90
+msgid ""
+"There is currently no localized ingredient data for this locale.\n"
+"Would you like to load the English ingredients instead?"
+msgstr ""
+"На даний момент відсутні відповідні дані про складові для цієї локалі.\n"
+"Чи не бажаєте ви завантажити замість них назви складових англійською?"
+
+#: setupassistant.cpp:146
+msgid ""
+"<p><b><font size=\"+1\">Thank you very much for choosing Krecipes.</font></"
+"b></p><p>It looks like this is the first time you are using it. This wizard "
+"will help you with the initial setup so that you can start using it quickly."
+"</p><p>Welcome, and enjoy cooking!</p>"
+msgstr ""
+"<p><b><font size=\"+1\">Дуже дякуємо вам за те, що вибрали Krecipes.</font></"
+"b></p><p>Здається зараз ви скористалися цією програмою вперше. Цей майстер "
+"допоможе вам з початковим налаштуванням так, щоб ви якнайшвидше змогли "
+"розпочати роботу з програмою.</p><p>Ласкаво просимо, насолоджуйтесь "
+"куховарством!</p>"
+
+#: setupassistant.cpp:179
+msgid ""
+"<p>This dialog will allow you to specify a MySQL account that has the "
+"necessary permissions to access the Krecipes MySQL database.</p><p><b><font "
+"size=\"+1\">Most users that use Krecipes and MySQL for the first time can "
+"just leave the default parameters and press 'Next'.</font></b></p> <p>If you "
+"set a MySQL root password before, or you have already permissions as normal "
+"user, click on the appropriate option. Otherwise the account 'root' will be "
+"used, with no password.</p><p>[For security reasons, we strongly encourage "
+"you to setup a MySQL root password if you have not done so yet. Just type as "
+"root: mysqladmin password <i>your_password</i>]</p>"
+msgstr ""
+"<p>Це діалогове вікно надасть вам змогу вказати обліковий запис MySQL, який "
+"має потрібні дозволи для доступу до бази даних MySQL Krecipes.</"
+"p><p><b><font size=\"+1\">Для більшості користувачів Krecipes у взаємодії з "
+"MySQL для першого разу можна просто залишити типові параметри і натиснути "
+"кнопку «Далі».</font></b></p><p>Якщо раніше ви встановили пароль користувача "
+"«root» MySQL, або ви вже маєте дозвіл як звичайний користувач, вкажіть "
+"потрібний параметр. Якщо ви цього не зробите буде використано обліковий "
+"запис «root» без пароля.</p><p>[З міркувань безпеки, ми наполегливо "
+"рекомендуємо вам встановити пароль користувача \"root\" MySQL, якщо ви ще "
+"цього не зробили. Просто виконайте команду від користувача \"root\": "
+"mysqladmin password <i>ваш_пароль</i>]</p>"
+
+#: setupassistant.cpp:198 setupassistant.cpp:325
+msgid "I have already set the necessary permissions"
+msgstr "Потрібні дозволи вже встановлено"
+
+#: setupassistant.cpp:215
+msgid "I have already set a MySQL root/admin account"
+msgstr "Обліковий запис root/admin MySQL вже встановлено"
+
+#: setupassistant.cpp:227
+msgid "MySQL Administrator Account"
+msgstr "Обліковий запис адміністратора MySQL"
+
+#: setupassistant.cpp:306
+msgid ""
+"<p>This dialog will allow you to specify a PostgreSQL account that has the "
+"necessary permissions to access the Krecipes PostgreSQL database.  This "
+"account may either be a <b>PostgreSQL superuser</b> or have the ability to "
+"both <b>create new PostgreSQL users and databases</b>.</p><p>If no superuser "
+"or privileged account is given, the account 'postgres' will be attempted, "
+"with no password.  If this is insufficient for your PostgreSQL setup, you "
+"<b>must</b> select the appropriate option below to enter the information of "
+"a privileged PostgreSQL account.</p>"
+msgstr ""
+"<p>За допомогою цього діалогового вікна ви можете вказати обліковий запис "
+"PostgreSQL, який має потрібні права доступу до бази даних PostgreSQL "
+"Krecipes. Цим обліковим записом може бути або обліковий запис "
+"<b>суперкористувача PostgreSQL</b>, або обліковий запис, користувач якого "
+"може <b>створювати нових користувачів і бази даних PostgreSQL</b>.</"
+"p><p>Якщо не буде надано облікового запису суперкористувача або "
+"привілейованого облікового запису, буде зроблено спробу використати "
+"обліковий запис «postgres» без пароля. Якщо цього недостатньо для "
+"налаштування вашого PostgreSQL, вам <b>слід</b> вибрати нижче відповідний "
+"параметр, щоб ввести інформацію про привілейований обліковий запис "
+"PostgreSQL.</p>"
+
+#: setupassistant.cpp:342
+msgid "I have already set a superuser or privileged account"
+msgstr "Обліковий запис «superuser» або привілейований запис вже встановлено"
+
+#: setupassistant.cpp:355
+msgid "PostgreSQL Superuser or Privileged Account"
+msgstr "Обліковий запис superuser або привілейований для PostgreSQL"
+
+#: setupassistant.cpp:435
+msgid ""
+"<p>In this dialog you can adjust the database server settings.</"
+"p><p><b>Warning: Passwords are stored in plain text and could potentially be "
+"compromised.  We recommend that you create a username and password "
+"combination solely for use by Krecipes.</b></p>"
+msgstr ""
+"<p>У цьому діалозі ви можете налаштувати параметри сервера бази даних.</"
+"p><p><b>Увага: паролі зберігаються у незашифрованому форматі і потенційно "
+"можуть бути розкриті. Ми рекомендуємо вам створити комбінацію з імені "
+"користувача і пароля, яку використовуватиме лише Krecipes.</b></p>"
+
+#: setupassistant.cpp:489
+msgid "The server is remote"
+msgstr "Сервер є віддаленим"
+
+#: setupassistant.cpp:501
+msgid "Server / Client Settings"
+msgstr "Параметри сервера / клієнта"
+
+#: setupassistant.cpp:514
+msgid "Client:"
+msgstr "Клієнт:"
+
+#: setupassistant.cpp:519
+msgctxt "@label:textbox Default Port"
+msgid "Default"
+msgstr "Типовий"
+
+#: setupassistant.cpp:597
+msgid "In this dialog you can adjust SQLite settings."
+msgstr "У цьому діалозі ви можете налаштувати параметри SQLite."
+
+#: setupassistant.cpp:619
+msgid "Open file dialog"
+msgstr "Вікно відкриття файла"
+
+#: setupassistant.cpp:671
+msgid ""
+"Congratulations; all the necessary configuration setup is done. Press "
+"'Finish' to continue, and enjoy cooking!"
+msgstr ""
+"Вітаємо вас; всі потрібні налаштування виконано. Натисніть кнопку "
+"«Завершити», щоб продовжити і насолоджуйтесь куховарством!"
+
+#: setupassistant.cpp:768
+msgid ""
+"<p>Krecipes comes with some delicious default recipes and useful data.</"
+"p><p>Would you like to initialize your database with those? Note that this "
+"will erase all your previous recipes if you have any.</p>"
+msgstr ""
+"<p>Krecipes постачається з деякими смачними типовими рецептами і корисними "
+"даними.</p><p>Чи не бажаєте ви для початку заповнити базу даних цими "
+"рецептами? Зауважте, що якщо ви це зробите, всі попередні рецепти, якщо вони "
+"вже були у вас, буде знищено.</p>"
+
+#: setupassistant.cpp:793
+msgid "Yes please, initialize the database with the examples"
+msgstr "Так, будь ласка, заповніть базу даних прикладами"
+
+#: setupassistant.cpp:802
+msgid ""
+"<p>Krecipes can import nutrient data from the USDA's nutrient database for "
+"over 400 foods.  A total of 43 food properties are included for each food, "
+"such as energy, fat, vitamin C, etc.</p><p>Would you like to import this "
+"data now?  Note that this operation is safe to use on an existing database, "
+"and no data loss will occur.  This operation may take several minutes.</p>"
+msgstr ""
+"<p>Krecipes може імпортувати дані про поживність з бази даних департаменту "
+"сільського господарства США (USDA) для більшеб ніж 400 харчових продуктів. "
+"Серед цих даних 43 властивості їжі, зокрема, енергетична цінність, жирність, "
+"кількість вітаміну C та інше.</p><p>Чи бажаєте ви імпортувати ці дані зараз? "
+"Зауважте, що ця операція безпечна для використання на наявній базі даних і "
+"не призведе до втрати даних. Ця операція може тривати декілька хвилин.</p>"
+
+#: setupassistant.cpp:816
+msgid "Yes please, load the database with nutrient data for 400+ foods."
+msgstr ""
+"Так, будь ласка, завантажте базу даних про поживність більше 400 харчових "
+"продуктів."
+
+#: setupassistant.cpp:864
+msgid ""
+"Choose the type of database that you want to use. Most users will want to "
+"choose a simple local database here. However, you can also use remote "
+"servers by means of a MySQL or PostgreSQL database."
+msgstr ""
+"Оберіть тип бази даних, який ви бажаєте використовувати. Для більшості "
+"користувачів достатнім буде вибір простої локальної бази даних. Тим не "
+"менше, ви також можете використовувати віддалені сервери за допомогою баз "
+"даних MySQL або PostgreSQL."
+
+#: setupassistant.cpp:881
+msgid "Simple Local File (SQLite)"
+msgstr "Простий локальний файл (SQLite)"
+
+#: setupassistant.cpp:884
+msgid "Local or Remote MySQL Database"
+msgstr "Локальна або віддалена база даних MySQL"
+
+#: setupassistant.cpp:887
+msgid "Local or Remote PostgreSQL Database"
+msgstr "Локальна або віддалена база даних PostgreSQL"
+
+#: widgets/categorycombobox.cpp:36 widgets/categorycombobox.cpp:63
+msgid "All Categories"
+msgstr "Всі категорії"
+
+#: widgets/dblistviewbase.cpp:33
+msgctxt "Previous item"
+msgid "<< Previous"
+msgstr "<< Попередній"
+
+#: widgets/dblistviewbase.cpp:49
+msgctxt "Next item"
+msgid "Next >>"
+msgstr "Наступний >>"
+
+#: widgets/headerlistview.cpp:55
+msgctxt "@title:column"
+msgid "Header"
+msgstr "Заголовок"
+
+#: widgets/ingredientinputwidget.cpp:47 widgets/ingredientinputwidget.cpp:58
+msgid "Ingredient:"
+msgstr "Складова:"
+
+#: widgets/ingredientinputwidget.cpp:51
+msgctxt "Ingredient grouping name"
+msgid "Header:"
+msgstr "Заголовок:"
+
+#: widgets/ingredientinputwidget.cpp:75
+msgid "Amount:"
+msgstr "Кількість:"
+
+#: widgets/ingredientinputwidget.cpp:82
+msgid "Unit:"
+msgstr "Одиниця:"
+
+#: widgets/ingredientinputwidget.cpp:90
+msgid "Preparation Method:"
+msgstr "Спосіб приготування:"
+
+#: widgets/ingredientinputwidget.cpp:238
+msgid "Please enter an ingredient"
+msgstr "Будь ласка, введіть складову"
+
+#: widgets/ingredientinputwidget.cpp:285
+msgid "Amount field contains invalid input."
+msgstr "У полі «Кількість» містяться некоректні дані."
+
+#: widgets/ingredientinputwidget.cpp:286
+msgid "Invalid input"
+msgstr "Некоректні дані"
+
+#: widgets/kdateedit.cpp:368
+msgctxt "the day after today"
+msgid "tomorrow"
+msgstr "завтра"
+
+#: widgets/kdateedit.cpp:369
+msgctxt "this day"
+msgid "today"
+msgstr "сьогодні"
+
+#: widgets/kdateedit.cpp:370
+msgctxt "the day before today"
+msgid "yesterday"
+msgstr "вчора"
+
+#: widgets/kdatepickerpopup.cpp:96
+msgctxt "@option today"
+msgid "&Today"
+msgstr "&Сьогодні"
+
+#: widgets/kdatepickerpopup.cpp:97
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "&Завтра"
+
+#: widgets/kdatepickerpopup.cpp:98
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "Наступний &тиждень"
+
+#: widgets/kdatepickerpopup.cpp:99
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "Наступний м&ісяць"
+
+#: widgets/kdatepickerpopup.cpp:107
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "Без дати"
+
+#: widgets/krecategorieslistwidget.cpp:42
+msgctxt "@title:column"
+msgid "Categories"
+msgstr "Категорії"
+
+#: widgets/kregenericlistwidget.cpp:95
+msgctxt "@label:textbox"
+msgid "Type here the text to search"
+msgstr "Вкажіть тут текст, який слід знайти"
+
+#: widgets/kregenericlistwidget.cpp:99
+msgctxt "@label:textbox"
+msgid "Type here the text to search in the current page"
+msgstr "Вкажіть тут текст, який слід знайти на поточній сторінці"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_previousButton)
+#: widgets/kregenericlistwidget.ui:46
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, m_nextButton)
+#: widgets/kregenericlistwidget.ui:62
+msgid "Next Page"
+msgstr "Наступна сторінка"
+
+#: widgets/kremenu.cpp:129
+msgctxt "@action:button Up to top menu"
+msgid "Up..."
+msgstr "Вгору…"
+
+#: widgets/propertylistview.cpp:163
+msgctxt "@title:column"
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: widgets/propertylistview.cpp:165
+msgctxt "@title:column"
+msgid "Min. Value"
+msgstr "Мін. значення"
+
+#: widgets/propertylistview.cpp:166
+msgctxt "@title:column"
+msgid "Max. Value"
+msgstr "Макс. значення"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:115
+msgid "Criteria"
+msgstr "Критерії"
+
+#. i18n: ectx: property (text), widget (K3ListView, criteriaListView)
+#: widgets/ratingdisplaywidget.ui:126
+msgid "Stars"
+msgstr "Зірки"
+
+#. i18n: ectx: property (text), widget (QLabel, comment)
+#: widgets/ratingdisplaywidget.ui:146
+msgid "Comments"
+msgstr "Коментарі"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
+#: widgets/ratingdisplaywidget.ui:177
+msgid "Remove"
+msgstr "Вилучити"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
+#: widgets/ratingdisplaywidget.ui:187
+msgid "Edit..."
+msgstr "Змінити…"
+
+#: widgets/recipelistview.cpp:32
+msgid "Uncategorized"
+msgstr "Без категорій"
+
+#: widgets/recipelistview.cpp:101
+msgid "Recipe"
+msgstr "Рецепт"
+
+#: widgets/recipelistview.cpp:236
+msgctxt "@info:progress"
+msgid "Loading recipes"
+msgstr "Завантаження рецептів"
+
+#: widgets/unitlistview.cpp:62
+msgctxt "@title:column Unit name"
+msgid "Unit"
+msgstr "Одиниця"
+
+#: widgets/unitlistview.cpp:63
+msgctxt "@title:column Unit abbreviation"
+msgid "Abbreviation"
+msgstr "Скорочення"
+
+#: widgets/unitlistview.cpp:64
+msgctxt "@title:column Unit plural"
+msgid "Plural"
+msgstr "Множина"
+
+#: widgets/unitlistview.cpp:65
+msgctxt "@title:column unit plural abbreviation"
+msgid "Abbreviation"
+msgstr "Скорочення"
+
+#: widgets/unitlistview.cpp:66
+msgctxt "@title:column Unit type"
+msgid "Type"
+msgstr "Тип"
+
+#: widgets/unitlistview.h:104
+msgctxt "Unit type other"
+msgid "Other"
+msgstr "Інший"
+
+#: widgets/unitlistview.h:105
+msgctxt "Unit type mass"
+msgid "Mass"
+msgstr "Маса"
+
+#: widgets/unitlistview.h:106
+msgctxt "Unit type volume"
+msgid "Volume"
+msgstr "Об’єм"
+
+#: widgets/weightinput.cpp:23
+msgid "-No Preparation-"
+msgstr "-Без приготування-"

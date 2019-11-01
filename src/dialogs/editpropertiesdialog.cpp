@@ -423,11 +423,10 @@ void EditPropertiesDialog::addPropertyToIngredient( void )
 
 	if ( propertyDialog->exec() == QDialog::Accepted )
 	{
-
 		int propertyID = propertyDialog->propertyID();
 		int perUnitsID = -1;
 		if ( propertyID != -1 ) // check if the property is not -1 ... (not selected)
-			propertyDialog->perUnitsID();
+			perUnitsID = propertyDialog->perUnitsID();
 		if ( !( db->ingredientContainsProperty( ingredientID, propertyID, perUnitsID ) ) ) {
 			if ( ( propertyID >= 0 ) && ( perUnitsID >= 0 ) )  
 				db->addPropertyToIngredient( ingredientID, propertyID, 0, perUnitsID ); // Add result chosen property to ingredient in database, with amount 0 by default
@@ -553,7 +552,7 @@ void EditPropertiesDialog::loadUSDAData()
 	Q3ListViewItem * item = usdaListView->listView()->selectedItem();
 	if ( item ) {
 		int index = item->text( 1 ).toInt();
-		QStringList data = loaded_data[ index ];
+		const QStringList data = loaded_data[ index ];
 
 		int grams_id = db->findExistingUnitByName( "g" ); //get this id because all data is given per gram
 		if ( grams_id == -1 ) {
